@@ -1,0 +1,300 @@
+;meta[language=en]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+2110992000|        |panel_Mods|Mods
+2110992001|        |panel_ghost_mode|Ghost Mode
+2110992002|        |option_gm_health_multiplier|Enemy health modifier
+2110992003|        |option_gm_damage_multiplier|Enemy damage modifier
+2110992004|        |option_gm_enemies_scaling|Enemies scaling
+2110992005|        |preset_value_gm_es_none|None
+2110992006|        |preset_value_gm_es_upscale|Upscale
+2110992007|        |preset_value_gm_es_match|Match
+2110992013|        |attribute_name_frost_resistance_perc|Frost resistance
+2110992014|        |attribute_name_armor_reduction_perc|Enemy damage resistance reduction
+2110992015|        |attribute_name_potion_duration|Potion duration
+2110992016|        |preset_value_gm_es_soft|Soft upscaling
+2110992017|        |panel_common_statistics_tooltip_silver_dph_gm|Damage per hit (silver)
+2110992018|        |panel_common_statistics_tooltip_steel_dph_gm|Damage per hit (steel)
+2110992019|        |gm_sign_stats_channeling_damage_per_sec|Firestream damage per sec
+2110992020|        |gm_sign_stats_yrden_traps|Magic Traps
+2110992021|        |gm_sign_stats_yrden_damage|Magic Trap damage
+2110992022|        |gm_sign_stats_alt_yrden_duration|Magic Turret duration
+2110992023|        |gm_sign_stats_alt_yrden_charges|Magic Turret charges
+2110992024|        |gm_sign_stats_alt_yrden_damage|Magic Turret damage
+2110992025|        |gm_sign_stats_alt_quen_returned_damage|Returned damage
+2110992026|        |gm_sign_stats_alt_quen_dmg_absorption|Active shield damage absorption
+2110992027|        |gm_sign_stats_alt_axii_chance|Axii chance
+2110992028|        |gm_combat_stats_fast_attack_power|Fast attack power
+2110992029|        |gm_combat_stats_strong_attack_power|Strong attack power
+2110992030|        |gm_sign_stats_quen_dmg_absorption|Damage absorption
+2110992034|        |attribute_name_vsBeast_critical_hit_chance|Critical hit chance versus Beasts
+2110992035|        |attribute_name_vsCursed_critical_hit_chance|Critical hit chance versus Cursed Ones
+2110992036|        |attribute_name_vsDraconide_critical_hit_chance|Critical hit chance versus Draconids
+2110992037|        |attribute_name_vsHuman_critical_hit_chance|Critical hit chance versus Humans
+2110992038|        |attribute_name_vsHybrid_critical_hit_chance|Critical hit chance versus Hybrids
+2110992039|        |attribute_name_vsInsectoid_critical_hit_chance|Critical hit chance versus Insectoids
+2110992040|        |attribute_name_vsMagicals_critical_hit_chance|Critical hit chance versus Elementa
+2110992041|        |attribute_name_vsNecrophage_critical_hit_chance|Critical hit chance versus Necrophages
+2110992042|        |attribute_name_vsRelic_critical_hit_chance|Critical hit chance versus Relicts
+2110992043|        |attribute_name_vsSpecter_critical_hit_chance|Critical hit chance versus Specters
+2110992044|        |attribute_name_vsOgre_critical_hit_chance|Critical hit chance versus Ogroids
+2110992045|        |attribute_name_vsVampire_critical_hit_chance|Critical hit chance versus Vampires
+2110992046|        |attribute_name_vsBeast_critical_hit_damage_bonus|Critical hit power versus Beasts
+2110992047|        |attribute_name_vsCursed_critical_hit_damage_bonus|Critical hit power versus Cursed Ones
+2110992048|        |attribute_name_vsDraconide_critical_hit_damage_bonus|Critical hit power versus Draconids
+2110992049|        |attribute_name_vsHuman_critical_hit_damage_bonus|Critical hit power versus Humans
+2110992050|        |attribute_name_vsHybrid_critical_hit_damage_bonus|Critical hit power versus Hybrids
+2110992051|        |attribute_name_vsInsectoid_critical_hit_damage_bonus|Critical hit power versus Insectoids
+2110992052|        |attribute_name_vsMagicals_critical_hit_damage_bonus|Critical hit power versus Elementa
+2110992053|        |attribute_name_vsNecrophage_critical_hit_damage_bonus|Critical hit power versus Necrophages
+2110992054|        |attribute_name_vsRelic_critical_hit_damage_bonus|Critical hit power versus Relicts
+2110992055|        |attribute_name_vsSpecter_critical_hit_damage_bonus|Critical hit power versus Specters
+2110992056|        |attribute_name_vsOgre_critical_hit_damage_bonus|Critical hit power versus Ogroids
+2110992057|        |attribute_name_vsVampire_critical_hit_damage_bonus|Critical hit power versus Vampires
+2110992058|        |attribute_name_vsBeast_resist_reduction|Damage resist reduction versus Beasts
+2110992059|        |attribute_name_vsCursed_resist_reduction|Damage resistance reduction versus Cursed Ones
+2110992060|        |attribute_name_vsDraconide_resist_reduction|Damage resistance reduction versus Draconids
+2110992061|        |attribute_name_vsHuman_resist_reduction|Damage resistance reduction versus Humans
+2110992062|        |attribute_name_vsHybrid_resist_reduction|Damage resistance reduction versus Hybrids
+2110992063|        |attribute_name_vsInsectoid_resist_reduction|Damage resistance reduction versus Insectoids
+2110992064|        |attribute_name_vsMagicals_resist_reduction|Damage resistance reduction versus Elementa
+2110992065|        |attribute_name_vsNecrophage_resist_reduction|Damage resistance reduction versus Necrophages
+2110992066|        |attribute_name_vsRelic_resist_reduction|Damage resistance reduction versus Relicts
+2110992067|        |attribute_name_vsSpecter_resist_reduction|Damage resistance reduction versus Specters
+2110992068|        |attribute_name_vsOgre_resist_reduction|Damage resistance reduction versus Ogroids
+2110992069|        |attribute_name_vsVampire_resist_reduction|Damage resistance reduction versus Vampires
+2110992070|        |attribute_name_vsHuman_attack_power|Attack Power versus Humans
+2110992071|da7e5ba4||Each piece of light armor increases critical hit chance by $S$% and critical hit power by $S$%.
+2110992072|da7e5ba6||Each piece of heavy armor increases maximum Vitality by $S$%, damage dealt by melee attacks grants additional $S$% Adrenaline Points per each heavy armor piece.
+2110992073|163a8e78||Increases burning chance by $I$%.
+2110992074|3c4a6af2||Strong attack damage
+2110992075|5806ca6e||Strong attack critical damage
+2110992076|69d8dd89||Fast attack critical damage
+2110992077|89dfeac9||Fast attack critical hit chance
+2110992078|bc4297c4||Strong attack critical hit chance
+2110992079|d23992f7||Fast attack damage
+2110992080|2e06698e||Strong attack critical damage
+2110992081|3375c4a9||Fast attack critical damage
+2110992082|73d42fa9||Fast attack critical hit chance
+2110992083|b08bd7d2||Strong attack damage
+2110992084|c7b0b7d7||Fast attack damage
+2110992085|fa3924a4||Strong attack critical hit chance
+2110992090|6c1d3ba3||Critical hit chance and critical hit power also apply to bombs. Bombs are thrown without any delay.
+2110992091|85e8fbd1||Each oil applied to a sword increases critical hit chance by 5% and critical hit power by 10%.
+2110992092|1f70c024||Fast attacks have $S$% chance to apply Bleeding effect.
+2110992093|71d0c5a6||Alternate Sign Mode:<br>Deals $I$ points of damage to enemies within a $I$ yard radius. Damage scales with Sign intensity (current damage: $I$). Destroys projectiles passing through this area. Lasts for $I$s. Turret charges - $I$.
+2110992094|71d0c5a5||Alternate Sign Mode:<br>Deals $I$ points of damage to enemies within a $I$ yard radius. Damage scales with Sign intensity (current damage: $I$). Destroys projectiles passing through this area. Lasts for $I$s. Turret charges - $I$.
+2110992095|163a8e72||Alternate Sign Mode:<br>Deals $I$ points of damage to enemies within a $I$ yard radius. Damage scales with Sign intensity (current damage: $I$). Destroys projectiles passing through this area. Lasts for $I$s. Turret charges - $I$.
+2110992096|b1173fc9||Two opponents can be influenced by Axii at the same time. Effect duration is lowered by $I$%.
+2110992097|c8467d3c||Two opponents can be influenced by Axii at the same time. Effect duration is lowered by $I$%.
+2110992098|c8467d3d||Two opponents can be influenced by Axii at the same time. Effect duration is no longer lowered.
+2110992099|1f70c022||Each Adrenaline Point adds $I$% to the chance of killing an opponent instantly. Does not apply to Whirl.
+2110992102|1f70c021||Strong attack that goes through blocks and shields. Deals additional $S$% damage plus $S$% damage per Adrenaline Point in proportion to the Stamina consumed ($S$% max). Increases critical hit chance by $S$%.
+2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992105|        |gm_stat_adrenaline_gain|Adrenaline Gain
+2110992106|739e1e2c||Strong Attacks increase Fast Attack damage for $S$ seconds by $S$% for each piece of the set. And vice versa. Current bonus: $S$%.
+2110992107|8ed43e3e||Each piece of the set decreases sign casting stamina cost by $S$%. Current bonus: $S$%.
+2110992108|8ed43e3f||The size of Yrden traps is increased by $S$%. While you are within an Yrden trap, Sign Intensity is increased by $S$% and damage resistance is increased by $S$%.
+2110992109|739e1e2d||Critical hits with a sword double Adrenaline gained.
+2110992110|        |attribute_name_desc_knockdownchance_mult|Knockdown chance
+2110992111|c3f538a3||Crossbow critical hit chance is increased by $S$% and critical hit power - by $S$%. Crossbow bolts pierce and knock down or stun opponents. Opponents struck when they have full Vitality lose $S$% of Vitality.
+2110992112|        |effect_undying_skill|Undying
+2110992113|c1e6a9cc||When Vitality reaches zero, Adrenaline Points will be consumed to prevent death and grant invulnerability and increased Vitality regeneration for $S$s. Restores $S$% of Vitality per Adrenaline Point (max $S$%). Cannot be triggered more than once every $S$s.
+2110992114|c1e6a9cb||When Vitality reaches zero, Adrenaline Points will be consumed to prevent death and grant invulnerability and increased Vitality regeneration for $S$s. Restores $S$% of Vitality per Adrenaline Point (max $S$%). Cannot be triggered more than once every $S$s.
+2110992115|cea74418||When Vitality reaches zero, Adrenaline Points will be consumed to prevent death and grant invulnerability and increased Vitality regeneration for $S$s. Restores $S$% of Vitality per Adrenaline Point (max $S$%). Cannot be triggered more than once every $S$s.
+2110992116|cea74430||Attack Power for fast attacks is increased by $I$%.
+2110992117|1f70c023||Attack Power for strong attacks is increased by $I$%.
+2110992118|cea74417||Increases fast attack critical hit chance by $I$% and fast attack critical hit power by $I$%.
+2110992119|1f70c027||Increases strong attack critical hit chance by $I$% and strong attack critical hit power by $I$%.
+2110992120|c1e68bc4||Perfectly timed parries reflect back arrows, damage is increased by $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success).
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success). Increases critical hit chance by $I$%.
+2110992123|cea74411||Successful counterattack increases next attack power by $I$%.
+2110992124|cf2b2da2||Protective shield that lasts until it has absorbed $I$ points of damage. Damage absorption scales with Sign intensity. Current absorption: $I$. <br>Shield duration: $I$s.
+2110992125|163a8e77||Damage dealt by Igni also permanently decreases enemy Total Armor by $S$% per hit (scales with Sign Intensity). Max effect value cannot exceed $S$%.
+2110992126|cf2b2da0||Fiery blast that deals $I$ points of damage with $I$% chance to set enemies on fire. Damage scales with Sign intensity. Current damage: $I$.
+2110992127|163a8e71||Alternate Sign Mode:<br>Emits a continuous focused stream of fire that causes burning and deals $I$ points of damage per second. Damage scales with Sign intensity (current damage: $I$). Drains $I$ points of Stamina per second.
+2110992128|71d0c1e4||Alternate Sign Mode:<br>Emits a continuous focused stream of fire that causes burning and deals $I$ points of damage per second. Damage scales with Sign intensity (current damage: $I$). Drains $I$ points of Stamina per second.
+2110992129|71d0c1e5||Alternate Sign Mode:<br>Emits a continuous focused stream of fire that causes burning and deals $I$ points of damage per second. Damage scales with Sign intensity (current damage: $I$). Drains $I$ points of Stamina per second.
+2110992130|163a8e75||Aard now deals $I$ damage. Damage scales with Sign intensity. Current damage: $I$.
+2110992131|b3c8ebb8||Magic turret
+2110992132|b1173fc0||Magic Trap and Turret duration increases by $I$%, number of Magic Turret charges increases by $I$.
+2110992133|        |gm_alt_yrden_lvl3_description|Magic Trap and Turret duration increases by $I$%, number of Magic Turret charges increases by $I$. Can now place an additional Magic Trap.
+2110992134|b1173fc1||Enemies inside Magic Trap loose $S$% point(s) of Vitality or Essence per second.
+2110992135|c84666b6||Quen shield pushes opponents back and deals $I$ points of damage when it breaks. Damage scales with Sign intensity (current damage: $I$).
+2110992136|c84666b7||Quen shield pushes opponents back with a chance for knock-down and deals $I$ points of damage when it breaks. Damage scales with Sign intensity (current damage: $I$).
+2110992137|163a8e73||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed.
+2110992138|71d0c966||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed.
+2110992139|71d0c967||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it no longer drains Stamina. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed.
+2110992140|15dda916||Appropriate oil applied to blades gives a $I$% chance of poisoning the target on each hit. Enhanced oil increases this chance by $I$% and Superior - by $I$%.
+2110992141|15dda91a||If Toxicity is above zero, time automatically slows by $S$% when an enemy is about to perform a counterattack. Effect duration: $S$s.
+2110992142|1517d64d||If Toxicity is above zero, time automatically slows by $S$% when an enemy is about to perform a counterattack. Effect duration: $S$s.
+2110992143|1517d64e||If Toxicity is above zero, time automatically slows by $S$% when an enemy is about to perform a counterattack. Effect duration: $S$s.
+2110992145|329005f0||Allows you to perform strong melee attacks which deal $I$% more damage and add $I$ to armor penetration.
+2110992148|bab1daf5||Each point of Toxicity increases Attack Power and Sign Intensity by $S$% (to a maximum of $S$%).
+2110992149|c3f5389c||Signs can deal critical hits. Their critical hit chance and power increase with Sign Intensity (current critical hit chance -  $S$%, critical hit power - $S$%). Opponents killed by critical hits from Signs explode.
+2110992150|c3f538a0||When the Aard Sign is cast, it additionally has a $S$% chance of freezing opponents. Opponents knocked down and frozen simultaneously die immediately. Opponents who are not frozen are dealt an additional $S$ damage. Damage scales with Sign intensity. Current damage: $S$.
+2110992151|cf2b2da1||Magic trap that slows enemies down by $S$% (scales with Sign Intensity) inside its area of effect. Trap duration: $S$s.
+2110992152|c3f538a1||At start of combat, Attack Power and Sign Intensity increase by $S$% for each foe (after first) for $S$s. So, when fighting $S$ foes, the bonus is $S$%. Once it wears off, Attack Power and Sign Intensity drop by $S$% for each participating foe after first (but no more than by $S$%) for $S$s.
+2110992153|c32e766a||Critical hit power bonus
+2110992154|28838f82||Armor penetration
+2110992155|f35fcb73||Armor penetration
+2110992156|        |attribute_name_vitalityRegen|Vitality regeneration outside of combat
+2110992157|        |attribute_name_vitalityCombatRegen|Vitality regeneration during combat
+2110992158|c95c6e28||When at maximum Vitality, additional Vitality regeneration increases your next sword or sign attack damage (up to +$I$%).
+2110992159|ccc61f66||Any edible consumed lasts longer by $I$%, but tastes like pierogi.
+2110992160|22156cd6||When Magic Turret set by Yrden hits an enemy, an Yrden Magic Trap is placed at that position.
+2110992161|        |attribute_name_spell_dmg_bonus|Sign damage
+2110992162|        |attribute_name_sword_dmg_bonus|Weapon damage
+2110992163|7968d6e0||Freezes foes. Blows landed on frozen foes deal additional damage. Extended duration.
+2110992164|b02a28c2||Damage increase
+2110992165|9e58d1f5||Increases Sign intensity. Extended duration. Special effects from signs are one-third longer.
+2110992166|329005f3||Blows landed during combat generate Adrenaline Points. Each Adrenaline Point increases Attack Power by $I$%.
+2110992167|        |gm_combat_stats_fast_crit_attack_power|Fast attack critical hit power
+2110992168|        |gm_combat_stats_strong_crit_attack_power|Strong attack critical hit power
+2110992169|        |gm_used_razor_success|Geralt is now clean-shaven
+2110992170|329005f2||Allows you to wield a light hand-held crossbow. Non-aimed shots deal 50% less damage.
+2110992171|5f63dbf5||Enables the creation of handheld bombs that can be thrown at enemies. Non-aimed throws deal 50% less damage.
+2110992172|754d1891||In addition to usual Battle Trance effect, Each Adrenaline Point also increases Sign intensity by $I$%.
+2110992173|        |item_desc_razor_mod|Used for shaving.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and Stamina regeneration by $S$%.
+2110992175|b1173fc7||Target is slowed down by $I$% while Geralt is casting Axii. Increases the effectiveness of Axii in dialogues.
+2110992176|c84675ba||Target is slowed down by $I$% while Geralt is casting Axii. Increases the effectiveness of Axii in dialogues.
+2110992177|c84675bb||Target is slowed down by $I$% while Geralt is casting Axii. Failed Axii attempts stagger the target. Increases the effectiveness of Axii in dialogues.
+2110992178|56747c57||Accelerates Vitality regeneration. Extended duration. Vitality regeneration does not pause upon receiving damage.
+2110992179|        |gm_geralt_too_heavy|Your over encumbrance is too high
+2110992180|        |option_gm_sink_boat_toggle|Sink the boat if over encumbered
+2110992181|        |option_gm_sink_boat_slider|Over encumbrance threshold to sink the boat (%)
+2110992182|        |gm_switch_inv_mode|Switch mode
+2110992183|        |option_gm_encumbrance_slider|Reduce item encumbrance (%)
+2110992184|        |gm_normal_inv_mode|Player inventory mode
+2110992185|        |gm_stash_inv_mode|Stash mode
+2110992186|        |gm_mixed_inv_mode|Mixed inventory mode
+2110992187|        |gm_synchronized_inv_mode|Synchronized mode
+2110992188|e71d7c90||Geralt's maximum Vitality is increased with each foe killed.
+2110992189|d3510d11||Contains silver splinters that temporarily prevent monsters from transforming and regenerating.
+2110992190|d3510d12||Contains silver splinters that temporarily prevent monsters from transforming and regenerating. Extended duration.
+2110992191|d3510d13||Contains silver splinters that permanently prevent monsters from transforming and regenerating.
+2110992192|08eace65||Increases attack effectiveness against insectoids. Effectiveness decreases with oil rubbing off the blade.
+2110992193|08eace66||Increases attack effectiveness against insectoids. Effectiveness decreases with oil rubbing off the blade.
+2110992194|08eace67||Increases attack effectiveness against insectoids. Effectiveness decreases with oil rubbing off the blade.
+2110992195|3a67f159||Increases attack effectiveness against cursed foes. Effectiveness decreases with oil rubbing off the blade.
+2110992196|3a67f15a||Increases attack effectiveness against cursed foes. Effectiveness decreases with oil rubbing off the blade.
+2110992197|3a67f15b||Increases attack effectiveness against cursed foes. Effectiveness decreases with oil rubbing off the blade.
+2110992198|65067e25||Increases attack effectiveness against necrophages. Effectiveness decreases with oil rubbing off the blade.
+2110992199|65067e26||Increases attack effectiveness against necrophages. Effectiveness decreases with oil rubbing off the blade.
+2110992200|65067e27||Increases attack effectiveness against necrophages. Effectiveness decreases with oil rubbing off the blade.
+2110992201|7b1c29c3||Increases attack effectiveness against hybrids. Effectiveness decreases with oil rubbing off the blade.
+2110992202|7b1c29c4||Increases attack effectiveness against hybrids. Effectiveness decreases with oil rubbing off the blade.
+2110992203|7b1c29c5||Increases attack effectiveness against hybrids. Effectiveness decreases with oil rubbing off the blade.
+2110992204|88e86911||Increases attack effectiveness against vampires. Effectiveness decreases with oil rubbing off the blade.
+2110992205|88e86912||Increases attack effectiveness against vampires. Effectiveness decreases with oil rubbing off the blade.
+2110992206|88e86913||Increases attack effectiveness against vampires. Effectiveness decreases with oil rubbing off the blade.
+2110992207|aed490e2||Increases attack effectiveness against elementa. Effectiveness decreases with oil rubbing off the blade.
+2110992208|aed490e3||Increases attack effectiveness against elementa. Effectiveness decreases with oil rubbing off the blade.
+2110992209|aed490e4||Increases attack effectiveness against elementa. Effectiveness decreases with oil rubbing off the blade.
+2110992210|d11afcde||Increases attack effectiveness against humans, elves, dwarves and halflings. Effectiveness decreases with oil rubbing off the blade.
+2110992211|d11afcdf||Increases attack effectiveness against humans, elves, dwarves and halflings. Effectiveness decreases with oil rubbing off the blade.
+2110992212|d11afce0||Increases attack effectiveness against humans, elves, dwarves and halflings. Effectiveness decreases with oil rubbing off the blade.
+2110992213|ea1a3189||Increases attack effectiveness against specters. Effectiveness decreases with oil rubbing off the blade.
+2110992214|ea1a318a||Increases attack effectiveness against specters. Effectiveness decreases with oil rubbing off the blade.
+2110992215|ea1a318b||Increases attack effectiveness against specters. Effectiveness decreases with oil rubbing off the blade.
+2110992216|ef649cfe||Increases attack effectiveness against draconids. Effectiveness decreases with oil rubbing off the blade.
+2110992217|ef649cff||Increases attack effectiveness against draconids. Effectiveness decreases with oil rubbing off the blade.
+2110992218|ef649d00||Increases attack effectiveness against draconids. Effectiveness decreases with oil rubbing off the blade.
+2110992219|f8b46c36||Increases attack effectiveness against relicts. Effectiveness decreases with oil rubbing off the blade.
+2110992220|f8b46c37||Increases attack effectiveness against relicts. Effectiveness decreases with oil rubbing off the blade.
+2110992221|1ff07bf8||Increases attack effectiveness against relicts. Effectiveness decreases with oil rubbing off the blade.
+2110992222|7753393f||Increases attack effectiveness against ogroids. Effectiveness decreases with oil rubbing off the blade.
+2110992223|77533940||Increases attack effectiveness against ogroids. Effectiveness decreases with oil rubbing off the blade.
+2110992224|77533941||Increases attack effectiveness against ogroids. Effectiveness decreases with oil rubbing off the blade.
+2110992225|c0218f12||Increases attack effectiveness against ogroids. Effectiveness decreases with oil rubbing off the blade.
+2110992226|c0218f13||Increases attack effectiveness against ogroids. Effectiveness decreases with oil rubbing off the blade.
+2110992227|c0218f14||Increases attack effectiveness against ogroids. Effectiveness decreases with oil rubbing off the blade.
+2110992228|dd8e2b22||Increases attack effectiveness against beasts. Effectiveness decreases with oil rubbing off the blade.
+2110992229|dd8e2b23||Increases attack effectiveness against beasts. Effectiveness decreases with oil rubbing off the blade.
+2110992230|dd8e2b24||Increases attack effectiveness against beasts. Effectiveness decreases with oil rubbing off the blade.
+2110992231|de026195||Clears Toxicity and cancels all active potion effects.
+2110992232|de026196||Clears Toxicity and cancels all active potion effects.
+2110992233|de026197||Clears Toxicity and cancels all active potion effects.
+2110992234|        |item_desc_relic_oil_3|Increases attack effectiveness against relicts.
+2110992235|874e9f88||Grants sight in total darkness and immunity to hypnosis. Extended duration.
+2110992237|fe608837||Inflicts shrapnel damage to foes within its explosion radius. Deals fire damage. Enhanced effect. Destroys enemy shield. Destroys monster nests.
+2110992238|63cd93a5||Releases a cloud of dimeritium slivers that block magic and monsters' magic abilities.
+2110992239|        |attribute_name_duration_out_of_cloud|Duration out of cloud
+2110992240|874e9f87||Grants sight in total darkness. Extended duration.
+2110992241|e71d7c8e||After successful strong attack all available Stamina is consumed to additionally reduce victim's vitality by 5%. If Stamina spent is less than 100%, effect is proportionally decreased.
+2110992242|fc921527||Applies a random Place of Power effect at dusk and dawn. Lasts longer than other mutagen decoctions.
+2110992243|e71d7c93||Increases Sign Intensity during bad weather.
+2110992244|fc921524||Increases resistance to bleeding, burning and poison effects applied during combat. The longer these effects last, the bigger is resistance bonus.
+2110992245|fc921525||Performing actions that consume Stamina regenerates Vitality proportional to Stamina spent.
+2110992246|fc92152b||Taking damage increases damage resistance for the remainder of the fight (up to 20%).
+2110992247|fc921505||Each blow landed increases Attack Power (up to 100%) until either the fight ends or damage (other than that from potion Toxicity) is taken.
+2110992248|fc921509||Attack Power grows over the course of a fight (up to 30%).
+2110992249|fc921526||Each Sign cast increases Stamina regeneration (up to 20) for the remainder of the fight.
+2110992250|        |option_gm_rnd_scaling_min_slider|Random scaling: lower bound (relative to player level)
+2110992251|        |option_gm_rnd_scaling_max_slider|Random scaling: upper bound (relative to player level)
+2110992252|        |preset_value_gm_es_random|Random
+2110992253|        |option_gm_no_quest_levels_toggle|Disable quest levels
+2110992254|        |option_gm_no_animal_upscaling_toggle|Do not upscale animals
+2110992255|        |preset_value_gm_es_random_no_down|Random no downscaling
+2110992256|        |item_desc_note|Contains useless information.
+2110992257|        |gm_recycling_parts|Crafting components
+2110992258|25691b0a||Can be sold to merchants or dismantled.
+2110992259|        |item_desc_junk_no_ingr|Can be sold to merchants.
+2110992260|7fd2ce90||Can be sold for a significant sum or dismantled.
+2110992261|        |PanelStash|Stash menu
+2110992262|        |effect_undying_cooldown|Undying cooldown
+2110992263|        |attribute_name_staminaRegen_armor_mod|Stamina regeneration modifier
+2110992264|        |attribute_name_chanceToIgnoreHitAnim|Chance to keep balance when hit
+2110992265|        |attribute_name_q108_bounce_arrows|Chance to bounce an arrow
+2110992266|        |item_name_repair_kit_weapon_4|Master weaponsmith tools
+2110992267|        |item_desc_repair_kit_weapon_4|Smithing tools used by master blacksmith. Permanently increase weapon damage.
+2110992268|        |item_name_repair_kit_armor_4|Master armorsmith tools
+2110992269|        |item_desc_repair_kit_armor_4|Smithing tools used by master armorer. Permanently increase armor value.
+2110992270|        |option_gm_quest_exp_slider|Quest experience modifier
+2110992271|        |option_gm_monster_exp_slider|Combat experience modifier
+2110992272|        |attribute_name_knockdown|Knockdown chance
+2110992273|b1173fc2||Increases heavy knockdown chance by $I$%.
+2110992274|163a8e76||Adds $I$ points to Fire damage and $I$ points to Firestream damage per sec.
+2110992275|b1173fc6||Adds $I$ points to Magic Turret damage.
+2110992276|b1173fc5||Adds $I$ points to shield damage absorption.
+2110992277|        |gm_sign_stats_axii_duration_confusion|Confusion duration
+2110992278|        |gm_sign_stats_axii_duration_control|Control duration
+2110992279|163a8e70||Alternate Sign Mode:<br>Aard strikes all opponents in range. Sign intensity is $I$% lower for this mode.
+2110992280|71d0be23||Alternate Sign Mode:<br>Aard strikes all opponents in range. Sign intensity is $I$% lower for this mode.
+2110992281|71d0be24||Alternate Sign Mode:<br>Aard strikes all opponents in range. Sign intensity is no longer lowered for this mode.
+2110992282|71d0d0e8||Aard now deals $I$ damage. Damage scales with Sign intensity. Current damage: $I$.
+2110992283|71d0d0e9||Aard now deals $I$ damage. Damage scales with Sign intensity. Current damage: $I$.
+2110992284|cf2b2d9f||A directed blast of telekinetic energy that staggers opponents and has $I$% knockdown chance. Heavy knockdown chance is $I$%. Chances scale with Sign intensity. Grants additional 15% chance to critically hit knocked down enemy.
+2110992286|cf2b2da3||Charms an opponent's mind, confusing him and temporarily eliminating him from combat. <br>Confusion duration: $S$ seconds (scales with Sign intensity). Grants additional 15% chance to critically hit confused enemy.
+2110992287|b1173fc8||Axii effects duration is increased by $I$%.
+2110992288|163a8e74||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign intensity. Current duration: $I$s.
+2110992289|71d0cd27||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign intensity. Current duration: $I$s.
+2110992290|71d0cd28||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign intensity. Current duration: $I$s.
+2110992291|483c9092||Damage dealt charges the sword increasing its critical hit power by $S$%. Charge decays over time and on damage taken. A fully-charged sword increases critical hit chance by $S$%.
+2110992292|1f5adb4f||Killing a foe with a fully loaded sword will expend its charge to permanently increase the weapon's damage. When bonus damage exceeds its maximum, sword levels up. Damage is increased by: $S$ (to a maximum of 10).
+2110992293|        |gm_sign_stats_heavy_knockdown|Heavy knockdown chance
+2110992294|f76f46ed||Killing an enemy restores $I$% of your Stamina.
+2110992295|fad8f82b||Killing an enemy gives $F$ to $F$ Adrenaline Points.
+2110992296|ed2f3195||Gives a $I$% chance of returning $I$% of damage received to the attacker.
+2110992299|f2e69faf||Dealing damage with fast attacks charges weapon with energy. When its color changes to red, a strong attack will release this energy in an extra powerful strike, at the cost of part of the attacker's Vitality.
+2110992300|        |option_gm_use_xml_exp_toggle|Fixed experience for quests and combat
+2110992301|        |gm_kills_humans|Humanoids
+2110992302|        |gm_kills_wh_warriors|Wild Hunt warriors
+2110992303|        |gm_kills_total|Total
+2110992304|        |gm_kills_animals_total|Animals
+2110992305|        |gm_kills_monsters_total|Monsters
+2110992306|        |gm_kills_by_type|Kills by type
+2110992307|        |gm_kills_kill_count|Kill count
+2110992308|        |gm_kills_humans_total|Humanoids
+2110992309|        |gm_kills_bosses_total|Unique creatures
+2110992310|1f70c026||Increases crossbow critical hit chance by $I$% and crossbow critical hit power by $I$%.
+2110992311|e71d7c8c||Grants 15% of additional resistance to all types of damage if at 60 inventory weight or below, bonus decreases with more weight.
+2110992312|        |option_gm_stash_sync_toggle|Use synchronized stash mode by default
+2110992313|da7e5ba8||If you have at least one Adrenaline Point, it will be used to cast a Sign instead of Stamina.
+2110992314|        |option_gm_no_add_levels_guards|No additional levels for guards

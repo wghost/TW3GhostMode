@@ -1,0 +1,300 @@
+;meta[language=br]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+2110992000|        |panel_Mods|Mods
+2110992001|        |panel_ghost_mode|Ghost Mode
+2110992002|        |option_gm_health_multiplier|Modificador de saúde do inimigo
+2110992003|        |option_gm_damage_multiplier|Modificador de dano do inimigo
+2110992004|        |option_gm_enemies_scaling|Escala de inimigos
+2110992005|        |preset_value_gm_es_none|Nada
+2110992006|        |preset_value_gm_es_upscale|Escalar
+2110992007|        |preset_value_gm_es_match|Combinado
+2110992013|        |attribute_name_frost_resistance_perc|Resistência ao frio
+2110992014|        |attribute_name_armor_reduction_perc|Redução de resistência a danos do inimigo
+2110992015|        |attribute_name_potion_duration|Duração da poção  
+2110992016|        |preset_value_gm_es_soft|Suave
+2110992017|        |panel_common_statistics_tooltip_silver_dph_gm|Dano por acerto (Prata)
+2110992018|        |panel_common_statistics_tooltip_steel_dph_gm|Dano por acerto (Aço)
+2110992019|        |gm_sign_stats_channeling_damage_per_sec|Dano da onda de fogo por segundo
+2110992020|        |gm_sign_stats_yrden_traps|Armadilhas Mágicas
+2110992021|        |gm_sign_stats_yrden_damage|Dano da Armadilha Mágica
+2110992022|        |gm_sign_stats_alt_yrden_duration|Duração da Torre mágica
+2110992023|        |gm_sign_stats_alt_yrden_charges|Cargas da Torre Mágica
+2110992024|        |gm_sign_stats_alt_yrden_damage|Dano da Torre Mágica
+2110992025|        |gm_sign_stats_alt_quen_returned_damage|Devolução de danos
+2110992026|        |gm_sign_stats_alt_quen_dmg_absorption|Absorção de danos com o escudo ativado
+2110992027|        |gm_sign_stats_alt_axii_chance|Chance de Axii
+2110992028|        |gm_combat_stats_fast_attack_power|Poder do ataque rápido
+2110992029|        |gm_combat_stats_strong_attack_power|Poder de ataque forte
+2110992030|        |gm_sign_stats_quen_dmg_absorption|Absorção de danos
+2110992034|        |attribute_name_vsBeast_critical_hit_chance|Chance de acerto crítico contra feras
+2110992035|        |attribute_name_vsCursed_critical_hit_chance|Chance de acerto crítico contra amaldiçoados
+2110992036|        |attribute_name_vsDraconide_critical_hit_chance|Chance de acerto crítico contra draconídeos
+2110992037|        |attribute_name_vsHuman_critical_hit_chance|Chance de acerto crítico contra humanos
+2110992038|        |attribute_name_vsHybrid_critical_hit_chance|Chance de acerto crítico contra híbridos
+2110992039|        |attribute_name_vsInsectoid_critical_hit_chance|Chance de acerto crítico contra insectoides
+2110992040|        |attribute_name_vsMagicals_critical_hit_chance|Chance de acerto crítico contra elementais
+2110992041|        |attribute_name_vsNecrophage_critical_hit_chance|Chance de acerto crítico contra necrófagos
+2110992042|        |attribute_name_vsRelic_critical_hit_chance|Chance de acerto crítico contra relictos
+2110992043|        |attribute_name_vsSpecter_critical_hit_chance|Chance de acerto crítico contra espectros
+2110992044|        |attribute_name_vsOgre_critical_hit_chance|Chance de acerto crítico contra ogroides
+2110992045|        |attribute_name_vsVampire_critical_hit_chance|Chance de acerto crítico contra vampiros
+2110992046|        |attribute_name_vsBeast_critical_hit_damage_bonus|Poder de acerto crítico contra feras
+2110992047|        |attribute_name_vsCursed_critical_hit_damage_bonus|Poder de acerto crítico contra amaldiçoados
+2110992048|        |attribute_name_vsDraconide_critical_hit_damage_bonus|Poder de acerto crítico contra draconídeos
+2110992049|        |attribute_name_vsHuman_critical_hit_damage_bonus|Poder de acerto crítico contra humanos
+2110992050|        |attribute_name_vsHybrid_critical_hit_damage_bonus|Poder de acerto crítico contra híbridos
+2110992051|        |attribute_name_vsInsectoid_critical_hit_damage_bonus|Poder de acerto crítico contra insectoides
+2110992052|        |attribute_name_vsMagicals_critical_hit_damage_bonus|Poder de acerto crítico contra elementais
+2110992053|        |attribute_name_vsNecrophage_critical_hit_damage_bonus|Poder de acerto crítico contra necrófagos
+2110992054|        |attribute_name_vsRelic_critical_hit_damage_bonus|Poder de acerto crítico contra relictos
+2110992055|        |attribute_name_vsSpecter_critical_hit_damage_bonus|Poder de acerto crítico contra espectros
+2110992056|        |attribute_name_vsOgre_critical_hit_damage_bonus|Poder de acerto crítico contra ogroides
+2110992057|        |attribute_name_vsVampire_critical_hit_damage_bonus|Poder de acerto crítico contra vampiros
+2110992058|        |attribute_name_vsBeast_resist_reduction|Redução de resistência a danos contra feras
+2110992059|        |attribute_name_vsCursed_resist_reduction|Redução de resistência a danos contra amaldiçoados
+2110992060|        |attribute_name_vsDraconide_resist_reduction|Redução de resistência a danos contra draconídeos
+2110992061|        |attribute_name_vsHuman_resist_reduction|Redução de resistência a danos contra humanos
+2110992062|        |attribute_name_vsHybrid_resist_reduction|Redução de resistência a danos contra híbridos
+2110992063|        |attribute_name_vsInsectoid_resist_reduction|Redução de resistência a danos contra insectoides
+2110992064|        |attribute_name_vsMagicals_resist_reduction|Redução de resistência a danos contra elementais
+2110992065|        |attribute_name_vsNecrophage_resist_reduction|Redução de resistência a danos contra necrófagos
+2110992066|        |attribute_name_vsRelic_resist_reduction|Redução de resistência a danos contra relictos
+2110992067|        |attribute_name_vsSpecter_resist_reduction|Redução de resistência a danos contra espectros
+2110992068|        |attribute_name_vsOgre_resist_reduction|Redução de resistência a danos contra ogroides
+2110992069|        |attribute_name_vsVampire_resist_reduction|Redução de resistência a danos contra vampiros
+2110992070|        |attribute_name_vsHuman_attack_power|Poder de ataque contra Humanos
+2110992071|da7e5ba4||Cada peça de armadura leve aumenta a chance de acerto crítico em $S$% e o poder de acerto crítico em $S$%.
+2110992072|da7e5ba6||Cada peça de armadura pesada aumenta a Vitalidade máxima em $S$% e o ganho de Pontos de Adrenalina em $S$%.
+2110992073|163a8e78||Aumenta a chance de incinerar em $I$%.
+2110992074|3c4a6af2||Dano do ataque forte
+2110992075|5806ca6e||Dano crítico de ataque forte
+2110992076|69d8dd89||Dano crítico de ataque rápido
+2110992077|89dfeac9||Chance de acerto crítico com ataque rápido
+2110992078|bc4297c4||Chance de acerto crítico do ataque forte
+2110992079|d23992f7||Dano do ataque rápido
+2110992080|2e06698e||Dano crítico de ataque forte
+2110992081|3375c4a9||Dano crítico de ataque rápido
+2110992082|73d42fa9||Chance de acerto crítico com ataque rápido
+2110992083|b08bd7d2||Dano do ataque forte
+2110992084|c7b0b7d7||Dano do ataque rápido
+2110992085|fa3924a4||Chance de acerto crítico do ataque forte
+2110992090|6c1d3ba3||Chance de acerto crítico e poder de acerto crítico também se aplicam as bombas. Bombas são lançadas sem qualquer atraso.
+2110992091|85e8fbd1||Cada óleo aplicado a uma espada aumenta a chance de acerto crítico em 5% e o poder do acerto crítico em 10%.
+2110992092|1f70c024||Ataques rápidos têm $S$% de chance de aplicar o efeito de sangramento.
+2110992093|71d0c5a6||Modo de Sinal Alternativo:<br>Causa $I$ pontos de dano aos inimigos em um raio de $I$ jardas. Dano varia com a intensidade do Sinal (dano atual: $I$). Destrói projéteis que passarem por essa área. Dura por $I$s. número de cargas - $I$.
+2110992094|71d0c5a5||Modo de Sinal Alternativo:<br>Causa $I$ pontos de dano aos inimigos em um raio de $I$ jardas. Dano varia com a intensidade do Sinal (dano atual: $I$). Destrói projéteis que passarem por essa área. Dura por $I$s. número de cargas - $I$.
+2110992095|163a8e72||Modo de Sinal lternativo:<br>Causa $I$ pontos de dano aos inimigos em um raio  de $I$ jardas. Dano varia com a intensidade do Sinal (dano atual: $I$). Destrói projéteis que passarem por essa área. Dura por $I$s. número de cargas - $I$.
+2110992096|b1173fc9||Dois adversários podem ser influenciados por Axii ao mesmo tempo. A duração do efeito é reduzida em $I$%.
+2110992097|c8467d3c||Dois adversários podem ser influenciados por Axii ao mesmo tempo. A duração do efeito é reduzida em $I$%.
+2110992098|c8467d3d||Dois adversários podem ser influenciados por Axii ao mesmo tempo. A duração do efeito não é mais reduzida.	
+2110992099|1f70c022||Cada ponto de adrenalina adiciona $I$% à chance de matar um oponente instantaneamente. Não se aplica a Espira.
+2110992102|1f70c021||Ataque forte que ignora a defesa do inimigo. Provoca $S$% de dano a mais e $S$% de dano por Ponto de Adrenalina em prorpoção ao Vigor consumido ($S$% max). Aumenta a chance de acerto crítico em $S$%.
+2110992103|1f70c020||Ataque giratório que acerta todos os inimigos ao seu redor. Provoca $S$% menos dano. Continuar atacando consome Vigor e Adrenalina. O dano sofrido é diminuido em $S$% durante o ataque.
+2110992104|064143d3||Ataque giratório que acerta todos os inimigos ao seu redor. Provoca $S$% menos dano. Continuar atacando consome Vigor e Adrenalina. O dano sofrido é diminuido em $S$% durante o ataque.
+2110992105|        |gm_stat_adrenaline_gain|Ganho de Adrenalina
+2110992106|739e1e2c||Ataques fortes aumentam o dano do ataque rápido por $S$ segundos em $S$% para cada peça do conjunto. E vice versa, Bônus atual: $S$%.
+2110992107|8ed43e3e||Cada peça do conjunto diminui o Vigor gasto com lançamento de Sinal em $S$%.  Bônus atual: $S$%.
+2110992108|8ed43e3f||O tamanho das armadilhas Yrden é aumentado em $S$%. Enquanto você estiver dentro de uma armadilha de Yrden, a intensidade do Sinal é aumentada em $S$% e o dano sofrido é reduzido em $S$%.
+2110992109|739e1e2d||Danos críticos com uma espada dobram o ganho de Adrenalina.
+2110992110|        |attribute_name_desc_knockdownchance_mult|Chance de derrubar
+2110992111|c3f538a3||A chance de acerto crítico da besta é aumentada em $S$% e o poder de acerto crítico - em $S$%. Virotes de besta atravessam e nocauteiam ou atordoam oponentes. Oponentes atingidos quando estão com Vitalidade completa perdem $S$% da Vitalidade. 
+2110992112|        |effect_undying_skill|Eterno
+2110992113|c1e6a9cc||Quando a Vitalidade chegar a zero, Pontos de Adrenalina serão consumidos para evitar a morte e conceder invulnerabilidade e regeneração de Vitalidade ampliada por $S$s. Restaura $S$% de vitalidade por Ponto de Adrenalina (max $S$%). não pode ser acionado mais do que uma vez a cada $S$s.
+2110992114|c1e6a9cb||Quando a Vitalidade chegar a zero, Pontos de Adrenalina serão consumidos para evitar a morte e conceder invulnerabilidade e regeneração de Vitalidade ampliada por $S$s. Restaura $S$% de vitalidade por Ponto de Adrenalina (max $S$%). não pode ser acionado mais do que uma vez a cada $S$s.
+2110992115|cea74418||Quando a Vitalidade chegar a zero, Pontos de Adrenalina serão consumidos para evitar a morte e conceder invulnerabilidade e regeneração de Vitalidade ampliada por $S$s. Restaura $S$% de vitalidade por Ponto de Adrenalina (max $S$%). não pode ser acionado mais do que uma vez a cada $S$s.
+2110992116|cea74430||O dano do ataque rápido aumenta em $I$%.
+2110992117|1f70c023||O dano do ataque forte aumenta em $I$%.
+2110992118|cea74417||Aumenta a chance de acerto crítico do ataque rápido em $I$% e o dano do acerto crítico do ataque rápido em $I$%.
+2110992119|1f70c027||Aumenta a chance de acerto critico de ataques fortes em $I$% e o dano do acerto critíco do ataque forte em $I$%.
+2110992120|c1e68bc4||Bloqueios perfeitos fazem flechas ricochetearem, o dano é aumentado em $I$%.
+2110992121|c1e68f84||Um contra-ataque bem sucedido aumenta o poder do próximo ataque em $I$% de dano. Cada Ponto de Adrenalina aumenta a chance de derrubar em $I$% (max $I$%, da Adrenalina é consumida em caso de sucesso ).
+2110992122|c1e68f85||Um contra-ataque bem sucedido aumenta o poder do próximo ataque em $I$% de dano. Cada Ponto de Adrenalina aumenta a chance de derrubar em $I$% (max $I$%, da Adrenalina é consumida em caso de sucesso ). Aumenta a chance de dano critítico em $I$%.
+2110992123|cea74411||Um contra-ataque bem sucedido aumenta o poder do próximo ataque em $I$% de dano.
+2110992124|cf2b2da2||Escudo protetor que dura até que tenha absorvido $I$ pontos de dano. A absorção de danos varia com a intensidade do Sinal. Absorção atual: $I$. <br>Duração do escudo: $I$s.
+2110992125|163a8e77||O dano causado por Igni enfraquece a armadura do inimigo permamentemente em $S$% por acerto (varia com a intensidade do Sinal). O valor máximo do efeito não pode exceder $S$%.
+2110992126|cf2b2da0||Explosão ardente que provoca $I$ pontos de dano com $I$% de chance de incendiar os inimigos. O dano varia com a intensidade do sinal. Dano atual: $I$.
+2110992127|163a8e71||Modo de Sinal Alternativo:<br>Emite um fluxo constante de fogo que atinge um único inimigo causando $I$ pontos de dano por segundo. O dano varia com a intensidade do Sinal (dano atual: $I$). Drena $I$ pontos de Vigor por segundo.
+2110992128|71d0c1e4||Modo de Sinal Alternativo:<br>Emite um fluxo constante de fogo que atinge um único inimigo causando $I$ pontos de dano por segundo. O dano varia com a intensidade do Sinal (dano atual: $I$). Drena $I$ pontos de Vigor por segundo.
+2110992129|71d0c1e5||Modo de Sinal Alternativo:<br>Emite um fluxo constante de fogo que atinge um único inimigo causando $I$ pontos de dano por segundo. O dano varia com a intensidade do Sinal (dano atual: $I$). Drena $I$ pontos de Vigor por segundo.
+2110992130|163a8e75||Aard agora causa $I$ de dano. O dano varia com a intesidade do Sinal. Dano atual: $I$.
+2110992131|b3c8ebb8||TORRE MÁGICA
+2110992132|b1173fc0||Duração da Torre Mágica e Armadilha Mágica aumenta em $I$%, número de cargas da Torre Mágica aumenta em $I$.
+2110992133|        |gm_alt_yrden_lvl3_description|Duração da Torre Mágica e Armadilha Mágica aumenta em $I$%, número de cargas da Torre Mágica aumenta em $I$. Permite uma Armadilha Mágica a mais.
+2110992134|b1173fc1||Inimigos dentro da Armadilha mágica perdem $S$% de ponto(s) de Saúde ou essência por segundo.
+2110992135|c84666b6||O escudo Quen empurra os oponentes para trás provocando $I$ pontos de dano ao ceder. O dano varia com a intensidade do Sinal (dano atual: $I$).
+2110992136|c84666b7||O Sinal Quen empurra os oponentes para trás com chance de nocaute provocando $I$ pontos de dano ao ceder. O dano varia com a intensidade do Sinal (dano atual: $I$).
+2110992137|163a8e73||Modo Alternativo de Sinal:<br>Cria um escudo ativo que absorve $I$% mais dano. Mantê-lo drena $I$ Pontos de Vigor por segundo. Os ataques bloqueados drenam Vigor proporcional aos danos absorvidos. Restaura a Vitalidade que corresponde a $I$% do dano absorvido.
+2110992138|71d0c966||Modo Alternativo de Sinal:<br>Cria um escudo ativo que absorve $I$% mais dano. Mantê-lo drena $I$ Pontos de Vigor por segundo. Os ataques bloqueados drenam Vigor proporcional aos danos absorvidos. Restaura a Vitalidade que corresponde a $I$% do dano absorvido.
+2110992139|71d0c967||Modo Alternativo de Sinal:<br>Cria um escudo ativo que absorve $I$% mais dano. Manter o escudo ativo não consome vigor. Os ataques bloqueados drenam Vigor proporcional aos danos absorvidos. Restaura a Vitalidade que corresponde a $I$% do dano absorvido. 
+2110992140|15dda916||Óleo de aplicação em lâminas que dá $I$% de chance de envenenar o alvo a cada acerto.Óleo Melhorado aumentam essa chance em $I$% e Superior - em $I$%.
+2110992141|15dda91a||Se a Toxicidade estiver acima de zero, O tempo automaticamente desacelera quando um inimigo estiver prestes a realizar um contra-ataque. Duração do efeito: $S$s.
+2110992142|1517d64d||Se a Toxicidade estiver acima de zero, O tempo automaticamente desacelera quando um inimigo estiver prestes a realizar um contra-ataque. Duração do efeito: $S$s.
+2110992143|1517d64e||Se a Toxicidade estiver acima de zero, O tempo automaticamente desacelera quando um inimigo estiver prestes a realizar um contra-ataque. Duração do efeito: $S$s.
+2110992145|329005f0||Permite que você realize ataques corporais fortes que provocam $I$% a mais de dano e adiciona $I$ para a penetração de armadura.
+2110992148|bab1daf5||Cada ponto de Toxicidade aumenta o poder de ataque e a intensidade do Sinal em $S$% ( até o máximo de $S$%).
+2110992149|c3f5389c||Sinais podem causar danos críticos. A chance e o dano de acertos críticos aumentam com a intesnsidade do Sinal (atual chance de acerto crítico - $S$%, poder de acerto crítico - $S$%). Oponentes mortos por um acerto crítico de Sinais explodem.
+2110992150|c3f538a0||Quando o Sinal Aard é lançado, há uma chance adicional de $S$% de congelar inimigos. Oponentes nocauteados e congelados ao mesmo tempo morrem de imediato. Oponentes que não forem congelados recebem um dano adicional de $S$. O dano varia com a intensidade do Sinal. Dano atual: $I$.
+2110992151|cf2b2da1||Armadilha mágica que desacelera os inimigos em $S$% (varia com a intensidade do Sinal) que estão em sua área de efeito. Duração da armadilha: $S$s.
+2110992152|c3f538a1||No começo do combate, O poder de ataque e a intensidade do Sinal aumentam em  $S$% para cada inimigo (exceto o primeiro) por $S$s. Assim, quando enfrentar $S$ inimigos, o bônus é de $S$%. Quando o efeito acaba, o poder de ataque e a intensidade do Sinal caem em $S$% para cada inimigo envolvido exceto o primeiro (o modificador não pode ultrapassar $S$%) por $S$s.
+2110992153|c32e766a||Bônus de poder de acerto crítico
+2110992154|28838f82||Penetração de armadura
+2110992155|f35fcb73||Penetração de armadura
+2110992156|        |attribute_name_vitalityRegen|Regeneração de vitalidade fora de combate
+2110992157|        |attribute_name_vitalityCombatRegen|Regeneração de Vitalidade durante combate	
+2110992158|c95c6e28||Quando estiver com a Vitalidade máxima, Regeneração de Vitalidade adicional aumentará o dano do próximo ataque de espada ou Sinal (para +$I$%)
+2110992159|ccc61f66||Qualquer comestivel consumido é aumentado em $I$%, mas tem gosto de pierogi.
+2110992160|22156cd6||Quando uma Torre mágica criada por Yrden acertar um inimigo, uma Armadilha de mágia Yrden é colocada naquela posição.
+2110992161|        |attribute_name_spell_dmg_bonus|Dano do Sinal
+2110992162|        |attribute_name_sword_dmg_bonus|Dano da arma
+2110992163|7968d6e0||Congela inimigos. Ataques feitos contra inimigos congelados causam dano adicional. Duração estendida.
+2110992164|b02a28c2||Aumento de dano
+2110992165|9e58d1f5||Aumenta a intensidade do Sinal. Duração estendida. Os efeitos especiais dos Sinais são um terço mais duradouros.
+2110992166|329005f3||Ataques que atingem durante o combate geram Pontos de Adrenalina. Cada Ponto de Adrenalina aumenta o dano da arma em $I$%.
+2110992167|        |gm_combat_stats_fast_crit_attack_power|Poder de acerto crítico do ataque rápido
+2110992168|        |gm_combat_stats_strong_crit_attack_power|Poder de acerto crítico do ataque rápido
+2110992169|        |gm_used_razor_success|Geralt está agora barbeado
+2110992170|329005f2||Permite que você maneje uma besta leve de mão. Tiros não mirados provocam 50% menos de dano.
+2110992171|5f63dbf5||Permite a criação de bombas que podem ser arremessadas nos inimigos. Os lançamentos não-mirados causam 50% menos dano..
+2110992172|754d1891||Além do habitual efeito transe de batalha, cada ponto de Adrenalina também aumenta a intensidade do Sinal em $I$%. 
+2110992173|        |item_desc_razor_mod|Usado para barbear.
+2110992174|da7e5ba5||Cada peça de armadura média aumenta a intensidade dos Sinais em $S$% e a regeneração de Vigor $S$%.
+2110992175|b1173fc7||O alvo é desacelerado em $I$% enquanto Geralt lança o Axii. Aumenta o efeito de Axii nos diálogos.
+2110992176|c84675ba||O alvo é desacelerado em $I$% enquanto Geralt lança o Axii. Aumenta o efeito de Axii nos diálogos.
+2110992177|c84675bb||O alvo é desacelerado em $I$% enquanto Geralt lança o Axii. Tentativas de uso do Axii fracassadas atordoam o inimigo. Aumenta o efeito de Axii nos diálogos.
+2110992178|56747c57||Acelera a regeneração de vitalidade. Duração estendida. A regenerção da vitalidade não é interrompida após receber dano.
+2110992179|        |gm_geralt_too_heavy|Sua sobrecarga é muito alta
+2110992180|        |option_gm_sink_boat_toggle|Afundar o barco se estiver sobrecarregado
+2110992181|        |option_gm_sink_boat_slider|Limite de sobrecarga para afundar o barco (%)
+2110992182|        |gm_switch_inv_mode|Mudar de modo
+2110992183|        |option_gm_encumbrance_slider|Reduzir a carga de itens (%)
+2110992184|        |gm_normal_inv_mode|Modo de inventário do jogador
+2110992185|        |gm_stash_inv_mode|Modo estoque
+2110992186|        |gm_mixed_inv_mode|Modo de inventário misto
+2110992187|        |gm_synchronized_inv_mode|Modo sincronizado
+2110992188|e71d7c90||A Vitalidade máxima de Geralt aumenta a cada inimigo morto.
+2110992189|d3510d11||Contém fragmentos de prata que temporariamente evitam que monstros se transformem e se regenerem.
+2110992190|d3510d12||Contém fragmentos de prata que temporariamente evitam que monstros se transformem e se regenerem. Duração estendida.
+2110992191|d3510d13||Contém fragmentos de prata que permanentemente evitam que monstros se transformem e se regenerem. 
+2110992192|08eace65||Aumenta a eficácia do ataque contra insectoides.  Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992193|08eace66||Aumenta a eficácia do ataque contra insectoides.  Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992194|08eace67||Aumenta a eficácia do ataque contra insectoides.  Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992195|3a67f159||Aumenta a eficácia do ataque contra inimigos amaldiçoados. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992196|3a67f15a||Aumenta a eficácia do ataque contra inimigos amaldiçoados. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992197|3a67f15b||Aumenta a eficácia do ataque contra inimigos amaldiçoados. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992198|65067e25||Aumenta a eficácia do ataque contra necrófagos. Efetividade diminui quando o óleo escorrega para fora da lâmina. 
+2110992199|65067e26||Aumenta a eficácia do ataque contra necrófagos. Efetividade diminui quando o óleo escorrega para fora da lâmina. 
+2110992200|65067e27||Aumenta a eficácia do ataque contra necrófagos. Efetividade diminui quando o óleo escorrega para fora da lâmina. 
+2110992201|7b1c29c3||Aumenta a eficácia do ataque contra híbridos. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992202|7b1c29c4||Aumenta a eficácia do ataque contra híbridos. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992203|7b1c29c5||Aumenta a eficácia do ataque contra híbridos. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992204|88e86911||Aumenta a eficácia do ataque contra vampiros. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992205|88e86912||Aumenta a eficácia do ataque contra vampiros. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992206|88e86913||Aumenta a eficácia do ataque contra vampiros. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992207|aed490e2||Aumenta a eficácia do ataque contra elementais. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992208|aed490e3||Aumenta a eficácia do ataque contra elementais. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992209|aed490e4||Aumenta a eficácia do ataque contra elementais. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992210|d11afcde||Aumenta a eficácia do ataque contra humanos, elfos, anões e halflings. Efetividade diminui quando o óleo escorrega para fora da lâmina. 
+2110992211|d11afcdf||Aumenta a eficácia do ataque contra humanos, elfos, anões e halflings. Efetividade diminui quando o óleo escorrega para fora da lâmina. 
+2110992212|d11afce0||Aumenta a eficácia do ataque contra humanos, elfos, anões e halflings. Efetividade diminui quando o óleo escorrega para fora da lâmina. 
+2110992213|ea1a3189||Aumenta a eficácia do ataque contra espectros. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992214|ea1a318a||Aumenta a eficácia do ataque contra espectros. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992215|ea1a318b||Aumenta a eficácia do ataque contra espectros. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992216|ef649cfe||Aumenta a eficácia do ataque contra draconídeos. Efetividade diminui quando o óleo escorrega para fora da lâmina. 
+2110992217|ef649cff||Aumenta a eficácia do ataque contra draconídeos. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992218|ef649d00||Aumenta a eficácia do ataque contra draconídeos. Efetividade diminui quando o óleo escorrega para fora da lâmina. 
+2110992219|f8b46c36||Aumenta a eficácia do ataque contra relictos. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992220|f8b46c37||Aumenta a eficácia do ataque contra relictos. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992221|1ff07bf8||Aumenta a eficácia do ataque contra relictos. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992222|7753393f||Aumenta a eficácia do ataque contra ogroides. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992223|77533940||Aumenta a eficácia do ataque contra ogroides. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992224|77533941||Aumenta a eficácia do ataque contra ogroides. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992225|c0218f12||Aumenta a eficácia do ataque contra ogroides. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992226|c0218f13||Aumenta a eficácia do ataque contra ogroides. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992227|c0218f14||Aumenta a eficácia do ataque contra ogroides. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992228|dd8e2b22||Aumenta a eficácia do ataque contra feras. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992229|dd8e2b23||Aumenta a eficácia do ataque contra feras. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992230|dd8e2b24||Aumenta a eficácia do ataque contra feras. Efetividade diminui quando o óleo escorrega para fora da lâmina.
+2110992231|de026195||Reduz a toxicidade para zero e cancela os efeitos de outras poções.
+2110992232|de026196||Reduz a toxicidade para zero e cancela os efeitos de outras poções.
+2110992233|de026197||Reduz a toxicidade para zero e cancela os efeitos de outras poções.
+2110992234|        |item_desc_relic_oil_3|Aumenta a eficácia do ataque contra relictos.
+2110992235|874e9f88||Concede visão na escuridão total e imunidade contra hipnose. Duração estendida.
+2110992237|fe608837||Causa dano de estilhaços a oponentes no raio da explosão. Causa dano de fogo. Efeito melhorado. Dano ignora armadura do inimigo. Destrói ninhos de monstros.
+2110992238|63cd93a5||Solta uma nuvem de fragmentos de dimerítio que bloqueia mágica e habilidades mágicas de monstros.
+2110992239|        |attribute_name_duration_out_of_cloud|Duração fora da nuvem
+2110992240|874e9f87||Concede visão na escuridão total. Duração estendida.
+2110992241|e71d7c8e||Se você possuir Vigor disponivel, ataques fortes consomem tudo e reduzem a Vitalidade do oponente golpeado em 5%, se o Vigor consumido for inferior a 100%, o efeito é proporcionalmente diminuido.
+2110992242|fc921527||Aplica o efeito de um Lugar de Poder aleatório ao anoitecer e ao amanhecer. Dura mais que outros agentes mutagênicos.
+2110992243|e71d7c93||Aumenta a intensidade do Sinal durante o mau tempo.
+2110992244|fc921524||Aumenta a resistência ao sangramento, efeitos que queimam e envenenam aplicados durante o combate. Quanto mais durarem estes efeitos, maior será o bônus de resistência.
+2110992245|fc921525||Realizar ações que consomem Vigor regenera a Vitalidade proporcinalmente ao Vigor gasto.
+2110992246|fc92152b||Levar dano aumenta a resistência a dano pelo resto da luta (até 20%).
+2110992247|fc921505||Cada golpe acertado aumenta o poder de ataque (até 100%) até que a luta termine ou que leve dano (outro que não seja da toxicidade)
+2110992248|fc921509||Poder de ataque cresce ao longo de uma luta (até 30%)
+2110992249|fc921526||Cada Sinal lançado aumenta a regeneração do Vigor (até 20%) pelo restante da luta.
+2110992250|        |option_gm_rnd_scaling_min_slider|Escala randômica: limite inferior (relativo ao nível do jogador)
+2110992251|        |option_gm_rnd_scaling_max_slider|Escala randômica: limite superior (relativo ao nível do jogador)
+2110992252|        |preset_value_gm_es_random|Randômico
+2110992253|        |option_gm_no_quest_levels_toggle|Desabilitar nivel da missão
+2110992254|        |option_gm_no_animal_upscaling_toggle|Não escalar animais
+2110992255|        |preset_value_gm_es_random_no_down|Randômico sem redução de escala
+2110992256|        |item_desc_note|Contém informações inúteis.
+2110992257|        |gm_recycling_parts|Componentes de fabricação
+2110992258|25691b0a||Você pode vender para comerciantes ou desmontar para obter componentes para fabricação.
+2110992259|        |item_desc_junk_no_ingr|Pode ser vendido para comerciantes.
+2110992260|7fd2ce90||Você pode vender por uma quantia generosa ou desmontar para obter componentes para fabricação.
+2110992261|        |PanelStash|Menu de estoque
+2110992262|        |effect_undying_cooldown|Tempo de espera eterno
+2110992263|        |attribute_name_staminaRegen_armor_mod|Modificador de regeneração de Vigor
+2110992264|        |attribute_name_chanceToIgnoreHitAnim|Chance de manter o equilíbrio quando atingido
+2110992265|        |attribute_name_q108_bounce_arrows|Chance de driblar uma flecha
+2110992266|        |item_name_repair_kit_weapon_4|Ferramentas de mestre ferreiro
+2110992267|        |item_desc_repair_kit_weapon_4|Ferramentas de ferreiro usadas pelo mestre ferreiro. Aumenta permanentemente os danos da arma.
+2110992268|        |item_name_repair_kit_armor_4|Ferramentas de mestre armeiro
+2110992269|        |item_desc_repair_kit_armor_4|Ferramentas de ferreiro usadas por armeiro. Aumenta permanentemente o valor da armadura.
+2110992270|        |option_gm_quest_exp_slider|Modificador de experiência adquirida na missão
+2110992271|        |option_gm_monster_exp_slider|Modificador de experiência adquirida no combate
+2110992272|        |attribute_name_knockdown|Chance de derrubar
+2110992273|b1173fc2||Aumenta a intensidade para derrubar em $I$%.
+2110992274|163a8e76||Adiciona $I$ pontos na intensidade do Sinal e $I$ pontos na onda de fogo por segundo.
+2110992275|b1173fc6||Aumenta em $I$ pontos o dano da Armadilha mágica.
+2110992276|b1173fc5||Adiciona $I$ pontos na capacidade do escudo para absorver danos.
+2110992277|        |gm_sign_stats_axii_duration_confusion|Duração da confusão
+2110992278|        |gm_sign_stats_axii_duration_control|Duração do controle
+2110992279|163a8e70||Modo de Sinal Alternativo:<br>Aard acerta todos os oponentes em um certo raio. A intensidade do sinal é $I$% menor neste modo.
+2110992280|71d0be23||Modo de Sinal Alternativo:<br>Aard acerta todos os oponentes em um certo raio. A intensidade do sinal é $I$% menor neste modo.
+2110992281|71d0be24||Modo de Sinal Alternativo:<br>Aard acerta todos os oponentes em um certo raio. A intensidade do sinal não é diminuida neste modo.
+2110992282|71d0d0e8||Aard agora causa $I$ de dano. O dano varia com a intesidade do Sinal. Dano atual: $I$.
+2110992283|71d0d0e9||Aard agora causa $I$ de dano. O dano varia com a intesidade do Sinal. Dano atual: $I$.
+2110992284|cf2b2d9f||Uma rajada de energia telecinética que atordoa os oponentes e tem $I$% de chance de derrubá-los. Maior chance de derrubá-los é $I$%. A possibilidade varia com a intensidade do Sinal. Concede uma chance adicional de 15% para acertar de forma crítica o inimigo derrubado.
+2110992286|cf2b2da3||Encanta a mente de um oponente, confundindo-o eliminando-o do combate. <br>Duração da confusão: $S$ segundos (varia com a intensidade do Sinal). Concede uma chance adicional de 15% de acertar criticamente o inimigo confuso.
+2110992287|b1173fc8||Aumenta a duração do Sinal Axii em $I$%.
+2110992288|163a8e74||Modo de Sinal Alternativo:<br>O inimigo no alvo se torna um aliado por $I$s e ganha $I$% de bônus de poder de ataque. Duração do efeito varia com a intensidade do Sinal. Duração Atual: $I$s.
+2110992289|71d0cd27||Modo de Sinal alternativo:<br>O inimigo no alvo se torna um aliado por $I$s e ganha $I$% de bônus de poder de ataque. Duração do efeito varia com a intensidade do Sinal. Duração Atual: $I$s.
+2110992290|71d0cd28||Modo de Sinal alternativo:<br>O inimigo no alvo se torna um aliado por $I$s e ganha $I$% de bônus de poder de ataque. Duração do efeito varia com a intensidade do Sinal. Duração Atual: $I$s.
+2110992291|483c9092||Cada golpe gera cargas que aumentam o dano da espada em $S$%. As cargas são perdidas ao longo do tempo ou ao receber dano. Uma espada totalmente carregada aumenta a chance de acerto crítico em $S$%. 
+2110992292|1f5adb4f||Matar um inimigo com a espada inteiramente carregada gastará sua carga para aumentar permanentemente o dano da arma. Quando o bônus de dano alcança seu máximo, o nível da espada aumenta. O dano é aumentado em $S$ (até um máximo de 10).
+2110992293|        |gm_sign_stats_heavy_knockdown|Chance de nocautear
+2110992294|f76f46ed||Matar um inimigo restaura $I$% de seu Vigor. 
+2110992295|fad8f82b||Matar um inimigo dá $F$ a $F$ Pontos de Adrenalina. 
+2110992296|ed2f3195||Dá $I$% de chance de devolver $I$% de dano sofrido para o atacante.
+2110992299|f2e69faf||Provocar danos com ataques rápidos faz a arma se carregar de energia, quando ganha uma coloração vermelha, um ataque forte libera esta energia em um golpe extra-forte, ao custo de parte da Vitalidade do atacante.
+2110992300|        |option_gm_use_xml_exp_toggle|Fixar a experiência das missões e combates
+2110992301|        |gm_kills_humans|Humanoides 
+2110992302|        |gm_kills_wh_warriors|Guerreiro da caçada selvagem 
+2110992303|        |gm_kills_total|Total
+2110992304|        |gm_kills_animals_total|Animais
+2110992305|        |gm_kills_monsters_total|Monstros
+2110992306|        |gm_kills_by_type|Mortes por tipo
+2110992307|        |gm_kills_kill_count|Contagem de mortos
+2110992308|        |gm_kills_humans_total|Humanoides 
+2110992309|        |gm_kills_bosses_total|Criaturas únicas
+2110992310|1f70c026||Aumenta a chance de acerto crítico da besta em $I$% e o poder do acerto crítico da besta em $I$%.
+2110992311|e71d7c8c||Concede 15% de resistência adicional a todos os tipos de danos caso esteja com no máximo 60 kilos no invetário, bônus diminui com mais peso.
+2110992312|        |option_gm_stash_sync_toggle|Sincronizar o estoque com o inventário, modo padrão 
+2110992313|da7e5ba8||Se você tiver pelo menos um Ponto de Adrenalina, ele será usado para lançar um Sinal em vez de Vigor.
+2110992314|63833111||Não elevar o nivel dos guardas  

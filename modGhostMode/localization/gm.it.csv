@@ -1,0 +1,300 @@
+;meta[language=it]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+2110992000|        |panel_Mods|Mods
+2110992001|        |panel_ghost_mode|Ghost Mode
+2110992002|        |option_gm_health_multiplier|Modificatore salute nemici
+2110992003|        |option_gm_damage_multiplier|Modificatore danni nemici
+2110992004|        |option_gm_enemies_scaling|Dimensionamento nemici
+2110992005|        |preset_value_gm_es_none|Nessuno
+2110992006|        |preset_value_gm_es_upscale|Scala in Alto
+2110992007|        |preset_value_gm_es_match|Ex aequo
+2110992013|        |attribute_name_frost_resistance_perc|Resistenza gelo
+2110992014|        |attribute_name_armor_reduction_perc|Riduzione resistenza danni nemici
+2110992015|        |attribute_name_potion_duration|Durata pozioni
+2110992016|        |preset_value_gm_es_soft|Lieve dimensionamento 
+2110992017|        |panel_common_statistics_tooltip_silver_dph_gm|Danno per colpo (argento)
+2110992018|        |panel_common_statistics_tooltip_steel_dph_gm|Danno per colpo (acciaio)
+2110992019|        |gm_sign_stats_channeling_damage_per_sec|Danni fiammata continua per sec
+2110992020|        |gm_sign_stats_yrden_traps|Trappole magiche
+2110992021|        |gm_sign_stats_yrden_damage|Danni trappola magica
+2110992022|        |gm_sign_stats_alt_yrden_duration|Durata torretta magica
+2110992023|        |gm_sign_stats_alt_yrden_charges|Cariche torretta magica
+2110992024|        |gm_sign_stats_alt_yrden_damage|Danni torretta magica
+2110992025|        |gm_sign_stats_alt_quen_returned_damage|Ritorno danni
+2110992026|        |gm_sign_stats_alt_quen_dmg_absorption|Scudo attivo assorbimento danni
+2110992027|        |gm_sign_stats_alt_axii_chance|Probabilità Axii
+2110992028|        |gm_combat_stats_fast_attack_power|Potenza attacco rapido
+2110992029|        |gm_combat_stats_strong_attack_power|Potenza attacco potente
+2110992030|        |gm_sign_stats_quen_dmg_absorption|Assorbimento danni
+2110992034|        |attribute_name_vsBeast_critical_hit_chance|Probabilità colpo critico contro Bestie
+2110992035|        |attribute_name_vsCursed_critical_hit_chance|Probabilità colpo critico contro Maledetti
+2110992036|        |attribute_name_vsDraconide_critical_hit_chance|Probabilità colpo critico contro Draconidi
+2110992037|        |attribute_name_vsHuman_critical_hit_chance|Probabilità colpo critico contro Umani
+2110992038|        |attribute_name_vsHybrid_critical_hit_chance|Probabilità colpo critico contro Ibridi
+2110992039|        |attribute_name_vsInsectoid_critical_hit_chance|Probabilità colpo critico contro Insettoidi
+2110992040|        |attribute_name_vsMagicals_critical_hit_chance|Probabilità colpo critico contro Costrutti
+2110992041|        |attribute_name_vsNecrophage_critical_hit_chance|Probabilità colpo critico contro Necrofagi
+2110992042|        |attribute_name_vsRelic_critical_hit_chance|Probabilità colpo critico Ancestrali
+2110992043|        |attribute_name_vsSpecter_critical_hit_chance|Probabilità colpo critico Spettri
+2110992044|        |attribute_name_vsOgre_critical_hit_chance|Probabilità colpo critico Orchi
+2110992045|        |attribute_name_vsVampire_critical_hit_chance|Probabilità colpo critico Vampiri
+2110992046|        |attribute_name_vsBeast_critical_hit_damage_bonus|Potenza colpo critico contro Bestie
+2110992047|        |attribute_name_vsCursed_critical_hit_damage_bonus|Potenza colpo critico contro Maledetti
+2110992048|        |attribute_name_vsDraconide_critical_hit_damage_bonus|Potenza colpo critico contro Draconidi
+2110992049|        |attribute_name_vsHuman_critical_hit_damage_bonus|Potenza colpo critico contro Umani
+2110992050|        |attribute_name_vsHybrid_critical_hit_damage_bonus|Potenza colpo critico contro Ibridi
+2110992051|        |attribute_name_vsInsectoid_critical_hit_damage_bonus|Potenza colpo critico contro Insettoidi
+2110992052|        |attribute_name_vsMagicals_critical_hit_damage_bonus|Potenza colpo critico contro Costrutti
+2110992053|        |attribute_name_vsNecrophage_critical_hit_damage_bonus|Potenza colpo critico contro Necrofagi
+2110992054|        |attribute_name_vsRelic_critical_hit_damage_bonus|Potenza colpo critico contro Ancestrali
+2110992055|        |attribute_name_vsSpecter_critical_hit_damage_bonus|Potenza colpo critico contro Spettri
+2110992056|        |attribute_name_vsOgre_critical_hit_damage_bonus|Potenza colpo critico contro Orchi
+2110992057|        |attribute_name_vsVampire_critical_hit_damage_bonus|Potenza colpo critico contro Vampiri
+2110992058|        |attribute_name_vsBeast_resist_reduction|Resistenza riduzione danni contro Bestie
+2110992059|        |attribute_name_vsCursed_resist_reduction|Resistenza riduzione danni contro Maledetti
+2110992060|        |attribute_name_vsDraconide_resist_reduction|Resistenza riduzione danni contro Draconidi
+2110992061|        |attribute_name_vsHuman_resist_reduction|Resistenza riduzione danni contro Umani
+2110992062|        |attribute_name_vsHybrid_resist_reduction|Resistenza riduzione danni contro Ibridi
+2110992063|        |attribute_name_vsInsectoid_resist_reduction|Resistenza riduzione danni contro Insettoidi
+2110992064|        |attribute_name_vsMagicals_resist_reduction|Resistenza riduzione danni contro Costrutti
+2110992065|        |attribute_name_vsNecrophage_resist_reduction|Resistenza riduzione danni contro Necrofagi
+2110992066|        |attribute_name_vsRelic_resist_reduction|Resistenza riduzione danni contro Ancestrali
+2110992067|        |attribute_name_vsSpecter_resist_reduction|Resistenza riduzione danni contro Spettri
+2110992068|        |attribute_name_vsOgre_resist_reduction|Resistenza riduzione danni contro Orchi
+2110992069|        |attribute_name_vsVampire_resist_reduction|Resistenza riduzione danni contro Vampiri
+2110992070|        |attribute_name_vsHuman_attack_power|Potenza d'attacco contro Umani
+2110992071|da7e5ba4||Ogni pezzo di armatura leggere aumenta la probabilità di colpo critico del $S$% e potenza del colpo critico del $S$%.
+2110992072|da7e5ba6||Each piece of heavy armor increases maximum Vitality by $S$%, damage dealt by melee attacks grants additional $S$% Adrenaline Points per each heavy armor piece.
+2110992073|163a8e78||Aumenta probabilità bruciatura del $I$%.
+2110992074|3c4a6af2||Danno attacco potente
+2110992075|5806ca6e||Danno critico attacco potente
+2110992076|69d8dd89||Danno critico attacco rapido
+2110992077|89dfeac9||Probabilità colpo critico attacco rapido
+2110992078|bc4297c4||Probabilità colpo critico attacco potente
+2110992079|d23992f7||Danno attacco rapido
+2110992080|2e06698e||Danno critico attacco potente
+2110992081|3375c4a9||Danno critico attacco rapido
+2110992082|73d42fa9||Probabilità colpo critico attacco rapido
+2110992083|b08bd7d2||Danno attacco potente
+2110992084|c7b0b7d7||Danno attacco rapido
+2110992085|fa3924a4||Probabilità colpo critico attacco potente
+2110992090|6c1d3ba3||Probabilità colpo critico e potenza colpo critico si applicano anche alle Bombe. Le Bombe vengono lanciate senza nessun ritardo.
+2110992091|85e8fbd1||Ogni unguento applicato a una spada aumenta la probabilità di colpo critico del 5% e la potenza del colpo critico del 10%
+2110992092|1f70c024||Attacchi rapidi hanno una probabilità del $S$% di causare l'effetto sanguinamento.
+2110992093|71d0c5a6||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
+2110992094|71d0c5a5||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
+2110992095|163a8e72||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
+2110992096|b1173fc9||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto diminuisce del $I$%.
+2110992097|c8467d3c||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto diminuisce del $I$%.
+2110992098|c8467d3d||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto non diminuisce.
+2110992099|1f70c022||Ogni Punto Adrenalina aggiunge il $I$% di probabilità di uccidere istantaneamente un avversario. Non viene applicato al vortice
+2110992102|1f70c021||L'attacco potente trapassa blocchi e scudi. Infligge un ulteriore $S$% di danni e $S$% danni per Punti Adrenalina in proporzione al Vigore consumato($S$% max). Aumenta la probabilità di colpo critico del $S$%.
+2110992103|1f70c020||L'attacco roteante colpisce tutti i nemici nella zona circostante.Riduce il danno del $S$%. Mantenere l'attacco consuma Vigore e Adrenalina. Il danno ricevuto viene diminuito del $S$% durante l'attacco.
+2110992104|064143d3||L'attacco roteante colpisce tutti i nemici nella zona circostante.Riduce il danno del $S$%. Mantenere l'attacco consuma Vigore e Adrenalina. Il danno ricevuto viene diminuito del $S$% durante l'attacco.
+2110992105|        |gm_stat_adrenaline_gain|Guadagno Adrenalina
+2110992106|739e1e2c||Attacchi Potenti aumentano il danno degli Attacchi Rapidi per $S$ secondi del $S$% per ogni pezzo del set. E viceversa. Bonus attuale: $S$%.
+2110992107|8ed43e3e||Ogni pezzo del set diminuisce il costo di Vigore per lanciare il segno del $S$%. Bonus attuale: $S$%.
+2110992108|8ed43e3f||The size of Yrden traps is increased by $S$%. While you are within an Yrden trap, Sign Intensity is increased by $S$% and damage resistance is increased by $S$%.
+2110992109|739e1e2d||I colpi critici con una spada raddoppiano il guadagno di Adrenalina.
+2110992110|        |attribute_name_desc_knockdownchance_mult|Probabilità atterramento
+2110992111|c3f538a3||La probabilità di colpo critico della Balestra è aumentato del $S$% e la potenza del colpo critico - del $S$%. I Dardi di Balestra perforano e atterrano o stordiscono gli avversari. Gli avversari colpiti quando hanno la massima Vitalità perdono il $S$% di Vitalità.
+2110992112|        |effect_undying_skill|Inarrestabilità
+2110992113|c1e6a9cc||Quando la Vitalità raggiunge lo zero, i Punti Adrenalina verranno consumati per prevenire la morte e concede l'invunerabilità e una maggiore rigenerazione di vitalità per $S$s. Ripristina il $S$% di vitalità per Punto Adrenalina(Max $S$%). Può essere attivato una volta ogni $S$s.
+2110992114|c1e6a9cb||Quando la Vitalità raggiunge lo zero, i Punti Adrenalina verranno consumati per prevenire la morte concedendo l'invunerabilità e una maggiore rigenerazione di vitalità per $S$s. Ripristina il $S$% di vitalità per Punto Adrenalina(Max $S$%). Può essere attivato una volta ogni $S$s.
+2110992115|cea74418||Quando la Vitalità raggiunge lo zero, i Punti Adrenalina verranno consumati per prevenire la morte concedendo l'invunerabilità e una maggiore rigenerazione di vitalità per $S$s. Ripristina il $S$% di vitalità per Punto Adrenalina(Max $S$%). Può essere attivato una volta ogni $S$s.
+2110992116|cea74430||La Potenza di attacco per gli attacchi rapidi è aumentata del $I$%.
+2110992117|1f70c023||La Potenza di attacco degli attacchi potenti è aumentata del $I$%.
+2110992118|cea74417||Aumenta la probabilità di colpo critico dell'attacco rapido del $I$% e la potenza del colpo critico dell'attacco rapido del $I$%
+2110992119|1f70c027||Aumenta la probabilità di colpo critico dell'attacco potente del $I$% e la potenza del colpo critico dell'attacco potente del $I$%
+2110992120|c1e68bc4||Le parate perfettamente a tempo riflettono indietro le frecce, il danno è aumentato del $I$%.
+2110992121|c1e68f84||Un contrattacco andato a buon fine aumenta la potenza del prossimo attacco del $I$%. Ogni Punto Adrenalina aumenta la probabilità di atterramento del $I$% (max $I$%, l'adrenalina viene consumata in caso di successo).
+2110992122|c1e68f85||Un contrattacco andato a buon fine aumenta la potenza del prossimo attacco del $I$%. Ogni Punto Adrenalina aumenta la probabilità di atterramento del $I$% (max $I$%, l'adrenalina viene consumata in caso di successo). Aumenta la probabilità di colpo critico del $I$%.
+2110992123|cea74411||Un contrattacco andato a buon fine aumenta la potenza del prossimo attacco del $I$%.
+2110992124|cf2b2da2||Lo scudo protettivo dura fino a quando non assorbe $I$ punti di danno. L'assorbimento danni scala con intensità del Segno. Assorbimento attuale: $I$. <br>Durata scudo: $I$s.
+2110992125|163a8e77||Il danno inflitto da Igni diminuisce in modo permanente l'Armatura Totale del nemico del $S$% per colpo(scala con intensità del Segno). Il valore massimo dell'effetto non può superare il $S$%.
+2110992126|cf2b2da0||Un Esplosione di fuoco che infligge $I$ punti di danno con il $I$% di probabilità di incendiare i nemici. Il danno scala con l'intensità del Segno. Danno attuale: $I$.
+2110992127|163a8e71||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
+2110992128|71d0c1e4||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
+2110992129|71d0c1e5||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
+2110992130|163a8e75||Aard adesso infligge $I$ danni. I danni scalano con intensità del Segno. Danno attuale: $I$.
+2110992131|b3c8ebb8||Torretta Magica
+2110992132|b1173fc0||La durata di Trappola Magica e Torretta Magica è aumentata del $I$%, il numero di cariche di Torretta Magica aumenta di $I$.
+2110992133|        |gm_alt_yrden_lvl3_description|La durata di Trappola Magica e Torretta Magica è aumentata del $I$%, il numero di cariche di Torretta Magica aumenta di $I$. Adesso è possibile posizionare un ulteriore Trappola Magica.
+2110992134|b1173fc1||I nemici dentro la Trappola Magica perdono $S$% punto(i) Vitalità o Essenza al secondo.
+2110992135|c84666b6||Lo scudo Quen spinge indietro i nemici e infligge $I$ punti danno quando si infrange. Il danno scala con intensità del Segno (danno corrente: $I$).
+2110992136|c84666b7||Lo scudo Quen spinge indietro i nemici con una probabilità di atterrare e infliggere $I$ punti danno quando si infrange.
+2110992137|163a8e73||Modalità Segno Alternativa:<br>Crea uno scudo attivo che assorbe il $I$% di danni in più. Il mantenimento dello scudo consuma $I$ Punti Vigore al secondo. Gli attacchi bloccati consumano Vigore in modo proporzionale al danno assorbito. Ripristina la Vitalità del $I$% dei danni assorbiti.
+2110992138|71d0c966||Modalità Segno Alternativa:<br>Crea uno scudo attivo che assorbe il $I$% di danni in più. Il mantenimento dello scudo consuma $I$ Punti Vigore al secondo. Gli attacchi bloccati consumano Vigore in modo proporzionale al danno assorbito. Ripristina la Vitalità del $I$% dei danni assorbiti.
+2110992139|71d0c967||Modalità Segno Alternativa:<br>Crea uno scudo attivo che assorbe il $I$% di danni in più. Il mantenimento dello scudo non consuma Vigore. Gli attacchi bloccati consumano Vigore in modo proporzionale al danno assorbito. Ripristina la Vitalità del $I$% dei danni assorbiti.
+2110992140|15dda916||L'unguento appropiato applicato alle lame da una probabilità del $I$% di avvelenare il bersaglio con ogni colpo. L'unguento migliorato aumenta questa probabilità del $I$% e l'unguento Superiore - del $I$%.
+2110992141|15dda91a||Se la Tossicità è maggiore di zero, il tempo rallenta automaticamente del $S$% quando un nemico si appresta a sferrare un contrattacco. Durata effetto: $S$s.
+2110992142|1517d64d||Se la Tossicità è maggiore di zero, il tempo rallenta automaticamente del $S$% quando un nemico si appresta a sferrare un contrattacco. Durata effetto: $S$s.
+2110992143|1517d64e||Se la Tossicità è maggiore di zero, il tempo rallenta automaticamente del $S$% quando un nemico si appresta a sferrare un contrattacco. Durata effetto: $S$s.
+2110992145|329005f0||Consente di eseguire potenti attacchi corpo a corpo che infliggono il $I$% di danni in più e aggiunge $I$ penetrazione armatura.
+2110992148|bab1daf5||Ciascun punto Tossicità aumenta la Potenza d'Attacco e l'Intensità del Segno del $S$% (fino a un massimo di $S$%).
+2110992149|c3f5389c||I Segni possono infliggere colpi critici. La loro probabilità di colpo critico e la potenza aumenta con l'Intensità del Segno (Probabilità di colpo critico attuale -  $S$%, potenza colpo critico - $S$%). Gli avversari, uccisi da colpi critici dei segni, esplodono.
+2110992150|c3f538a0||Quando il Segno Aard viene lanciato, ha una probabilità del $S$% di congelare i nemici. I nemici affetti contemporaneamente da atterramento e congelamento muoiono immediatamente. I nemici non congelati ricevono $S$ danni aggiuntivi. Il danno scala con intensità del Segno. Danno attuale: $S$.
+2110992151|cf2b2da1||Trappola Magica rallenta i nemici del $S$%(scala con l'Intensità del Segno) all'interno della sua area di effetto. Durata Trappola: $S$s.
+2110992152|c3f538a1||All'inizio del combattimento, Potenza di Attacco e Intensita del Segno aumentano del $S$% per ogni nemico(dopo il primo) per $S$s. Quindi, quando si combattono $S$ nemici, il bonus è del $S$%. Una volta esaurito l'effetto, Potenza di Attacco e Intensità del Segno diminuiscono del $S$% per ogni nemico che partecipa dopo il primo(ma non oltre il $S$%) per $S$s.
+2110992153|c32e766a||Bonus potenza colpo critico
+2110992154|28838f82||Penetrazione armatura
+2110992155|f35fcb73||Penetrazione armatura
+2110992156|        |attribute_name_vitalityRegen|Rigenerazione Vitalità fuori dal combattimento.
+2110992157|        |attribute_name_vitalityCombatRegen|Rigenerazione Vitalità durante il combattimento.
+2110992158|c95c6e28||Quando la vitalità è al massimo, la rigenerazione della Vitalità aumenta il danno con spada o segno del prossimo attacco (fino a +$I$%).
+2110992159|ccc61f66||Qualsiasi alimento consumato ha una durata maggiore del $I$%.
+2110992160|22156cd6||Quando la Torretta Magica piazzata da Yrden colpisce un nemico, una Trappola Magica Yrden viene messa in quella posizione.
+2110992161|        |attribute_name_spell_dmg_bonus|Danno Segno
+2110992162|        |attribute_name_sword_dmg_bonus|Danno arma
+2110992163|7968d6e0||Congela i nemici. I colpi inferti a nemici congelati infliggono un ulteriore danno. Durata estesa.
+2110992164|b02a28c2||Aumento danno
+2110992165|9e58d1f5||Aumenta l'intensità del Segno. Durata estesa. Gli effetti speciali dei segni sono aumentati di un-terzo.
+2110992166|329005f3||I colpi inferti durante il combattimento generano Punti Adrenalina. Ogni Punto Adrenalina aumenta la potenza di attacco del $I$%.
+2110992167|        |gm_combat_stats_fast_crit_attack_power|Attacco rapido potenza colpo critico 
+2110992168|        |gm_combat_stats_strong_crit_attack_power|Attacco potente potenza colpo critico
+2110992169|        |gm_used_razor_success|Geralt è ben rasato adesso.
+2110992170|329005f2||Ti permette di brandire una balestra leggera in mano. I colpi non inferti alla testa infliggono il 50% di danni in meno.
+2110992171|5f63dbf5||Attiva la creazione di bombe che possono essere lanciate contro i nemici. I lanci non mirati infliggono il 50% di danni in meno.
+2110992172|754d1891||In aggiunta ai consueti effetti di battaglia, ogni Punto Adrenalina aumenta anche l'intensita del Segno del $I$%.
+2110992173|        |item_desc_razor_mod|Usato per la rasatura.
+2110992174|da7e5ba5||Ogni pezzo di armatura media aumenta l'intensità del Segno del $S$% e la rigenerazione del Vigore del $S$%.
+2110992175|b1173fc7||Il bersaglio viene rallentato del $I$% mentre Geralt lancia il segno Axii. Aumenta l'efficacia di Axii nei dialoghi.
+2110992176|c84675ba||Il bersaglio viene rallentato del $I$% mentre Geralt lancia il segno Axii. Aumenta l'efficacia di Axii nei dialoghi.
+2110992177|c84675bb||Il bersaglio viene rallentato del $I$% mentre Geralt lancia il segno Axii. I tentativi falliti con Axii fanno vacillare il bersaglio. Aumenta l'efficacia di Axii nei dialoghi.
+2110992178|56747c57||Accellera la rigenerazione della Vitalità. Durata estesa. La rigenerazione della Vitalità non si ferma dopo aver subbito un danno.
+2110992179|        |gm_geralt_too_heavy|L'ingombro del tuo inventario è troppo alto.
+2110992180|        |option_gm_sink_boat_toggle|La barca affonda se l'ingombro dell'inventario è troppo alto
+2110992181|        |option_gm_sink_boat_slider|Oltre il limite d'ingombro la barca affonda(%)
+2110992182|        |gm_switch_inv_mode|Cambia modalità
+2110992183|        |option_gm_encumbrance_slider|Riduci ingombro oggetti (%)
+2110992184|        |gm_normal_inv_mode|Modalità inventario del giocatore
+2110992185|        |gm_stash_inv_mode|Modalità scorta
+2110992186|        |gm_mixed_inv_mode|Modalità inventario misto
+2110992187|        |gm_synchronized_inv_mode|Modalità sincronizzata
+2110992188|e71d7c90||La Vitalità di Geralt viene aumentata per ogni nemico ucciso
+2110992189|d3510d11||Contiene schegge d'argento che impediscono temporaneamente la trasformazione e rigenerazione dei mostri.
+2110992190|d3510d12||Contiene schegge d'argento che impediscono temporaneamente la trasformazione e rigenerazione dei mostri. Durata estesa.
+2110992191|d3510d13||Contiene schegge d'argento che impediscono temporaneamente la trasformazione e rigenerazione dei mostri.
+2110992192|08eace65||Aumenta l'efficacia di attacco contro insettoidi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992193|08eace66||Aumenta l'efficacia di attacco contro insettoidi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992194|08eace67||Aumenta l'efficacia di attacco contro insettoidi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992195|3a67f159||Aumenta l'efficacia di attacco contro i maledetti. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992196|3a67f15a||Aumenta l'efficacia di attacco contro i maledetti. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992197|3a67f15b||Aumenta l'efficacia di attacco contro i maledetti. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992198|65067e25||Aumenta l'efficacia di attacco contro i necrofagi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992199|65067e26||Aumenta l'efficacia di attacco contro i necrofagi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992200|65067e27||Aumenta l'efficacia di attacco contro i necrofagi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992201|7b1c29c3||Aumenta l'efficacia di attacco contro gli ibridi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992202|7b1c29c4||Aumenta l'efficacia di attacco contro gli ibridi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992203|7b1c29c5||Aumenta l'efficacia di attacco contro gli ibridi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992204|88e86911||Aumenta l'efficacia di attacco contro i vampiri. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992205|88e86912||Aumenta l'efficacia di attacco contro i vampiri. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992206|88e86913||Aumenta l'efficacia di attacco contro i vampiri. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992207|aed490e2||Aumenta l'efficacia di attacco contro i costrutti. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992208|aed490e3||Aumenta l'efficacia di attacco contro i costrutti. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992209|aed490e4||Aumenta l'efficacia di attacco contro i costrutti. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992210|d11afcde||Aumenta l'efficacia di attacco contro umani, elfi, nani e halflings. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992211|d11afcdf||Aumenta l'efficacia di attacco contro umani, elfi, nani e halflings. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992212|d11afce0||Aumenta l'efficacia di attacco contro umani, elfi, nani e halflings. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992213|ea1a3189||Aumenta l'efficacia di attacco contro gli spettri. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992214|ea1a318a||Aumenta l'efficacia di attacco contro gli spettri. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992215|ea1a318b||Aumenta l'efficacia di attacco contro gli spettri. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992216|ef649cfe||Aumenta l'efficacia di attacco contro i draconidi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992217|ef649cff||Aumenta l'efficacia di attacco contro i draconidi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992218|ef649d00||Aumenta l'efficacia di attacco contro i draconidi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992219|f8b46c36||Aumenta l'efficacia di attacco contro gli ancestrali. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992220|f8b46c37||Aumenta l'efficacia di attacco contro gli ancestrali. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992221|1ff07bf8||Aumenta l'efficacia di attacco contro gli ancestrali. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992222|7753393f||Aumenta l'efficacia di attacco contro gli orchi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992223|77533940||Aumenta l'efficacia di attacco contro gli orchi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992224|77533941||Aumenta l'efficacia di attacco contro gli orchi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992225|c0218f12||Aumenta l'efficacia di attacco contro gli orchi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992226|c0218f13||Aumenta l'efficacia di attacco contro gli orchi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992227|c0218f14||Aumenta l'efficacia di attacco contro gli orchi. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992228|dd8e2b22||Aumenta l'efficacia di attacco contro le bestie. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992229|dd8e2b23||Aumenta l'efficacia di attacco contro le bestie. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992230|dd8e2b24||Aumenta l'efficacia di attacco contro le bestie. L'efficacia dell'unguento diminuisce con l'usura della lama.
+2110992231|de026195||Elimina la Tossicità e gli effetti delle pozioni attive.
+2110992232|de026196||Elimina la Tossicità e gli effetti delle pozioni attive.
+2110992233|de026197||Elimina la Tossicità e gli effetti delle pozioni attive.
+2110992234|        |item_desc_relic_oil_3|Aumenta l'efficacia di attacco contro gli ancestrali.
+2110992235|874e9f88||Permette di vedere nel buio più totale e concede l'immunità all'ipnosi. Durata estesa.
+2110992237|fe608837||Infligge danni da schegge ai nemici nel suo raggio di esplosione. Infligge anche danni da fuoco. Effetto potenziato. Distrugge lo scudo nemico. Distrugge i nidi dei mostri.
+2110992238|63cd93a5||Rilascia una nube di schegge al dimeritium che bloccano la magia e le abilità magiche dei mostri.
+2110992239|        |attribute_name_duration_out_of_cloud|Durata fuori dalla nube
+2110992240|874e9f87||Permette di vedere nel buio più totale. Durata estesa.
+2110992241|e71d7c8e||Dopo un attacco potente tutto il Vigore viene consumato per ridurre ulteriormente la vitalità delle vittime del 5%. Se il Vigore speso è inferiore al 100%, l'effetto viene proporzionalmente diminuito.
+2110992242|fc921527||Applica casualmente l'effetto di un Luogo di Potere al tramonto e all'alba. Dura più a lungo di altri decotti mutageni.
+2110992243|e71d7c93||Aumenta l'Intensità dei Segni quando è nuvoloso.
+2110992244|fc921524||Aumenta la resistenza al sanguinamento, incenerimento e avvelenamento che vengono applicati durante il combattiemnto. Più è grande la durata di questi effetti, più grande è il bonus di resistenza.
+2110992245|fc921525||Compiere azioni che consumano Vigore rigenera la Vitalità in modo proporzionale al Vigore perso.
+2110992246|fc92152b||Subire danni aumenta la resistenza al danno per tutta la durata del combattimento (fino al 20%).
+2110992247|fc921505||Ogni colpo assestato aumenta la potenza di attacco(max 100%) fino alla fine del combattimento o finché non si subisce danno(esclusa la Tossicità). 
+2110992248|fc921509||La Potenza di Attacco cresce nel corso del combattimento(fino al 30%).
+2110992249|fc921526||Ogni volta che viene lanciato un Segno aumenta la rigenerazione del Vigore(fino a 20) per il resto del combattimento.
+2110992250|        |option_gm_rnd_scaling_min_slider|Ridimensionamento casuale: limite inferiore(rispetto il livello del giocatore)
+2110992251|        |option_gm_rnd_scaling_max_slider|Ridimensionamento casuale: limite superiore(rispetto il livello del giocatore)
+2110992252|        |preset_value_gm_es_random|Casuale
+2110992253|        |option_gm_no_quest_levels_toggle|Disabilita livelli quest
+2110992254|        |option_gm_no_animal_upscaling_toggle|Non alzare il livello degli animali
+2110992255|        |preset_value_gm_es_random_no_down|Casuale senza diminuire i livelli
+2110992256|        |item_desc_note|Contiene informazione inutili.
+2110992257|        |gm_recycling_parts|Creazione componenti
+2110992258|25691b0a||Può essere venduto ai mercanti o smontato.
+2110992259|        |item_desc_junk_no_ingr|Può essere venduto ai mercanti
+2110992260|7fd2ce90||Può essere venduto per una notevole somma o smontato.
+2110992261|        |PanelStash|Inventario
+2110992262|        |effect_undying_cooldown|Ricarica Inarrestabilità
+2110992263|        |attribute_name_staminaRegen_armor_mod|Modificatore rigenerazione Vigore
+2110992264|        |attribute_name_chanceToIgnoreHitAnim|Probabilità di rimanere in equilibrio quando colpito
+2110992265|        |attribute_name_q108_bounce_arrows|Probabilità di far rimbalzare una freccia
+2110992266|        |item_name_repair_kit_weapon_4|Strumenti fabbro maestro
+2110992267|        |item_desc_repair_kit_weapon_4|Forgia strumenti utilizzati dal fabbro maestro. Aumenta permanentemente il danno dell'arma.
+2110992268|        |item_name_repair_kit_armor_4|Strumenti armaiolo maestro
+2110992269|        |item_desc_repair_kit_armor_4|Forgia strumenti utilizzati dall'armaiolo maestro. Aumenta permanentemente il valore dell'armatura.
+2110992270|        |option_gm_quest_exp_slider|Modificatore esperienza quest
+2110992271|        |option_gm_monster_exp_slider|Modificatore esperienza in combattimento
+2110992272|        |attribute_name_knockdown|Probabilità atterramento
+2110992273|b1173fc2||Grande Aumento della probabilità di atterramento del $I$%.
+2110992274|163a8e76||Aggiunge $I$ punti danni da fuoco e $I$ punti ai danni di fiammata al sec.
+2110992275|b1173fc6||Aggiunge $I$ punti danno alla Torretta Magica.
+2110992276|b1173fc5||Aggiunge $I$ punti all'assorbimento danno dello scudo.
+2110992277|        |gm_sign_stats_axii_duration_confusion|Durata confusione
+2110992278|        |gm_sign_stats_axii_duration_control|Durata controllo
+2110992279|163a8e70||Modalità Segno Alternativo:<br> Aard colpisce tutti gli avversari nel raggio di azione. L'intensità del Segno è inferiore del $I$% in questa modalità.
+2110992280|71d0be23||Modalità Segno Alternativo:<br> Aard colpisce tutti gli avversari nel raggio di azione. L'intensità del Segno è inferiore del $I$% in questa modalità.
+2110992281|71d0be24||Modalità Segno Alternativo:<br> Aard colpisce tutti gli avversari nel raggio di azione. Intensità del Segno non viene abbassata in questa modalità.
+2110992282|71d0d0e8||Aard adesso infligge $I$ danni. Il danno scala con l'intensita del Segno. Danno attuale: $I$.
+2110992283|71d0d0e9||Aard adesso infligge $I$ danni. Il danno scala con l'intensita del Segno. Danno attuale: $I$.
+2110992284|cf2b2d9f||Un'ondata di energia telecinetica che infligge vacillamento agli avversari e una probabilità del $I$% di atterramento. Grande probabilità di atterramento è del $I$%. La probabilità scala con l'intensita del Segno.
+2110992286|cf2b2da3||Ammalia la mente di un nemico, confuso rimane lontano dal combattimento. <br> Durata confusione: $S$ secondi(scala con l'intensita del Segno).
+2110992287|b1173fc8||La durata dell'effetto di Axii è aumentata del $I$%.
+2110992288|163a8e74||Modalità Segno Alternativo:<br> il nemico bersaglio diventa un alleato per $I$s e guadagna un bonus alla forza di attacco del $I$%. La durata dell'effetto scala con l'intensità del Segno. Durata attuale: $I$s.
+2110992289|71d0cd27||Modalità Segno Alternativo:<br> il nemico bersaglio diventa un alleato per $I$s e guadagna un bonus alla forza di attacco del $I$%. La durata dell'effetto scala con l'intensità del Segno. Durata attuale: $I$s.
+2110992290|71d0cd28||Modalità Segno Alternativo:<br> il nemico bersaglio diventa un alleato per $I$s e guadagna un bonus alla forza di attacco del $I$%. La durata dell'effetto scala con l'intensità del Segno. Durata attuale: $I$s.
+2110992291|483c9092||Le cariche del danno inflitto dalla spada aumentano la potenza del colpo critico del $S$%. La carica diminuisce nel tempo e quando si subbiscono danni. Una spada completamente carica aumenta le probabilità di colpo critico del $S$%.
+2110992292|1f5adb4f||Uccidendo un nemico con una spada caricata al massimo si spendono le cariche per aumentare in modo permanente i danni dell'arma. Quando il danno bonus supera il massimo, aumenta il livello della spada. Il danno è aumentato di: $S$ (fino a un massimo di 10).
+2110992293|        |gm_sign_stats_heavy_knockdown|Grande probabilità di atterramento
+2110992294|f76f46ed||Uccidere un nemico ripristina il $I$% del Vigore.
+2110992295|fad8f82b||Uccidere un nemico conferisce da $F$ a $F$ Punti Adrenalina.
+2110992296|ed2f3195||Dona una probabilità del $I$% di riflettere all'attacante il $I$% di danni ricevuti.
+2110992299|f2e69faf||Infliggere danni con attacchi rapidi carica l'arma con energia. Quando il colore diventa rosso, un attacco potente rilascerà questa energia in un colpo più potente, al costo di una parte della vitalità dell'attaccante.
+2110992300|        |option_gm_use_xml_exp_toggle|Corretta esperienza per quest e combattimenti
+2110992301|        |gm_kills_humans|Umanoidi
+2110992302|        |gm_kills_wh_warriors|Guerrieri della Caccia Selvaggia
+2110992303|        |gm_kills_total|Totale
+2110992304|        |gm_kills_animals_total|Animali
+2110992305|        |gm_kills_monsters_total|Mostri
+2110992306|        |gm_kills_by_type|Uccisioni per tipo
+2110992307|        |gm_kills_kill_count|Conteggio uccisioni
+2110992308|        |gm_kills_humans_total|Umanoidi
+2110992309|        |gm_kills_bosses_total|Creature uniche
+2110992310|1f70c026||Increases crossbow critical hit chance by $I$% and crossbow critical hit power by $I$%.
+2110992311|e71d7c8c||Grants 15% of additional resistance to all types of damage if at 60 inventory weight or below, bonus decreases with more weight.
+2110992312|        |option_gm_stash_sync_toggle|Use synchronized stash mode by default
+2110992313|da7e5ba8||If you have at least one Adrenaline Point, it will be used to cast a Sign instead of Stamina.
+2110992314|        |option_gm_no_add_levels_guards|No additional levels for guards

@@ -1,0 +1,300 @@
+;meta[language=de]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+2110992000|        |panel_Mods|Mods
+2110992001|        |panel_ghost_mode|Ghost Mode
+2110992002|        |option_gm_health_multiplier|Gegner-Gesundheitsmodifikator
+2110992003|        |option_gm_damage_multiplier|Gegner-Schadensmodifikator
+2110992004|        |option_gm_enemies_scaling|Gegner Skalierung
+2110992005|        |preset_value_gm_es_none|Keine (Standard)
+2110992006|        |preset_value_gm_es_upscale|Hochskaliert
+2110992007|        |preset_value_gm_es_match|Angeglichen
+2110992013|        |attribute_name_frost_resistance_perc|Frostwiderstund
+2110992014|        |attribute_name_armor_reduction_perc|Gegner - Schadenswiderstand Reduktion
+2110992015|        |attribute_name_potion_duration|Trankdauer
+2110992016|        |preset_value_gm_es_soft|Leicht hochskaliert
+2110992017|        |panel_common_statistics_tooltip_silver_dph_gm|Schaden pro Treffer (Silber)
+2110992018|        |panel_common_statistics_tooltip_steel_dph_gm|Schaden pro Treffer (Stahl)
+2110992019|        |gm_sign_stats_channeling_damage_per_sec|Feuersturm - Schaden pro Sekunde
+2110992020|        |gm_sign_stats_yrden_traps|Magische Falle
+2110992021|        |gm_sign_stats_yrden_damage|Schaden der Magische Falle
+2110992022|        |gm_sign_stats_alt_yrden_duration|Dauer des magisches Geschützes
+2110992023|        |gm_sign_stats_alt_yrden_charges|Aufladungen des magisches Geschützes 
+2110992024|        |gm_sign_stats_alt_yrden_damage|Schaden des magisches Geschützes
+2110992025|        |gm_sign_stats_alt_quen_returned_damage|Zurückgeworfener Schaden
+2110992026|        |gm_sign_stats_alt_quen_dmg_absorption|Schadensabsorption des aktiven Schilds
+2110992027|        |gm_sign_stats_alt_axii_chance|Axii Chance
+2110992028|        |gm_combat_stats_fast_attack_power|Stärke des schnellen Angriffs
+2110992029|        |gm_combat_stats_strong_attack_power|Stärke des starken Angriffs
+2110992030|        |gm_sign_stats_quen_dmg_absorption|Schadensabsorption
+2110992034|        |attribute_name_vsBeast_critical_hit_chance|Kritische Trefferchance gegen Bestien
+2110992035|        |attribute_name_vsCursed_critical_hit_chance|Kritische Trefferchance gegen Verfluchte
+2110992036|        |attribute_name_vsDraconide_critical_hit_chance|Kritische Trefferchance gegen Drakoniden
+2110992037|        |attribute_name_vsHuman_critical_hit_chance|Kritische Trefferchance gegen Menschen
+2110992038|        |attribute_name_vsHybrid_critical_hit_chance|Kritische Trefferchance gegen Hybriden
+2110992039|        |attribute_name_vsInsectoid_critical_hit_chance|Kritische Trefferchance gegen Insektoiden
+2110992040|        |attribute_name_vsMagicals_critical_hit_chance|Kritische Trefferchance gegen Konstrukte
+2110992041|        |attribute_name_vsNecrophage_critical_hit_chance|Kritische Trefferchance gegen Nekrophagen
+2110992042|        |attribute_name_vsRelic_critical_hit_chance|Kritische Trefferchance gegen Relikte
+2110992043|        |attribute_name_vsSpecter_critical_hit_chance|Kritische Trefferchance gegen Geister
+2110992044|        |attribute_name_vsOgre_critical_hit_chance|Kritische Trefferchance gegen Ogroiden
+2110992045|        |attribute_name_vsVampire_critical_hit_chance|Kritische Trefferchance gegen Vampire
+2110992046|        |attribute_name_vsBeast_critical_hit_damage_bonus|Kritische Trefferstärke gegen Bestien
+2110992047|        |attribute_name_vsCursed_critical_hit_damage_bonus|Kritische Trefferstärke gegen Verfluchte
+2110992048|        |attribute_name_vsDraconide_critical_hit_damage_bonus|Kritische Trefferstärke gegen Drakoniden
+2110992049|        |attribute_name_vsHuman_critical_hit_damage_bonus|Kritische Trefferstärke gegen Menschen
+2110992050|        |attribute_name_vsHybrid_critical_hit_damage_bonus|Kritische Trefferstärke gegen Hybriden
+2110992051|        |attribute_name_vsInsectoid_critical_hit_damage_bonus|Kritische Trefferstärke gegen Insektoiden
+2110992052|        |attribute_name_vsMagicals_critical_hit_damage_bonus|Kritische Trefferstärke gegen Konstrukte
+2110992053|        |attribute_name_vsNecrophage_critical_hit_damage_bonus|Kritische Trefferstärke gegen Nekrophagen
+2110992054|        |attribute_name_vsRelic_critical_hit_damage_bonus|Kritische Trefferstärke gegen Relikte
+2110992055|        |attribute_name_vsSpecter_critical_hit_damage_bonus|Kritische Trefferstärke gegen Geister
+2110992056|        |attribute_name_vsOgre_critical_hit_damage_bonus|Kritische Trefferstärke gegen Ogroiden
+2110992057|        |attribute_name_vsVampire_critical_hit_damage_bonus|Kritische Trefferstärke gegen Vampire
+2110992058|        |attribute_name_vsBeast_resist_reduction|Schadenswiderstandsreduktion gegen Bestien
+2110992059|        |attribute_name_vsCursed_resist_reduction|Schadenswiderstandsreduktion gegen Verfluchte
+2110992060|        |attribute_name_vsDraconide_resist_reduction|Schadenswiderstandsreduktion gegen Drakoniden
+2110992061|        |attribute_name_vsHuman_resist_reduction|Schadenswiderstandsreduktion gegen Menschen
+2110992062|        |attribute_name_vsHybrid_resist_reduction|Schadenswiderstandsreduktion gegen Hybriden
+2110992063|        |attribute_name_vsInsectoid_resist_reduction|Schadenswiderstandsreduktion gegen Insektoiden
+2110992064|        |attribute_name_vsMagicals_resist_reduction|Schadenswiderstandsreduktion gegen Konstrukte
+2110992065|        |attribute_name_vsNecrophage_resist_reduction|Schadenswiderstandsreduktion gegen Nekrophagen
+2110992066|        |attribute_name_vsRelic_resist_reduction|Schadenswiderstandsreduktion gegen Relikte
+2110992067|        |attribute_name_vsSpecter_resist_reduction|Schadenswiderstandsreduktion gegen Geister
+2110992068|        |attribute_name_vsOgre_resist_reduction|Schadenswiderstandsreduktion gegen Ogroiden
+2110992069|        |attribute_name_vsVampire_resist_reduction|Schadenswiderstandsreduktion gegen Vampire
+2110992070|        |attribute_name_vsHuman_attack_power|Angriffsstärke gegen Menschen
+2110992071|da7e5ba4||Jedes Teil einer leichten Rüstung erhöht die kritische Trefferchance um $S$% und die kritische Trefferstärke um $S$%.
+2110992072|da7e5ba6||Each piece of heavy armor increases maximum Vitality by $S$%, damage dealt by melee attacks grants additional $S$% Adrenaline Points per each heavy armor piece.
+2110992073|163a8e78||Erhöht Chance auf Verbrennung um $I$%.
+2110992074|3c4a6af2||Schaden bei einem starken Angriff
+2110992075|5806ca6e||Schaden bei einem starken kritischen Angriff
+2110992076|69d8dd89||Schaden bei einem schnellen kritischen Angriff
+2110992077|89dfeac9||Kritische Trefferchance bei einem schnellen Angriff
+2110992078|bc4297c4||Kritische Trefferchance bei einem starken Angriff
+2110992079|d23992f7||Schaden bei einem schnellen Angriff
+2110992080|2e06698e||Schaden bei einem starken kritischen Angriff
+2110992081|3375c4a9||Schaden bei einem schnellen kritischen Angriff
+2110992082|73d42fa9||Kritische Trefferchance bei einem schnellen Angriff
+2110992083|b08bd7d2||Schaden bei einem starken Angriff
+2110992084|c7b0b7d7||Schaden bei einem schnellen Angriff
+2110992085|fa3924a4||Schaden bei einem starken kritischen Angriff
+2110992090|6c1d3ba3||Kritische Trefferchance und die kritische Trefferstärke gelten auch für Bomben. <br>Bomben werden ohne Verzögerung geworfen.
+2110992091|85e8fbd1||Jedes Öl das auf ein Schwert angewandt wird, erhöht dessen kritische Trefferchance um 5% und die kritische Trefferstärke um 10%.
+2110992092|1f70c024||Schnelle Angriffe haben eine $S$% Chance einen Blutungseffekt zu verursachen.
+2110992093|71d0c5a6||Alternativer Zeichen Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem $I$ Meter Radius. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Zerstört Projektile die durch das Gebiet fliegen. <br>Hält für $I$s. Geschütz Aufladungen - $I$.
+2110992094|71d0c5a5||Alternativer Zeichen Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem $I$ Meter Radius. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Zerstört Projektile die durch das Gebiet fliegen. <br>Hält für $I$s. Geschütz Aufladungen - $I$.
+2110992095|163a8e72||Alternativer Zeichen Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem $I$ Meter Radius. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Zerstört Projektile die durch das Gebiet fliegen. <br>Hält für $I$s. Geschütz Aufladungen - $I$.
+2110992096|b1173fc9||Zwei Gegner können zur selben Zeit vom Axii Zeichen betroffen sein. <br>Effektdauer ist um $I$% reduziert.
+2110992097|c8467d3c||Zwei Gegner können zur selben Zeit vom Axii Zeichen betroffen sein. <br>Effektdauer ist um $I$% reduziert.
+2110992098|c8467d3d||Zwei Gegner können zur selben Zeit vom Axii Zeichen betroffen sein. <br>Effektdauer ist nicht länger reduziert.
+2110992099|1f70c022||Jeder Adrenalinpunkt erhöht die Chance um $I$% einen Gegner sofort zu töten.
+2110992102|1f70c021||Ein starker Angriff der durch jedes Schild und jeden Block geht. <br>Erteilt zusätzliche $S$% Schaden plus $S$% Schaden pro Adrenalinpunkt in Proportion zur verbrauchten Ausdauer ($S$% max).
+2110992103|1f70c020||Geralt dreht sich im Kreis und erteilt jedem Gegner im Umkreis Schaden. <br>Der Schaden ist dabei jedoch um $S$% reduziert. <br>Das Aufrechthalten des Angriffs kostet Ausdauer und Adrenalin. <br>Der erlittene Schaden ist für die Dauer des Angriffs um $S$% reduziert.
+2110992104|064143d3||Geralt dreht sich im Kreis und erteilt jedem Gegner im Umkreis Schaden. <br>Der Schaden ist dabei jedoch um $S$% reduziert. <br>Das Aufrechthalten des Angriffs kostet Ausdauer und Adrenalin. <br>Der erlittene Schaden ist für die Dauer des Angriffs um $S$% reduziert.
+2110992105|        |gm_stat_adrenaline_gain|Adrenalingewinn
+2110992106|739e1e2c||Starke Angriffe erhöhen den Schaden der schnellen Angriffe für $S$ Sekunden um $S$% für jedes Teil des Sets und umgekehrt. <br>Derzeitiger Bonus: $S$%.
+2110992107|8ed43e3e||Jedes Teil des Sets reduziert die Ausdauerkosten für das Wirken von Zeichen um $S$%. <br>Derzeitiger Bonus: $S$%.
+2110992108|8ed43e3f||The size of Yrden traps is increased by $S$%. While you are within an Yrden trap, Sign Intensity is increased by $S$% and damage resistance is increased by $S$%.
+2110992109|739e1e2d||Kritische Treffer mit einem Schwert verdoppeln den Adrenalingewinn.
+2110992110|        |attribute_name_desc_knockdownchance_mult|Chance Niedergeworfen zu werden
+2110992111|c3f538a3||Die kritische Trefferchance von Armbrüsten ist um $S$% erhöht und die kritische Trefferstärke ist um $S$% erhöht. <br>Armbrust Bolzen durchdringen einen Gegner und werfen ihn zu Boden oder Betäuben ihn. <br>Gegner verlieren $S$% Gesundheit wenn sie zum Zeitpunkt des Treffers noch volle Gesundheit hatten.
+2110992112|        |effect_undying_skill|Unsterblich
+2110992113|c1e6a9cc||Wenn die Gesundheit auf Null fällt werden Adrenalinpunkte verbraucht um den Tod zu verhindern. <br>Außerdem werden für $S$s Sekunden Unverwundbarkeit und eine erhöhte Gesundheitsregeneration gewährt. <br>Stellt $S$% Gesundheit pro Adrenalinpunkt wieder her (max $S$%). <br>Kann nicht mehr als einmal aller $S$s Sekunden ausgelöst werden.
+2110992114|c1e6a9cb||Wenn die Gesundheit auf Null fällt werden Adrenalinpunkte verbraucht um den Tod zu verhindern. <br>Außerdem werden für $S$s Sekunden Unverwundbarkeit und eine erhöhte Gesundheitsregeneration gewährt. <br>Stellt $S$% Gesundheit pro Adrenalinpunkt wieder her (max $S$%). <br>Kann nicht mehr als einmal aller $S$s Sekunden ausgelöst werden.
+2110992115|cea74418||Wenn die Gesundheit auf Null fällt werden Adrenalinpunkte verbraucht um den Tod zu verhindern. <br>Außerdem werden für $S$s Sekunden Unverwundbarkeit und eine erhöhte Gesundheitsregeneration gewährt. <br>Stellt $S$% Gesundheit pro Adrenalinpunkt wieder her (max $S$%). <br>Kann nicht mehr als einmal aller $S$s Sekunden ausgelöst werden.
+2110992116|cea74430||Angriffskraft für schnelle Angriffe ist um $I$% erhöht.
+2110992117|1f70c023||Angriffskraft für starke Angriffe ist um $I$% erhöht.
+2110992118|cea74417||Erhöht die kritische Trefferchance für schnelle Angriffe um $I$% und die kritische Trefferstärke um $I$%.
+2110992119|1f70c027||Erhöht die kritische Trefferchance für starke Angriffe um $I$% und die kritische Trefferstärke um $I$%.
+2110992120|c1e68bc4||Perfekt abgepasste Paraden werfen Pfeile zurück und erhöhen den Schaden um $I$%.
+2110992121|c1e68f84||Erfolgreich ausgeführte Konter erhöhen die Angriffsstärke des nächsten Angriffs um $I$%. <br>Jeder Adrenalinpunkt erhöht die Chance auf einen Niederschlag des Gegners um $I$% (max $I$%, Adrenalin wird verbraucht bei erfolgreichem Treffer).
+2110992122|c1e68f85||Erfolgreich ausgeführte Konter erhöhen die Angriffsstärke des nächsten Angriffs um $I$%. <br>Jeder Adrenalinpunkt erhöht die Chance auf einen Niederschlag des Gegners um $I$% (max $I$%, Adrenalin wird verbraucht bei erfolgreichem Treffer). <br>Erhöht die kritische Trefferchance um $I$%.
+2110992123|cea74411||Erfolgreich ausgeführte Konter erhöhen die Angriffsstärke des nächsten Angriffs um $I$%.
+2110992124|cf2b2da2||Ein Schild das solang anhält bis es $I$ Punkte Schaden absorbiert hat. <br>Schadensabsorption skaliert mit der Zeichenintensität. <br>Derzeitige Absorption: $I$ - Schilddauer: $I$s.
+2110992125|163a8e77||Schaden der von Igni zugefügt wird reduziert außerdem dauerhaft die Rüstung des Gegners pro Treffer um $S$%. <br>Skaliert mit der Zeichenintesität. <br>Der Maximale Wert von $S$% kann nicht überschritten werden.
+2110992126|cf2b2da0||Feuerstoß der $I$ Schaden verursacht und außerdem eine $I$% Chance hat den Gegner in Brand zu stecken. <br>Schaden erhöht sicht mit der Zeichenintensität. <br>Derzeitiger Schaden: $I$.
+2110992127|163a8e71||Alternativer Zeichen Modus:<br>Erzeugt einen konstanten fokusierten Feuerstrahl der das Ziel in Brand setzt und dabei $I$ Schaden pro Sekunde verursacht. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Verbraucht $I$ Punkte Ausdauer pro Sekunde.
+2110992128|71d0c1e4||Alternativer Zeichen Modus:<br>Erzeugt einen konstanten fokusierten Feuerstrahl der das Ziel in Brand setzt und dabei $I$ Schaden pro Sekunde verursacht. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Verbraucht $I$ Punkte Ausdauer pro Sekunde.
+2110992129|71d0c1e5||Alternativer Zeichen Modus:<br>Erzeugt einen konstanten fokusierten Feuerstrahl der das Ziel in Brand setzt und dabei $I$ Schaden pro Sekunde verursacht. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Verbraucht $I$ Punkte Ausdauer pro Sekunde.
+2110992130|163a8e75||Aard verursacht jetzt $I$ Schaden. <br>Schaden erhöht sicht mit der Zeichenintensität. <br>Derzeitiger Schaden: $I$.
+2110992131|b3c8ebb8||Magisches Geschütz
+2110992132|b1173fc0||Magische Falle und Geschützdauer um $I$% erhöht, Anzahl der magischen Geschützaufladungen um $I$ erhöht.
+2110992133|        |gm_alt_yrden_lvl3_description|Magische Falle und Geschützdauer um $I$% erhöht, Anzahl der magischen Geschützaufladungen um $I$ erhöht. <br>Kann nun ein weiteres mal platziert werden.
+2110992134|b1173fc1||Gegner die in der Magischen Falle sind verlieren jetzt $S$% and Gesundheit oder Essenz pro Sekunde.
+2110992135|c84666b6||Das Quen Schild stößt Gegner zurück und verursacht $I$ Punkte Schaden wenn es bricht. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$).
+2110992136|c84666b7||Das Quen Schild stößt Gegner zurück und verursacht $I$ Punkte Schaden wenn es bricht, gewährt außerdem die Chance einen Gegner niederzuschlagen. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$).
+2110992137|163a8e73||Alternativer Zeichen Modus:<br>Erschafft ein Schild das $I$% mehr Schaden absorbiert. <br>Es aufrecht zu halten kostet pro Sekunde $I$ Ausdauer. <br>Geblockte Angriffe verbrauchen Ausdauer proportional zum Schaden der absorbiert wurde. <br>Stellt $I$% des absorbierten Schadens in Gesundheit wieder her.
+2110992138|71d0c966||Alternativer Zeichen Modus:<br>Erschafft ein Schild das $I$% mehr Schaden absorbiert. <br>Es aufrecht zu halten kostet pro Sekunde $I$ Ausdauer. <br>Geblockte Angriffe verbrauchen Ausdauer proportional zum Schaden der absorbiert wurde. <br>Stellt $I$% des absorbierten Schadens in Gesundheit wieder her.
+2110992139|71d0c967||Alternativer Zeichen Modus:<br>Erschafft ein Schild das $I$% mehr Schaden absorbiert. <br>Es aufrecht zu halten kostet KEINE Ausdauer mehr. <br>Geblockte Angriffe verbrauchen Ausdauer proportional zum Schaden der absorbiert wurde. <br>Stellt $I$% des absorbierten Schadens in Gesundheit wieder her.
+2110992140|15dda916||Das auftragen des richtigen Öles gewährt eine $I$% Chance dass das Ziel bei jedem Treffer vergiftet wird. Verbesserte Öle erhöhen diese Chance um $I$% und Meisterhafte erhöhen diese Chance sogar um $I$%.
+2110992141|15dda91a||Wenn die Vergiftung Geralts über 0 liegt, wird die Zeit automatisch um $S$% verlangsamt wenn ein Gegner dabei ist einen Gegenangriff auszuführen. <br>Effektdauer: $S$s.
+2110992142|1517d64d||Wenn die Vergiftung Geralts über 0 liegt, wird die Zeit automatisch um $S$% verlangsamt wenn ein Gegner dabei ist einen Gegenangriff auszuführen. <br>Effektdauer: $S$s.
+2110992143|1517d64e||Wenn die Vergiftung Geralts über 0 liegt, wird die Zeit automatisch um $S$% verlangsamt wenn ein Gegner dabei ist einen Gegenangriff auszuführen. <br>Effektdauer: $S$s.
+2110992145|329005f0||Erlaubt es mächtige Angriffe auszuführen die $I$% mehr Schaden verursachen und $I$ auf die Rüstungsdurchdringung geben.
+2110992148|bab1daf5||Jeder Punkt in Geralts Vergiftung erhöht die Angriffskraft und Zeichenintensität um $S$% (bis zu einem Maximum von $S$%).
+2110992149|c3f5389c||Zeichen können kritischen Schaden verursachen. <br>Die kritische Trefferchance und Stärke erhöhen sich mit der Zeichenstärke. <br>Derzeitige kritische Trefferchance - $S$%. <br>Derzeitige kritische Trefferstärke - $S$%. <br>Gegner die durch einen kritischen Treffer getötet werden, explodieren.
+2110992150|c3f538a0||Wenn das Aard Zeichen gewirkt wird besteht eine zusätzliche $S$% Chance das der Gegner eingefroren wird. <br>Gegner die niedergeschlagen und eingefroren sind, sterben sofort. <br>Gegner die nicht eingefroren sind erleiden zusätzliche $S$ Schaden. <br>Schaden erhöht sicht mit der Zeichenintensität. <br>Derzeitiger Schaden: $S$.
+2110992151|cf2b2da1||Eine Magische Falle die Gegner in ihrem Radius um $S$% verlangsamt. <br>Skaliertmit der Zeichenintensität. <br>Dauer der Falle: $S$s.
+2110992152|c3f538a1||Zu Beginn eines Kampfes erhöht sich die Angriffskraft und Zeichenintensität um $S$% für jeden Gegner. Nach dem ersten für $S$s. Wenn man gegen $S$ Gegner kämpft ist der Bonus $S$%. <br>Wenn es abklingt reduziert sich die Angriffskraft und Zeichenintensität um $S$% für jeden Gegner nach dem ersten. Aber nicht weiter als $S$% für $S$s.
+2110992153|c32e766a||Kritische Trefferstärke Bonus
+2110992154|28838f82||Rüstungsdurchdringung
+2110992155|f35fcb73||Rüstungsdurchdringung
+2110992156|        |attribute_name_vitalityRegen|Gesundheitsregeneration außerhalb des Kampfs
+2110992157|        |attribute_name_vitalityCombatRegen|Gesundheitsregeneration während des Kampfs
+2110992158|c95c6e28||Wenn bei voller Gesundheit, erhöht jede weitere Gesundheitsregeneration den Schaden des nächsten Schwert oder Zeichangriff bis zu +$I$%.
+2110992159|ccc61f66||Jedes Nahrungsmittel hält $I$% länger, schmeckt dafür aber wie Pirogge.
+2110992160|22156cd6||Wann immer ein Magisches Geschütz einen Gegner trifft wird eine Magische Falle an dieser Stelle plaziert.
+2110992161|        |attribute_name_spell_dmg_bonus|Zeichenschaden
+2110992162|        |attribute_name_sword_dmg_bonus|Waffenschaden
+2110992163|7968d6e0||Friert Gegner ein. Treffer gegen eingefrorene Gegner fügen zusätzlichen schaden zu. Erhöhte Dauer.
+2110992164|b02a28c2||Schaden erhöht
+2110992165|9e58d1f5||Erhöht Zeichenintensität. Erhöhte Dauer. Spezille Effekte von Zeichen halten ein drittel länger an.
+2110992166|329005f3||Treffer während des Kampfes generieren Adrenalinpunkte. Jeder Adrenalinpunkt erhöht die Angriffsstärke um $I$%.
+2110992167|        |gm_combat_stats_fast_crit_attack_power|Kritische Trefferstärke bei schnellen Angriffen
+2110992168|        |gm_combat_stats_strong_crit_attack_power|Kritische Trefferstärke bei starken Angriffen
+2110992169|        |gm_used_razor_success|Geralt ist jetzt glatt rasiert
+2110992170|329005f2||Erlaubt es dir eine leichte Armbrust zu benutzen. Nicht geziehlte Schüsse verursachen 50% weniger Schaden.
+2110992171|5f63dbf5||Erlaubt es dir Bomben herzustellen die auf Gegner geworfen werden können. Nicht geziehlte Würfe verursachen 50% weniger Schaden.
+2110992172|754d1891||Zusätzlich zum normalen Kampftrance Zustand erhöht jeder Adrenalinpunkt die Zeichenintensität um $I$%.
+2110992173|        |item_desc_razor_mod|Wird für die Rasur benötigt.
+2110992174|da7e5ba5||Jedes Teil einer mittleren Rüstung erhöht die Zeichenintensität um $S$% und die Ausdauerregeneration um $S$%.
+2110992175|b1173fc7||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Erhöht die Effektivität von Axii in Dialogen.
+2110992176|c84675ba||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Erhöht die Effektivität von Axii in Dialogen.
+2110992177|c84675bb||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Fehlgeschlagene Axii-Versuche betäuben das Ziel. Erhöht die Effektivität von Axii in Dialogen.
+2110992178|56747c57||Beschleunigt die Gesundheitsregeneration. Erhöhte Dauer. Die Gesundheitsregeneration wird nicht unterbrochen wenn Schaden erlitten wird.
+2110992179|        |gm_geralt_too_heavy|Deine Überbelastung ist zu hoch
+2110992180|        |option_gm_sink_boat_toggle|Versenke das Boot wenn überlastet
+2110992181|        |option_gm_sink_boat_slider|Schwellwert in % wann das Boot sinkt
+2110992182|        |gm_switch_inv_mode|Moduswechsel
+2110992183|        |option_gm_encumbrance_slider|Reduziere Gegenstandsgewicht (%)
+2110992184|        |gm_normal_inv_mode|Spieler Inventar Modus
+2110992185|        |gm_stash_inv_mode|Lager Modus
+2110992186|        |gm_mixed_inv_mode|Gemischtes Inventar Modus
+2110992187|        |gm_synchronized_inv_mode|Synchronisierter Modus
+2110992188|e71d7c90||Geralts maximale Gesundheit erhöht sich mit jedem Gegner den er tötet.
+2110992189|d3510d11||Enthält Silbersplitter die Gegner temorär davon abhält sich zu verwundeln und zu regenerieren.
+2110992190|d3510d12||Enthält Silbersplitter die Gegner temorär davon abhält sich zu verwundeln und zu regenerieren. Verlängerte Dauer.
+2110992191|d3510d13||Enthält Silbersplitter die Gegner dauerhaft davon abhalten sich zu verwundeln und zu regenerieren.
+2110992192|08eace65||Erhöht die Effektivität gegen Insektoiden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992193|08eace66||Erhöht die Effektivität gegen Insektoiden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992194|08eace67||Erhöht die Effektivität gegen Insektoiden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992195|3a67f159||Erhöht die Effektivität gegen Verfluchte. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992196|3a67f15a||Erhöht die Effektivität gegen Verfluchte. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992197|3a67f15b||Erhöht die Effektivität gegen Verfluchte. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992198|65067e25||Erhöht die Effektivität gegen Nekrophagen. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992199|65067e26||Erhöht die Effektivität gegen Nekrophagen. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992200|65067e27||Erhöht die Effektivität gegen Nekrophagen. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992201|7b1c29c3||Erhöht die Effektivität gegen Hybriden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992202|7b1c29c4||Erhöht die Effektivität gegen Hybriden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992203|7b1c29c5||Erhöht die Effektivität gegen Hybriden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992204|88e86911||Erhöht die Effektivität gegen Vampire. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992205|88e86912||Erhöht die Effektivität gegen Vampire. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992206|88e86913||Erhöht die Effektivität gegen Vampire. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992207|aed490e2||Erhöht die Effektivität gegen Konstrukte. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992208|aed490e3||Erhöht die Effektivität gegen Konstrukte. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992209|aed490e4||Erhöht die Effektivität gegen Konstrukte. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992210|d11afcde||Erhöht die Effektivität gegen Menschen, Elfen, Zwerge und Halblinge. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992211|d11afcdf||Erhöht die Effektivität gegen Menschen, Elfen, Zwerge und Halblinge. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992212|d11afce0||Erhöht die Effektivität gegen Menschen, Elfen, Zwerge und Halblinge. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992213|ea1a3189||Erhöht die Effektivität gegen Geister. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992214|ea1a318a||Erhöht die Effektivität gegen Geister. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992215|ea1a318b||Erhöht die Effektivität gegen Geister. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992216|ef649cfe||Erhöht die Effektivität gegen Drakoniden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992217|ef649cff||Erhöht die Effektivität gegen Drakoniden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992218|ef649d00||Erhöht die Effektivität gegen Drakoniden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992219|f8b46c36||Erhöht die Effektivität gegen Relikte. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992220|f8b46c37||Erhöht die Effektivität gegen Relikte. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992221|1ff07bf8||Erhöht die Effektivität gegen Relikte. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992222|7753393f||Erhöht die Effektivität gegen Ogroiden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992223|77533940||Erhöht die Effektivität gegen Ogroiden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992224|77533941||Erhöht die Effektivität gegen Ogroiden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992225|c0218f12||Erhöht die Effektivität gegen Ogroiden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992226|c0218f13||Erhöht die Effektivität gegen Ogroiden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992227|c0218f14||Erhöht die Effektivität gegen Ogroiden. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992228|dd8e2b22||Erhöht die Effektivität gegen Bestien. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992229|dd8e2b23||Erhöht die Effektivität gegen Bestien. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992230|dd8e2b24||Erhöht die Effektivität gegen Bestien. Effektivität verringert sich wenn das Öl sich abreibt.
+2110992231|de026195||Entfernt die Toxizität in Geralt's Blut, aber auch jeden aktiven Effekt von Tränken.
+2110992232|de026196||Entfernt die Toxizität in Geralt's Blut, aber auch jeden aktiven Effekt von Tränken.
+2110992233|de026197||Entfernt die Toxizität in Geralt's Blut, aber auch jeden aktiven Effekt von Tränken.
+2110992234|        |item_desc_relic_oil_3|Erhöht die Effektivität gegen Relikte.
+2110992235|874e9f88||Ermöglicht es in Dunkelheit zu sehen und gewährt Immunität gegenüber Hypnose. Erhöhte Dauer.
+2110992237|fe608837||Fügt Gegnern im Explosionsradius Schrapnelschaden zu. Verursacht Feuerschaden. Verbesserter Effekt. Zerstört Schilde von Gegnern. Zerstört Monsternester.
+2110992238|63cd93a5||Setzt eine Wolke von Dimeritium Splittern frei die Magie und Mosterfähigkeiten blockiert.
+2110992239|        |attribute_name_duration_out_of_cloud|Dauer der Wolke
+2110992240|874e9f87||Ermöglicht es in Dunkelheit zu sehen. Erhöhte Dauer.
+2110992241|e71d7c8e||Nach einem erfolgreichen starken Angriff wird sämtliche verfügbare Ausdauer verbraucht um die Gesundheit des Gegners um 5% zu reduzieren. Wenn weniger als 100% Ausdauer verbraucht wird reduziert sich der Effekt proportional.
+2110992242|fc921527||Fügt einen zufälligen Ort der Macht Effekt at dusk and dawn. Hält länger als andere Absude an.
+2110992243|e71d7c93||Erhöht die Zeichenintensität bei schlechten Wetter.
+2110992244|fc921524||Erhöht den Widerstand gegen Blutungs, Brand- und Gifteffekten während des Kampfes. Je länger diese Resistenz anhält desto höher der Widerstandsboni.
+2110992245|fc921525||Fähigkeiten die Ausdauer erfordern regenerieren proportional Gesundheit.
+2110992246|fc92152b||Erlittener Schaden erhöht den Schadenswiderstand bis zu 20% für den Rest des Kampfes.
+2110992247|fc921505||Jeder erfolgreiche Schlag erhöht die Angriffsstärke bis zu 100% bis entweder der Kampf endet oder kein Schaden mehr erlitten wird. <br>(other than that from potion Toxicity)
+2110992248|fc921509||Die Angriffsstärke steigt über die Dauer des Kampfes bis zu einen Maximum von 30% an.
+2110992249|fc921526||Jedes Zeichen das gewirkt wird erhöht die Ausdauerregeneration für den Rest des Kampfes, bis zu einem Maximum von 20.
+2110992250|        |option_gm_rnd_scaling_min_slider|Zufällige Skalierung: Niedriger (relativ zum lvl des Spielers)
+2110992251|        |option_gm_rnd_scaling_max_slider|Zufällige Skalierung: Höher (relativ zum lvl des Spielers)
+2110992252|        |preset_value_gm_es_random|Zufällig
+2110992253|        |option_gm_no_quest_levels_toggle|Schalte Quest Levels aus
+2110992254|        |option_gm_no_animal_upscaling_toggle|Tiere nicht skalieren
+2110992255|        |preset_value_gm_es_random_no_down|Zufällig - Nicht herunterskalieren
+2110992256|        |item_desc_note|Enthält unnütze Informationen.
+2110992257|        |gm_recycling_parts|Handwerkskomponente
+2110992258|25691b0a||Kann an Händler verkauft oder in Handwerkszutaten zerlegt werden.
+2110992259|        |item_desc_junk_no_ingr|Kann an Händler verkauft werden.
+2110992260|7fd2ce90||Kann für eine ordentliche Summe an Händler verkauft oder in Handwerkszutaten zerlegt werden.
+2110992261|        |PanelStash|Lagermenü
+2110992262|        |effect_undying_cooldown|Unsterblichkeit Abklingzeit
+2110992263|        |attribute_name_staminaRegen_armor_mod|Ausdauerregeneration Modifikator
+2110992264|        |attribute_name_chanceToIgnoreHitAnim|Chance bei Treffer im Gleichgewicht zu bleiben
+2110992265|        |attribute_name_q108_bounce_arrows|Chance einen Pfeil abzuwehren
+2110992266|        |item_name_repair_kit_weapon_4|Meister-Waffenschmiedewerkzeug
+2110992267|        |item_desc_repair_kit_weapon_4|Schmiedewerkzeug eines Meister-Waffenschmieds. Erhöht dauerhaft den Waffenschaden.
+2110992268|        |item_name_repair_kit_armor_4|Meister-Rüstungsschmiedewerkzeug
+2110992269|        |item_desc_repair_kit_armor_4|Schmiedewerkzeug eines Meister-Rüstungsschmieds. Erhöht dauerhaft den Rüstungswert.
+2110992270|        |option_gm_quest_exp_slider|Quest-Erfahrung Modifikator
+2110992271|        |option_gm_monster_exp_slider|Kampf-Erfahrung Modifikator
+2110992272|        |attribute_name_knockdown|Niederschlagschance
+2110992273|b1173fc2||Erhöht Schwere Niederschlagschance um $I$%.
+2110992274|163a8e76||Fügt $I$ Punkte auf Feuerschaden und $I$ Punkte Schaden pro Sekunde auf Feuersturm.
+2110992275|b1173fc6||Fügt $I$ Punkte auf den Schaden von Magisches Geschützen.
+2110992276|b1173fc5||Fügt $I$ Punkte auf die Schild-Schadensabsorption.
+2110992277|        |gm_sign_stats_axii_duration_confusion|Dauer der Verwirrung
+2110992278|        |gm_sign_stats_axii_duration_control|Dauer der Kontrolle
+2110992279|163a8e70||Alternativer Zeichen Modus:<br>Aard trifft alle Gegner in Reichweite. Zeichenintensität ist um $I$% geringer in diesem Modus.
+2110992280|71d0be23||Alternativer Zeichen Modus:<br>Aard trifft alle Gegner in Reichweite. Zeichenintensität ist um $I$% geringer in diesem Modus.
+2110992281|71d0be24||Alternativer Zeichen Modus:<br>Aard trifft alle Gegner in Reichweite. Zeichenintensität ist nicht länger geringer in diesem Modus.
+2110992282|71d0d0e8||Aard verursacht jetzt $I$ Schaden. Schaden erhöht sicht mit der Zeichenintensität. Derzeitiger Schaden: $I$.
+2110992283|71d0d0e9||Aard verursacht jetzt $I$ Schaden. Schaden erhöht sicht mit der Zeichenintensität. Derzeitiger Schaden: $I$.
+2110992284|cf2b2d9f||Eine Zielgerichtete Druckwelle von telekinetischer Energie die Gegner Betäubt und eine $I$% Chance auf Niederschlagen hat. <br>Schwere Niederschlagschance ist $I$%. <br>Die Chance skaliert mit der Zeichenintensität.
+2110992286|cf2b2da3||Vernebelt den Verstand eines Gegners, was ihn vorübergehend aus dem Kampf nimmt. <br>Verwirrungsdauer: $S$ Sekunden. <br>Skaliert mit der Zeichenintensität.
+2110992287|b1173fc8||Die Dauer von Axii ist um $I$% erhöht.
+2110992288|163a8e74||Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$% Bonus auf seine Angriffskraft. Effektdauer skaliert mit der Zeichenintensität. Derzeitige Dauer: $I$s.
+2110992289|71d0cd27||Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$% Bonus auf seine Angriffskraft. Effektdauer skaliert mit der Zeichenintensität. Derzeitige Dauer: $I$s.
+2110992290|71d0cd28||Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$% Bonus auf seine Angriffskraft. Effektdauer skaliert mit der Zeichenintensität. Derzeitige Dauer: $I$s.
+2110992291|483c9092||Verursachter Schaden lädt das Schwert auf und erhöht die kritische Trefferstärke um $S$%. <br>Aufladungen verfallen über die Zeit und wenn Schaden erlitten wird. <br>Ein voll aufgeladenes Schwert erhöht die kritische Trefferchance um $S$%.
+2110992292|1f5adb4f||Wenn ein Gegner mit voll aufgeladenem Schwert getötet wird, wird die Aufladung aufgebraucht und der Schaden der Waffe permanet erhöht. Wenn der Bonusschaden sein Maximum überschreitet erhöht sich das Level der Waffe. <br>Schaden ist um $S$ erhöht, bis zu einem Maximum von 10.
+2110992293|        |gm_sign_stats_heavy_knockdown|Niederschlagschance bei starken Angriffen
+2110992294|f76f46ed||Das Töten von Gegnern füllt die Ausdauer um $I$% wieder auf.
+2110992295|fad8f82b||Das Töten von Gegnern gibt $F$ zu $F$ Adrenalinpunkte.
+2110992296|ed2f3195||Gewährt eine $I$% Chance das $I$% des erlittenen Schadens auf den Angreifer zurückgheworfen wird.
+2110992299|f2e69faf||Schaden der mit schnellen Angriffen verursacht wird lädt das Schwert auf. Wenn sich das Schwert Rot färbt kommt es zu einem mächtigen Angriff auf Kosten eines Teils der Gesundheit des Angreifers.
+2110992300|        |option_gm_use_xml_exp_toggle|Feste Erfahrung für Kampf und Quests
+2110992301|        |gm_kills_humans|Humanoiden
+2110992302|        |gm_kills_wh_warriors|Wilde Jagd Krieger
+2110992303|        |gm_kills_total|Insgesammt
+2110992304|        |gm_kills_animals_total|Tiere
+2110992305|        |gm_kills_monsters_total|Monster
+2110992306|        |gm_kills_by_type|Tötungen bei Typ
+2110992307|        |gm_kills_kill_count|Tötungszähler
+2110992308|        |gm_kills_humans_total|Humanoiden
+2110992309|        |gm_kills_bosses_total|Einzigartige Kreaturen
+2110992310|1f70c026||Increases crossbow critical hit chance by $I$% and crossbow critical hit power by $I$%.
+2110992311|e71d7c8c||Grants 15% of additional resistance to all types of damage if at 60 inventory weight or below, bonus decreases with more weight.
+2110992312|        |option_gm_stash_sync_toggle|Use synchronized stash mode by default
+2110992313|da7e5ba8||If you have at least one Adrenaline Point, it will be used to cast a Sign instead of Stamina.
+2110992314|        |option_gm_no_add_levels_guards|No additional levels for guards
