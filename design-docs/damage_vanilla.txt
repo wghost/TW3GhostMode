@@ -1,0 +1,137 @@
+SlashingDamage - рубящий урон
+PiercingDamage - колющий урон
+BludgeoningDamage - ударный урон (cyclop, dao, ice_golem, giant, horse, ice_giant, simulakrum, troll)
+RendingDamage - урон от чудовищ (остальные монстры)
+ElementalDamage - урон от стихий (ifrit, him, nightwraith, noonwraith, pesta, wild_hunt_minion, wraith)
+
+Damage types:
+default DAMAGE_NAME_DIRECT 		= 'DirectDamage';
+default DAMAGE_NAME_PHYSICAL 	= 'PhysicalDamage';
+default DAMAGE_NAME_SILVER 		= 'SilverDamage';
+default DAMAGE_NAME_SLASHING	= 'SlashingDamage';
+default DAMAGE_NAME_PIERCING 	= 'PiercingDamage';
+default DAMAGE_NAME_BLUDGEONING = 'BludgeoningDamage';
+default DAMAGE_NAME_RENDING	 	= 'RendingDamage';
+default DAMAGE_NAME_ELEMENTAL	= 'ElementalDamage';
+default DAMAGE_NAME_FIRE 		= 'FireDamage';
+default DAMAGE_NAME_FORCE 		= 'ForceDamage';
+default DAMAGE_NAME_FROST 		= 'FrostDamage';
+default DAMAGE_NAME_POISON 		= 'PoisonDamage';
+default DAMAGE_NAME_SHOCK 		= 'ShockDamage';
+default DAMAGE_NAME_MORALE 		= 'MoraleDamage';
+default DAMAGE_NAME_STAMINA 	= 'StaminaDamage';
+
+
+HitsEssence:
+yes:
+default DAMAGE_NAME_DIRECT 		= 'DirectDamage';
+default DAMAGE_NAME_SILVER 		= 'SilverDamage';
+default DAMAGE_NAME_RENDING	 	= 'RendingDamage';
+default DAMAGE_NAME_ELEMENTAL	= 'ElementalDamage';
+default DAMAGE_NAME_FIRE 		= 'FireDamage';
+default DAMAGE_NAME_FORCE 		= 'ForceDamage';
+default DAMAGE_NAME_FROST 		= 'FrostDamage';
+default DAMAGE_NAME_POISON 		= 'PoisonDamage';
+default DAMAGE_NAME_SHOCK 		= 'ShockDamage';
+default DAMAGE_NAME_STAMINA 	= 'StaminaDamage';
+no:
+default DAMAGE_NAME_PHYSICAL 	= 'PhysicalDamage';
+default DAMAGE_NAME_SLASHING	= 'SlashingDamage';
+default DAMAGE_NAME_PIERCING 	= 'PiercingDamage';
+default DAMAGE_NAME_BLUDGEONING = 'BludgeoningDamage';
+default DAMAGE_NAME_MORALE 		= 'MoraleDamage';
+
+
+HitsVitality:
+yes:
+default DAMAGE_NAME_DIRECT 		= 'DirectDamage';
+default DAMAGE_NAME_PHYSICAL 	= 'PhysicalDamage';
+default DAMAGE_NAME_SLASHING	= 'SlashingDamage';
+default DAMAGE_NAME_PIERCING 	= 'PiercingDamage';
+default DAMAGE_NAME_BLUDGEONING = 'BludgeoningDamage';
+default DAMAGE_NAME_RENDING	 	= 'RendingDamage';
+default DAMAGE_NAME_ELEMENTAL	= 'ElementalDamage';
+default DAMAGE_NAME_FIRE 		= 'FireDamage';
+default DAMAGE_NAME_FORCE 		= 'ForceDamage';
+default DAMAGE_NAME_FROST 		= 'FrostDamage';
+default DAMAGE_NAME_POISON 		= 'PoisonDamage';
+default DAMAGE_NAME_SHOCK 		= 'ShockDamage';
+default DAMAGE_NAME_STAMINA 	= 'StaminaDamage';
+no:
+default DAMAGE_NAME_SILVER 		= 'SilverDamage';
+default DAMAGE_NAME_MORALE 		= 'MoraleDamage';
+
+
+Resists:
+case theGame.params.DAMAGE_NAME_PHYSICAL 	:
+case theGame.params.DAMAGE_NAME_SILVER 		: return CDS_PhysicalRes;
+
+ECharacterDefenseStats
+ CDS_None
+ CDS_PhysicalRes
+ CDS_BleedingRes
+ CDS_PoisonRes
+ CDS_FireRes
+ CDS_FrostRes
+ CDS_ShockRes
+ CDS_ForceRes
+ CDS_FreezeRes
+ CDS_WillRes
+ CDS_BurningRes
+ CDS_SlashingRes
+ CDS_PiercingRes
+ CDS_BludgeoningRes
+ CDS_RendingRes
+ CDS_ElementalRes
+ CDS_DoTBurningDamageRes
+ CDS_DoTPoisonDamageRes
+ CDS_DoTBleedingDamageRes
+
+Damage calculation:
+incomingDmg = (rawDmg + powerMod.valueBase) * powerMod.valueMultiplicative + powerMod.valueAdditive
+Note: fistfights ignore player's powerMod and set incomingDmg = rawDmg
+finalDmg = (incomingDmg - resistPoints) * (1 - resistPercents)
+Note: DoT damage ignores resistPoints but not resistPercents, fistfights ignore resistance completely
+Strong attacks have finalDmg multiplied by 1.833 (i.e. they deal 83.3% more final damage than light attacks)
+
+Damage reduction:
+resistPoints = victimReductionPoints + victimArmor - attackerArmorReductionPoints
+resistPercents = victimReductionPercents - attackerArmorReductionPercents
+Note: strong attack adds to attackerArmorReductionPoints and special strong attack and oils add to attackerArmorReductionPercents
+bees and grapeshot3 ignore victimArmor
+
+Armor reduction effect:
+incomingDmg = 1000
+armorPts = 100
+armorResistPrc = 0.3
+armorReductionPts = 50
+armorReductionPrc = 0.2
+reduction = armorPts - armorReductionPts = 50
+reductionPrc = armorResistPrc - armorReductionPrc = 0.1
+dmg = (incomingDmg - reduction) * (1 - reductionPrc) = 855 // point and % bonuses
+dmg = (incomingDmg - reduction) * (1 - armorResistPrc) = 665 // no % reduction from attacker, only point reduction
+dmg = (incomingDmg - armor) * (1 - armorReductionPrc) = 810 // no point reduction, only % reduction
+dmg = (incomingDmg - armor) * (1 - armorResistPrc) = 630 // no bonuses
+
+DoT calculation:
+dmgPerSec = effectValue.valueAdditive + (effectValue.valueMultiplicative * victimMaxHP)
+duration = initialDuration * creatorPowerStat.valueMultiplicative * (1 - durationResistance)
+Note: durationResistance is capped at 0.99 for critical effects
+This is raw damage which then get passed to damage manager to calculate final damage
+
+Yrden direct damage is applied when in normal mode only.
+Yrden slowdown is not applied when in alternative mode.
+
+Igni damage:
+Fire damage from hit: 100 * (1 + igni power)
+Burning effect: duration = DoT duration (base = 3 sec), dps = DoT damage (mult = 0.027)
+Actual duration seems to be longer than calculated duration (due to stamina regen from potions not being paused)
+Both burning duration and DoT are affected by sign power and based off victimHP. This is INSANE!
+Igni power 300% gives about 10 sec of burning with about 550 dps on lvl 34 drowner (about 6500 HP).
+Igni shot damage gives about 400 damage on lvl 34 drowner.
+Igni channeling: damage on hit = 30 * (1 + igni power), dps = 70 * (1 + igni power)
+Burning effect from channeling: duration = DoT duration (base = 1 sec), dps = DoT damage (mult = 0.01)
+Burning effect from channeling is applied with dps while channeling. Burning is not stacked, but cumulated (prolonged).
+With 300% igni power channeling lasts about 5 secs.
+So, on lvl 34 drowner it's about 120 of initial damage + 280 * 5 = 1400 channeling damage +
+(5 + 2.6) * 65 = 494 DoT = 2014 damage vs 5500 damage from normal burn.

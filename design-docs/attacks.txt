@@ -1,0 +1,20 @@
+EAT_Attack1  - 
+EAT_Attack2  - 
+EAT_Attack3  - 
+EAT_Attack4  - 
+EAT_Attack5  - 
+EAT_Attack6  - fists, sword2h, tactic_carantir, tactic_imlerith, arachas_logic, cave_troll_logic, fugas_logic, gravehag_logic, gryphon_logic, harpy_logic, katakan_logic, werefolf_logic, witch_logic, wraith_logic
+EAT_Attack7  - fists, shoot_attached_entities, arachas_logic, cave_troll_logic, djinn_logic, fugas_logic, golem_logic, gravehag_logic, ice_giant_logic
+EAT_Attack8  - fists_combos, tactic_carantir, tactic_imlerith, arachas_logic, bies_logic, fogling_doppelganger_logic, fugas_logic
+EAT_Attack9  - fists_combos, arachas_logic, special_disperse_attacjed_entities, tactic_imlerith
+EAT_Attack10 - fists_combos, gryphon_logic, ciri, special_attack_entities
+EAT_Attack11 - fists_combos, gryphon_logic, shoot_projectiles_from_ground
+EAT_Attack12 - fists_combos, gryphon_logic
+EAT_Attack13 - fists_combos
+EAT_Attack14 - not used?
+EAT_Attack15 - cave_troll_logic, golem_logic
+EAT_Attack16 - cave_troll_logic
+EAT_Attack17 - special_magic_ground_blast
+EAT_Attack18 - magic_push, tactic_ereding
+EAT_Attack19 - twohanded
+EAT_Attack20 - counterattack (counter, counterhit, counter_push, counter_fistfight, wildhunt_counterhit, Eredin_counter, Imlerith_counter, tactic_ereding)

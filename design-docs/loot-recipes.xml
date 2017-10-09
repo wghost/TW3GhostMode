@@ -1,0 +1,111 @@
+		<loot_entry name="Recipe for Alcohest 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Gull 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dwarven spirit 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Mahakam spirit 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Mandrake cordial 1"			player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Beast Oil 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Beast Oil 2"					player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Beast Oil 3"					player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Cursed Oil 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Cursed Oil 2"					player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Cursed Oil 3"					player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Hanged Man Venom 1"			player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Hanged Man Venom 2"			player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Hanged Man Venom 3"			player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Hybrid Oil 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Hybrid Oil 2"					player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Hybrid Oil 3"					player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Insectoid Oil 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Insectoid Oil 2"				player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Insectoid Oil 3"				player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Magicals Oil 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Magicals Oil 2"				player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Magicals Oil 3"				player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Necrophage Oil 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Necrophage Oil 2"				player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Necrophage Oil 3"				player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Specter Oil 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Specter Oil 2"					player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Specter Oil 3"					player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Vampire Oil 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Vampire Oil 2"					player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Vampire Oil 3"					player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Draconide Oil 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Draconide Oil 2"				player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Draconide Oil 3"				player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Ogre Oil 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Ogre Oil 2"					player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Ogre Oil 3"					player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Relic Oil 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Relic Oil 2"					player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Relic Oil 3"					player_level_min="16"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dancing Star 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dancing Star 2"				player_level_min="9"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dancing Star 3"				player_level_min="18"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Devils Puffball 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Devils Puffball 2"				player_level_min="9"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Devils Puffball 3"				player_level_min="18"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dwimeritium Bomb 1"			player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dwimeritium Bomb 2"			player_level_min="9"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dwimeritium Bomb 3"			player_level_min="18"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dragons Dream 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dragons Dream 2"				player_level_min="9"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Dragons Dream 3"				player_level_min="18"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Grapeshot 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Grapeshot 2"					player_level_min="9"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Grapeshot 3"					player_level_min="18"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Samum 1"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Samum 2"						player_level_min="9"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Samum 3"						player_level_min="18"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Silver Dust Bomb 1" 			player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Silver Dust Bomb 2" 			player_level_min="9"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Silver Dust Bomb 3" 			player_level_min="18"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Frost 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Frost 2"					player_level_min="9"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Frost 3"					player_level_min="18"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Blizzard 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Blizzard 2"					player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Blizzard 3"					player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Cat 1"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Cat 2"							player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Cat 3"							player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Full Moon 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Full Moon 2"					player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Full Moon 3"					player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Golden Oriole 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Golden Oriole 2"				player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Golden Oriole 3"				player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Killer Whale 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Maribor Forest 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Maribor Forest 2"				player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Maribor Forest 3"				player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Petris Philtre 1"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Petris Philtre 2"				player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Petris Philtre 3"				player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Swallow 1"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Swallow 2"						player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Swallow 3"						player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Tawny Owl 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Tawny Owl 2"					player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Tawny Owl 3"					player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Thunderbolt 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Thunderbolt 2"					player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Thunderbolt 3"					player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Honey 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Honey 2"					player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Honey 3"					player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Raffards Decoction 1"	player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Raffards Decoction 2"	player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for White Raffards Decoction 3"	player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Black Blood 1"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Black Blood 2"					player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Black Blood 3"					player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Aether"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Albedo"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Hydragenum"					player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Nigredo"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Quebrith"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Rebis"							player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Rubedo"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Vermilion"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Vitriol"						player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>

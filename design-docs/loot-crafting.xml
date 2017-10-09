@@ -1,0 +1,84 @@
+		<loot_entry name="Feather"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Resin"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Oil"										player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Sap"										player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Wax"										player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Coal"										player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Fiber"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Cotton"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Thread"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="String"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Twine"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="6"	chance="-1"			/>
+		<loot_entry name="Linen"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Silk"										player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="6"	chance="-1"			/>
+		<loot_entry name="Rope"										player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Leather straps"							player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Leather squares"							player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Fur square"								player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Leather"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="6"	chance="-1"			/>
+		<loot_entry name="Hardened leather"							player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="6"	chance="-1"			/>
+		<loot_entry name="Timber"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Hardened timber"							player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="6"	chance="-1"			/>
+		<loot_entry name="Haft"										player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Wire"										player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="6"	chance="-1"			/>
+		<loot_entry name="Wire rope"								player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Nails"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Iron ore"									player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Iron ingot"								player_level_min="5"	player_level_max="0"	quantity_min="2"	quantity_max="6"	chance="-1"			/>
+		<loot_entry name="Steel ingot"								player_level_min="5"	player_level_max="0"	quantity_min="2"	quantity_max="6"	chance="-1"			/>
+		<loot_entry name="Steel plate"								player_level_min="10"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Dark iron ore"							player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Dark iron ingot"							player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Dark iron plate"							player_level_min="15"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Dark steel ingot"							player_level_min="5"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Dark steel plate"							player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Silver mineral"							player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Silver ore"								player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Silver ingot"								player_level_min="4"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Silver plate"								player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Meteorite ore"							player_level_min="0"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Meteorite ingot"							player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Meteorite plate"							player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Meteorite silver ingot"					player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Meteorite silver plate"					player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Glowing ore"								player_level_min="7"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Glowing ingot"							player_level_min="12"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Dwimeryte ore"							player_level_min="11"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Dwimeryte ingot"							player_level_min="14"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Dwimeryte plate"							player_level_min="20"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Powdered pearl"							player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Black pearl dust"							player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Infused dust"								player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Amethyst dust"							player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Amber dust"								player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Ruby dust"								player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Sapphire dust"							player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Emerald dust"								player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Diamond dust"								player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+<!-- DLC -->
+		<loot_entry name="Dye Solution"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Lead ore"									player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Gold mineral"								player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Gold ore"									player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Azurite mineral"							player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Malachite mineral"						player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Nickel mineral"							player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Nickel ore"								player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Cupronickel ore"							player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Copper mineral"							player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Copper ore"								player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Copper ingot"								player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Copper plate"								player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Green gold mineral"						player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Green gold ore"							player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Green gold ingot"							player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Green gold plate"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Orichalcum mineral"						player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Orichalcum ore"							player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Orichalcum ingot"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Orichalcum plate"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Dwimeryte enriched ore"					player_level_min="30"	player_level_max="0"	quantity_min="4"	quantity_max="8"	chance="-1"			/>
+		<loot_entry name="Dwimeryte enriched ingot"					player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Dwimeryte enriched plate"					player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Infused shard"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Infused crystal"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>

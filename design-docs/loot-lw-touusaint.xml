@@ -1,0 +1,66 @@
+<!-- money -->
+		<loot_entry name="Crowns" 									player_level_min="0"	player_level_max="0"	quantity_min="150"	quantity_max="200"	chance="-1"			/>
+<!-- ingr: fur + -->
+		<loot_entry name="Rabbit pelt"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="10"			/>
+		<loot_entry name="Fox pelt"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="10"			/>
+		<loot_entry name="Wolf pelt"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="10"			/>
+		<loot_entry name="Bear pelt"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="10"			/>
+<!-- silver items -->
+		<loot_entry name="Hotel silver breadknife"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="5"			/>
+		<loot_entry name="Hotel silver goblet"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="5"			/>
+		<loot_entry name="Hotel silver teapot"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="5"			/>
+		<loot_entry name="Hotel silver fruitbowl"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="5"			/>
+		<loot_entry name="Hotel silver serving tray"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="5"			/>
+		<loot_entry name="Hotel silver wine bottle"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="5"			/>
+		<loot_entry name="Hotel silver cup"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="5"			/>
+<!-- valuables -->
+		<loot_entry name="Pearl"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Black pearl"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Amber"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Amber flawless"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Amethyst"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Amethyst flawless"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Diamond"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Diamond flawless"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Emerald"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Emerald flawless"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Ruby"										player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Ruby flawless"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Sapphire"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Sapphire flawless"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Silver amber ring"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Silver sapphire ring"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Silver emerald ring"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Gold sapphire ring"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Gold diamond ring"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Gold ruby ring"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Silver emerald necklace"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Silver amber necklace"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Silver ruby necklace"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Gold pearl necklace"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Gold sapphire necklace"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Gold diamond necklace"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Green gold ruby ring"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Green gold sapphire ring"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Green gold emerald ring"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Green gold diamond ring"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Green gold amber necklace"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Green gold ruby necklace"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Green gold sapphire necklace"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Green gold emerald necklace"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+		<loot_entry name="Green gold diamond necklace"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="1"			/>
+<!-- crafting -->
+		<loot_entry name="Wire rope"								player_level_min="8"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Leather"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Hardened leather"							player_level_min="10"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Green gold ingot"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Green gold plate"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Orichalcum ingot"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Orichalcum plate"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Dwimeryte enriched ingot"					player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Dwimeryte enriched plate"					player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Infused shard"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+		<loot_entry name="Infused crystal"							player_level_min="30"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="3"			/>
+<!-- upgrades -->
+		<loot_entry name="Glyph infusion lesser"					player_level_min="6"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="15"			/>
+		<loot_entry name="Runestone lesser"							player_level_min="6"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="15"			/>

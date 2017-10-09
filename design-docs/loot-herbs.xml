@@ -1,0 +1,34 @@
+		<loot_entry name="Allspice root"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Arenaria"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Balisse fruit"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Beggartick blossoms"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Berbercane fruit"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Bison Grass"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Bloodmoss"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Blowbill"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Bryonia"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Celandine"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Cortinarius"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Crows eye"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Ergot seeds"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Fools parsley leaves"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Ginatia petals"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Green mold"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Han"										player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Hellebore petals"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Honeysuckle"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Hop umbels"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Hornwort"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Longrube"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Mandrake root"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Mistletoe"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Moleyarrow"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Nostrix"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Pigskin puffball"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Pringrape"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Ranogrin"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Ribleaf"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Sewant mushrooms"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Verbena"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="White myrtle"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Wolfsbane"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>

@@ -1,0 +1,127 @@
+548214:Ghouls
+1077505:Griffins
+1077510:Wolves
+1077480:Drowners
+397223:Nightwraiths
+354483:Noonwraiths
+397224:Plague Maidens
+1077512:Dogs
+1087086:Devil by the Well
+1077511:Bears
+1077489:Wraiths
+1077497:Nekkers
+1077608:Rotfiends
+593528:Werewolves
+1077470:Ulfhedinn
+477322:Botchlings
+339457:Alghouls
+1077481:Foglets
+1077484:Water hags
+1077934:Hounds of the Wild Hunt
+1077471:Berserkers
+1077506:Harpies
+1077504:Erynias
+1077508:Sirens
+1077509:Succubi
+1078140:Godlings
+1077487:Wyverns
+1077304:Ekimmaras
+1077513:Higher Vampires
+1078138:Crones
+1077475:Endrega workers
+354425:Cockatrices
+1081315:Shrieker
+1077880:Fiends
+1081369:Ignis Fatuus
+1077882:Sylvans
+1081317:Jenny o' the Woods
+339456:Endrega warriors
+1077488:Forktails
+1077483:Grave hags
+1081342:Mourntart
+1081339:Royal Wyvern
+339458:Basilisks
+1077474:Endrega drones
+339451:Golems
+1077881:Chorts
+1077498:Ice trolls
+1077612:Rock trolls
+1082146:Doppler
+1081948:Imp
+1081895:Salma
+1077469:Fire Elementals
+354496:Katakans
+1081908:The White Lady
+1081906:The Apiarian Phantom
+1081365:Howler
+1077496:Ice Giant
+1081548:Penitent
+1081762:The Dragon of Fyresdal
+1077494:Cyclopses
+1081445:Hagubman
+1083334:Djinns
+1081452:Abaya
+1077879:Leshens
+354371:Earth Elementals
+1081324:Sarasti
+1082623:Gargoyles
+1086978:Woodland Spirit
+1080273:Hyms
+1081808:Melusine
+1081313:Therazane
+1077760:Arachasae
+1077472:Armored Arachasae
+1077473:Venomous arachasae
+1081893:Kernun
+1081903:Gael
+1081546:Morvudd
+1081443:Wham-a-Wham
+1081321:Harrisi
+1081891:Opinicus
+1139683:Arachnomorph
+1139676:The Toad Prince
+1139394:Wild Boars
+1139678:The Caretaker
+1139418:The Wraith from the Painting
+1139680:Ethereal
+1182965:The Beast of Beauclair
+1184139:Golyat
+1190589:Scurvers
+1188873:Bruxae
+1173626:The Bruxa of Corvo Bianco
+1203524:Shaelmaars
+1189050:Shaelmaar from the Emperor of Nilfgaard
+1207195:Dettlaff van der Eretein
+1208683:Kikimore Warrior
+1208686:Kikimore Workers
+1208643:Panthers
+1208713:Archespores
+1214837:Wild Boars
+1207197:Wights
+1178272:Spotted Wights
+1203529:Giant Centipedes
+1207905:Pale Widows
+1201766:Slyzards
+1208707:Alps
+1214635:Arachnomorph
+1212236:Grottore
+1208635:Barghests
+1170319:Slyzard Matriarchs
+1200684:Daphne
+1170003:Spriggans
+1213774:Beann'shies
+1208893:Fleders
+1176357:Garkains
+1207981:Moreau
+1169843:Umbra
+1208950:Silver Basilisk
+1156409:The Monster of Tufo
+1176338:Alpha Garkains
+1207033:Wicked Witch
+1208689:Pixies
+1212526:Big Bad Wolf
+1207035:Three Little Pigs
+1207036:Longlocks
+1207040:Cloud Giant
+1206787:Protofleders
+1077468:Ice Elementals

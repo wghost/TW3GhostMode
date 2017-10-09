@@ -1,0 +1,174 @@
+<!-- edibles Q1 -->
+<!-- ingredients -->
+		<loot_entry name="Apple"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="3"	chance="-1"			/>
+		<loot_entry name="Bell pepper"								player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="3"	chance="-1"			/>
+		<loot_entry name="Candy"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Cucumber"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Egg"										player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="3"	chance="-1"			/>
+		<loot_entry name="Fish"										player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Honeycomb"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Mushroom"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Olive"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="3"	chance="-1"			/>
+		<loot_entry name="Onion"									player_level_min="0"	player_level_max="0"	quantity_min="3"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Pepper"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Potatoes"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Raspberries"								player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="3"	chance="-1"			/>
+<!-- / -->
+		<loot_entry name="Banana"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Blueberries"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Burned bread"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Burned bun"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Grapes"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Pear"										player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Plum"										player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Strawberries"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Toffee"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Vinegar"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- edibles Q2 -->
+<!-- ingredients -->
+		<loot_entry name="Bread"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Butter Bandalura"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Cheese"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="3"	chance="-1"			/>
+		<loot_entry name="Chicken"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Chicken leg"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Gutted fish"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Mutton leg"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Pork"										player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+<!-- / -->
+		<loot_entry name="Baked apple"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Baked potato"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Bun"										player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Chips"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Dried fruit"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Dried fruit and nuts"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Dumpling"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- edibles Q3 -->
+		<loot_entry name="Roasted chicken"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Roasted chicken leg"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Chicken sandwich"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Grilled chicken sandwich"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Fried fish"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Fried meat"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Fondue"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Grilled pork"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Ham sandwich"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Mutton curry"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Sausages"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Scrambled Eggs"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- drinks Q1 -->
+		<loot_entry name="Bottled water"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Tirnalia potion"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- alco -->
+		<loot_entry name="Rivian Kriek"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Viziman Champion"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Kaedwenian Stout"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Redanian Lager"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- drinks Q2 -->
+		<loot_entry name="Apple juice"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Cows milk"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="3"	chance="-1"			/>
+		<loot_entry name="Goats milk"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Raspberry juice"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- drinks Q3 -->
+<!-- alco -->
+		<loot_entry name="Dijkstra Dry"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Beauclair White"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Mettina Rose"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Erveluce"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Est Est"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- strong alco -->
+		<loot_entry name="Local pepper vodka"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="3"	chance="-1"			/>
+		<loot_entry name="Temerian Rye"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Redanian Herbal"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Nilfgaardian Lemon"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Cherry Cordial"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Mahakam Spirit"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+		<loot_entry name="Mandrake cordial"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- alchemy bases -->
+		<loot_entry name="Dwarven spirit"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Alcohest"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="White Gull 1"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+
+<!-- DLC -->
+<!-- edibles Q1 -->
+<!-- ingredients -->
+		<loot_entry name="Brioche"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="3"	chance="-1"			/>
+		<loot_entry name="Tomato"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="3"	chance="-1"			/>
+<!-- / -->
+		<loot_entry name="Cookies"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Ginger Bread"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- quest -->
+		<loot_entry name="Magic Mushrooms"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Poison Apple"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Magic food"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- edibles Q2 -->
+<!-- ingredients -->
+		<loot_entry name="Camembert"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
+<!-- / -->
+		<loot_entry name="Chocolate souffle"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Crossaint honey"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Flamiche"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Herb toasts"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Onion soup"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Pheasant gutted"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Ratatouille"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Tarte tatin"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- edibles Q3 -->
+		<loot_entry name="Baguette camembert"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Baguette fish paste"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Boeuf bourguignon"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Confit de canard"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Fish tarte"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Ham roasted"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Pate chicken livers"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Rillettes porc"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- drinks Q3 -->
+		<loot_entry name="Bourgogne chardonnay"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Chateau mont valjean"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Bourgogne pinot noir"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Saint mathieu rouge"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Duke nicolas chardonnay"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Uncle toms exquisite blanc"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Chevalier adam pinot blanc reserve"		player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Prince john merlot"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Count var ochmann shiraz"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Chateau de konrad cabernet"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Geralt de rivia"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="White Wolf"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Butcher of Blaviken"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+
+<!-- recipes -->
+<!-- edibles Q2 -->
+		<loot_entry name="Recipe for Baked apple"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Baked potato"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Butter Bandalura"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Chicken leg"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Gutted fish"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- edibles Q3 -->
+		<loot_entry name="Recipe for Roasted chicken"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Roasted chicken leg"			player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Chicken sandwich"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Grilled chicken sandwich"		player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Fried fish"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Fried meat"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Fondue"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Grilled pork"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Ham sandwich"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Mutton curry"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Sausages"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Scrambled egg"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- drinks Q2 -->
+		<loot_entry name="Recipe for Apple juice"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Raspberry juice"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+
+<!-- DLC -->
+<!-- edibles Q2 -->
+		<loot_entry name="Recipe for Chocolate souffle"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Crossaint honey"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Flamiche"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Onion soup"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Ratatouille"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Tarte tatin"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- edibles Q3 -->
+		<loot_entry name="Recipe for Baguette camembert"			player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Boeuf bourguignon"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Recipe for Fish tarte"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
