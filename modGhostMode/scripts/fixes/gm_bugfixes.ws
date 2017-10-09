@@ -330,7 +330,7 @@ function LazyArmorFix( npc : CNewNPC )
 	var size, i : int;
 	var armorAbility : name;
 	
-	if(!npc.IsHuman())
+	if(!npc.IsHuman() || HasArmorAbility(npc))
 		return;
 	
 	template = (CEntityTemplate)LoadResource( npc.GetReadableName(), true );
@@ -348,6 +348,13 @@ function LazyArmorFix( npc : CNewNPC )
 		}
 	}
 	
+}
+
+function HasArmorAbility( npc : CNewNPC ) : bool
+{
+	return (npc.HasAbility('NPC Leather Armor') || npc.HasAbility('NPC Heavy Leather Armor') ||
+			npc.HasAbility('NPC Chainmail Armor') || npc.HasAbility('NPC Partial Plate Armor') ||
+			npc.HasAbility('NPC Full Plate Armor') || npc.HasAbility('NPC_Wild_Hunt_Armor'));
 }
 
 function GetArmorAbilityFromPath( path : string ) : name
