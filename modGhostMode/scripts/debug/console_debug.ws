@@ -104,6 +104,18 @@ exec function toggledebugdot()
 	}
 }
 
+exec function toggledebugdodge()
+{
+	if( FactsQuerySum( "modSigns_debug_dodge" ) < 1 )
+	{
+		FactsAdd( "modSigns_debug_dodge" );
+	}
+	else
+	{
+		FactsRemove( "modSigns_debug_dodge" );
+	}
+}
+
 exec function enabledeletedscene()
 {
 	if( FactsQuerySum( "q401_cooking_enabled" ) < 1 )
