@@ -104,15 +104,27 @@ exec function toggledebugdot()
 	}
 }
 
-exec function toggledebugdodge()
+exec function toggledebugreducedamage()
 {
-	if( FactsQuerySum( "modSigns_debug_dodge" ) < 1 )
+	if( FactsQuerySum( "modSigns_debug_reduce_damage" ) < 1 )
 	{
-		FactsAdd( "modSigns_debug_dodge" );
+		FactsAdd( "modSigns_debug_reduce_damage" );
 	}
 	else
 	{
-		FactsRemove( "modSigns_debug_dodge" );
+		FactsRemove( "modSigns_debug_reduce_damage" );
+	}
+}
+
+exec function toggledebugpreattack()
+{
+	if( FactsQuerySum( "modSigns_debug_preattack" ) < 1 )
+	{
+		FactsAdd( "modSigns_debug_preattack" );
+	}
+	else
+	{
+		FactsRemove( "modSigns_debug_preattack" );
 	}
 }
 

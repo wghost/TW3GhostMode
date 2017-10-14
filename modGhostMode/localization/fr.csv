@@ -68,7 +68,7 @@
 2110992069|        |attribute_name_vsVampire_resist_reduction|Réduction de la résistance aux dégâts contre les vampires
 2110992070|        |attribute_name_vsHuman_attack_power|Puissance de l'attaque contre les humains
 2110992071|da7e5ba4||Chaque pièce d'armure légère augmente les chances de coups critiques de $S$% et la puissance de ces coups critiques de $S$%.
-2110992072|da7e5ba6||Chaque pièce d'armure lourde augmente la vitalité maximum de $S$% et le gain de points d'adrénaline de $S$%.
+2110992072|da7e5ba6||Chaque pièce d'armure lourde augmente la vitalité maximum de $S$% et le gain de points d'adrénaline de $S$.
 2110992073|163a8e78||Augmente les chances de brûlure de $I$%.
 2110992074|3c4a6af2||Dégâts de l'attaque puissante
 2110992075|5806ca6e||Dégâts critiques de l'attaque puissante
@@ -298,3 +298,5 @@
 2110992312|        |option_gm_stash_sync_toggle|Utiliser le mode de réserve synchronisée par défaut
 2110992313|da7e5ba8||Si vous avez au moins un point d'adrénaline, il sera utilisé pour lancer un signe à la place de la vigueur.
 2110992314|        |option_gm_no_add_levels_guards|Pas de niveaux additionnels pour les gardes
+2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter.
+2110992316|1f70c028||Each skill point increases the effective angle distance while dodging by 10 degrees.

@@ -1,1 +1,1 @@
-w3strings.exe --encode gm.en.csv --id-space 992
+w3strings.exe --encode en.csv --id-space 992

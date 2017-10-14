@@ -68,7 +68,7 @@
 2110992069|        |attribute_name_vsVampire_resist_reduction|뱀파이어의 공격 저항력 감소
 2110992070|        |attribute_name_vsHuman_attack_power|교수형자 대응 공격력
 2110992071|da7e5ba4||경갑옷 한 부위당 치명타 확률이 $S$% 증가하고 치명타 피해량이 $S$% 증가한다.
-2110992072|da7e5ba6||Each piece of heavy armor increases maximum Vitality by $S$%, damage dealt by melee attacks grants additional $S$% Adrenaline Points per each heavy armor piece.
+2110992072|da7e5ba6||Each piece of heavy armor increases maximum Vitality by $S$%, damage dealt by melee attacks grants additional $S$ Adrenaline Points per each heavy armor piece.
 2110992073|163a8e78||화상 확률 $I$% 증가.
 2110992074|3c4a6af2||강공 공격력
 2110992075|5806ca6e||강공 치명타 피해량
@@ -298,3 +298,5 @@
 2110992312|        |option_gm_stash_sync_toggle|Use synchronized stash mode by default
 2110992313|da7e5ba8||If you have at least one Adrenaline Point, it will be used to cast a Sign instead of Stamina.
 2110992314|        |option_gm_no_add_levels_guards|No additional levels for guards
+2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter.
+2110992316|1f70c028||Each skill point increases the effective angle distance while dodging by 10 degrees.

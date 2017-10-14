@@ -64,7 +64,7 @@
 2110992069|5a3c18bd||Znosi część odporności na obrażenia Wampirów
 2110992070|d25344ee||Obrażenia względem Humanoidów
 2110992071|da7e5ba4||Każdy element lekkiego rynsztunku dodaje $S$% do szansy na trafienie krytyczne oraz $S$% do obrażeń krytycznych.
-2110992072|da7e5ba6||Każdy element ciężkiego rynsztunku dodaje $S$% do maksymalnej żywotności oraz $S$% do generowania punktów Adrenaliny bronią białą.
+2110992072|da7e5ba6||Każdy element ciężkiego rynsztunku dodaje $S$% do maksymalnej żywotności oraz $S$ do generowania punktów Adrenaliny bronią białą.
 2110992073|163a8e78||Zwiększa szansę na podpalenie o $I$%.
 2110992074|3c4a6af2||Silny Atak - obrażenia
 2110992075|5806ca6e||Silny Atak - obrażenia trafienia krytycznego
@@ -294,3 +294,5 @@
 2110992312|a5384b1f||Domyślnie użyj trybu synchronizacji
 2110992313|da7e5ba8||Jeżeli masz przynajmniej jeden punkt Adrenaliny, zostanie on użyty przy rzucaniu Znaku zamiast wytrzymałości.
 2110992314|63833111||Nie podnoś poziomu doświadczenia straży
+2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter.
+2110992316|1f70c028||Each skill point increases the effective angle distance while dodging by 10 degrees.

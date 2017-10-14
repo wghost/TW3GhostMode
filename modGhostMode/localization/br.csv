@@ -68,7 +68,7 @@
 2110992069|        |attribute_name_vsVampire_resist_reduction|Redução de resistência a danos contra vampiros
 2110992070|        |attribute_name_vsHuman_attack_power|Poder de ataque contra Humanos
 2110992071|da7e5ba4||Cada peça de armadura leve aumenta a chance de acerto crítico em $S$% e o poder de acerto crítico em $S$%.
-2110992072|da7e5ba6||Cada peça de armadura pesada aumenta a Vitalidade máxima em $S$% e o ganho de Pontos de Adrenalina em $S$%.
+2110992072|da7e5ba6||Cada peça de armadura pesada aumenta a Vitalidade máxima em $S$ e o ganho de Pontos de Adrenalina em $S$%.
 2110992073|163a8e78||Aumenta a chance de incinerar em $I$%.
 2110992074|3c4a6af2||Dano do ataque forte
 2110992075|5806ca6e||Dano crítico de ataque forte
@@ -137,7 +137,7 @@
 2110992145|329005f0||Permite que você realize ataques corporais fortes que provocam $I$% a mais de dano e adiciona $I$ para a penetração de armadura.
 2110992148|bab1daf5||Cada ponto de Toxicidade aumenta o poder de ataque e a intensidade do Sinal em $S$% ( até o máximo de $S$%).
 2110992149|c3f5389c||Sinais podem causar danos críticos. A chance e o dano de acertos críticos aumentam com a intesnsidade do Sinal (atual chance de acerto crítico - $S$%, poder de acerto crítico - $S$%). Oponentes mortos por um acerto crítico de Sinais explodem.
-2110992150|c3f538a0||Quando o Sinal Aard é lançado, há uma chance adicional de $S$% de congelar inimigos. Oponentes nocauteados e congelados ao mesmo tempo morrem de imediato. Oponentes que não forem congelados recebem um dano adicional de $S$. O dano varia com a intensidade do Sinal. Dano atual: $I$.
+2110992150|c3f538a0||Quando o Sinal Aard é lançado, há uma chance adicional de $S$% de congelar inimigos. Oponentes nocauteados e congelados ao mesmo tempo morrem de imediato. Oponentes que não forem congelados recebem um dano adicional de $S$. O dano varia com a intensidade do Sinal. Dano atual: $S$.
 2110992151|cf2b2da1||Armadilha mágica que desacelera os inimigos em $S$% (varia com a intensidade do Sinal) que estão em sua área de efeito. Duração da armadilha: $S$s.
 2110992152|c3f538a1||No começo do combate, O poder de ataque e a intensidade do Sinal aumentam em  $S$% para cada inimigo (exceto o primeiro) por $S$s. Assim, quando enfrentar $S$ inimigos, o bônus é de $S$%. Quando o efeito acaba, o poder de ataque e a intensidade do Sinal caem em $S$% para cada inimigo envolvido exceto o primeiro (o modificador não pode ultrapassar $S$%) por $S$s.
 2110992153|c32e766a||Bônus de poder de acerto crítico
@@ -298,3 +298,5 @@
 2110992312|        |option_gm_stash_sync_toggle|Sincronizar o estoque com o inventário, modo padrão 
 2110992313|da7e5ba8||Se você tiver pelo menos um Ponto de Adrenalina, ele será usado para lançar um Sinal em vez de Vigor.
 2110992314|63833111||Não elevar o nivel dos guardas  
+2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter.
+2110992316|1f70c028||Each skill point increases the effective angle distance while dodging by 10 degrees.
