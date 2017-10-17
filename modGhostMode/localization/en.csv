@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|Geralt is now clean-shaven
 2110992170|329005f2||Allows you to wield a light hand-held crossbow. Non-aimed shots deal 50% less damage.
 2110992171|5f63dbf5||Enables the creation of handheld bombs that can be thrown at enemies. Non-aimed throws deal 50% less damage.
-2110992172|754d1891||In addition to usual Battle Trance effect, Each Adrenaline Point also increases Sign intensity by $I$%.
+2110992172|754d1891||In addition to usual Battle Trance effect, each Adrenaline Point also increases Sign intensity by $I$%. Using Signs now generates Adrenaline Points.
 2110992173|        |item_desc_razor_mod|Used for shaving.
 2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and Stamina regeneration by $S$%.
 2110992175|b1173fc7||Target is slowed down by $I$% while Geralt is casting Axii. Increases the effectiveness of Axii in dialogues.
@@ -298,5 +298,11 @@
 2110992312|        |option_gm_stash_sync_toggle|Use synchronized stash mode by default
 2110992313|da7e5ba8||If you have at least one Adrenaline Point, it will be used to cast a Sign instead of Stamina.
 2110992314|        |option_gm_no_add_levels_guards|No additional levels for guards
-2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter.
-2110992316|1f70c028||Each skill point increases the effective angle distance while dodging by 10 degrees.
+2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter. Successful countering grants additional 25% chance to critical hit. Rolling allows to dodge arrows and to avoid knockdown and stagger effects.
+2110992316|1f70c028||Each skill point increases the safe angle distance while dodging by 10 degrees.
+2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%.
+2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
+2110992319|754d1890||Increases Adrenaline gain by $I$%. Allows to pay melee action Stamina cost with Adrenaline.
+2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus.
+2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus.

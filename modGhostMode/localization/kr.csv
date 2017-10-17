@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|게롤트는 깨끗하게 면도되었다.
 2110992170|329005f2||가벼운 휴대 석궁을 쓸 수 있게 된다. 조준을 안할시 피해량이 50% 감소한다.
 2110992171|5f63dbf5||적에게 던질 폭탄을 제조할 수 있다. 조준해서 던지지 않을 시 공격력이 50% 감소한다.
-2110992172|754d1891||전투 트랜스 상태에서 아드레날린 점수 뿐만 아니라 표식 강도가 $I$% 증가한다.
+2110992172|754d1891||전투 트랜스 상태에서 아드레날린 점수 뿐만 아니라 표식 강도가 $I$% 증가한다. Using Signs now generates Adrenaline Points.
 2110992173|        |item_desc_razor_mod|면도에 사용한다.
 2110992174|da7e5ba5||일반 갑옷 한 부위당 표식 강도가 $S$% 증가하고 원기 회복이 $S$% 증가한다.
 2110992175|b1173fc7||액시 발동 중에 대상의 이동 속도가 $I$% 느려진다. 대화 중 액시 효과가 강화된다.
@@ -298,5 +298,11 @@
 2110992312|        |option_gm_stash_sync_toggle|Use synchronized stash mode by default
 2110992313|da7e5ba8||If you have at least one Adrenaline Point, it will be used to cast a Sign instead of Stamina.
 2110992314|        |option_gm_no_add_levels_guards|No additional levels for guards
-2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter.
-2110992316|1f70c028||Each skill point increases the effective angle distance while dodging by 10 degrees.
+2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter. Successful countering grants additional 25% chance to critical hit. Rolling allows to dodge arrows and to avoid knockdown and stagger effects.
+2110992316|1f70c028||Each skill point increases the safe angle distance while dodging by 10 degrees.
+2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%.
+2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
+2110992319|754d1890||Increases Adrenaline generation by $I$%. Allows to pay melee action Stamina cost with Adrenaline.
+2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus.
+2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus.

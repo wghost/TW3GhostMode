@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|Geralt est bien rasé à présent.
 2110992170|329005f2||Vous permet d'utiliser une arbalète légère. Les tirs au jugé infligent 50% de dégâts en moins.
 2110992171|5f63dbf5||Vous permet de créer des bombes qui peuvent être lancées sur les ennemis. Les lancers au jugé infligent 50% de dégâts en moins.
-2110992172|754d1891||En plus de l'effet habituel de Fureur guerrière, chaque point d'adrénaline augmente l'intensité des signes de $I$%.
+2110992172|754d1891||En plus de l'effet habituel de Fureur guerrière, chaque point d'adrénaline augmente l'intensité des signes de $I$%. Using Signs now generates Adrenaline Points.
 2110992173|        |item_desc_razor_mod|Utilisé pour le rasage.
 2110992174|da7e5ba5||Chaque pièce d'armure intermédiaire augmente l'intensité des signes de $S$% et la régénération de vigueur de $S$%.
 2110992175|b1173fc7||La cible est ralentie de $I$% quand Geralt lance Axii. Augmente l'efficacité d'Axii pendant les dialogues.
@@ -298,5 +298,11 @@
 2110992312|        |option_gm_stash_sync_toggle|Utiliser le mode de réserve synchronisée par défaut
 2110992313|da7e5ba8||Si vous avez au moins un point d'adrénaline, il sera utilisé pour lancer un signe à la place de la vigueur.
 2110992314|        |option_gm_no_add_levels_guards|Pas de niveaux additionnels pour les gardes
-2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter.
-2110992316|1f70c028||Each skill point increases the effective angle distance while dodging by 10 degrees.
+2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter. Successful countering grants additional 25% chance to critical hit. Rolling allows to dodge arrows and to avoid knockdown and stagger effects.
+2110992316|1f70c028||Each skill point increases the safe angle distance while dodging by 10 degrees.
+2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%.
+2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
+2110992319|754d1890||Increases Adrenaline generation by $I$%. Allows to pay melee action Stamina cost with Adrenaline.
+2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus.
+2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus.

@@ -155,7 +155,7 @@
 2110992169|25746309||Geralt jest teraz ogolony na czysto
 2110992170|329005f2||Umożliwia posługiwanie się lekką kuszą. Strzał bez celowania zadaje o 50% mniej obrażeń.
 2110992171|5f63dbf5||Umożliwia wytwarzanie petard, które są pociskami miotanymi w przeciwników. Rzut bez celowania zadaje o 50% mniej obrażeń.
-2110992172|754d1891||Trans Bojowy zwiększa dodatkowo Moc Znaków o $I$% za każdy punkt Adrenaliny.
+2110992172|754d1891||Trans Bojowy zwiększa dodatkowo Moc Znaków o $I$% za każdy punkt Adrenaliny. Using Signs now generates Adrenaline Points.
 2110992173|04bda90f||Służy do golenia.
 2110992174|da7e5ba5||Każdy element średniego rynsztunku dodaje $S$% do Mocy Znaków i $S$% do regeneracji wytrzymałości.
 2110992175|b1173fc7||Cel jest spowolniony o $I$% podczas rzucania Znaku. Zwiększa skuteczność Znaku Aksji w dialogach.
@@ -294,5 +294,11 @@
 2110992312|a5384b1f||Domyślnie użyj trybu synchronizacji
 2110992313|da7e5ba8||Jeżeli masz przynajmniej jeden punkt Adrenaliny, zostanie on użyty przy rzucaniu Znaku zamiast wytrzymałości.
 2110992314|63833111||Nie podnoś poziomu doświadczenia straży
-2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter.
-2110992316|1f70c028||Each skill point increases the effective angle distance while dodging by 10 degrees.
+2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter. Successful countering grants additional 25% chance to critical hit. Rolling allows to dodge arrows and to avoid knockdown and stagger effects.
+2110992316|1f70c028||Each skill point increases the safe angle distance while dodging by 10 degrees.
+2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%.
+2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
+2110992319|754d1890||Increases Adrenaline generation by $I$%. Allows to pay melee action Stamina cost with Adrenaline.
+2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus.
+2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus.

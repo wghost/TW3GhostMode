@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|Geralt está agora barbeado
 2110992170|329005f2||Permite que você maneje uma besta leve de mão. Tiros não mirados provocam 50% menos de dano.
 2110992171|5f63dbf5||Permite a criação de bombas que podem ser arremessadas nos inimigos. Os lançamentos não-mirados causam 50% menos dano..
-2110992172|754d1891||Além do habitual efeito transe de batalha, cada ponto de Adrenalina também aumenta a intensidade do Sinal em $I$%. 
+2110992172|754d1891||Além do habitual efeito transe de batalha, cada ponto de Adrenalina também aumenta a intensidade do Sinal em $I$%. Using Signs now generates Adrenaline Points.
 2110992173|        |item_desc_razor_mod|Usado para barbear.
 2110992174|da7e5ba5||Cada peça de armadura média aumenta a intensidade dos Sinais em $S$% e a regeneração de Vigor $S$%.
 2110992175|b1173fc7||O alvo é desacelerado em $I$% enquanto Geralt lança o Axii. Aumenta o efeito de Axii nos diálogos.
@@ -298,5 +298,11 @@
 2110992312|        |option_gm_stash_sync_toggle|Sincronizar o estoque com o inventário, modo padrão 
 2110992313|da7e5ba8||Se você tiver pelo menos um Ponto de Adrenalina, ele será usado para lançar um Sinal em vez de Vigor.
 2110992314|63833111||Não elevar o nivel dos guardas  
-2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter.
-2110992316|1f70c028||Each skill point increases the effective angle distance while dodging by 10 degrees.
+2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter. Successful countering grants additional 25% chance to critical hit. Rolling allows to dodge arrows and to avoid knockdown and stagger effects.
+2110992316|1f70c028||Each skill point increases the safe angle distance while dodging by 10 degrees.
+2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%.
+2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
+2110992319|754d1890||Increases Adrenaline generation by $I$%. Allows to pay melee action Stamina cost with Adrenaline.
+2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus.
+2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus.
