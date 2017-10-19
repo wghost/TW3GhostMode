@@ -304,5 +304,7 @@
 2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
 2110992319|754d1890||Increases Adrenaline gain by $I$%. Allows to pay melee action Stamina cost with Adrenaline.
 2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
-2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus.
-2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$% to poison, bleeding and burning effect resistances.
+2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus: +$I$ degrees to the safe angle distance while dodging.
+2110992323|        |skill_desc_viper_set_ability1|Poisons heal instead of doing damage.
+2110992324|        |gm_stat_attack_power_levelup_bonus|Attack Power bonus

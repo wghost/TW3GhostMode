@@ -729,3 +729,17 @@ exec function addcraftedarmor()
 	thePlayer.inv.AddAnItem('Heavy pants 03_crafted',1);
 	thePlayer.inv.AddAnItem('Heavy pants 04_crafted',1);
 }
+
+exec function addviperset()
+{
+	thePlayer.inv.AddAnItem('EP1 Witcher Armor',1);
+	thePlayer.inv.AddAnItem('EP1 Witcher Boots',1);
+	thePlayer.inv.AddAnItem('EP1 Witcher Gloves',1);
+	thePlayer.inv.AddAnItem('EP1 Witcher Pants',1);
+}
+
+exec function resetme(optional level : int)
+{
+	resetLevels_internal(level);
+	addAutogenEquipment_internal();
+}
