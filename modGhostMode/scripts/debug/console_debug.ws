@@ -128,6 +128,18 @@ exec function toggledebugpreattack()
 	}
 }
 
+exec function toggledebugoils()
+{
+	if( FactsQuerySum( "modSigns_debug_oils" ) < 1 )
+	{
+		FactsAdd( "modSigns_debug_oils" );
+	}
+	else
+	{
+		FactsRemove( "modSigns_debug_oils" );
+	}
+}
+
 exec function enabledeletedscene()
 {
 	if( FactsQuerySum( "q401_cooking_enabled" ) < 1 )

@@ -82,8 +82,8 @@
 2110992083|b08bd7d2||Schaden bei einem starken Angriff
 2110992084|c7b0b7d7||Schaden bei einem schnellen Angriff
 2110992085|fa3924a4||Schaden bei einem starken kritischen Angriff
-2110992090|6c1d3ba3||Kritische Trefferchance und die kritische Trefferstärke gelten auch für Bomben. <br>Bomben werden ohne Verzögerung geworfen.
-2110992091|85e8fbd1||Jedes Öl das auf ein Schwert angewandt wird, erhöht dessen kritische Trefferchance um 5% und die kritische Trefferstärke um 10%.
+2110992090|6c1d3ba3||Bombs are thrown without any delay and can deal critical damage. Each set piece increases bomb critical hit chance by $S$% (current bonus is: $S$%) and bomb critical hit power by $S$% (current bonus is: $S$%).
+2110992091|85e8fbd1||Each set piece increases the effectiveness of an oil applied to a sword by $S$% (current bonus is: $S$%).
 2110992092|1f70c024||Schnelle Angriffe haben eine $S$% Chance einen Blutungseffekt zu verursachen.
 2110992093|71d0c5a6||Alternativer Zeichen Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem $I$ Meter Radius. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Zerstört Projektile die durch das Gebiet fliegen. <br>Hält für $I$s. Geschütz Aufladungen - $I$.
 2110992094|71d0c5a5||Alternativer Zeichen Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem $I$ Meter Radius. <br>Schaden skaliert mit der Zeichenstärke (derzeitiger Schaden: $I$). <br>Zerstört Projektile die durch das Gebiet fliegen. <br>Hält für $I$s. Geschütz Aufladungen - $I$.
@@ -306,6 +306,7 @@
 2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
 2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$% to poison, bleeding and burning effect resistances.
 2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus: +$I$ degrees to the safe angle distance while dodging.
-2110992323|        |skill_desc_viper_set_ability1|Poisons heal instead of doing damage.
+2110992323|        |skill_desc_viper_set_ability1|Grants poison immunity. Poisons heal by $S$% of poison damage for each set piece equipped (current healing rate is: $S$%).
 2110992324|        |gm_stat_attack_power_levelup_bonus|Attack Power bonus
 2110992325|d23efdaf||Each set piece grants +$S$% bonus to free casting a new Quen shield after the old one is shattered (current chance is: $S$%). Successful free casting halves the chances for the next free casting. Casting with the Sign restores the maximum chance value.
+2110992326|85e8fbd2||Up to three different oils can be applied to a sword at a time. Each oil applied to a sword increases critical hit chance by $S$% and critical hit power by $S$%.

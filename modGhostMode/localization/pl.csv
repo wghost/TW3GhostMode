@@ -78,8 +78,8 @@
 2110992083|b08bd7d2||Silny Atak - obrażenia
 2110992084|c7b0b7d7||Szybki Atak - obrażenia
 2110992085|fa3924a4||Silny Atak - szansa na trafienie krytyczne
-2110992090|6c1d3ba3||Szansa na trafienie krytyczne i krytyczne obrażenia dotyczy również petard. Rzut petardą następuje bezzwłocznie.
-2110992091|85e8fbd1||Każdy zaaplikowany olej zwiększa szansę na trafienie krytyczne o 5% oraz obrażenia trafienia krytycznego o 10%.
+2110992090|6c1d3ba3||Bombs are thrown without any delay and can deal critical damage. Each set piece increases bomb critical hit chance by $S$% (current bonus is: $S$%) and bomb critical hit power by $S$% (current bonus is: $S$%).
+2110992091|85e8fbd1||Each set piece increases the effectiveness of an oil applied to a sword by $S$% (current bonus is: $S$%).
 2110992092|1f70c024||Szybki Atak - dodaje $S$% szans na spowodowanie efektu krwawienia.
 2110992093|71d0c5a6||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia zależą od Mocy Znaku (aktualne: $I$). Niszczy pociski w obszarze działania. Czas trwania $I$s, ładunki Magicznej Pułapki - $I$.
 2110992094|71d0c5a5||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia zależą od Mocy Znaku (aktualne: $I$). Niszczy pociski w obszarze działania. Czas trwania $I$s, ładunki Magicznej Pułapki - $I$.
@@ -302,6 +302,7 @@
 2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
 2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$% to poison, bleeding and burning effect resistances.
 2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus: +$I$ degrees to the safe angle distance while dodging.
-2110992323|        |skill_desc_viper_set_ability1|Poisons heal instead of doing damage.
+2110992323|        |skill_desc_viper_set_ability1|Grants poison immunity. Poisons heal by $S$% of poison damage for each set piece equipped (current healing rate is: $S$%).
 2110992324|        |gm_stat_attack_power_levelup_bonus|Attack Power bonus
 2110992325|d23efdaf||Each set piece grants +$S$% bonus to free casting a new Quen shield after the old one is shattered (current chance is: $S$%). Successful free casting halves the chances for the next free casting. Casting with the Sign restores the maximum chance value.
+2110992326|85e8fbd2||Up to three different oils can be applied to a sword at a time. Each oil applied to a sword increases critical hit chance by $S$% and critical hit power by $S$%.
