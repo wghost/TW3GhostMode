@@ -306,3 +306,6 @@
 2110992324|        |gm_stat_attack_power_levelup_bonus|Attack Power bonus
 2110992325|d23efdaf||Each set piece grants +$S$% bonus to free casting a new Quen shield after the old one is shattered (current chance is: $S$%). Successful free casting halves the chances for the next free casting. Casting with the Sign restores the maximum chance value.
 2110992326|85e8fbd2||Up to three different oils can be applied to a sword at a time. Each oil applied to a sword increases critical hit chance by $S$% and critical hit power by $S$%.
+2110992327|        |panel_gm_scaling_options|Enemy scaling
+2110992328|        |panel_gm_exp_options|Experience
+2110992329|        |panel_gm_gameplay_options|Gameplay

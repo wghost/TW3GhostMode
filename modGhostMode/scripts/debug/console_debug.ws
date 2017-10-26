@@ -140,6 +140,18 @@ exec function toggledebugoils()
 	}
 }
 
+exec function toggledebugbear()
+{
+	if( FactsQuerySum( "modSigns_debug_bear" ) < 1 )
+	{
+		FactsAdd( "modSigns_debug_bear" );
+	}
+	else
+	{
+		FactsRemove( "modSigns_debug_bear" );
+	}
+}
+
 exec function enabledeletedscene()
 {
 	if( FactsQuerySum( "q401_cooking_enabled" ) < 1 )

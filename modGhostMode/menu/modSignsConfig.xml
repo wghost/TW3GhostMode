@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+   
+    <Group id="GMScalingOptions" displayName="Mods.ghost_mode.gm_scaling_options">
+        <VisibleVars>
+            <Var id="Virtual_GMScaling" displayName="gm_enemies_scaling" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gm_es_none">
+						<Entry varId="GMScaling" value="0"/>
+					</Option>
+					<Option id="1" displayName="gm_es_upscale">
+						<Entry varId="GMScaling" value="1"/>
+					</Option>
+					<Option id="2" displayName="gm_es_match">
+						<Entry varId="GMScaling" value="2"/>
+					</Option>
+					<Option id="3" displayName="gm_es_soft">
+						<Entry varId="GMScaling" value="3"/>
+					</Option>
+					<Option id="4" displayName="gm_es_random">
+						<Entry varId="GMScaling" value="4"/>
+					</Option>
+					<Option id="5" displayName="gm_es_random_no_down">
+						<Entry varId="GMScaling" value="5"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="GMRandomScalingMinLevel" displayName="gm_rnd_scaling_min_slider" displayType="SLIDER;-12;12;24"/>
+            <Var id="GMRandomScalingMaxLevel" displayName="gm_rnd_scaling_max_slider" displayType="SLIDER;-12;12;24"/>
+            <Var id="GMNoAnimalUpscaling" displayName="gm_no_animal_upscaling_toggle" displayType="TOGGLE"/>
+            <Var id="GMNoAddLevelsGuards" displayName="gm_no_add_levels_guards" displayType="TOGGLE"/>
+            <Var id="GMHealthMultiplier" displayName="gm_health_multiplier" displayType="SLIDER;-1;5;60"/>
+            <Var id="GMDamageMultiplier" displayName="gm_damage_multiplier" displayType="SLIDER;-1;5;60"/>
+        </VisibleVars>
+    </Group>
+	
+    <Group id="GMExpOptions" displayName="Mods.ghost_mode.gm_exp_options">
+        <VisibleVars>
+            <Var id="GMNoQuestLevels" displayName="gm_no_quest_levels_toggle" displayType="TOGGLE"/>
+            <Var id="GMUseXMLExp" displayName="gm_use_xml_exp_toggle" displayType="TOGGLE" />
+            <Var id="GMQuestExpModifier" displayName="gm_quest_exp_slider" displayType="SLIDER;-1;1;200"/>
+            <Var id="GMMonsterExpModifier" displayName="gm_monster_exp_slider" displayType="SLIDER;-1;1;200"/>
+        </VisibleVars>
+    </Group>
+	
+    <Group id="GMGameplayOptions" displayName="Mods.ghost_mode.gm_gameplay_options">
+        <VisibleVars>
+            <Var id="GMSinkBoat" displayName="gm_sink_boat_toggle" displayType="TOGGLE"/>
+            <Var id="GMSinkBoatOverEnc" displayName="gm_sink_boat_slider" displayType="SLIDER;0;100;100"/>
+            <Var id="GMEncumbranceMultiplier" displayName="gm_encumbrance_slider" displayType="SLIDER;0;100;100"/>
+            <Var id="GMStashSync" displayName="gm_stash_sync_toggle" displayType="TOGGLE"/>
+        </VisibleVars>
+    </Group>
+	
+</UserConfig>
