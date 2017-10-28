@@ -298,7 +298,7 @@
 2110992312|        |option_gm_stash_sync_toggle|Sincronizar o estoque com o inventário, modo padrão 
 2110992313|da7e5ba8||Se você tiver pelo menos um Ponto de Adrenalina, ele será usado para lançar um Sinal em vez de Vigor.
 2110992314|63833111||Não elevar o nivel dos guardas  
-2110992315|329005f1||Wolf School defensive techniques: dodge, parry, counter. Successful countering grants additional 25% chance to critical hit. Rolling allows to dodge arrows and to avoid knockdown and stagger effects.
+2110992315|329005f1||Wolf School defensive techniques: parry, counter, dodge. Successful countering grants additional $I$% chance to critical hit. Parry and counter success depends on attack and enemy type: partial parry reduces damage taken by $I$% and prevents bleeding, partial counter additionally prevents all negative effects and allows to deal damage in return. Successful parry/counter reduces damage taken to zero. Rolling allows to dodge arrows and to avoid knockdown and stagger effects. Dodge success depends on attack type, attacker distance and dodge direction (angle distance). Partially successful dodge reduces damage taken just partially.
 2110992316|1f70c028||Each skill point increases the safe angle distance while dodging by 10 degrees.
 2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%.
 2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
@@ -308,8 +308,14 @@
 2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus: +$I$ degrees to the safe angle distance while dodging.
 2110992323|        |skill_desc_viper_set_ability1|Grants poison immunity. Poisons heal by $S$% of poison damage for each set piece equipped (current healing rate is: $S$%).
 2110992324|        |gm_stat_attack_power_levelup_bonus|Attack Power bonus
-2110992325|d23efdaf||Each set piece grants +$S$% bonus to free casting a new Quen shield after the old one is shattered (current chance is: $S$%). Successful free casting halves the chances for the next free casting. Casting with the Sign restores the maximum chance value.
+2110992325|d23efdaf||Each set piece reduces the damage taken from partial parry or counter by +$S$% (current damage reduction is: $S$%).
 2110992326|85e8fbd2||Up to three different oils can be applied to a sword at a time. Each oil applied to a sword increases critical hit chance by $S$% and critical hit power by $S$%.
 2110992327|        |panel_gm_scaling_options|Enemy scaling
 2110992328|        |panel_gm_exp_options|Experience
 2110992329|        |panel_gm_gameplay_options|Gameplay
+2110992330|        |item_name_dismantle_kit_gear_1|Item dismantle kit
+2110992331|        |item_desc_dismantle_kit_gear_1|Allows to dismantle junk items and crafting components.
+2110992332|        |item_name_dismantle_kit_alchemy_1|Alchemy dismantle kit
+2110992333|        |item_desc_dismantle_kit_alchemy_1|Allows to dismantle alchemy components.
+2110992334|        |panel_button_hud_interaction_dismantle|Dismantle
+2110992336|d23efdb0||Parrying an attack staggers the attacking enemy.

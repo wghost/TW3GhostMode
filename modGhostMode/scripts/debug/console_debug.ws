@@ -140,7 +140,7 @@ exec function toggledebugoils()
 	}
 }
 
-exec function toggledebugbear()
+/*exec function toggledebugbear()
 {
 	if( FactsQuerySum( "modSigns_debug_bear" ) < 1 )
 	{
@@ -150,7 +150,7 @@ exec function toggledebugbear()
 	{
 		FactsRemove( "modSigns_debug_bear" );
 	}
-}
+}*/
 
 exec function enabledeletedscene()
 {
