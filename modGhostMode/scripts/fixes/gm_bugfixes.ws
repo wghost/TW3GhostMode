@@ -143,15 +143,17 @@ function FixQuestItems()
 			journalEntry = journalManager.GetEntryByString( "Q309 Novigrad Under Control" );
 			break;
 		case 'q310_wine':
-		case 'sq302_agates':
 			journalEntry = journalManager.GetEntryByString( "Q210 Preparations 3FFACA7E-489A30A5-824E4887-21A507DE" );
-			break;
-		case 'q106_magic_oillamp':
-			journalEntry = journalManager.GetEntryByString( "Q106 Tower 38E268CF-431777D8-0A106B87-22F7BA0D" );
 			break;
 		case 'q206_herb_mixture':
 		case 'q206_arnvalds_letter':
 			journalEntry = journalManager.GetEntryByString( "Q206 Berserkers B5130AE1-468A2171-0B7BD3B0-3FBE5499" );
+			break;
+		case 'q111_fugas_top_key':
+			journalEntry = journalManager.GetEntryByString( "Q111 Imlerith" );
+			break;
+		case 'q106_magic_oillamp':
+			journalEntry = journalManager.GetEntryByString( "Q106 Tower 38E268CF-431777D8-0A106B87-22F7BA0D" );
 			break;
 		case 'mq1002_artifact_1':
 		case 'mq1002_artifact_2':
@@ -167,6 +169,7 @@ function FixQuestItems()
 		case 'sq201_ship_manifesto':
 		case 'sq201_cursed_jewel':
 		case 'sq201_werewolf_meat':
+		case 'sq201_padlock_key':
 			journalEntry = journalManager.GetEntryByString( "SQ201 Curse FE437B83-49995725-39F6089A-D2A87C27" );
 			break;
 		case 'sq205_brewing_instructions':

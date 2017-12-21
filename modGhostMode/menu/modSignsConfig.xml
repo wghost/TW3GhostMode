@@ -48,7 +48,6 @@
             <Var id="GMSinkBoat" displayName="gm_sink_boat_toggle" displayType="TOGGLE"/>
             <Var id="GMSinkBoatOverEnc" displayName="gm_sink_boat_slider" displayType="SLIDER;0;100;100"/>
             <Var id="GMEncumbranceMultiplier" displayName="gm_encumbrance_slider" displayType="SLIDER;0;100;100"/>
-            <Var id="GMStashSync" displayName="gm_stash_sync_toggle" displayType="TOGGLE"/>
         </VisibleVars>
     </Group>
 	

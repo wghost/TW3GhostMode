@@ -319,3 +319,6 @@
 2110992333|        |item_desc_dismantle_kit_alchemy_1|Allows to dismantle alchemy components.
 2110992334|        |panel_button_hud_interaction_dismantle|Dismantle
 2110992336|d23efdb0||Parrying an attack staggers the attacking enemy.
+2110992337|e9c58057||All equipped armor items are treated as Medium Armor. Stamina regeneration is unchanged. Stamina penalties for combat actions are unchanged.
+2110992338|eb7a58f6||All equipped armor items are treated as Heavy Armor. Armor gets stamina regeneration penalty. Stamina penalties for combat actions are unchanged.
+2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
