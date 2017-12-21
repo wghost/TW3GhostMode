@@ -16,6 +16,6 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-*.ws set diff
-*.xml set diff
-*.csv set diff
+*.ws diff=astextplain
+*.xml diff=astextplain
+*.csv diff=astextplain
