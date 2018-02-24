@@ -8,14 +8,14 @@
 2110992001|        |panel_ghost_mode|Ghost Mode
 2110992002|        |option_gm_health_multiplier|Modificatore salute nemici
 2110992003|        |option_gm_damage_multiplier|Modificatore danni nemici
-2110992004|        |option_gm_enemies_scaling|Dimensionamento nemici
+2110992004|        |option_gm_enemies_scaling|Livellamento nemici
 2110992005|        |preset_value_gm_es_none|Nessuno
-2110992006|        |preset_value_gm_es_upscale|Scala in Alto
-2110992007|        |preset_value_gm_es_match|Ex aequo
-2110992013|        |attribute_name_frost_resistance_perc|Resistenza gelo
-2110992014|        |attribute_name_armor_reduction_perc|Riduzione resistenza danni nemici
-2110992015|        |attribute_name_potion_duration|Durata pozioni
-2110992016|        |preset_value_gm_es_soft|Lieve dimensionamento 
+2110992006|        |preset_value_gm_es_upscale|Aumenta livello
+2110992007|        |preset_value_gm_es_match|Partita
+2110992013|        |attribute_name_frost_resistance_perc|Resistenza al gelo
+2110992014|        |attribute_name_armor_reduction_perc|Riduzione della resistenza ai danni del nemico
+2110992015|        |attribute_name_potion_duration|Durata della pozione
+2110992016|        |preset_value_gm_es_soft|Lieve aumento del livello
 2110992017|        |panel_common_statistics_tooltip_silver_dph_gm|Danno per colpo (argento)
 2110992018|        |panel_common_statistics_tooltip_steel_dph_gm|Danno per colpo (acciaio)
 2110992019|        |gm_sign_stats_channeling_damage_per_sec|Danni fiammata continua per sec
@@ -54,22 +54,22 @@
 2110992055|        |attribute_name_vsSpecter_critical_hit_damage_bonus|Potenza colpo critico contro Spettri
 2110992056|        |attribute_name_vsOgre_critical_hit_damage_bonus|Potenza colpo critico contro Orchi
 2110992057|        |attribute_name_vsVampire_critical_hit_damage_bonus|Potenza colpo critico contro Vampiri
-2110992058|        |attribute_name_vsBeast_resist_reduction|Resistenza riduzione danni contro Bestie
-2110992059|        |attribute_name_vsCursed_resist_reduction|Resistenza riduzione danni contro Maledetti
-2110992060|        |attribute_name_vsDraconide_resist_reduction|Resistenza riduzione danni contro Draconidi
-2110992061|        |attribute_name_vsHuman_resist_reduction|Resistenza riduzione danni contro Umani
-2110992062|        |attribute_name_vsHybrid_resist_reduction|Resistenza riduzione danni contro Ibridi
-2110992063|        |attribute_name_vsInsectoid_resist_reduction|Resistenza riduzione danni contro Insettoidi
-2110992064|        |attribute_name_vsMagicals_resist_reduction|Resistenza riduzione danni contro Costrutti
-2110992065|        |attribute_name_vsNecrophage_resist_reduction|Resistenza riduzione danni contro Necrofagi
-2110992066|        |attribute_name_vsRelic_resist_reduction|Resistenza riduzione danni contro Ancestrali
-2110992067|        |attribute_name_vsSpecter_resist_reduction|Resistenza riduzione danni contro Spettri
-2110992068|        |attribute_name_vsOgre_resist_reduction|Resistenza riduzione danni contro Orchi
-2110992069|        |attribute_name_vsVampire_resist_reduction|Resistenza riduzione danni contro Vampiri
+2110992058|        |attribute_name_vsBeast_resist_reduction|Riduzione resistenza danni contro Bestie
+2110992059|        |attribute_name_vsCursed_resist_reduction|Riduzione resistenza danni contro Maledetti
+2110992060|        |attribute_name_vsDraconide_resist_reduction|Riduzione resistenza danni contro Draconidi
+2110992061|        |attribute_name_vsHuman_resist_reduction|Riduzione resistenza danni contro Umani
+2110992062|        |attribute_name_vsHybrid_resist_reduction|Riduzione resistenza danni contro Ibridi
+2110992063|        |attribute_name_vsInsectoid_resist_reduction|Riduzione resistenza danni contro Insettoidi
+2110992064|        |attribute_name_vsMagicals_resist_reduction|Riduzione resistenza danni contro Costrutti
+2110992065|        |attribute_name_vsNecrophage_resist_reduction|Riduzione resistenza danni contro Necrofagi
+2110992066|        |attribute_name_vsRelic_resist_reduction|Riduzione resistenza danni contro Ancestrali
+2110992067|        |attribute_name_vsSpecter_resist_reduction|Riduzione resistenza danni contro Spettri
+2110992068|        |attribute_name_vsOgre_resist_reduction|Riduzione resistenza danni contro Orchi
+2110992069|        |attribute_name_vsVampire_resist_reduction|Riduzione resistenza danni contro Vampiri
 2110992070|        |attribute_name_vsHuman_attack_power|Potenza d'attacco contro Umani
 2110992071|da7e5ba4||Ogni pezzo di armatura leggere aumenta la probabilità di colpo critico del $S$% e potenza del colpo critico del $S$%.
-2110992072|da7e5ba6||Each piece of heavy armor increases maximum Vitality by $S$%, damage dealt by melee attacks grants additional $S$ Adrenaline Points per each heavy armor piece.
-2110992073|163a8e78||Aumenta probabilità bruciatura del $I$%.
+2110992072|da7e5ba6||Ogni pezzo di armatura pesante aumenta la vitalità massima del $S$%, il danno inflitto dagli attacchi in mischia concede ulteriori $S$ Punti Adrenalina per ogni pezzo di armatura pesante.
+2110992073|163a8e78||Aumenta probabilità di causare incenerimento del $I$%.
 2110992074|3c4a6af2||Danno attacco potente
 2110992075|5806ca6e||Danno critico attacco potente
 2110992076|69d8dd89||Danno critico attacco rapido
@@ -82,23 +82,23 @@
 2110992083|b08bd7d2||Danno attacco potente
 2110992084|c7b0b7d7||Danno attacco rapido
 2110992085|fa3924a4||Probabilità colpo critico attacco potente
-2110992090|6c1d3ba3||Bombs are thrown without any delay and can deal critical damage. Each set piece increases bomb critical hit chance by $S$% (current bonus is: $S$%) and bomb critical hit power by $S$% (current bonus is: $S$%).
-2110992091|85e8fbd1||Each set piece increases the effectiveness of an oil applied to a sword by $S$% (current bonus is: $S$%).
-2110992092|1f70c024||Attacchi rapidi hanno una probabilità del $S$% di causare l'effetto sanguinamento.
+2110992090|6c1d3ba3||Le bombe vengono lanciate senza alcun ritardo e possono infliggere danni critici. Ogni pezzo del set aumenta la probabilità di colpo critico delle bombe del $S$% (Bonus attuale: $S$%) e la potenza del colpo critico del $S$% (Bonus attuale: $S$%).
+2110992091|85e8fbd1||Ogni pezzo del set aumenta l'efficacia di un olio applicato a una spada del $S$% (Bonus attuale: $S$%).
+2110992092|1f70c024||Gli attacchi rapidi hanno una probabilità del $S$% di causare l'effetto sanguinamento.
 2110992093|71d0c5a6||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
 2110992094|71d0c5a5||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
 2110992095|163a8e72||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
 2110992096|b1173fc9||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto diminuisce del $I$%.
 2110992097|c8467d3c||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto diminuisce del $I$%.
 2110992098|c8467d3d||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto non diminuisce.
-2110992099|1f70c022||Ogni Punto Adrenalina aggiunge il $I$% di probabilità di uccidere istantaneamente un avversario. Non viene applicato al vortice
+2110992099|1f70c022||Ogni Punto Adrenalina aggiunge il $I$% di probabilità di uccidere istantaneamente un avversario. Non viene applicato al Turbine
 2110992102|1f70c021||L'attacco potente trapassa blocchi e scudi. Infligge un ulteriore $S$% di danni e $S$% danni per Punti Adrenalina in proporzione al Vigore consumato($S$% max). Aumenta la probabilità di colpo critico del $S$%.
 2110992103|1f70c020||L'attacco roteante colpisce tutti i nemici nella zona circostante.Riduce il danno del $S$%. Mantenere l'attacco consuma Vigore e Adrenalina. Il danno ricevuto viene diminuito del $S$% durante l'attacco.
 2110992104|064143d3||L'attacco roteante colpisce tutti i nemici nella zona circostante.Riduce il danno del $S$%. Mantenere l'attacco consuma Vigore e Adrenalina. Il danno ricevuto viene diminuito del $S$% durante l'attacco.
 2110992105|        |gm_stat_adrenaline_gain|Guadagno Adrenalina
-2110992106|739e1e2c||Attacchi Potenti aumentano il danno degli Attacchi Rapidi per $S$ secondi del $S$% per ogni pezzo del set. E viceversa. Bonus attuale: $S$%.
+2110992106|739e1e2c||Glia attacchi potenti aumentano il danno degli Attacchi Rapidi per $S$ secondi del $S$% per ogni pezzo del set. E viceversa. Bonus attuale: $S$%.
 2110992107|8ed43e3e||Ogni pezzo del set diminuisce il costo di Vigore per lanciare il segno del $S$%. Bonus attuale: $S$%.
-2110992108|8ed43e3f||The size of Yrden traps is increased by $S$%. While you are within an Yrden trap, Sign Intensity is increased by $S$% and damage resistance is increased by $S$%.
+2110992108|8ed43e3f||La dimensione delle trappole Yrden è aumentata del $S$%. Mentre sei all'interno di una trappola Yrden, l'intensità del segno aumenta del $S$% e la resistenza ai danni aumenta del $S$%.
 2110992109|739e1e2d||I colpi critici con una spada raddoppiano il guadagno di Adrenalina.
 2110992110|        |attribute_name_desc_knockdownchance_mult|Probabilità atterramento
 2110992111|c3f538a3||La probabilità di colpo critico della Balestra è aumentato del $S$% e la potenza del colpo critico - del $S$%. I Dardi di Balestra perforano e atterrano o stordiscono gli avversari. Gli avversari colpiti quando hanno la massima Vitalità perdono il $S$% di Vitalità.
@@ -106,7 +106,7 @@
 2110992113|c1e6a9cc||Quando la Vitalità raggiunge lo zero, i Punti Adrenalina verranno consumati per prevenire la morte e concede l'invunerabilità e una maggiore rigenerazione di vitalità per $S$s. Ripristina il $S$% di vitalità per Punto Adrenalina(Max $S$%). Può essere attivato una volta ogni $S$s.
 2110992114|c1e6a9cb||Quando la Vitalità raggiunge lo zero, i Punti Adrenalina verranno consumati per prevenire la morte concedendo l'invunerabilità e una maggiore rigenerazione di vitalità per $S$s. Ripristina il $S$% di vitalità per Punto Adrenalina(Max $S$%). Può essere attivato una volta ogni $S$s.
 2110992115|cea74418||Quando la Vitalità raggiunge lo zero, i Punti Adrenalina verranno consumati per prevenire la morte concedendo l'invunerabilità e una maggiore rigenerazione di vitalità per $S$s. Ripristina il $S$% di vitalità per Punto Adrenalina(Max $S$%). Può essere attivato una volta ogni $S$s.
-2110992116|cea74430||La Potenza di attacco per gli attacchi rapidi è aumentata del $I$%.
+2110992116|cea74430||La Potenza di attacco degli attacchi rapidi è aumentata del $I$%.
 2110992117|1f70c023||La Potenza di attacco degli attacchi potenti è aumentata del $I$%.
 2110992118|cea74417||Aumenta la probabilità di colpo critico dell'attacco rapido del $I$% e la potenza del colpo critico dell'attacco rapido del $I$%
 2110992119|1f70c027||Aumenta la probabilità di colpo critico dell'attacco potente del $I$% e la potenza del colpo critico dell'attacco potente del $I$%
@@ -114,9 +114,9 @@
 2110992121|c1e68f84||Un contrattacco andato a buon fine aumenta la potenza del prossimo attacco del $I$%. Ogni Punto Adrenalina aumenta la probabilità di atterramento del $I$% (max $I$%, l'adrenalina viene consumata in caso di successo).
 2110992122|c1e68f85||Un contrattacco andato a buon fine aumenta la potenza del prossimo attacco del $I$%. Ogni Punto Adrenalina aumenta la probabilità di atterramento del $I$% (max $I$%, l'adrenalina viene consumata in caso di successo). Aumenta la probabilità di colpo critico del $I$%.
 2110992123|cea74411||Un contrattacco andato a buon fine aumenta la potenza del prossimo attacco del $I$%.
-2110992124|cf2b2da2||Lo scudo protettivo dura fino a quando non assorbe $I$ punti di danno. L'assorbimento danni scala con intensità del Segno. Assorbimento attuale: $I$. <br>Durata scudo: $I$s.
+2110992124|cf2b2da2||Lo scudo protettivo dura fino a quando non assorbe $I$ punti danno. L'assorbimento danni scala con intensità del Segno. Assorbimento attuale: $I$. <br>Durata scudo: $I$s.
 2110992125|163a8e77||Il danno inflitto da Igni diminuisce in modo permanente l'Armatura Totale del nemico del $S$% per colpo(scala con intensità del Segno). Il valore massimo dell'effetto non può superare il $S$%.
-2110992126|cf2b2da0||Un Esplosione di fuoco che infligge $I$ punti di danno con il $I$% di probabilità di incendiare i nemici. Il danno scala con l'intensità del Segno. Danno attuale: $I$.
+2110992126|cf2b2da0||Un Esplosione di fuoco che infligge $I$ punti danno con il $I$% di probabilità di incenerire i nemici. Il danno scala con l'intensità del Segno. Danno attuale: $I$.
 2110992127|163a8e71||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
 2110992128|71d0c1e4||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
 2110992129|71d0c1e5||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
@@ -154,12 +154,12 @@
 2110992164|b02a28c2||Aumento danno
 2110992165|9e58d1f5||Aumenta l'intensità del Segno. Durata estesa. Gli effetti speciali dei segni sono aumentati di un-terzo.
 2110992166|329005f3||I colpi inferti durante il combattimento generano Punti Adrenalina. Ogni Punto Adrenalina aumenta la potenza di attacco del $I$%.
-2110992167|        |gm_combat_stats_fast_crit_attack_power|Attacco rapido potenza colpo critico 
-2110992168|        |gm_combat_stats_strong_crit_attack_power|Attacco potente potenza colpo critico
+2110992167|        |gm_combat_stats_fast_crit_attack_power|Potenza colpo critico attacco rapido  
+2110992168|        |gm_combat_stats_strong_crit_attack_power|Potenza colpo critico attacco potente 
 2110992169|        |gm_used_razor_success|Geralt è ben rasato adesso.
 2110992170|329005f2||Ti permette di brandire una balestra leggera in mano. I colpi non inferti alla testa infliggono il 50% di danni in meno.
 2110992171|5f63dbf5||Attiva la creazione di bombe che possono essere lanciate contro i nemici. I lanci non mirati infliggono il 50% di danni in meno.
-2110992172|754d1891||In aggiunta ai consueti effetti di battaglia, ogni Punto Adrenalina aumenta anche l'intensita del Segno del $I$%. Using Signs now generates Adrenaline Points.
+2110992172|754d1891||In aggiunta ai consueti effetti di battaglia, ogni Punto Adrenalina aumenta anche l'intensita del Segno del $I$%. L'uso dei segni adesso genera Punti Adrenalina.
 2110992173|        |item_desc_razor_mod|Usato per la rasatura.
 2110992174|da7e5ba5||Ogni pezzo di armatura media aumenta l'intensità del Segno del $S$% e la rigenerazione del Vigore del $S$%.
 2110992175|b1173fc7||Il bersaglio viene rallentato del $I$% mentre Geralt lancia il segno Axii. Aumenta l'efficacia di Axii nei dialoghi.
@@ -236,8 +236,8 @@
 2110992247|fc921505||Ogni colpo assestato aumenta la potenza di attacco(max 100%) fino alla fine del combattimento o finché non si subisce danno(esclusa la Tossicità). 
 2110992248|fc921509||La Potenza di Attacco cresce nel corso del combattimento(fino al 30%).
 2110992249|fc921526||Ogni volta che viene lanciato un Segno aumenta la rigenerazione del Vigore(fino a 20) per il resto del combattimento.
-2110992250|        |option_gm_rnd_scaling_min_slider|Ridimensionamento casuale: limite inferiore(rispetto il livello del giocatore)
-2110992251|        |option_gm_rnd_scaling_max_slider|Ridimensionamento casuale: limite superiore(rispetto il livello del giocatore)
+2110992250|        |option_gm_rnd_scaling_min_slider|Livellamento casuale: limite inferiore(rispetto il livello del giocatore)
+2110992251|        |option_gm_rnd_scaling_max_slider|Livellamento casuale: limite superiore(rispetto il livello del giocatore)
 2110992252|        |preset_value_gm_es_random|Casuale
 2110992253|        |option_gm_no_quest_levels_toggle|Disabilita livelli quest
 2110992254|        |option_gm_no_animal_upscaling_toggle|Non alzare il livello degli animali
@@ -270,7 +270,7 @@
 2110992281|71d0be24||Modalità Segno Alternativo:<br> Aard colpisce tutti gli avversari nel raggio di azione. Intensità del Segno non viene abbassata in questa modalità.
 2110992282|71d0d0e8||Aard adesso infligge $I$ danni. Il danno scala con l'intensita del Segno. Danno attuale: $I$.
 2110992283|71d0d0e9||Aard adesso infligge $I$ danni. Il danno scala con l'intensita del Segno. Danno attuale: $I$.
-2110992284|cf2b2d9f||Un'ondata di energia telecinetica che infligge vacillamento agli avversari e una probabilità del $I$% di atterramento. Grande probabilità di atterramento è del $I$%. La probabilità scala con l'intensita del Segno.
+2110992284|cf2b2d9f||Un'ondata di energia telecinetica che infligge vacillamento agli avversari e una probabilità del $I$% di atterramento. Alta probabilità di atterramento è del $I$%. La probabilità scala con l'intensita del Segno.
 2110992286|cf2b2da3||Ammalia la mente di un nemico, confuso rimane lontano dal combattimento. <br> Durata confusione: $S$ secondi(scala con l'intensita del Segno).
 2110992287|b1173fc8||La durata dell'effetto di Axii è aumentata del $I$%.
 2110992288|163a8e74||Modalità Segno Alternativo:<br> il nemico bersaglio diventa un alleato per $I$s e guadagna un bonus alla forza di attacco del $I$%. La durata dell'effetto scala con l'intensità del Segno. Durata attuale: $I$s.
@@ -278,7 +278,7 @@
 2110992290|71d0cd28||Modalità Segno Alternativo:<br> il nemico bersaglio diventa un alleato per $I$s e guadagna un bonus alla forza di attacco del $I$%. La durata dell'effetto scala con l'intensità del Segno. Durata attuale: $I$s.
 2110992291|483c9092||Le cariche del danno inflitto dalla spada aumentano la potenza del colpo critico del $S$%. La carica diminuisce nel tempo e quando si subbiscono danni. Una spada completamente carica aumenta le probabilità di colpo critico del $S$%.
 2110992292|1f5adb4f||Uccidendo un nemico con una spada caricata al massimo si spendono le cariche per aumentare in modo permanente i danni dell'arma. Quando il danno bonus supera il massimo, aumenta il livello della spada. Il danno è aumentato di: $S$ (fino a un massimo di 10).
-2110992293|        |gm_sign_stats_heavy_knockdown|Grande probabilità di atterramento
+2110992293|        |gm_sign_stats_heavy_knockdown|Alta probabilità di atterramento
 2110992294|f76f46ed||Uccidere un nemico ripristina il $I$% del Vigore.
 2110992295|fad8f82b||Uccidere un nemico conferisce da $F$ a $F$ Punti Adrenalina.
 2110992296|ed2f3195||Dona una probabilità del $I$% di riflettere all'attacante il $I$% di danni ricevuti.
@@ -293,32 +293,32 @@
 2110992307|        |gm_kills_kill_count|Conteggio uccisioni
 2110992308|        |gm_kills_humans_total|Umanoidi
 2110992309|        |gm_kills_bosses_total|Creature uniche
-2110992310|1f70c026||Increases crossbow critical hit chance by $I$% and crossbow critical hit power by $I$%.
-2110992311|e71d7c8c||Grants 15% of additional resistance to all types of damage if at 60 inventory weight or below, bonus decreases with more weight.
-2110992312|        |option_gm_stash_sync_toggle|Use synchronized stash mode by default
-2110992313|da7e5ba8||If you have at least one Adrenaline Point, it will be used to cast a Sign instead of Stamina.
-2110992314|        |option_gm_no_add_levels_guards|No additional levels for guards
-2110992315|329005f1||Wolf School defensive techniques: parry, counter, dodge. Successful countering grants additional $I$% chance to critical hit. Parry and counter success depends on attack and enemy type: partial parry reduces damage taken by $I$% and prevents bleeding, partial counter additionally prevents all negative effects and allows to deal damage in return. Successful parry/counter reduces damage taken to zero. Rolling allows to dodge arrows and to avoid knockdown and stagger effects. Dodge success depends on attack type, attacker distance and dodge direction (angle distance). Partially successful dodge reduces damage taken just partially.
-2110992316|1f70c028||Each skill point increases the safe angle distance while dodging by 10 degrees.
-2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%.
-2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
-2110992319|754d1890||Increases Adrenaline generation by $I$%. Allows to pay melee action Stamina cost with Adrenaline.
-2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
-2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$% to poison, bleeding and burning effect resistances.
-2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus: +$I$ degrees to the safe angle distance while dodging.
-2110992323|        |skill_desc_viper_set_ability1|Grants poison immunity. Poisons heal by $S$% of poison damage for each set piece equipped (current healing rate is: $S$%).
-2110992324|        |gm_stat_attack_power_levelup_bonus|Attack Power bonus
-2110992325|d23efdaf||Each set piece reduces the damage taken from partial parry or counter by +$S$% (current damage reduction is: $S$%).
-2110992326|85e8fbd2||Up to three different oils can be applied to a sword at a time. Each oil applied to a sword increases critical hit chance by $S$% and critical hit power by $S$%.
-2110992327|        |panel_gm_scaling_options|Enemy scaling
-2110992328|        |panel_gm_exp_options|Experience
+2110992310|1f70c026||Aumenta la probabilità di colpo critico della balestra del $I$% e la potenza del colpo critico del $I$%.
+2110992311|e71d7c8c||Fornisce il 15% di resistenza aggiuntiva a tutti i tipi di danno se l'inventario ingombra 60 o meno, il bonus diminuisce con più ingombro.
+2110992312|        |option_gm_stash_sync_toggle|Usa la modalità inventario sincronizzato di default
+2110992313|da7e5ba8||Se hai almeno un punto adrenalina, verrà usato per lanciare un segno al posto del Vigore.
+2110992314|        |option_gm_no_add_levels_guards|Nessun livello aggiuntivo per le guardie
+2110992315|329005f1||Tecniche difensive della Scuola del Lupo: parata, contrattacco, schivata. Un contrattacco andato a segno concede un aumento del $I$% delle probabilità di colpo critico. Le probabilità di parare e contrattaccare dipendono dall'attacco e dal tipo di nemico: parata parziale riduce il danno ricevuto del $I$% e previene il sanguinamento, il contrattacco parziale previene tutti gli effetti negativi e consente di infliggere danno in cambio. Una Parata/contrattacco andata/o a buon fine riduce il danno ricevuto a zero. Il rotolamento permette di schivare le frecce e di evitare atterramenti e effetti di stordimento. Il successo di una schivata dipende dal tipo di attacco, dalla distanza dell'attaccante e dalla direzione della schivata(distanza dell'angolo). Una schivata parzialmente riuscita riduce il danno ricevuto solo parzialmente. 
+2110992316|1f70c028||Ogni punto abilità aumenta la distanza dell'angolo di sicurezza della schivata di 10 gradi
+2110992317|8d17aaa0||Riduce il danno ricevuto dal tipo di mostro obbiettivo dell'unguento del $I$%.
+2110992318|5f63dbf4||Consente la creazione di unguenti che possono essere applicati alle spade. L'efficacia dell'unguento diminuisce ogni volta che si sfrega la lama.
+2110992319|754d1890||Aumenta la generazione dell'Adrenalina del $I$%. Permette di pagare le azioni corpo a corpo che consumano Vigore con l'Adrenalina.
+2110992320|        |item_desc_armor_type_heavy_set_bonus|Bonus set armatura pesante: +$I$% per tutte le resistenze al danno.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Bonus set armatura media: +$I$% resistenza agli effetti di avvelenamento, sanguinamento e incenerimento.
+2110992322|        |item_desc_armor_type_light_set_bonus|Bonus set armatura leggera: +$I$ gradi alla distanza dell'angolo di sicurezza delle schivate.
+2110992323|        |skill_desc_viper_set_ability1|Garantisce l'immunità all'avvelenamento.I veleni guariscono del $S$% del danno veleno per ogni set equipaggiato(Tasso di guarigione attuale: $S$%).
+2110992324|        |gm_stat_attack_power_levelup_bonus|Bonus Potenza di Attacco
+2110992325|d23efdaf||Ogni pezzo del set diminuisce il danno ricevuto dalle parate o contrattacchi parziali del +$S$% (riduzione del danno attuale: $S$%).
+2110992326|85e8fbd2||Fino a tre diversi unguenti possono essere applicati contemporaneamente a una spada. Ogni unguento applicato aumenta la probabilità di colpo critico del $S$% e la potenza del colpo critico del $S$%.
+2110992327|        |panel_gm_scaling_options|Livellamento nemici
+2110992328|        |panel_gm_exp_options|Esperienza
 2110992329|        |panel_gm_gameplay_options|Gameplay
-2110992330|        |item_name_dismantle_kit_gear_1|Item dismantle kit
-2110992331|        |item_desc_dismantle_kit_gear_1|Allows to dismantle junk items and crafting components.
-2110992332|        |item_name_dismantle_kit_alchemy_1|Alchemy dismantle kit
-2110992333|        |item_desc_dismantle_kit_alchemy_1|Allows to dismantle alchemy components.
-2110992334|        |panel_button_hud_interaction_dismantle|Dismantle
-2110992336|d23efdb0||Parrying an attack staggers the attacking enemy.
-2110992337|e9c58057||All equipped armor items are treated as Medium Armor. Stamina regeneration is unchanged. Stamina penalties for combat actions are unchanged.
-2110992338|eb7a58f6||All equipped armor items are treated as Heavy Armor. Armor gets stamina regeneration penalty. Stamina penalties for combat actions are unchanged.
-2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
+2110992330|        |item_name_dismantle_kit_gear_1|Kit di smontaggio
+2110992331|        |item_desc_dismantle_kit_gear_1|Permette di smontare oggetti indesiderati e creare componenti.
+2110992332|        |item_name_dismantle_kit_alchemy_1|Kit di smontaggio Alchemico
+2110992333|        |item_desc_dismantle_kit_alchemy_1|Permette di smontare i componenti alchemici.
+2110992334|        |panel_button_hud_interaction_dismantle|Smonta
+2110992336|d23efdb0||Parare un attacco fa barcollare il nemico attaccante.
+2110992337|e9c58057||Tutti i set armatura equipaggiati sono trattati come armature medie. Le penalità al vigore per le azioni di combattimento restano invariate invariate.
+2110992338|eb7a58f6||Tutti i set armatura equipaggiati sono trattati come Armature Pesanti. L'armatura ottiene le penalità per la rigenerazione del vigore. Le penalità al vigore per le azioni di combattimento restano invariate invariate.
+2110992339|e810a7b8||Tutti i set armatura equipaggiati sono trattati come Armature Leggere. Le armature ottengono il bonus per la rigenerazione del vigore. Le penalità di vigore per le azioni in combattimento restano invariate. 

@@ -82,8 +82,8 @@
 2110992083|b08bd7d2||Dégâts de l'attaque puissante
 2110992084|c7b0b7d7||Dégâts de l'attaque rapide
 2110992085|fa3924a4||Chances de coups critiques de l'attaque puissante
-2110992090|6c1d3ba3||Bombs are thrown without any delay and can deal critical damage. Each set piece increases bomb critical hit chance by $S$% (current bonus is: $S$%) and bomb critical hit power by $S$% (current bonus is: $S$%).
-2110992091|85e8fbd1||Each set piece increases the effectiveness of an oil applied to a sword by $S$% (current bonus is: $S$%).
+2110992090|6c1d3ba3||Les bombes sont lancées sans délai et peuvent provoquer des coups critiques. Chaque pièce d'ensemble accroît les chances de coups critiques des bombes de $S$% (bonus actuel: $S$%) et la puissance de ces coups critiques de $S$% (bonus actuel: $S$%).
+2110992091|85e8fbd1||Chaque pièce d'ensemble accroît l'efficacité de l'huile appliquée sur la lame de $S$% (bonus actuel: $S$%).
 2110992092|1f70c024||Les attaques rapides ont $S$% de chances d'appliquer un effet de saignement.
 2110992093|71d0c5a6||Mode de signe alternatif:<br>Inflige $I$ points de dégâts aux ennemis dans un rayon de $I$ mètres. Les dégâts augmentent avec l'intensité du signe (dégâts actuels: $I$). Détruit les projectiles qui traversent la zone d'effet. Dure pendant $I$s. Charges de tourelles - $I$.
 2110992094|71d0c5a5||Mode de signe alternatif:<br>Inflige $I$ points de dégâts aux ennemis dans un rayon de $I$ mètres. Les dégâts augmentent avec l'intensité du signe (dégâts actuels: $I$). Détruit les projectiles qui traversent la zone d'effet. Dure pendant $I$s. Charges de tourelles - $I$.
@@ -156,7 +156,7 @@
 2110992166|329005f3||Les coups portés durant le combat génèrent des points d'adrénaline. Chaque point d'adrénaline augmente la puissance d'attaque de $I$%.
 2110992167|        |gm_combat_stats_fast_crit_attack_power|Puissance des coups critiques des attaques rapides
 2110992168|        |gm_combat_stats_strong_crit_attack_power|Puissance des coups critiques des attaques puissantes
-2110992169|        |gm_used_razor_success|Geralt est bien rasé à présent.
+2110992169|        |gm_used_razor_success|Geralt est rasé de frais.
 2110992170|329005f2||Vous permet d'utiliser une arbalète légère. Les tirs au jugé infligent 50% de dégâts en moins.
 2110992171|5f63dbf5||Vous permet de créer des bombes qui peuvent être lancées sur les ennemis. Les lancers au jugé infligent 50% de dégâts en moins.
 2110992172|754d1891||En plus de l'effet habituel de Fureur guerrière, chaque point d'adrénaline augmente l'intensité des signes de $I$%. Using Signs now generates Adrenaline Points.
@@ -244,9 +244,9 @@
 2110992255|        |preset_value_gm_es_random_no_down|Aléatoire sans downscaling
 2110992256|        |item_desc_note|Contient des informations inutiles.
 2110992257|        |gm_recycling_parts|Composants d'artisanat
-2110992258|25691b0a||Peut être vendu aux marchands ou démonté.
+2110992258|25691b0a||Peut être vendu aux marchands ou désassemblé.
 2110992259|        |item_desc_junk_no_ingr|Peut être vendu aux marchands.
-2110992260|7fd2ce90||Peut être vendu à très bon prix ou démonté.
+2110992260|7fd2ce90||Peut être vendu à très bon prix ou désassemblé.
 2110992261|        |PanelStash|Menu de la réserve
 2110992262|        |effect_undying_cooldown|Délai Immortalité
 2110992263|        |attribute_name_staminaRegen_armor_mod|Modificateur de la régénération de vigueur
@@ -298,27 +298,27 @@
 2110992312|        |option_gm_stash_sync_toggle|Utiliser le mode de réserve synchronisée par défaut
 2110992313|da7e5ba8||Si vous avez au moins un point d'adrénaline, il sera utilisé pour lancer un signe à la place de la vigueur.
 2110992314|        |option_gm_no_add_levels_guards|Pas de niveaux additionnels pour les gardes
-2110992315|329005f1||Wolf School defensive techniques: parry, counter, dodge. Successful countering grants additional $I$% chance to critical hit. Parry and counter success depends on attack and enemy type: partial parry reduces damage taken by $I$% and prevents bleeding, partial counter additionally prevents all negative effects and allows to deal damage in return. Successful parry/counter reduces damage taken to zero. Rolling allows to dodge arrows and to avoid knockdown and stagger effects. Dodge success depends on attack type, attacker distance and dodge direction (angle distance). Partially successful dodge reduces damage taken just partially.
-2110992316|1f70c028||Each skill point increases the safe angle distance while dodging by 10 degrees.
-2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%.
-2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
-2110992319|754d1890||Increases Adrenaline generation by $I$%. Allows to pay melee action Stamina cost with Adrenaline.
-2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
-2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$% to poison, bleeding and burning effect resistances.
-2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus: +$I$ degrees to the safe angle distance while dodging.
-2110992323|        |skill_desc_viper_set_ability1|Grants poison immunity. Poisons heal by $S$% of poison damage for each set piece equipped (current healing rate is: $S$%).
-2110992324|        |gm_stat_attack_power_levelup_bonus|Attack Power bonus
-2110992325|d23efdaf||Each set piece reduces the damage taken from partial parry or counter by +$S$% (current damage reduction is: $S$%).
-2110992326|85e8fbd2||Up to three different oils can be applied to a sword at a time. Each oil applied to a sword increases critical hit chance by $S$% and critical hit power by $S$%.
+2110992315|329005f1||Techniques défensives de l'école du Loup : parade, contre-attaque, esquive. Les contre-attaques réussies octroient une chance additionelle de coup critique de $I$%. La réussite de la parade et des coups critiques dépend de l'attaque et du type d'ennemi : une parade partielle réduit les dégâts reçus de $I$% et évite le saignement, une contre-attaque partielle évite de surcroît tous les effets négatifs et inflige des dégâts en retour. Une parade/contre-attaque réussie réduit les dégâts subis à zéro. La roulade permet d'esquiver les flèches et d'éviter les effets de chancèlement et de renversement. La réussite de l'esquive dépend  du type d'attaque, de la distance de l'attaquant et de la direction de l'esquive (distance de l'angle). Une esquive partiellement réussie réduit partiellement les dégâts reçus.
+2110992316|1f70c028||Chaque point de compétence accroît l'angle d'esquive protégé de 10 degrés.
+2110992317|8d17aaa0||Réduit les dégâts reçus par les monstres ciblés par l'huile de $I$%.
+2110992318|5f63dbf4||Permet la création d'huiles pouvant être appliquées sur les lames. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992319|754d1890||Accroît le gain d'adrénaline de $I$%. Permet de consommer de l'adrénaline pour effectuer les actions de mêlée nécessitant de la vigueur.  
+2110992320|        |item_desc_armor_type_heavy_set_bonus|Bonus d'ensemble d'armure lourde: +$I$% à toutes les résistances aux dégâts.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Bonus d'ensemble d'armure intermédiaire: +$I$% de résistance aux effets de poison, saignement et brûlure.
+2110992322|        |item_desc_armor_type_light_set_bonus|Bonus d'ensemble d'armure légère: +$I$ degrés à l'angle protégé durant l'esquive.
+2110992323|        |skill_desc_viper_set_ability1|Octroie une immunité au poison. Le poison soigne à hauteur de $S$% des dégâts de poison pour chaque pièce d'ensemble équipée (soin actuel: $S$%).
+2110992324|        |gm_stat_attack_power_levelup_bonus|Bonus d'attaque puissante
+2110992325|d23efdaf||Chaque pièce d'ensemble réduit les dégâts subis provenant d'une parade ou contre-attaque partielle de +$S$% (réduction des dégâts actuelle: $S$%).
+2110992326|85e8fbd2||Jusqu'à trois huiles différentes peuvent être appliquées simultanément sur une lame. Chaque huile appliquée sur une lame accroît les chances de coups critiques de $S$% et les dégâts de ces coups de $S$%.
 2110992327|        |panel_gm_scaling_options|Enemy scaling
 2110992328|        |panel_gm_exp_options|Experience
 2110992329|        |panel_gm_gameplay_options|Gameplay
-2110992330|        |item_name_dismantle_kit_gear_1|Item dismantle kit
-2110992331|        |item_desc_dismantle_kit_gear_1|Allows to dismantle junk items and crafting components.
-2110992332|        |item_name_dismantle_kit_alchemy_1|Alchemy dismantle kit
-2110992333|        |item_desc_dismantle_kit_alchemy_1|Allows to dismantle alchemy components.
-2110992334|        |panel_button_hud_interaction_dismantle|Dismantle
-2110992336|d23efdb0||Parrying an attack staggers the attacking enemy.
-2110992337|e9c58057||All equipped armor items are treated as Medium Armor. Stamina regeneration is unchanged. Stamina penalties for combat actions are unchanged.
-2110992338|eb7a58f6||All equipped armor items are treated as Heavy Armor. Armor gets stamina regeneration penalty. Stamina penalties for combat actions are unchanged.
-2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
+2110992330|        |item_name_dismantle_kit_gear_1|Kit de désassemblage d'objets
+2110992331|        |item_desc_dismantle_kit_gear_1|Permet de désassembler des objets et des composants d'artisanat.
+2110992332|        |item_name_dismantle_kit_alchemy_1|Kit de désassemblement alchimique
+2110992333|        |item_desc_dismantle_kit_alchemy_1|Permet de désassembler des composants alchimiques.
+2110992334|        |panel_button_hud_interaction_dismantle|Désassembler
+2110992336|d23efdb0||Parer une attaque fait chanceler l'attaquant.
+2110992337|e9c58057||Toutes les pièces d'armure équipées sont considérées comme armure intermédiaire. Le regain de vigueur reste inchangé. Les pénalités de vigueur pour les actions de combat sont inchangées.
+2110992338|eb7a58f6||Toutes les pièces d'armure équipées sont considérées comme armure lourde. L'armure octroie une pénalité de regain de vigueur. Les pénalités de vigueur pour les actions de combat sont inchangées.
+2110992339|e810a7b8||Toutes les pièces d'armure équipées sont considérées comme armure légère. L'armure octroie un bonus de regain de vigueur. Les pénalités de vigueur pour les actions de combat sont inchangées.

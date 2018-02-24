@@ -1,0 +1,320 @@
+;meta[language=es]
+; id      |key(hex)|key(str)| text
+2110992000|4d5f8b0c||Mods
+2110992001|818b6a6e||Ghost Mode
+2110992002|205aa5f5||Modificador de salud enemiga
+2110992003|a570c302||Modificador de daño enemigo
+2110992004|be5d891f||Escalamiento enemigo
+2110992005|c33062be||Nada
+2110992006|cffa3a49||Escala superior
+2110992007|a2c796ff||Match(Emparejado)
+2110992013|cdb77880||resistencia al hielo
+2110992014|99a2fd83||Reducción de la resistencia al daño enemigo
+2110992015|c4ea0ecf||Duración de una poción
+2110992016|c332a7b0||Escalado suave
+2110992017|1662935c||Daño por golpe (plata)
+2110992018|4f1d703c||Daño por golpe (acero)
+2110992019|f38f5b36||Corriente ignea daño de por segundo
+2110992020|6a994712||Trampa magica
+2110992021|cc57bcc3||Daño de trampa mágica
+2110992022|60b53abe||Duración Torreta magica
+2110992023|8594f9d5||Cargas Torreta magica
+2110992024|1e6cbb19||Daño Torreta magica
+2110992025|ee530dcc||Daño devuelto
+2110992026|e379a123||Absorción de daño de escudo activo
+2110992027|27282d9d||Oportunidad de Axia
+2110992028|8566fddf||Poder de ataque rápido
+2110992029|7a3d2c04||Poder de ataque potente
+2110992030|a3e34c39||Daño de absorción
+2110992034|40aed692||Oportunidad de ataque crítico contra Bestias
+2110992035|c8957121||Posibilidad de golpe crítico contra Malditos
+2110992036|79a23d6e||Oportunidad de golpe crítico contra Draconidos
+2110992037|d33fe160||Posibilidad de golpe crítico contra los Humanos
+2110992038|f261a80b||Posibilidad de golpe crítico contra Híbridos
+2110992039|97466e95||Oportunidad de golpe crítico contra Insectoides
+2110992040|4bfdf9ea||Oportunidad de golpe crítico contra Elementales
+2110992041|016d02ed||Posibilidad de golpe crítico contra Necrófagos
+2110992042|9c73a4a6||Oportunidad de golpe crítico contra Relictos
+2110992043|c3702fb9||Oportunidad de golpe crítico contra Espectros
+2110992044|cd868a1a||Oportunidad de ataque crítico contra Ogroides
+2110992045|42229941||Oportunidad de ataque crítico contra Vampiros
+2110992046|4fa6c42d||Poder de golpe crítico contra Bestias
+2110992047|df4cf77c||Poder de golpe crítico contra Malditos
+2110992048|f7d09609||Poder de ataque crítico contra Draconidos
+2110992049|810bfc7b||Poder de ataque crítico contra humanos
+2110992050|6b0ad6e6||Poder de ataque crítico contra Hybridos
+2110992051|6adf0df0||Poder de ataque crítico contra Insectoides
+2110992052|0cf40585||Poder de golpe crítico contra Elementales
+2110992053|69eb0048||Poder de ataque crítico contra Necrófagos
+2110992054|2e15b341||Poder de ataque crítico contra Relictos
+2110992055|17546414||Poder de golpe crítico contra Espectros
+2110992056|b4fbb1b5||Poder de ataque crítico contra Ogroides
+2110992057|d123879c||Poder de golpe crítico contra Vampiros
+2110992058|c8d4450c||Reducción de la resistencia al daño contra Bestias
+2110992059|4b1b4cdd||Reducción de la resistencia al daño contra Malditos
+2110992060|da69abb0||Reducción de la resistencia al daño contra Draconidos
+2110992061|83b5dcfe||Reducción de la resistencia al daño contra Humanos
+2110992062|5da28e33||Reducción de la resistencia al daño contra Hybridos
+2110992063|ca4463e9||Reducción de la resistencia al daño contra Insectoides
+2110992064|d14fa0b4||Reducción de la resistencia al daño contra Elementales
+2110992065|8b85ee91||Reducción de la resistencia al daño contra Necrofagos
+2110992066|0ecc4f78||Reducción de la resistencia al daño contra Relictos
+2110992067|64e2d545||Reducción de la resistencia al daño contra Espectros
+2110992068|111c7e84||Reducción de la resistencia al daño contra Ogroides
+2110992069|5a3c18bd||Reducción de la resistencia al daño contra Vampiros
+2110992070|d25344ee||Poder de ataque contra humanos
+2110992071|da7e5ba4||Cada pieza de armadura ligera aumenta la probabilidad de golpe crítico en $S$% y la potencia de golpe crítico por $S$%.
+2110992072|da7e5ba6||Cada pieza de armadura pesada aumenta la Vitalidad máxima en $S$%, el daño infligido por los ataques cuerpo a cuerpo otorga puntos de adrenalina adicionales de $S$ por cada pieza de armadura pesada.
+2110992073|163a8e78||Aumenta la oportunidad de quemado por $I$%.
+2110992074|3c4a6af2||Daño de ataque potente
+2110992075|5806ca6e||Daño crítico de fuerte potente
+2110992076|69d8dd89||Daño crítico de Ataque rapido
+2110992077|89dfeac9||Probabilidad de un golpe critico con Ataque rápido
+2110992078|bc4297c4||Probabilidad de un golpe critico con Ataque potente
+2110992079|d23992f7||Daño de ataque rápido
+2110992080|2e06698e||Daño crítico de fuerte potente
+2110992081|3375c4a9||Daño crítico de Ataque rapido
+2110992082|73d42fa9||Probabilidad de un golpe critico con Ataque rápido
+2110992083|b08bd7d2||Daño de ataque potente
+2110992084|c7b0b7d7||Daño de ataque rápido
+2110992085|fa3924a4||Probabilidad de un golpe critico con Ataque potente
+2110992090|6c1d3ba3||Las bombas se lanzan sin demora y pueden causar daños críticos. Cada pieza aumenta la probabilidad de golpe crítico de la bomba en $S$% (la bonificación actual es: $S$%) y la potencia de ataque crítico de la bomba en $S$% (la bonificación actual es: $S$%). $S$% (current bonus is: $S$%) and bomb critical hit power by $S$% (current bonus is: $S$%).
+2110992091|85e8fbd1||Cada pieza aumenta la efectividad de un aceite aplicado a una espada en $S$% (la bonificación actual es: $S$%).
+2110992092|1f70c024||Los ataques rápidos tienen $S$% de probabilidad de aplicar el efecto sangrante.
+2110992093|71d0c5a6||Modo de signo alternativo: <br> Hace $I$ punto de daño a los enemigos dentro de un radio de $I$ yard. Escalas de daño con intensidad de señal (daño actual: $I$). Destruye los proyectiles que pasan por esta área. Tiene una duración de $I$ s. Cargas de la torreta - $I$.
+2110992094|71d0c5a5||Modo de signo alternativo: <br> Hace $I$ punto de daño a los enemigos dentro de un radio de $I$ yard. Escalas de daño con intensidad de señal (daño actual: $I$). Destruye los proyectiles que pasan por esta área. Tiene una duración de $I$ s. Cargas de la torreta - $I$.
+2110992095|163a8e72||Modo de signo alternativo: <br> Hace $I$ punto de daño a los enemigos dentro de un radio de $I$ yard. Escalas de daño con intensidad de señal (daño actual: $I$). Destruye los proyectiles que pasan por esta área. Tiene una duración de $I$ s. Cargas de la torreta - $I$.
+2110992096|b1173fc9||Dos oponentes pueden ser influenciados por Axia al mismo tiempo. La duración del efecto se reduce en $I$%
+2110992097|c8467d3c||Dos oponentes pueden ser influenciados por Axia al mismo tiempo. La duración del efecto se reduce en $I$%
+2110992098|c8467d3d||Dos oponentes pueden ser influenciados por Axia al mismo tiempo. La duración del efecto ya no se reduce.
+2110992099|1f70c022||Cada Punto de adrenalina añade $I$% a la posibilidad de matar a un oponente al instante. No se aplica a Giro.
+2110992102|1f70c021||Fuerte ataque que atraviesa bloqueos y escudos. Ofrece un daño adicional de $S$% más $S$% de daño por punto de adrenalina en proporción al aguante consumido ($S$% máximo). Aumenta la probabilidad de golpe crítico en $S$%.
+2110992103|1f70c020||Ataque gitatorio que golpea a todos los enemigos en el área circundante. Hace $S$% menos de daño. Mantener el ataque consume aguante y adrenalina. El daño recibido se reduce en $S$% durante el ataque.
+2110992104|064143d3||Ataque gitatorio que golpea a todos los enemigos en el área circundante. Hace $S$% menos de daño. Mantener el ataque consume aguante y adrenalina. El daño recibido se reduce en $S$% durante el ataque.
+2110992105|6f2a6f0f||Adrenalina Ganada
+2110992106|739e1e2c||Los ataques potentes aumentan el daño del ataque rápido por $S$ segundos por $S$% por cada pieza del set.
+2110992107|8ed43e3e||Cada pieza del set reduce el costo de la resistencia al lanzamiento de señales en $S$%. Bonificación actual: $S$%.
+2110992108|8ed43e3f||El tamaño de las trampas de Yrden aumenta en $S$%. Mientras se encuentre dentro de una trampa de Yrden, la Intensidad al empezar aumenta en $S$% y la resistencia al daño aumenta en $S$%.
+2110992109|739e1e2d||Los golpes críticos con doble espada generara adrenalina.
+2110992110|328ae462||Oportunidad de derribo
+2110992111|c3f538a3||La probabilidad de golpe crítico con ballesta se incrementa en $S$% y la potencia de golpe crítico, en $S$%. Los pernos de ballesta perforan y derriban o aturden a los oponentes. Los oponentes atacados cuando tienen Vitalidad completa pierden $S$% de Vitalidad.
+2110992112|925f2058||Inmortal
+2110992113|c1e6a9cc||Cuando la Vitalidad llegue a cero, los puntos de adrenalina se consumirán para evitar la muerte y garantizar la vulnerabilidad.Aumenta la regeneración de la Vitalidad por $S$ s. Restaura $S$% de vitalidad por punto de adrenalina (máximo $S$%). No se puede activar más de una vez cada $S$ s.
+2110992114|c1e6a9cb||Cuando la Vitalidad llegue a cero, los puntos de adrenalina se consumirán para evitar la muerte y garantizar la vulnerabilidad.Aumenta la regeneración de la Vitalidad por $S$ s. Restaura $S$% de vitalidad por punto de adrenalina (máximo $S$%). No se puede activar más de una vez cada $S$ s.
+2110992115|cea74418||Cuando la Vitalidad llegue a cero, los puntos de adrenalina se consumirán para evitar la muerte y garantizar la vulnerabilidad.Aumenta la regeneración de la Vitalidad por $S$ s. Restaura $S$% de vitalidad por punto de adrenalina (máximo $S$%). No se puede activar más de una vez cada $S$ s.
+2110992116|cea74430||La potencia de ataque para ataques rápidos se incrementa en $I$%.
+2110992117|1f70c023||El poder de ataque para ataques potentes aumenta en $I$%.
+2110992118|cea74417||Aumenta la probabilidad de golpe crítico con ataque rápido en $I$% y el poder del ataque crítico con ataque rápido en $I$%.
+2110992119|1f70c027||Aumenta la probabilidad de golpe crítico del ataque potente en $I$% y la potencia de ataque crítico del ataque potente en $I$%.
+2110992120|c1e68bc4||Las paradas perfectamente sincronizadas desvian flechas hacia atrás, el daño aumenta en $I$%.
+2110992121|c1e68f84||El contraataque exitoso aumenta el poder del ataque siguiente en $I$%. Cada punto de adrenalina aumenta la probabilidad de derribo en $I$% (máximo $I$%, la adrenalina se consume en caso de éxito).
+2110992122|c1e68f85||El contraataque exitoso aumenta el poder del ataque siguiente en $I$%. Cada punto de adrenalina aumenta la probabilidad de derribo en $I$% (máximo $I$%, la adrenalina se consume en caso de éxito). Aumenta la probabilidad de golpe crítico en $I$%.
+2110992123|cea74411||El contraataque exitoso aumenta el poder del próximo ataque en $I$%.
+2110992124|cf2b2da2||Escudo protector que dura hasta que haya absorbido $I$ puntos de daño. Escalas de absorción de daños con intensidad de señal. Absorción actual: $I$. <br> Duración del escudo: $I$ s.
+2110992125|163a8e77||El daño infligido por Igni también disminuye permanentemente la Armadura total enemiga en $S$% por golpe (escalas con Intensidad de signo). El valor de efecto máximo no puede exceder $S$%.
+2110992126|cf2b2da0||Explosión ardiente que causa $I$ puntos de daño con $I$% de probabilidad de prender fuego a los enemigos. Escalas de daño con intensidad de señal. Daño actual: $I$.
+2110992127|163a8e71||Modo de signo alternativo: <br> Emite una corriente de fuego enfocada y continua que causa quemaduras, causando $I$ puntos de daño por segundo. Escalas de daño con intensidad de señal (daño actual: $I$). Drena $I$ puntos de resistencia por segundo.
+2110992128|71d0c1e4||Modo de signo alternativo: <br> Emite una corriente de fuego enfocada y continua que causa quemaduras, causando $I$ puntos de daño por segundo. Escalas de daño con intensidad de señal (daño actual: $I$). Drena $I$ puntos de resistencia por segundo.
+2110992129|71d0c1e5||Modo de signo alternativo: <br> Emite una corriente de fuego enfocada y continua que causa quemaduras, causando $I$ puntos de daño por segundo. Escalas de daño con intensidad de señal (daño actual: $I$). Drena $I$ puntos de resistencia por segundo.
+2110992130|163a8e75||Aard ahora causa $I$ de daño. Escalas de daño con intensidad de señal. Daño actual: $I$
+2110992131|b3c8ebb8||Torrecilla mágica
+2110992132|b1173fc0||La Duración de Trampa Mágica y Torreta Aumenta en $I$%, El Número de Cargas de magia Torreta Aumenta en $I$.
+2110992133|ab0515e8||La Duración de la Trampa magica y de la Torreta Aumenta en $I$%, El Numero de cargas de la Torreta aumenta en $I$.
+2110992134|b1173fc1||Los enemigos dentro de una Trampa magica pierden $S$% de puntos de Vitalidad o Esencia por segundo.
+2110992135|c84666b6||Quen empuja a los oponentes hacia atrás y reparte $I$ puntos de daño cuando se rompe. Escalas de daño con intensidad de señal (daño actual: $I$).
+2110992136|c84666b7||Quen empuja a los oponentes hacia atrás con una posibilidad de derribar y reparte $I$ puntos de daño cuando se rompe. Escalas de daño con intensidad de señal (daño actual: $I$).
+2110992137|163a8e73||Modo de signo alternativo: <br> Crea un escudo activo que absorbe $I$% más de daño. Mantenerlo drena $I$ Puntos de resistencia por segundo. Los ataques bloqueados drenan la Resistencia proporcional al daño absorbido. Restaura la vitalidad en $I$% del daño absorbido.
+2110992138|71d0c966||Modo de signo alternativo: <br> Crea un escudo activo que absorbe $I$% más de daño. Mantenerlo drena $I$ Puntos de resistencia por segundo. Los ataques bloqueados drenan la Resistencia proporcional al daño absorbido. Restaura la vitalidad en $I$% del daño absorbido.
+2110992139|71d0c967||Modo de signo alternativo: <br> Crea un escudo activo que absorbe $I$% más de daño. Mantenerlo ya no drena la Resistencia. Los ataques bloqueados drenan la Resistencia proporcional al daño absorbido. Restaura la vitalidad en $I$% del daño absorbido.
+2110992140|15dda916||El aceite apropiado aplicado da una probabilidad de $I$% de envenenar al objetivo en cada golpe. El aceite mejorado aumenta esta probabilidad en $I$% y Superior - por $I$%.
+2110992141|15dda91a||Si la Toxicidad está por encima de cero, el tiempo disminuye automáticamente en $S$% cuando un enemigo está a punto de realizar un contraataque. Duración del efecto: $S$s.
+2110992142|1517d64d||Si la Toxicidad está por encima de cero, el tiempo disminuye automáticamente en $S$% cuando un enemigo está a punto de realizar un contraataque. Duración del efecto: $S$s.
+2110992143|1517d64e||Si la Toxicidad está por encima de cero, el tiempo disminuye automáticamente en $S$% cuando un enemigo está a punto de realizar un contraataque. Duración del efecto: $S$s.
+2110992145|329005f0||Te permite realizar fuertes ataques cuerpo a cuerpo que infligen $I$% más de daño y agregan $I$ a la penetración de la armadura.
+2110992148|bab1daf5||Cada punto de Toxicidad aumenta el Poder de ataque y la Intensidad de inicio de sesión en $S$% (hasta un máximo de $S$%).
+2110992149|c3f5389c||Las Señales pueden asestar golpes críticos. Su oportunidad de golpe crítico y su poder aumentan con la Intensidad del signo (posibilidad de golpe crítico actual - $S$%, poder de golpe crítico - $S$%). Los opositores asesinados por los golpes críticos de los signos explotan.
+2110992150|c3f538a0||Cuando se lanza la Señal de Aard, se tiene una probabilidad de $S$% de congelar oponentes. Los oponentes derribados y congelados simultáneamente mueren inmediatamente. Los oponentes que no están congelados reciben un daño adicional de $S$. Escalas de daño con intensidad de señal. Daño actual: $S$.
+2110992151|cf2b2da1||Trampa mágica que ralentiza a los enemigos en $S$% (escalas con Intensidad de signo) dentro de su área de efecto. Duración de la trampa: $S$s.
+2110992152|c3f538a1||Al comienzo del combate, el Poder de ataque y la Intensidad de Rentencion aumentan en $S$% para cada enemigo (después del primero) por $S$ s. Por lo tanto, cuando se lucha contra $S$ enemigos, el bono es $S$%. Una vez que desaparece, el Poder de ataque y la Intensidad de inicio de sesión disminuyen en $S$% para cada enemigo participante después del primero (pero no más de $S$%) en $S$s.
+2110992153|c32e766a||Bonus de poder con golpe crítico
+2110992154|28838f82||Penetración de armadura
+2110992155|f35fcb73||Penetración de armadura
+2110992156|0147942a||Regeneración de vitalidad fuera del combate
+2110992157|a83467f6||Regeneración de vitalidad durante el combate
+2110992158|c95c6e28||Cuando se alcanza la Vitalidad máxima, la regeneración de Vitalidad adicional aumenta tu próxima espada(ataque) o el daño por ataque con Señal (hasta + $I$%).
+2110992159|ccc61f66||Cualquier comestible consumido dura más tiempo en $I$%, pero sabe a albondiga.
+2110992160|22156cd6||Cuando la torrecilla mágica establecida por Yrden golpea a un enemigo, se coloca una trampa mágica de Yrden en esa posición.
+2110992161|4a0f3f56||Daño de señal
+2110992162|4f424deb||Daño de arma
+2110992163|7968d6e0||Congela a los enemigos. Los golpes lanzados sobre enemigos congelados infligen daño adicional. Duración extendida
+2110992164|b02a28c2||Aumento de daño
+2110992165|9e58d1f5||Aumenta la intensidad de la señal. Duración extendida Los efectos especiales de los signos son un tercio más largos.
+2110992166|329005f3||Los golpes lanzados durante el combate generan puntos de adrenalina. Cada punto de adrenalina aumenta el poder de ataque $I$%.
+2110992167|d11e5fa2||Ataque crítico con Ataque rápido
+2110992168|3018409d||Ataque crítico con Ataque potente
+2110992169|25746309||Geralt ahora está bien afeitado
+2110992170|329005f2||Te permite manejar una ballesta ligera de mano. Los disparos sin objetivo infligen 50% menos de daño.
+2110992171|5f63dbf5||Permite la creación de bombas portátiles que pueden lanzarse contra los enemigos. Los tiros sin objetivo infligen 50% menos de daño.
+2110992172|754d1891||Además del efecto Trance de Combate habitual, cada punto de adrenalina también aumenta la intensidad de la señal en $I$%. Usar signos ahora genera puntos de adrenalina.
+2110992173|04bda90f||Se utiliza para el afeitado.
+2110992174|da7e5ba5||Cada pieza de armadura media aumenta la intensidad de la señal en $S$% y la regeneración de aguante por $S$%.
+2110992175|b1173fc7||El objetivo se ralentiza en $I$% mientras Geralt está lanzando Axia. Aumenta la efectividad de Axia en los diálogos.
+2110992176|c84675ba||El objetivo se ralentiza en $I$% mientras Geralt está lanzando Axia. Aumenta la efectividad de Axia en los diálogos.
+2110992177|c84675bb||El objetivo se ralentiza en $I$% mientras Geralt está lanzando Axia. Error Axia intenta escalonar el objetivo. Aumenta la efectividad de Axia en los diálogos.
+2110992178|56747c57||Acelera la regeneración de Vitalidad. Duración extendida. La regeneración de vitalidad no se detiene al recibir daño.
+2110992179|b9aff26b||Su sobrecarga es demasiado alta
+2110992180|b66cd6f6||Hundir el barco si está sobrecargado
+2110992181|b48e9483||Maxima carga para hundir el barco (%)
+2110992182|cccbd483||Switch mode
+2110992183|2bf0877e||Reducir la carga del artículo (%)
+2110992184|d0b08830||Modo de inventario jugador
+2110992185|973a8234||Modo Stash(alijo)
+2110992186|c7b4d16e||Modo de inventario mixto
+2110992187|7e63c963||Modo sincronizado
+2110992188|e71d7c90||La Vitalidad máxima de Geralt aumenta con cada enemigo muerto.
+2110992189|d3510d11||Contiene astillas de plata que evitan temporalmente que los monstruos se transformen y regeneren.
+2110992190|d3510d12||Contiene astillas de plata que evitan temporalmente que los monstruos se transformen y regeneren. Duración extendida
+2110992191|d3510d13||Contiene astillas plateadas que evitan permanentemente que los monstruos se transformen y regeneren.
+2110992192|08eace65||Aumenta la efectividad del ataque contra Insectoides. La efectividad disminuye aplicando aceite en la hoja.
+2110992193|08eace66||Aumenta la efectividad del ataque contra Insectoides. La efectividad disminuye aplicando aceite en la hoja.
+2110992194|08eace67||Aumenta la efectividad del ataque contra Insectoides. La efectividad disminuye aplicando aceite en la hoja.
+2110992195|3a67f159||Aumenta la efectividad del ataque contra Enemigos malditos. La efectividad disminuye aplicando aceite en la hoja.
+2110992196|3a67f15a||Aumenta la efectividad del ataque contra Enemigos malditos. La efectividad disminuye aplicando aceite en la hoja.
+2110992197|3a67f15b||Aumenta la efectividad del ataque contra Enemigos malditos. La efectividad disminuye aplicando aceite en la hoja.
+2110992198|65067e25||Aumenta la efectividad del ataque contra Necrofagos. La efectividad disminuye aplicando aceite en la hoja.
+2110992199|65067e26||Aumenta la efectividad del ataque contra Necrofagos. La efectividad disminuye aplicando aceite en la hoja.
+2110992200|65067e27||Aumenta la efectividad del ataque contra Necrofagos. La efectividad disminuye aplicando aceite en la hoja.
+2110992201|7b1c29c3||Aumenta la efectividad del ataque contra hybridos. La efectividad disminuye aplicando aceite en la hoja.
+2110992202|7b1c29c4||Aumenta la efectividad del ataque contra hybridos. La efectividad disminuye aplicando aceite en la hoja.
+2110992203|7b1c29c5||Aumenta la efectividad del ataque contra hybridos. La efectividad disminuye aplicando aceite en la hoja.
+2110992204|88e86911||Aumenta la efectividad del ataque contra Vampiros. La efectividad disminuye aplicando aceite en la hoja.
+2110992205|88e86912||Aumenta la efectividad del ataque contra Vampiros. La efectividad disminuye aplicando aceite en la hoja.
+2110992206|88e86913||Aumenta la efectividad del ataque contra Vampiros. La efectividad disminuye aplicando aceite en la hoja.
+2110992207|aed490e2||Aumenta la efectividad del ataque contra elementales. La efectividad disminuye aplicando aceite en la hoja.
+2110992208|aed490e3||Aumenta la efectividad del ataque contra elementales. La efectividad disminuye aplicando aceite en la hoja.
+2110992209|aed490e4||Aumenta la efectividad del ataque contra elementales. La efectividad disminuye aplicando aceite en la hoja.
+2110992210|d11afcde||Aumenta la efectividad del ataque contra humanos, elfos, enanos y medianos. La efectividad disminuye aplicando aceite en la hoja.
+2110992211|d11afcdf||Aumenta la efectividad del ataque contra humanos, elfos, enanos y medianos. La efectividad disminuye aplicando aceite en la hoja.
+2110992212|d11afce0||Aumenta la efectividad del ataque contra humanos, elfos, enanos y medianos. La efectividad disminuye aplicando aceite en la hoja.
+2110992213|ea1a3189||Aumenta la efectividad del ataque contra Espectros. La efectividad disminuye aplicando aceite en la hoja.
+2110992214|ea1a318a||Aumenta la efectividad del ataque contra Espectros. La efectividad disminuye aplicando aceite en la hoja.
+2110992215|ea1a318b||Aumenta la efectividad del ataque contra Espectros. La efectividad disminuye aplicando aceite en la hoja.
+2110992216|ef649cfe||Aumenta la efectividad del ataque contra draconidos. La efectividad disminuye aplicando aceite en la hoja.
+2110992217|ef649cff||Aumenta la efectividad del ataque contra draconidos. La efectividad disminuye aplicando aceite en la hoja.
+2110992218|ef649d00||Aumenta la efectividad del ataque contra draconidos. La efectividad disminuye aplicando aceite en la hoja.
+2110992219|f8b46c36||Aumenta la efectividad del ataque contra Relictos. La efectividad disminuye aplicando aceite en la hoja.
+2110992220|f8b46c37||Aumenta la efectividad del ataque contra Relictos. La efectividad disminuye aplicando aceite en la hoja.
+2110992221|1ff07bf8||Aumenta la efectividad del ataque contra Relictos. La efectividad disminuye aplicando aceite en la hoja.
+2110992222|7753393f||Aumenta la efectividad del ataque contra Ogroides. La efectividad disminuye aplicando aceite en la hoja.
+2110992223|77533940||Aumenta la efectividad del ataque contra Ogroides. La efectividad disminuye aplicando aceite en la hoja.
+2110992224|77533941||Aumenta la efectividad del ataque contra Ogroides. La efectividad disminuye aplicando aceite en la hoja.
+2110992225|c0218f12||Aumenta la efectividad del ataque contra Ogroides. La efectividad disminuye aplicando aceite en la hoja.
+2110992226|c0218f13||Aumenta la efectividad del ataque contra Ogroides. La efectividad disminuye aplicando aceite en la hoja.
+2110992227|c0218f14||Aumenta la efectividad del ataque contra Ogroides. La efectividad disminuye aplicando aceite en la hoja.
+2110992228|dd8e2b22||Aumenta la efectividad del ataque contra las bestias. La efectividad disminuye aplicando aceite en la hoja.
+2110992229|dd8e2b23||Aumenta la efectividad del ataque contra las bestias. La efectividad disminuye aplicando aceite en la hoja.
+2110992230|dd8e2b24||Aumenta la efectividad del ataque contra las bestias. La efectividad disminuye aplicando aceite en la hoja.
+2110992231|de026195||Borra la toxicidad y cancela todos los efectos de la poción activa.
+2110992232|de026196||Borra la toxicidad y cancela todos los efectos de la poción activa.
+2110992233|de026197||Borra la toxicidad y cancela todos los efectos de la poción activa.
+2110992234|f8b46c38||Aumenta la efectividad del ataque contra Relictos.
+2110992235|874e9f88||Otorga vista en la oscuridad total e inmunidad a la hipnosis. Duración extendida
+2110992237|fe608837||Inflige daño de metralla a los enemigos dentro de su radio de explosión. Hace daño de fuego. Efecto mejorado. Destruye el escudo enemigo. Destruye los nidos de monstruos.
+2110992238|63cd93a5||Lanza una nube de astillas de dimeritium que bloquea la magia y las habilidades mágicas de los monstruos.
+2110992239|3ed03538||Duración fuera de la nube
+2110992240|874e9f87||Otorga vista en la oscuridad total. Duración extendida
+2110992241|e71d7c8e||Después de un ataque potente exitoso, toda la resistencia disponible se consume para reducir adicionalmente la vitalidad de la víctima en un 5%. Si la resistencia consumida es inferior al 100%, el efecto se reduce proporcionalmente.
+2110992242|fc921527||Aplica un efecto aleatorio Lugar de poder al atardecer y al amanecer. Dura más que otras decocciones mutágenas.
+2110992243|e71d7c93||Aumenta la intensidad de la señal durante el mal tiempo.
+2110992244|fc921524||Aumenta la resistencia a sangrado, ardor y efectos de veneno aplicados durante el combate. Mientras más duran estos efectos, mayor es la bonificación de resistencia.
+2110992245|fc921525||La realización de acciones que consumen Stamina regenera la vitalidad proporcional al aguante consumido.
+2110992246|fc92152b||Tomar daño aumenta la resistencia al daño por el resto de la pelea (hasta 20%).
+2110992247|fc921505||Cada golpe conseguido aumenta el poder de ataque (hasta 100%) hasta que la pelea finaliza o se toma el daño (que no sea por la toxicidad de la poción).
+2110992248|fc921509||Poder de ataque crece en el transcurso de una pelea (hasta 30%).
+2110992249|fc921526||Cada lanzamiento de señal aumenta la regeneración de aguante (hasta 20) durante el resto de la pelea.
+2110992250|8cb0734c||Escalado aleatorio: límite inferior (relativo al nivel del jugador)
+2110992251|f958bbfa||Escalado aleatorio: límite superior (relativo al nivel del jugador)
+2110992252|beb0cec9||Aleatorio
+2110992253|09d75838||Deshabilitar niveles de búsqueda
+2110992254|82df1e7b||No animales exclusivos
+2110992255|940edcea||Aleatorio sin downscaling
+2110992256|256ad6b4||Contiene información inútil.
+2110992257|2b555f18||Elaboración de componentes
+2110992258|25691b0a||Se puede vender a comerciantes o desmantelar.
+2110992259|b91d9859||Se puede vender a comerciantes.
+2110992260|7fd2ce90||Puede ser vendido por una suma significativa o desmantelado.
+2110992261|4e7c5cf1||Stash menu
+2110992262|cbb62004||Reutilización incansable
+2110992263|80038142||Modificador de regeneración de resistencia
+2110992264|2d9ff292||Posibilidad de mantener el equilibrio cuando es golpeado
+2110992265|2eaeb09b||Posibilidad de esquivar una flecha
+2110992266|cb404984||Herramientas Maestro armero
+2110992267|29e78e8a||Herramientas Herrería  utilizadas por maestro herrero. Aumenta de forma permanente el daño con arma.
+2110992268|fcf7e421||Herramientas maestras de armaduras
+2110992269|ad70e65b||SHerramientas herrería utilizadas por maestro armero. Aumenta de manera permanente el valor de la armadura.
+2110992270|b5a7442f||Modificador de experiencia de búsqueda
+2110992271|773c6a77||Modificador de experiencia de combate
+2110992272|7641d6c5||Oportunidad de derribo
+2110992273|b1173fc2||Aumenta la oportunidad de derribo pesado por $I$%.
+2110992274|163a8e76||Agrega $I$ puntos a daño de Fuego y $I$ puntos a daño de Corriente de ignea por segundo.
+2110992275|b1173fc6||Agrega $I$ puntos al daño de Torreta Magica.
+2110992276|b1173fc5||Agrega $I$ puntos en proteger la absorción de daños.
+2110992277|9246181a||Duración de la confusión
+2110992278|b72fae71||Duración del control
+2110992279|163a8e70||Modo de signo alternativo: <br> Aard golpea a todos los oponentes en el rango. La intensidad de la señal es $I$% inferior para este modo.
+2110992280|71d0be23||Modo de signo alternativo: <br> Aard golpea a todos los oponentes en el rango. La intensidad de la señal es $I$% inferior para este modo.
+2110992281|71d0be24||Modo de signo alternativo: <br> Aard golpea a todos los oponentes en el rango. La intensidad de la señal ya no se reduce para este modo.
+2110992282|71d0d0e8||Aard ahora causa $I$ de daño. Escalas de daño con intensidad de señal. Daño actual: $I$.
+2110992283|71d0d0e9||Aard ahora causa $I$ de daño. Escalas de daño con intensidad de señal. Daño actual: $I$.
+2110992284|cf2b2d9f||Una ráfaga dirigida de energía telequinética que tambalea a los oponentes y tiene una probabilidad de caída de $I$%. La gran oportunidad de derribo es de $I$%. Escala de posibilidades con la intensidad de la señal. Otorga un 15% de probabilidad adicional de golpear críticamente al enemigo derribado.
+2110992286|cf2b2da3||Encanta la mente de un oponente, confundiéndolo y eliminando temporalmente del combate. <br> Duración de la confusión: $S$ segundos.Otorga un 15% más de probabilidad de golpear críticamente al enemigo confundido.
+2110992287|b1173fc8||La duración de los efectos de Axia aumenta $I$%.
+2110992288|163a8e74||Modo de signo alternativo: <br> El enemigo objetivo se convierte en un aliado por $I$ s. y gana $I$% de bonificación de poder de ataque. Escalas de duración del efecto con intensidad de señal. Duración actual: $I$ s.
+2110992289|71d0cd27||Modo de signo alternativo: <br> El enemigo objetivo se convierte en un aliado por $I$ s. y gana $I$% de bonificación de poder de ataque. Escalas de duración del efecto con intensidad de señal. Duración actual: $I$ s.
+2110992290|71d0cd28||Modo de signo alternativo: <br> El enemigo objetivo se convierte en un aliado por $I$ s. y gana $I$% de bonificación de poder de ataque. Escalas de duración del efecto con intensidad de señal. Duración actual: $I$ s.
+2110992291|483c9092||El daño infligido carga la espada aumentando su poder de golpe crítico en $S$%. La carga se deteriora con el tiempo y con el daño recibido. Una espada completamente cargada aumenta la probabilidad de golpe crítico en $S$%.
+2110992292|1f5adb4f||Matar a un enemigo con una espada completamente cargada gastará su carga para aumentar permanentemente el daño del arma. Cuando el daño adicional excede su máximo, la espada sube. El daño se incrementa en: $S$ (hasta un máximo de 10).
+2110992293|0516c455||Gran oportunidad de derribo
+2110992294|f76f46ed||Matar a un enemigo restaura $I$% de tu aguante.
+2110992295|fad8f82b||Matar a un enemigo da $F$ a $F$ Puntos de adrenalina.
+2110992296|ed2f3195||Da una probabilidad de $I$% de devolver $1$% del daño recibido al atacante.
+2110992299|f2e69faf||Infligir daño con ataques rápidos carga el arma con energía. Cuando su color cambie a rojo, un fuerte ataque liberará esta energía en un golpe extra poderoso, a costa de una parte de la vitalidad del atacante.
+2110992300|ba719645||Experiencia arreglada para misiones y combate
+2110992301|bdf0ea49||Humanos
+2110992302|bafca59c||Guerreros de caza salvaje
+2110992303|82a5fd81||Total
+2110992304|98357039||Animales
+2110992305|4153fdc1||Monstruos
+2110992306|c8dde11f||Muertes tipo
+2110992307|d8d52cd1||número de muertes
+2110992308|ba738dce||Humanos
+2110992309|8e8b5e03||Criaturas únicas
+2110992310|1f70c026||Aumenta la probabilidad de golpe crítico de la ballesta en $I$% y la potencia de golpe crítico de ballesta en $I$%.
+2110992311|e71d7c8c||Otorga un 15% de resistencia adicional a todo tipo de daño con un inventario de 60 o menos. La bonificación disminuye con más peso.
+2110992312|a5384b1f||Utilice el modo oculto de escondite por defecto
+2110992313|da7e5ba8||Si tienes al menos un Punto de Adrenalina, se usará para lanzar una Señal en lugar de Resistencia.
+2110992314|63833111||Sin niveles adicionales para guardias
+2110992315|329005f1||Técnicas defensivas de la Escuela del Lobo: Parada, Contraataque, Esquivar. Contraatacar exitosamente otorga una probabilidad adicional de $I$% de golpe crítico. El éxito de parar y responder depende del tipo de ataque y enemigo: Parada parcial reduce el daño recibido por $I$% y previene el sangrado. Contraataque parcial previene adicionalmente todos los efectos negativos y permite hacer daño. La parada / contraataque exitoso reduce el daño a cero. Rodar permite esquivar las flechas y evitar los efectos de caída y escalonamiento. El éxito de esquivar depende del tipo de ataque, la distancia del atacante y la dirección de esquivar (distancia angular). Esquivar sera exitoso en algunos casos.
+2110992316|1f70c028||Cada punto de habilidad aumenta la distancia de ángulo seguro mientras esquiva en 10 grados.
+2110992317|8d17aaa0||Reduce el daño recibido del tipo de monstruo al que se dirige el aceite $I$%.
+2110992318|5f63dbf4||Permite la creación de aceites que se pueden aplicar a las espadas. La efectividad disminuye aplicando aceite en la hoja.
+2110992319|754d1890||Aumenta la ganancia de adrenalina en $I$%. Permite pagar una acción cuerpo a cuerpo a costa de aguante con Adrenalina.
+2110992320|ff9b0dc7||Bonus de set de armadura pesada: +$I$% a todas las resistencias de daño.
+2110992321|2b2a501b||Bonus de set de armadura media: +$I$% para veneno, sangrado y resistencias de efecto de quemado.
+2110992322|31637b56||Armadura de conjunto de luz extra: +$I$ grados a la distancia de ángulo seguro mientras esquivas.
+2110992323|90f6cc99||Concede inmunidad a veneno. Los venenos se curan en $S$% de daño por veneno por cada pieza de equipo equipada (la tasa de curación actual es: $S$%).
+2110992324|a0268440||Bonus de Poder de ataque
+2110992325|d23efdaf||Cada pieza del set reduce el daño recibido de parada parcial o contrarresto en +$S$% (la reducción de daño actual es: $S$%).
+2110992326|85e8fbd2||Se pueden aplicar hasta tres aceites diferentes a una espada a la vez. Cada aceite aplicado a una espada aumenta la probabilidad de golpe crítico en $S$% y la potencia de golpe crítico en $S$%.
+2110992327|99d7dea8||Escalamiento enemigo
+2110992328|b9a7283e||Experiencia
+2110992329|137fa103||Gameplay
+2110992330|de9dbdb0||Artículo kit de desmontaje
+2110992331|54df196a||Permite desmontar elementos basura y crear componentes.
+2110992332|cd3869e4||Kit de desmontaje de alquimia
+2110992333|4d09bbea||Permite desmontar componentes de alquimia.
+2110992334|0544643a||Desmontable
+2110992336|d23efdb0||Parar un ataque tambalea el enemigo atacante.
+2110992337|e9c58057||Todos los elementos de armadura equipados se tratan como armadura media. La regeneración de aguante no cambia. Las penalizaciones de resistencia para las acciones de combate no se modifican.
+2110992338|eb7a58f6||Todos los elementos de armadura equipados se tratan como armadura pesada. La armadura obtiene una penalización de regeneración de resistencia. Las penalizaciones de resistencia para las acciones de combate no se modifican.
+2110992339|e810a7b8||Todos los elementos de armadura equipados se tratan como Armadura ligera. La Armadura obtiene bonificación de regeneración de resistencia. Las penalizaciones de resistencia para las acciones de combate no se modifican.
