@@ -168,6 +168,9 @@ exec function whoareyou()
 	var actor : CActor;
 	var template : CEntityTemplate;
 	var interactionTarget : CInteractionComponent;
+	var monsterCategory : EMonsterCategory;
+	var tmpName : name;
+	var tmpBool : bool;
 	
 	interactionTarget = theGame.GetInteractionsManager().GetActiveInteraction();
 	
@@ -193,6 +196,8 @@ exec function whoareyou()
 	if( actor )
 	{
 		theGame.witcherLog.AddMessage("NPC template: " + actor.GetReadableName());
+		theGame.GetMonsterParamsForActor(actor, monsterCategory, tmpName, tmpBool, tmpBool, tmpBool);
+		theGame.witcherLog.AddMessage("Monster category: " + monsterCategory);
 		actor.GetCharacterStats().GetAbilities( arrNames, true );
 		ArrayOfNamesAppendUnique(arrUniqueNames, arrNames);
 		if(arrUniqueNames.Size() > 0)
