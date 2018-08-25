@@ -227,7 +227,7 @@
 2110992242|fc921527||Aplica un efecto aleatorio Lugar de poder al atardecer y al amanecer. Dura más que otras decocciones mutágenas.
 2110992243|e71d7c93||Aumenta la intensidad de la señal durante el mal tiempo.
 2110992244|fc921524||Aumenta la resistencia a sangrado, ardor y efectos de veneno aplicados durante el combate. Mientras más duran estos efectos, mayor es la bonificación de resistencia.
-2110992245|fc921525||La realización de acciones que consumen Stamina regenera la vitalidad proporcional al aguante consumido.
+2110992245|fc921525||La realización de acciones que consumen Stamina regenera la vitalidad proporcional al aguante consumido. Works only while in combat.
 2110992246|fc92152b||Tomar daño aumenta la resistencia al daño por el resto de la pelea (hasta 20%).
 2110992247|fc921505||Cada golpe conseguido aumenta el poder de ataque (hasta 100%) hasta que la pelea finaliza o se toma el daño (que no sea por la toxicidad de la poción).
 2110992248|fc921509||Poder de ataque crece en el transcurso de una pelea (hasta 30%).

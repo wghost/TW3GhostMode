@@ -231,7 +231,7 @@
 2110992242|fc921527||Applies a random Place of Power effect at dusk and dawn. Lasts longer than other mutagen decoctions.
 2110992243|e71d7c93||Increases Sign Intensity during bad weather.
 2110992244|fc921524||Increases resistance to bleeding, burning and poison effects applied during combat. The longer these effects last, the bigger is resistance bonus.
-2110992245|fc921525||Performing actions that consume Stamina regenerates Vitality proportional to Stamina spent.
+2110992245|fc921525||Performing actions that consume Stamina regenerates Vitality proportional to Stamina spent. Works only while in combat.
 2110992246|fc92152b||Taking damage increases damage resistance for the remainder of the fight (up to 20%).
 2110992247|fc921505||Each blow landed increases Attack Power (up to 100%) until either the fight ends or damage (other than that from potion Toxicity) is taken.
 2110992248|fc921509||Attack Power grows over the course of a fight (up to 30%).

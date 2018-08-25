@@ -1,0 +1,324 @@
+;meta[language=cz]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+2110992000|        |panel_Mods|Mods
+2110992001|        |panel_ghost_mode|Ghost Mode
+2110992002|        |option_gm_health_multiplier|Modifikátor zdraví nepřátel: 
+2110992003|        |option_gm_damage_multiplier|Modifikátor poškození nepřátel: 
+2110992004|        |option_gm_enemies_scaling|Navyšování úrovně nepřátel
+2110992005|        |preset_value_gm_es_none|Nenavyšovat 
+2110992006|        |preset_value_gm_es_upscale|Navýšit
+2110992007|        |preset_value_gm_es_match|Rovná se Geraltově úrovni
+2110992013|        |attribute_name_frost_resistance_perc|Odolnost proti mrazu
+2110992014|        |attribute_name_armor_reduction_perc|Snížení nepřítelovi odolnosti proti poškození
+2110992015|        |attribute_name_potion_duration|Trvání účinku lektvaru
+2110992016|        |preset_value_gm_es_soft|Mírné navýšení 
+2110992017|        |panel_common_statistics_tooltip_silver_dph_gm|Poškození za každý zásah (stříbro)
+2110992018|        |panel_common_statistics_tooltip_steel_dph_gm|Poškození za každý zásah (ocel)
+2110992019|        |gm_sign_stats_channeling_damage_per_sec|Poškození proudem ohně za sekundu
+2110992020|        |gm_sign_stats_yrden_traps|Magické pasti
+2110992021|        |gm_sign_stats_yrden_damage|Poškození magické pasti
+2110992022|        |gm_sign_stats_alt_yrden_duration|Trvání magické střílny
+2110992023|        |gm_sign_stats_alt_yrden_charges|Zásobníky magické střílny
+2110992024|        |gm_sign_stats_alt_yrden_damage|Poškození magické střílny                                   
+2110992025|        |gm_sign_stats_alt_quen_returned_damage|Vrácené poškození
+2110992026|        |gm_sign_stats_alt_quen_dmg_absorption|Pohlcení poškození aktivního štítu
+2110992027|        |gm_sign_stats_alt_axii_chance|Šance na alternativní efekt při seslání Axie
+2110992028|        |gm_combat_stats_fast_attack_power|Síla rychlého útoku
+2110992029|        |gm_combat_stats_strong_attack_power|Síla silného útoku
+2110992030|        |gm_sign_stats_quen_dmg_absorption|Pohlcené poškození
+2110992034|        |attribute_name_vsBeast_critical_hit_chance|Šance kritického zásahu proti zvířatům
+2110992035|        |attribute_name_vsCursed_critical_hit_chance|Šance kritického zásahu proti prokletým
+2110992036|        |attribute_name_vsDraconide_critical_hit_chance|Šance kritického zásahu proti drakovitým
+2110992037|        |attribute_name_vsHuman_critical_hit_chance|Šance kritického zásahu proti lidem
+2110992038|        |attribute_name_vsHybrid_critical_hit_chance|Šance kritického zásahu proti hybridům
+2110992039|        |attribute_name_vsInsectoid_critical_hit_chance|Šance kritického zásahu proti hmyzovitým
+2110992040|        |attribute_name_vsMagicals_critical_hit_chance|Šance kritického zásahu proti elementálům
+2110992041|        |attribute_name_vsNecrophage_critical_hit_chance|Šance kritického zásahu proti nekrofágům
+2110992042|        |attribute_name_vsRelic_critical_hit_chance|Šance kritického zásahu proti reliktům
+2110992043|        |attribute_name_vsSpecter_critical_hit_chance|Šance kritického zásahu proti přeludům
+2110992044|        |attribute_name_vsOgre_critical_hit_chance|Šance kritického zásahu proti zlobrovitým
+2110992045|        |attribute_name_vsVampire_critical_hit_chance|Šance kritického zásahu proti upírům
+2110992046|        |attribute_name_vsBeast_critical_hit_damage_bonus|Síla kritického zásahu proti zvířatům
+2110992047|        |attribute_name_vsCursed_critical_hit_damage_bonus|Síla kritického zásahu proti prokletým
+2110992048|        |attribute_name_vsDraconide_critical_hit_damage_bonus|Síla kritického zásahu proti drakovitým
+2110992049|        |attribute_name_vsHuman_critical_hit_damage_bonus|Síla kritického zásahu proti lidem
+2110992050|        |attribute_name_vsHybrid_critical_hit_damage_bonus|Síla kritického zásahu proti hybridům
+2110992051|        |attribute_name_vsInsectoid_critical_hit_damage_bonus|Síla kritického zásahu proti hmyzovitým
+2110992052|        |attribute_name_vsMagicals_critical_hit_damage_bonus|Síla kritického zásahu proti elementálům
+2110992053|        |attribute_name_vsNecrophage_critical_hit_damage_bonus|Síla kritického zásahu proti nekrofágům
+2110992054|        |attribute_name_vsRelic_critical_hit_damage_bonus|Síla kritického zásahu proti reliktům
+2110992055|        |attribute_name_vsSpecter_critical_hit_damage_bonus|Síla kritického zásahu proti přeludům
+2110992056|        |attribute_name_vsOgre_critical_hit_damage_bonus|Síla kritického zásahu proti zlobrovitým
+2110992057|        |attribute_name_vsVampire_critical_hit_damage_bonus|Síla kritického zásahu proti upírům
+2110992058|        |attribute_name_vsBeast_resist_reduction|Snížení odolnosti před poškozením proti zvířatům
+2110992059|        |attribute_name_vsCursed_resist_reduction|Snížení odolnosti před poškozením proti prokletým
+2110992060|        |attribute_name_vsDraconide_resist_reduction|Snížení odolnosti před poškozením proti drakovitým
+2110992061|        |attribute_name_vsHuman_resist_reduction|Snížení odolnosti před poškozením proti lidem
+2110992062|        |attribute_name_vsHybrid_resist_reduction|Snížení odolnosti před poškozením proti hybridům
+2110992063|        |attribute_name_vsInsectoid_resist_reduction|Snížení odolnosti před poškozením proti hmyzovitým
+2110992064|        |attribute_name_vsMagicals_resist_reduction|Snížení odolnosti před poškozením proti elementálům
+2110992065|        |attribute_name_vsNecrophage_resist_reduction|Snížení odolnosti před poškozením proti nekrofágům
+2110992066|        |attribute_name_vsRelic_resist_reduction|Snížení odolnosti před poškozením proti reliktům
+2110992067|        |attribute_name_vsSpecter_resist_reduction|Snížení odolnosti před poškozením proti přeludům
+2110992068|        |attribute_name_vsOgre_resist_reduction|Snížení odolnosti před poškozením proti zlobrovitým
+2110992069|        |attribute_name_vsVampire_resist_reduction|Snížení odolnosti před poškozením proti upírům
+2110992070|        |attribute_name_vsHuman_attack_power|Síla útoku proti lidem
+2110992071|da7e5ba4||Každá část lehké zbroje zvyšuje šanci na kritický zásah o $S$% a sílu kritického zásahu o $S$%.
+2110992072|da7e5ba6||Každá část těžké zbroje zvyšuje maximální zdraví o $S$%, uštědřené poškození útoky na blízko dává navíc $S$ adrenalinových bodů, za každou další část těžké zbroje.
+2110992073|163a8e78||Zvyšuje šanci na podpálení o $I$%.
+2110992074|3c4a6af2||Poškození silným útokem
+2110992075|5806ca6e||Kritické poškození silným útokem
+2110992076|69d8dd89||Kritické poškození rychlým útokem
+2110992077|89dfeac9||Šance na kritický zásah rychlým útokem
+2110992078|bc4297c4||Šance na kritický zásah silným útokem
+2110992079|d23992f7||Poškození rychlým útokem
+2110992080|2e06698e||Kritické poškození silným útokem
+2110992081|3375c4a9||Kritické poškození rychlým útokem
+2110992082|73d42fa9||Šance na kritický zásah rychlým útokem
+2110992083|b08bd7d2||Poškození silným útokem
+2110992084|c7b0b7d7||Poškození rychlým útokem
+2110992085|fa3924a4||Šance na kritický zásah silným útokem
+2110992090|6c1d3ba3||Petardy jsou hozeny bez prodlevy a mohou způsobit kritické poškození. Každá část setu zvyšuje šanci kritického zásahu petardou o $S$% (současný bonus: $S$%) a sílu kritického zásahu petardou o $S$% (současný bonus: $S$%).
+2110992091|85e8fbd1||Každá část setu zvyšuje efektivitu aplikovaného oleje na meči o $S$% (současný bonus: $S$%).
+2110992092|1f70c024||Rychlé útoky mají $S$% šanci na způsobení krvácení.
+2110992093|71d0c5a6||Alternativní režim znamení:<br>Způsobuje $I$ bodů poškození nepřátelům v rozmezí $I$ yardů. Poškození se zvyšuje s intenzitou znamení (současné poškození je: $I$). Ničí střely procházející oblastí účinku. Trvá po dobu $I$ sekund. Zásobníky střílny - $I$.
+2110992094|71d0c5a5||Alternativní režim znamení:<br>Způsobuje $I$ bodů poškození nepřátelům v rozmezí $I$ yardů. Poškození se zvyšuje s intenzitou znamení (současné poškození je: $I$). Ničí střely procházející oblastí účinku. Trvá po dobu $I$ sekund. Zásobníky střílny - $I$.
+2110992095|163a8e72||Alternativní režim znamení:<br>Způsobuje $I$ bodů poškození nepřátelům v rozmezí $I$ yardů. Poškození se zvyšuje s intenzitou znamení (současné poškození je: $I$). Ničí střely procházející oblastí účinku. Trvá po dobu $I$ sekund. Zásobníky střílny - $I$.
+2110992096|b1173fc9||Až dva protivníci mohou být ve stejný okamžik ovlivněni Axie. Trvání efektu je sníženo o $I$%.
+2110992097|c8467d3c||Až dva protivníci mohou být ve stejný okamžik ovlivněni Axie. Trvání efektu je sníženo o $I$%.
+2110992098|c8467d3d||Až dva protivníci mohou být ve stejný okamžik ovlivněni Axie. Trvání efektu není nadále sníženo.
+2110992099|1f70c022||Každý bod adrenalinu přidává $I$% šanci na okamžité zabití protivníka. Nevztahuje se na použití schponosti Vír.
+2110992102|1f70c021||Drtivý útok, který projde krytím protivníků i jejich štíty. Způsobuje $S$% dodatečného poškození, plus $S$% poškození za každý bod adrenalinu v poměru spotřebované výdrže ($S$% max.). Zvyšuje šanci na kritický zásah o $S$%.
+2110992103|1f70c020||Vířivý útok, který zasáhne všechny nepřátele v dosahu. Způsobuje o $S$% menší poškození. Udržování útoku spotřebovává výdrž a adrenalin. Utržené poškození je při útoku sníženo o $S$%.
+2110992104|064143d3||Vířivý útok, který zasáhne všechny nepřátele v dosahu. Způsobuje o $S$% menší poškození. Udržování útoku spotřebovává výdrž a adrenalin. Utržené poškození je při útoku sníženo o $S$%.
+2110992105|        |gm_stat_adrenaline_gain|Přísun adrenalinu
+2110992106|739e1e2c||Silný útok, který zvýší poškození rychlého útoku po $S$ sekund o $S$%, za každou část setu. Funguje i obráceně. Současný bonus: $S$%.
+2110992107|8ed43e3e||Každá část setu snižuje potřebnou výdrž pro seslání znamení o $S$%. Současný bonus: $S$%.
+2110992108|8ed43e3f||Rozsah pastí Yrdenu je zvýšen o $S$%. Dokud jsi uvnitř Yrdenu, je intenzita znamení zvýšena o $S$% a odolnost vůči poškození je zvýšena o $S$%.
+2110992109|739e1e2d||Kritické zásahy mečem zdvojnásobují získaný adrenalin.
+2110992110|        |attribute_name_dockdownchance_mult|Šance na sražení
+2110992111|c3f538a3||Kritická šance při zásahu kuší je zvýšena o $S$% a síla kritického zásahu je zvýšena o $S$%. Šipky do kuše prorazí zbroj protivníků a srazí je k zemi nebo je omráčí. Pokud mají zasažení protivníci plné zdraví, ztratí $S$% zdraví.
+2110992112|        |effect_undying_skill|Účinky schopnosti Nehynoucí
+2110992113|c1e6a9cc||Pokud zdraví klesne na nulu, aby se předešlo smrti, spotřebují se body adrenalinu, a získáš na $S$ sekund zvýšené zdraví a dočasnou nezranitelnost. Obnoví $S$% zdraví, za každý bod adrenalinu (max. $S$%) a nemůže být použito víc než jednou, za každých $S$ sekund.
+2110992114|c1e6a9cb||Pokud zdraví klesne na nulu, aby se předešlo smrti, spotřebují se body adrenalinu, a získáš na $S$ sekund zvýšené zdraví a dočasnou nezranitelnost. Obnoví $S$% zdraví, za každý bod adrenalinu (max. $S$%) a nemůže být použito víc než jednou, za každých $S$ sekund.
+2110992115|cea74418||Pokud zdraví klesne na nulu, aby se předešlo smrti, spotřebují se body adrenalinu, a získáš na $S$ sekund zvýšené zdraví a dočasnou nezranitelnost. Obnoví $S$% zdraví, za každý bod adrenalinu (max. $S$%) a nemůže být použito víc než jednou, za každých $S$ sekund.
+2110992116|cea74430||Síla útoku rychlými útoky je zvýšena o $I$%.
+2110992117|1f70c023||Síla útoku silnými útoky je zvýšena o $I$%.
+2110992118|cea74417||Zvyšuje šanci kritického zásahu rychlým útokem o $I$% a sílu kritického zásahu rychlým útokem o $I$%.
+2110992119|1f70c027||Zvyšuje šanci kritického zásahu silným útokem o $I$% a sílu kritického zásahu silným útokem o $I$%.
+2110992120|c1e68bc4||Perfektně načasované parírování odráží šípy zpět na útočníka a poškození je zvýšeno o $I$%.
+2110992121|c1e68f84||Úspěšný protiútok zvyšuje sílu dalšího útoku o $I$%. Každý bod adrenalinu zvyšuje šanci na sražení o $I$% (max. $I$%, při úspěchu spotřebuje adrenalin).
+2110992122|c1e68f85||Úspěšný protiútok zvyšuje sílu dalšího útoku o $I$%. Každý bod adrenalinu zvyšuje šanci na sražení o $I$% (max. $I$%, při úspěchu spotřebuje adrenalin). Zvyšuje šanci kritického zásahu o $I$%.
+2110992123|cea74411||Úspěšný protiútok zvyšuje sílu dalšího útoku o $I$%.
+2110992124|cf2b2da2||Ochranný štít, který trvá dokud nepohltí $I$ bodů poškození. Pohlcené poškození se zvyšuje s intenzitou znamení. Současné pohlcení: $I$. <br>Trvání štítu: $I$ sekund.
+2110992125|163a8e77||Poškození způsobené Igni také permanentně snižuje nepřátelům celkovou zbroj o $S$% za každý zásah (zvyšuje se s intenzitou znamení). Maximální hodnota efektu nemůže přesáhnout $S$%.
+2110992126|cf2b2da0||Sprška ohně, která způsobuje $I$ bodů poškození, s $I$% šancí podpálit nepřátele. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $I$.
+2110992127|163a8e71||Alternativní režim znamení:<br>Vysílá nepřetržitý proud ohně, který způsobuje podpálení a přidává $I$ bodů poškození za sekundu. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$). Vysává $I$ bodů výdrže za sekundu.
+2110992128|71d0c1e4||Alternativní režim znamení:<br>Vysílá nepřetržitý proud ohně, který způsobuje podpálení a přidává $I$ bodů poškození za sekundu. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$). Vysává $I$ bodů výdrže za sekundu.
+2110992129|71d0c1e5||Alternativní režim znamení:<br>Vysílá nepřetržitý proud ohně, který způsobuje podpálení a přidává $I$ bodů poškození za sekundu. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$). Vysává $I$ bodů výdrže za sekundu.
+2110992130|163a8e75||Aard nyní způsobuje $I$ poškození. Poškození se zvyšuje s intezitou znamení. Současné poškození: $I$.
+2110992131|b3c8ebb8||Magická střílna                                                                                             
+2110992132|b1173fc0||Trvání magické pasti a střílny se zvyšuje o $I$%, počet zásobníků magické střílny se zvyšuje o $I$. 
+2110992133|        |gm_alt_yrden_lvl3_description|Trvání magické pasti a střílny se zvyšuje o $I$%, počet zásobníků magické střílny se zvyšuje o $I$. Nyní je možné umístit dodatečnou magickou past.
+2110992134|b1173fc1||Nepřátelé za každou sekundu uvnitř magické pasti ztratí $S$% bodů zdraví nebo jen zlomek.
+2110992135|c84666b6||Když se rozbije, zatlačí štít Quenu protivníky zpět a způsobí jim $I$ bodů poškození. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$).
+2110992136|c84666b7||Když se rozbije, zatlačí štít Quenu se šancí ke sražení protivníky zpět a způsobí jim $I$ bodů poškození. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$).
+2110992137|163a8e73||Alternativní režim znamení:<br>Vytvoří aktivní štít, který pohltí o $I$% více poškození. Jeho udržování vysává $I$ bodů výdrže za sekundu. Odražené útoky spotřebují výdrž úměrnou k pohlcenému poškození. Doplní zdraví o $I$% pohlceného poškození.
+2110992138|71d0c966||Alternativní režim znamení:<br>Vytvoří aktivní štít, který pohltí o $I$% více poškození. Jeho udržování vysává $I$ bodů výdrže za sekundu. Odražené útoky spotřebují výdrž úměrnou k pohlcenému poškození. Doplní zdraví o $I$% pohlceného poškození.
+2110992139|71d0c967||Alternativní režim znamení:<br>Vytvoří aktivní štít, který pohltí o $I$% více poškození. Jeho udržování nadále nevysává výdrž. Odražené útoky spotřebují výdrž úměrnou k pohlcenému poškození. Doplní zdraví o $I$% pohlceného poškození.
+2110992140|15dda916||S každým dalším zásahem přidává vhodně aplikovaný olej na čepele $I$% šanci otrávit protivníka. Vylepšený olej zvyšuje tuto šanci o $I$% a prvotřídní o $I$%.
+2110992141|15dda91a||Pokud je toxicita nad nulou a nepřítel se právě chystá provést protiútok, čas se automaticky zpomalí o $S$%. Trvání efektu: $S$ sekund .
+2110992142|1517d64d||Pokud je toxicita nad nulou a nepřítel se právě chystá provést protiútok, čas se automaticky zpomalí o $S$%. Trvání efektu: $S$ sekund.
+2110992143|1517d64e||Pokud je toxicita nad nulou a nepřítel se právě chystá provést protiútok, čas se automaticky zpomalí o $S$%. Trvání efektu: $S$ sekund.
+2110992145|329005f0||Umožňuje ti provést silné útoky nablízko, které způsobí o $I$% více poškození a přidá $I$ k průraznosti zbroje.
+2110992148|bab1daf5||Každý bod toxicity zvyšuje sílu útoku a intenzitu znamení o $S$% (do maxima $S$%).
+2110992149|c3f5389c||Znamení mohou způsobit kritické zásahy. Jejich síla a šance na kritický zásah se zvyšuje s intenzitou znamení (současná šance na kritický zásah: $S$%, síla kritického zásahu: $S$%). Protivníci zabití kritickými zásahy z účinků znamení explodují.
+2110992150|c3f538a0||Když se sešle znamení Aard, má dodatečnou $S$% šanci ke zmražení protivníků. Protivníci, co jsou současně zmraženi a sraženi, zemřou okamžitě. Protivníci, kteří nejsou zmraženi, utrží $S$ dodatečného poškození. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $S$.
+2110992151|cf2b2da1||Magická past, která v oblasti působení zpomalí nepřátele o $S$% (zvyšuje se s intenzitou znamení). Trvání pasti: $S$s.
+2110992152|c3f538a1||Na začátku souboje se za každého soupeře zvyšuje síla útoku a intenzita znamení o $S$%, a za každého dalšího (po prvním z nich), je doba trvání $S$ sekund. Pokud tedy bojuješ s $S$ soupeři, bonus je $S$%. Po vyprchání účinků klesne za každého soupeře (po prvním z nich) síla útoku a intenzita znamení o $S$% (ale ne o víc než $S$%), a o $S$ sekund.
+2110992153|c32e766a||Bonus za sílu kritického zásahu
+2110992154|28838f82||Průraznost zbroje
+2110992155|f35fcb73||Průraznost zbroje
+2110992156|        |attribute_name_vitalityRegen|Regenerace zdraví mimo boj
+2110992157|        |attribute_name_vitalityCombatRegen|Regenerace zdraví během boje
+2110992158|c95c6e28||Při plném zdraví dodatečná regenerace zdraví zvyšuje sílu tvého příštího útoku mečem nebo poškození znamením (až do +$I$%).
+2110992159|ccc61f66||Všechno jídlo účinkuje o $I$% déle, ale chutná jako knedlíčky.
+2110992160|22156cd6||Když magická střílna zasáhne nepřítele, magická past se objeví na jeho místě.
+2110992161|        |attribute_name_spell_dmg_bonus|Poškození znamením
+2110992162|        |attribute_name_sword_dmg_bonus|Poškození zbraní
+2110992163|7968d6e0||Zmrazí soupeře. Údery zasazené zmraženým nepřátelům způsobují dodatečná poškození. Prodloužené trvání.
+2110992164|b02a28c2||Zvýšení poškození
+2110992165|9e58d1f5||Zvyšuje intenzitu znamení. Prodloužené trvání. Speciální účinky znamení jsou o jednu třetinu delší.
+2110992166|329005f3||Údery zasazené během boje generují body adrenalinu. Každý bod adrenalinu zvyšuje sílu útoku o $I$%.
+2110992167|        |gm_combat_stats_fast_crit_attack_power|Síla kritického zásahu rychlým útokem
+2110992168|        |gm_combat_stats_strong_crit_attack_power|Síla kritického zásahu silným útokem
+2110992169|        |gm_used_razor_success|Geralt je nyní hladce oholen
+2110992170|329005f2||Umožňuje třímat lehkou kuši. Střelba bez míření působí o 50% menší poškození.
+2110992171|5f63dbf5||Umožňuje výrobu petard, které mohou být vrženy na nepřátele. Házení bez míření působí o 50% menší poškození.
+2110992172|754d1891||Jako dodatečný efekt obvyklého účinku bojového transu, každý bod adrenalinu dále zvyšuje intenzitu znamení o $I$%. Použití znamení nyní generuje body adrenalinu.
+2110992173|        |item_desc_razor_mod|Používá se na holení.
+2110992174|da7e5ba5||Každá část střední zbroje zvyšuje intenzitu znamení o $S$% a regeneraci výdrže o $S$%.
+2110992175|b1173fc7||Když Geralt sesílá Axie, cíl je zpomalen o $I$%. Zvyšuje efektivitu Axie v konverzacích.
+2110992176|c84675ba||Když Geralt sesílá Axie, cíl je zpomalen o $I$%. Zvyšuje efektivitu Axie v konverzacích.
+2110992177|c84675bb||Když Geralt sesílá Axie, cíl je zpomalen o $I$%. Neúspěšně seslané Axie se pokusí vyvést cíl z rovnováhy. Zvyšuje efektivitu Axie v konverzacích.
+2110992178|56747c57||Zrychlení regenerace zdraví. Prodloužené trvání. Při utrženém poškození se regenerace zdraví nezastaví.
+2110992179|        |gm_geralt_too_heavy|Tvé přetížení je příliš vysoké
+2110992180|        |option_gm_sink_boat_toggle|Při přetížení se loďka potopí:
+2110992181|        |option_gm_sink_boat_slider|Práh přetížení k potopení loďky: (%)
+2110992182|        |gm_switch_inv_mode|Přepnout režim nastavení inventáře
+2110992183|        |option_gm_encumbrance_slider|Snížení váhy předmětu: (%)
+2110992184|        |gm_normal_inv_mode|Nastavení běžného režimu Geraltova inventáře
+2110992185|        |gm_stash_inv_mode|Nastavení režimu uložiště
+2110992186|        |gm_mixed_inv_mode|Nastavení režimu kombinace inventáře
+2110992187|        |gm_synchronized_inv_mode|Nastavení režimu synchronizace inventáře
+2110992188|e71d7c90||Geraltovo maximální zdraví je zvýšeno s každým zabitým protivníkem.
+2110992189|d3510d11||Obsahuje stříbrné úlomky, které příšerám dočasně zabrání v přeměně a regeneraci.
+2110992190|d3510d12||Obsahuje stříbrné úlomky, které příšerám dočasně zabrání v přeměně a regeneraci. Prodloužené trvání.
+2110992191|d3510d13||Obsahuje stříbrné úlomky, které příšerám permanentně zabrání v přeměně a regeneraci.
+2110992192|08eace65||Zvyšuje efektivitu útoku proti hmyzovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992193|08eace66||Zvyšuje efektivitu útoku proti hmyzovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992194|08eace67||Zvyšuje efektivitu útoku proti hmyzovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992195|3a67f159||Zvyšuje efektivitu útoku proti prokletým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992196|3a67f15a||Zvyšuje efektivitu útoku proti prokletým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992197|3a67f15b||Zvyšuje efektivitu útoku proti prokletým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992198|65067e25||Zvyšuje efektivitu útoku proti nekrofágům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992199|65067e26||Zvyšuje efektivitu útoku proti nekrofágům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992200|65067e27||Zvyšuje efektivitu útoku proti nekrofágům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992201|7b1c29c3||Zvyšuje efektivitu útoku proti hybridům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992202|7b1c29c4||Zvyšuje efektivitu útoku proti hybridům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992203|7b1c29c5||Zvyšuje efektivitu útoku proti hybridům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992204|88e86911||Zvyšuje efektivitu útoku proti upírům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992205|88e86912||Zvyšuje efektivitu útoku proti upírům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992206|88e86913||Zvyšuje efektivitu útoku proti upírům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992207|aed490e2||Zvyšuje efektivitu útoku proti elementálům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992208|aed490e3||Zvyšuje efektivitu útoku proti elementálům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992209|aed490e4||Zvyšuje efektivitu útoku proti elementálům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992210|d11afcde||Zvyšuje efektivitu útoku proti lidem, elfům, trpaslíkům a půlčíkům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992211|d11afcdf||Zvyšuje efektivitu útoku proti lidem, elfům, trpaslíkům a půlčíkům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992212|d11afce0||Zvyšuje efektivitu útoku proti lidem, elfům, trpaslíkům a půlčíkům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992213|ea1a3189||Zvyšuje efektivitu útoku proti přeludům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992214|ea1a318a||Zvyšuje efektivitu útoku proti přeludům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992215|ea1a318b||Zvyšuje efektivitu útoku proti přeludům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992216|ef649cfe||Zvyšuje efektivitu útoku proti drakovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992217|ef649cff||Zvyšuje efektivitu útoku proti drakovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992218|ef649d00||Zvyšuje efektivitu útoku proti drakovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992219|f8b46c36||Zvyšuje efektivitu útoku proti reliktům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992220|f8b46c37||Zvyšuje efektivitu útoku proti reliktům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992221|1ff07bf8||Zvyšuje efektivitu útoku proti reliktům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992222|7753393f||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992223|77533940||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992224|77533941||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992225|c0218f12||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992226|c0218f13||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992227|c0218f14||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992228|dd8e2b22||Zvyšuje efektivitu útoku proti zvířatům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992229|dd8e2b23||Zvyšuje efektivitu útoku proti zvířatům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992230|dd8e2b24||Zvyšuje efektivitu útoku proti zvířatům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992231|de026195||Vyčistí toxicitu a zruší aktivní účinky všech lektvarů.
+2110992232|de026196||Vyčistí toxicitu a zruší aktivní účinky všech lektvarů.
+2110992233|de026197||Vyčistí toxicitu a zruší aktivní účinky všech lektvarů.
+2110992234|        |item_desc_relic_oil_3|Zvyšuje efektivitu útoku proti reliktům.
+2110992235|874e9f88||Propůjčí zrak v naprosté tmě a imunitu proti hypnóze. Prodloužené trvání.
+2110992237|fe608837||Způsobí poškození střepinami všem protivníkům v dosahu výbuchu. Způsobuje poškození ohněm. Vylepšený účinek. Zničí protivníkovi štít. Zničí hnízdo příšer.
+2110992238|63cd93a5||Uvolňuje oblak dwimeritových úlomků, které blokují magii a magické schopnosti příšer.
+2110992239|        |attribute_name_duration_out_of_cloud|Trvání oblaku
+2110992240|874e9f87||Propůjčuje zrak v naprosté tmě. Prodloužené trvání.
+2110992241|e71d7c8e||Po úspěšném silném útoku je všechna dostupná výdrž pohlcena k dodatečnému snížení zdraví protivníka o 5%. Pokud je spotřebované výdrže méně než 100%, účinek je odpovídajícím způsobem snížen.
+2110992242|fc921527||Od soumraku do úsvitu budou mít aktivovaná místa Moci náhodný efekt. Trvá déle než ostatní odvary z mutagenů.
+2110992243|e71d7c93||Zvyšuje intenzitu znamení během špatného počasí.
+2110992244|fc921524||Zvyšuje odolnost vůči účinkům krvácení, podpálení a jedům způsobených během boje. Čím déle tyto účinky trvají, tím větší je bonus k odolnosti.
+2110992245|fc921525||Provozovaním činností, které spotřebovávají výdrž, se doplňuje zdraví rovnající se spotřebované výdrži. Works only while in combat.
+2110992246|fc92152b||Během souboje se za utržené zranění zvyšuje odolnost vůči poškození (až do 20%).
+2110992247|fc921505||Každý úspěšný zásah zvyšuje sílu (až do 100%), dokud boj neskončí, anebo neutržíš zranění (kromě toho způsobeného vysokou toxicitou).
+2110992248|fc921509||V průběhu boje roste Síla útoku (až do 30%).
+2110992249|fc921526||Po dobu trvání souboje, zvyšuje každé seslané znamení regeneraci výdrže (až do 20%).
+2110992250|        |option_gm_rnd_scaling_min_slider|Náhodné zvýšení úrovně nepřátel: min.
+2110992251|        |option_gm_rnd_scaling_max_slider|Náhodné zvýšení úrovně nepřátel: max.
+2110992252|        |preset_value_gm_es_random|Náhodně
+2110992253|        |option_gm_no_quest_levels_toggle|Vypnout doporučenou úroveň pro plnění úkolů: 
+2110992254|        |option_gm_no_animal_upscaling_toggle|Nezvyšovat úroveň zvířat:
+2110992255|        |preset_value_gm_es_random_no_down|Náhodně, bez snížení úrovně
+2110992256|        |item_desc_note|Obsahuje neužitečné informace.
+2110992257|        |gm_recycling_parts|Výrobní součásti
+2110992258|25691b0a||Může být prodáno obchodníkům nebo rozebráno na výrobní součásti.
+2110992259|        |item_desc_junk_no_ingr|Může být prodáno obchodníkům.
+2110992260|7fd2ce90||Může být prodáno za vysokou cenu nebo rozebráno na výrobní součásti.
+2110992261|        |PanelStash|Menu uložiště
+2110992262|        |effect_undying_cooldown|Reaktivace účinků schopnosti Nehynoucí
+2110992263|        |attribute_name_staminaRegen_armor_mod|Modifikátor regenerace výdrže
+2110992264|        |attribute_name_chanceToIgnoreHitAnim|Šance na udržení rovnováhy při zasažení protivníkem
+2110992265|        |attribute_name_q108_bounce_arrows|Šance na odražení šípu
+2110992266|        |item_name_repair_kit_weapon_4|Nástroje mistra kováře
+2110992267|        |item_desc_repair_kit_weapon_4|Kovářské nástroje mistra kováře. Permanentně zvyšuje poškození zbraně.
+2110992268|        |item_name_repair_kit_armor_4|Nástroje mistra zbrojíře
+2110992269|        |item_desc_repair_kit_armor_4|Kovářské nástroje mistra zbrojíře. Permanentně zvyšuje obranu zbroje.
+2110992270|        |option_gm_quest_exp_slider|Modifikátor zkušeností za plnění úkolů:
+2110992271|        |option_gm_monster_exp_slider|Modifikátor zkušeností za vyhrané souboje:
+2110992272|        |attribute_name_knockdown|Šance na sražení            
+2110992273|b1173fc2||Zvyšuje šanci na sražení k zemi o $I$%.
+2110992274|163a8e76||Přidává $I$ bodů k poškození ohněm a $I$ bodů k poškození proudem ohně za sekundu. 
+2110992275|b1173fc6||Přidává $I$ bodů k poškození magickou střílnou.
+2110992276|b1173fc5||Přidává $I$ bodů k pohlcenému poškození štítem.
+2110992277|        |gm_sign_stats_axii_duration_confusion|Trvání účinku zmatení
+2110992278|        |gm_sign_stats_axii_duration_control|Trvání účinku ovládnutí
+2110992279|163a8e70||Alternativní režim znamení:<br>Aard zasáhne všechny protivníky v dosahu. Intenzita znamení je v tomto režimu o $I$% nižší.
+2110992280|71d0be23||Alternativní režim znamení:<br>Aard zasáhne všechny protivníky v dosahu. Intenzita znamení je v tomto režimu o $I$% nižší.
+2110992281|71d0be24||Alternativní režim znamení:<br>Aard zasáhne všechny protivníky v dosahu. Intenzita znamení se v tomto režimu nadále nesnižuje.
+2110992282|71d0d0e8||Aard nyní způsobuje $I$ poškození. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $I$.
+2110992283|71d0d0e9||Aard nyní způsobuje $I$ poškození. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $I$.
+2110992284|cf2b2d9f||Řízený výboj telekinetické energie, který při zásahu vyvede protivníky z rovnováhy a má $I$% šanci na sražení. Šance na sražení k zemi je $I$%. Šance se zvyšuje s intenzitou znamení. Dává dodatečnou 15% šanci uštědřit sraženému protivníkovi kritický zásah.
+2110992286|cf2b2da3||Očaruje protivníkovu mysl, tím ho zmate a dočasně ho tím vyřadí z boje. <br>Trvání zmatení: $S$ sekund (zvyšuje se s intenzitou znamení). Dává dodatečnou 15% šanci uštědřit zmatenému protivníkovi kritický zásah.
+2110992287|b1173fc8||Doba trvání účinků Axie se zvyšuje o $I$%.
+2110992288|163a8e74||Alternativní režim znamení:<br>Zaměřený nepřítel se na $I$ sekund stane Geraltovým spolubojovníkem a získá $I$% bonus k síle útoku. Trvání účinku se zvyšuje s intenzitou znamení. Současné trvání: $I$ sekund.
+2110992289|71d0cd27||Alternativní režim znamení:<br>Zaměřený nepřítel se na $I$ sekund stane Geraltovým spolubojovníkem a získá $I$% bonus k síle útoku. Trvání účinku se zvyšuje s intenzitou znamení. Současné trvání: $I$ sekund.
+2110992290|71d0cd28||Alternativní režim znamení:<br>Zaměřený nepřítel se na $I$ sekund stane Geraltovým spolubojovníkem a získá $I$% bonus k síle útoku. Trvání účinku se zvyšuje s intenzitou znamení. Současné trvání: $I$ sekund.
+2110992291|483c9092||Působené poškození nabíjí meč a zvyšuje sílu kritických zásahů o $S$%. Nabití postupně vyprchává a snižuje se při každém zásahu protivníkem. Plně nabitý meč má zvýšenou šanci na kritický zásah o $S$%.
+2110992292|1f5adb4f||Zabíjením nepřátel plně nabitým mečem se postupně permanentně navyšuje poškození zbraně. Když bonusové poškození přesáhne maximum nabití, postoupí meč na další úroveň. Poškození je zvýšeno o: $S$ (do maxima 10).
+2110992293|        |gm_sign_stats_heavy_knockdown|Šance na sražení k zemi
+2110992294|f76f46ed||Zabití protivníka ti doplní $I$% výdrže.
+2110992295|fad8f82b||Zabití protivníka přidá $F$ k $F$ bodům adrenalinu.
+2110992296|ed2f3195||Dává $I$% šanci vrácení $I$% utrženého poškození zpět útočníkovi.
+2110992299|f2e69faf||Působené poškození rychlými útoky nabíjí meč energií. Až se barva meče zbarví doruda, silný útok uvolní nastřádanou energii k mimořádně mocnému zásahu, za cenu části útočníkova zdraví.
+2110992300|        |option_gm_use_xml_exp_toggle|Splnění všech úkolů a vyhraných bojů dává stejný počet zkušeností:
+2110992301|        |gm_kills_humans|Humanoidi
+2110992302|        |gm_kills_wh_warriors|Bojovníci Divokého honu
+2110992303|        |gm_kills_total|Celkové množství zabití
+2110992304|        |gm_kills_animals_total|Zvířata
+2110992305|        |gm_kills_monsters_total|Příšery
+2110992306|        |gm_kills_by_type|Zabití dle kategorie
+2110992307|        |gm_kills_kill_count|Počet zabití
+2110992308|        |gm_kills_humans_total|Humanoidi
+2110992309|        |gm_kills_bosses_total|Unikátní bytosti/Bossové
+2110992310|1f70c026||Zvyšuje šanci na kritický zásah kuší o $I$% a sílu kritického zásahu o $I$%.
+2110992311|e71d7c8c||Dává 15% dodatečné odolnosti proti všem druhům poškození, pokud je váha inventáře 60 nebo menší, s větší váhou se bonus snižuje.
+2110992312|        |option_gm_stash_sync_toggle|Použije režim synchronizace uložiště jako výchozí nastavení:
+2110992313|da7e5ba8||Pokud máš alespoň jeden bod adrenalinu, použije se na seslání znamení místo výdrže.
+2110992314|        |option_gm_no_add_levels_guards|Žádné dodatečné navýšení úrovně stráží:
+2110992315|329005f1||Obranné techniky školy Vlka: parírování, protiútok, únik/pirueta. Úspěšný protiútok přidá dodatečnou $I$% šanci na kritický zásah. Úspěch parírování a protiútoku závisí na typu útoku a druhu protivníka: částečné parírování snižuje utržené poškození o $I$% a zabraňuje krvácení, častečný protiútok navíc brání všem negativním efektům a umožňuje přesměrovávat poškození zpět na protivníka. Úspěšné parírování/protiútok snižuje utržené poškození na nulu. Kotoul umožňuje vyhnout se šípům a efektům sražení/vyvedení z rovnováhy. Úspěch úniku/piruety závisí na typu útoku, útočníkově vzdálenosti a směru úhybu (úhel vzdálenosti). Částečně úspěšný únik/pirueta snižuje utržené poškození jen častečně.
+2110992316|1f70c028||Každý dovednostní bod zvyšuje bezpečný úhel vzdálenosti během úniku/piruety o 10 stupňů.
+2110992317|8d17aaa0||Snižuje utržené poškození od příšer (dle druhu), pokud se proti nim použije typ oleje, vůči kterému jsou zranitelní, o $I$%.
+2110992318|5f63dbf4||Umožňuje výrobu olejů, které mohou být aplikovány na meče. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992319|754d1890||Zvyšuje zisk adrenalinu o $I$%. Umožňuje bojovým akcím místo výdrže spotřebovávat adrenalin.
+2110992320|        |item_desc_armor_type_heavy_set_bonus|Bonus za set těžké zbroje: +$I$% ke všem odolnostem vůči poškození.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Bonus za set střední zbroje: +$I$% k odolnostem vůči účinkům jedů, krvácení a podpálení.
+2110992322|        |item_desc_armor_type_light_set_bonus|Bonus za set lehké zbroje: +$I$ ke stupňům bezpečného úhlu vzdálenosti během úniku/piruety.
+2110992323|        |skill_desc_viper_set_ability1|Dáva imunitu vůči jedům. Jedy léčí $S$% poškození jedem za každou část stejného vybaveného setu (současné množství obnoveného zdraví: $S$%).
+2110992324|        |gm_stat_attack_power_levelup_bonus|Bonus silného útoku
+2110992325|d23efdaf||Každá část setu snižuje utržené poškození za částečné parírování nebo protiútok o +$S$% (současné snížení poškození: $S$%).
+2110992326|85e8fbd2||Na meč mohou být současně aplikovány až tři různé typy oleje. Každý na meč aplikovaný olej zvyšuje šanci na kritický zásah o $S$% a sílu kritického útoku o $S$%.
+2110992327|        |panel_gm_scaling_options|Navyšování úrovně nepřátel
+2110992328|        |panel_gm_exp_options|Zkušenosti
+2110992329|        |panel_gm_gameplay_options|Hratelnost
+2110992330|        |item_name_dismantle_kit_gear_1|Nářadí na rozebrání předmětů
+2110992331|        |item_desc_dismantle_kit_gear_1|Umožňuje rozebrat nepotřebné předměty a výrobní součásti.
+2110992332|        |item_name_dismantle_kit_alchemy_1|Nářadí na rozebrání alchymistických předmětů
+2110992333|        |item_desc_dismantle_kit_alchemy_1|Umožňuje rozebrat alchymistické součásti.
+2110992334|        |panel_button_hud_interaction_dismantle|Rozebrat
+2110992336|d23efdb0||Parírování útoku vyvede útočníka z rovnováhy.
+2110992337|e9c58057||Všechny vybavené části zbroje jsou brány jako střední zbroj. Regenerace výdrže je nezměněna. Penalizace výdrže za bojové akce zůstává nezměněna.
+2110992338|eb7a58f6||Všechny vybavené části zbroje jsou brány jako těžká zbroj. Zbroj získá penalizaci k regeneraci výdrže. Penalizace výdrže za bojové akce zůstává nezměněna.
+2110992339|e810a7b8||Všechny vybavené části zbroje jsou brány jako lehká zbroj. Zbroj získá bonus k regeneraci výdrže. Penalizace výdrže za bojové akce zůstává nezměněna.

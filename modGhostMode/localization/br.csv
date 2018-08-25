@@ -231,7 +231,7 @@
 2110992242|fc921527||Aplica o efeito de um Lugar de Poder aleatório ao anoitecer e ao amanhecer. Dura mais que outros agentes mutagênicos.
 2110992243|e71d7c93||Aumenta a intensidade do Sinal durante o mau tempo.
 2110992244|fc921524||Aumenta a resistência ao sangramento, efeitos que queimam e envenenam aplicados durante o combate. Quanto mais durarem estes efeitos, maior será o bônus de resistência.
-2110992245|fc921525||Realizar ações que consomem Vigor regenera a Vitalidade proporcinalmente ao Vigor gasto.
+2110992245|fc921525||Realizar ações que consomem Vigor regenera a Vitalidade proporcinalmente ao Vigor gasto. Works only while in combat.
 2110992246|fc92152b||Levar dano aumenta a resistência a dano pelo resto da luta (até 20%).
 2110992247|fc921505||Cada golpe acertado aumenta o poder de ataque (até 100%) até que a luta termine ou que leve dano (outro que não seja da toxicidade)
 2110992248|fc921509||Poder de ataque cresce ao longo de uma luta (até 30%)
