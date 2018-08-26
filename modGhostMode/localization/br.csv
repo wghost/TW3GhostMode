@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|Geralt está agora barbeado
 2110992170|329005f2||Permite que você maneje uma besta leve de mão. Tiros não mirados provocam 50% menos de dano.
 2110992171|5f63dbf5||Permite a criação de bombas que podem ser arremessadas nos inimigos. Os lançamentos não-mirados causam 50% menos dano..
-2110992172|754d1891||Além do habitual efeito transe de batalha, cada ponto de Adrenalina também aumenta a intensidade do Sinal em $I$%. Using Signs now generates Adrenaline Points.
+2110992172|754d1891||Além do habitual efeito transe de batalha, cada ponto de Adrenalina também aumenta a intensidade do Sinal em $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Usado para barbear.
 2110992174|da7e5ba5||Cada peça de armadura média aumenta a intensidade dos Sinais em $S$% e a regeneração de Vigor $S$%.
 2110992175|b1173fc7||O alvo é desacelerado em $I$% enquanto Geralt lança o Axii. Aumenta o efeito de Axii nos diálogos.
@@ -322,3 +322,4 @@
 2110992337|e9c58057||All equipped armor items are treated as Medium Armor. Stamina regeneration is unchanged. Stamina penalties for combat actions are unchanged.
 2110992338|eb7a58f6||All equipped armor items are treated as Heavy Armor. Armor gets stamina regeneration penalty. Stamina penalties for combat actions are unchanged.
 2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
+2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.

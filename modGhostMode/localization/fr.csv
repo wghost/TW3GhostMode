@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|Geralt est rasé de frais.
 2110992170|329005f2||Vous permet d'utiliser une arbalète légère. Les tirs au jugé infligent 50% de dégâts en moins.
 2110992171|5f63dbf5||Vous permet de créer des bombes qui peuvent être lancées sur les ennemis. Les lancers au jugé infligent 50% de dégâts en moins.
-2110992172|754d1891||En plus de l'effet habituel de Fureur guerrière, chaque point d'adrénaline augmente l'intensité des signes de $I$%. Using Signs now generates Adrenaline Points.
+2110992172|754d1891||En plus de l'effet habituel de Fureur guerrière, chaque point d'adrénaline augmente l'intensité des signes de $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Utilisé pour le rasage.
 2110992174|da7e5ba5||Chaque pièce d'armure intermédiaire augmente l'intensité des signes de $S$% et la régénération de vigueur de $S$%.
 2110992175|b1173fc7||La cible est ralentie de $I$% quand Geralt lance Axii. Augmente l'efficacité d'Axii pendant les dialogues.
@@ -322,3 +322,4 @@
 2110992337|e9c58057||Toutes les pièces d'armure équipées sont considérées comme armure intermédiaire. Le regain de vigueur reste inchangé. Les pénalités de vigueur pour les actions de combat sont inchangées.
 2110992338|eb7a58f6||Toutes les pièces d'armure équipées sont considérées comme armure lourde. L'armure octroie une pénalité de regain de vigueur. Les pénalités de vigueur pour les actions de combat sont inchangées.
 2110992339|e810a7b8||Toutes les pièces d'armure équipées sont considérées comme armure légère. L'armure octroie un bonus de regain de vigueur. Les pénalités de vigueur pour les actions de combat sont inchangées.
+2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.

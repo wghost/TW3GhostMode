@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|Geralt je nyní hladce oholen
 2110992170|329005f2||Umožňuje třímat lehkou kuši. Střelba bez míření působí o 50% menší poškození.
 2110992171|5f63dbf5||Umožňuje výrobu petard, které mohou být vrženy na nepřátele. Házení bez míření působí o 50% menší poškození.
-2110992172|754d1891||Jako dodatečný efekt obvyklého účinku bojového transu, každý bod adrenalinu dále zvyšuje intenzitu znamení o $I$%. Použití znamení nyní generuje body adrenalinu.
+2110992172|754d1891||Jako dodatečný efekt obvyklého účinku bojového transu, každý bod adrenalinu dále zvyšuje intenzitu znamení o $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Používá se na holení.
 2110992174|da7e5ba5||Každá část střední zbroje zvyšuje intenzitu znamení o $S$% a regeneraci výdrže o $S$%.
 2110992175|b1173fc7||Když Geralt sesílá Axie, cíl je zpomalen o $I$%. Zvyšuje efektivitu Axie v konverzacích.
@@ -322,3 +322,4 @@
 2110992337|e9c58057||Všechny vybavené části zbroje jsou brány jako střední zbroj. Regenerace výdrže je nezměněna. Penalizace výdrže za bojové akce zůstává nezměněna.
 2110992338|eb7a58f6||Všechny vybavené části zbroje jsou brány jako těžká zbroj. Zbroj získá penalizaci k regeneraci výdrže. Penalizace výdrže za bojové akce zůstává nezměněna.
 2110992339|e810a7b8||Všechny vybavené části zbroje jsou brány jako lehká zbroj. Zbroj získá bonus k regeneraci výdrže. Penalizace výdrže za bojové akce zůstává nezměněna.
+2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.

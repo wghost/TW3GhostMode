@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|Geralt is now clean-shaven
 2110992170|329005f2||Allows you to wield a light hand-held crossbow. Non-aimed shots deal 50% less damage.
 2110992171|5f63dbf5||Enables the creation of handheld bombs that can be thrown at enemies. Non-aimed throws deal 50% less damage.
-2110992172|754d1891||In addition to usual Battle Trance effect, each Adrenaline Point also increases Sign intensity by $I$%. Using Signs now generates Adrenaline Points.
+2110992172|754d1891||In addition to usual Battle Trance effect, each Adrenaline Point also increases Sign intensity by $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Used for shaving.
 2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and Stamina regeneration by $S$%.
 2110992175|b1173fc7||Target is slowed down by $I$% while Geralt is casting Axii. Increases the effectiveness of Axii in dialogues.
@@ -322,3 +322,4 @@
 2110992337|e9c58057||All equipped armor items are treated as Medium Armor. Stamina regeneration is unchanged. Stamina penalties for combat actions are unchanged.
 2110992338|eb7a58f6||All equipped armor items are treated as Heavy Armor. Armor gets stamina regeneration penalty. Stamina penalties for combat actions are unchanged.
 2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
+2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.

@@ -155,7 +155,7 @@
 2110992169|25746309||Geralt ahora está bien afeitado
 2110992170|329005f2||Te permite manejar una ballesta ligera de mano. Los disparos sin objetivo infligen 50% menos de daño.
 2110992171|5f63dbf5||Permite la creación de bombas portátiles que pueden lanzarse contra los enemigos. Los tiros sin objetivo infligen 50% menos de daño.
-2110992172|754d1891||Además del efecto Trance de Combate habitual, cada punto de adrenalina también aumenta la intensidad de la señal en $I$%. Usar signos ahora genera puntos de adrenalina.
+2110992172|754d1891||Además del efecto Trance de Combate habitual, cada punto de adrenalina también aumenta la intensidad de la señal en $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|04bda90f||Se utiliza para el afeitado.
 2110992174|da7e5ba5||Cada pieza de armadura media aumenta la intensidad de la señal en $S$% y la regeneración de aguante por $S$%.
 2110992175|b1173fc7||El objetivo se ralentiza en $I$% mientras Geralt está lanzando Axia. Aumenta la efectividad de Axia en los diálogos.
@@ -318,3 +318,4 @@
 2110992337|e9c58057||Todos los elementos de armadura equipados se tratan como armadura media. La regeneración de aguante no cambia. Las penalizaciones de resistencia para las acciones de combate no se modifican.
 2110992338|eb7a58f6||Todos los elementos de armadura equipados se tratan como armadura pesada. La armadura obtiene una penalización de regeneración de resistencia. Las penalizaciones de resistencia para las acciones de combate no se modifican.
 2110992339|e810a7b8||Todos los elementos de armadura equipados se tratan como Armadura ligera. La Armadura obtiene bonificación de regeneración de resistencia. Las penalizaciones de resistencia para las acciones de combate no se modifican.
+2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.

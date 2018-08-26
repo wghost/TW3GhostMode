@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|Geralt è ben rasato adesso.
 2110992170|329005f2||Ti permette di brandire una balestra leggera in mano. I colpi non inferti alla testa infliggono il 50% di danni in meno.
 2110992171|5f63dbf5||Attiva la creazione di bombe che possono essere lanciate contro i nemici. I lanci non mirati infliggono il 50% di danni in meno.
-2110992172|754d1891||In aggiunta ai consueti effetti di battaglia, ogni Punto Adrenalina aumenta anche l'intensita del Segno del $I$%. L'uso dei segni adesso genera Punti Adrenalina.
+2110992172|754d1891||In aggiunta ai consueti effetti di battaglia, ogni Punto Adrenalina aumenta anche l'intensita del Segno del $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Usato per la rasatura.
 2110992174|da7e5ba5||Ogni pezzo di armatura media aumenta l'intensità del Segno del $S$% e la rigenerazione del Vigore del $S$%.
 2110992175|b1173fc7||Il bersaglio viene rallentato del $I$% mentre Geralt lancia il segno Axii. Aumenta l'efficacia di Axii nei dialoghi.
@@ -322,3 +322,4 @@
 2110992337|e9c58057||Tutti i set armatura equipaggiati sono trattati come armature medie. Le penalità al vigore per le azioni di combattimento restano invariate invariate.
 2110992338|eb7a58f6||Tutti i set armatura equipaggiati sono trattati come Armature Pesanti. L'armatura ottiene le penalità per la rigenerazione del vigore. Le penalità al vigore per le azioni di combattimento restano invariate invariate.
 2110992339|e810a7b8||Tutti i set armatura equipaggiati sono trattati come Armature Leggere. Le armature ottengono il bonus per la rigenerazione del vigore. Le penalità di vigore per le azioni in combattimento restano invariate. 
+2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.

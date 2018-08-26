@@ -159,7 +159,7 @@
 2110992169|        |gm_used_razor_success|게롤트는 깨끗하게 면도되었다.
 2110992170|329005f2||가벼운 휴대 석궁을 쓸 수 있게 된다. 조준을 안할시 피해량이 50% 감소한다.
 2110992171|5f63dbf5||적에게 던질 폭탄을 제조할 수 있다. 조준해서 던지지 않을 시 공격력이 50% 감소한다.
-2110992172|754d1891||전투 트랜스 상태에서 아드레날린 점수 뿐만 아니라 표식 강도가 $I$% 증가한다. Using Signs now generates Adrenaline Points.
+2110992172|754d1891||전투 트랜스 상태에서 아드레날린 점수 뿐만 아니라 표식 강도가 $I$% 증가한다. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|면도에 사용한다.
 2110992174|da7e5ba5||일반 갑옷 한 부위당 표식 강도가 $S$% 증가하고 원기 회복이 $S$% 증가한다.
 2110992175|b1173fc7||액시 발동 중에 대상의 이동 속도가 $I$% 느려진다. 대화 중 액시 효과가 강화된다.
@@ -322,3 +322,4 @@
 2110992337|e9c58057||All equipped armor items are treated as Medium Armor. Stamina regeneration is unchanged. Stamina penalties for combat actions are unchanged.
 2110992338|eb7a58f6||All equipped armor items are treated as Heavy Armor. Armor gets stamina regeneration penalty. Stamina penalties for combat actions are unchanged.
 2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
+2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
