@@ -111,8 +111,8 @@
 2110992118|cea74417||속공 치명타 확률이 $I$% 증가하며 속공 치명타 피해가 $I$% 증가한다.
 2110992119|1f70c027||강공의 치명타 확률이 $I$% 증가하고 강공 치명타 피해가 $I$% 증가한다.
 2110992120|c1e68bc4||완벽한 타이밍에 쳐내면 공격자에게 화살을 되돌리고 $I$%의 데미지를 추가해 입힌다.
-2110992121|c1e68f84||반격에 성공할시 다음 가하는 공격 피해량이 $I$% 증가한다. 아드레날린 점수당 넉다운 확률이 $I$% 증가한다. (최대 $I$%, 성공 시 아드레날린 소모)
-2110992122|c1e68f85||반격에 성공할시 다음 가하는 공격 피해량이 $I$% 증가한다. 아드레날린 점수당 넉다운 확률이 $I$% 증가한다. (최대 $I$%, 성공 시 아드레날린 소모) 치명타 피해 확률이 $I$% 증가한다.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
 2110992123|cea74411||반격에 성공할시 다음 가하는 공격 피해량이 $I$% 증가한다.
 2110992124|cf2b2da2||$I$ 피해를 흡수 하는 보호막을 생성한다. 표식의 강도의 따라 공격 흡수량은 증가한다. 현재 흡수량: $I$. <br>보호막 지속시간: $I$초.
 2110992125|163a8e77||이그니로 피해를 줄때마다 적의 방어력의 $S$%를 영구히 감소시킨다.(표식의 강도의 따라 감소량 증가) 최대 감소량 $S$%.

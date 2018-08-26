@@ -107,8 +107,8 @@
 2110992118|cea74417||Aumenta la probabilidad de golpe crítico con ataque rápido en $I$% y el poder del ataque crítico con ataque rápido en $I$%.
 2110992119|1f70c027||Aumenta la probabilidad de golpe crítico del ataque potente en $I$% y la potencia de ataque crítico del ataque potente en $I$%.
 2110992120|c1e68bc4||Las paradas perfectamente sincronizadas desvian flechas hacia atrás, el daño aumenta en $I$%.
-2110992121|c1e68f84||El contraataque exitoso aumenta el poder del ataque siguiente en $I$%. Cada punto de adrenalina aumenta la probabilidad de derribo en $I$% (máximo $I$%, la adrenalina se consume en caso de éxito).
-2110992122|c1e68f85||El contraataque exitoso aumenta el poder del ataque siguiente en $I$%. Cada punto de adrenalina aumenta la probabilidad de derribo en $I$% (máximo $I$%, la adrenalina se consume en caso de éxito). Aumenta la probabilidad de golpe crítico en $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
 2110992123|cea74411||El contraataque exitoso aumenta el poder del próximo ataque en $I$%.
 2110992124|cf2b2da2||Escudo protector que dura hasta que haya absorbido $I$ puntos de daño. Escalas de absorción de daños con intensidad de señal. Absorción actual: $I$. <br> Duración del escudo: $I$ s.
 2110992125|163a8e77||El daño infligido por Igni también disminuye permanentemente la Armadura total enemiga en $S$% por golpe (escalas con Intensidad de signo). El valor de efecto máximo no puede exceder $S$%.

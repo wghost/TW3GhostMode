@@ -111,8 +111,8 @@
 2110992118|cea74417||Zvyšuje šanci kritického zásahu rychlým útokem o $I$% a sílu kritického zásahu rychlým útokem o $I$%.
 2110992119|1f70c027||Zvyšuje šanci kritického zásahu silným útokem o $I$% a sílu kritického zásahu silným útokem o $I$%.
 2110992120|c1e68bc4||Perfektně načasované parírování odráží šípy zpět na útočníka a poškození je zvýšeno o $I$%.
-2110992121|c1e68f84||Úspěšný protiútok zvyšuje sílu dalšího útoku o $I$%. Každý bod adrenalinu zvyšuje šanci na sražení o $I$% (max. $I$%, při úspěchu spotřebuje adrenalin).
-2110992122|c1e68f85||Úspěšný protiútok zvyšuje sílu dalšího útoku o $I$%. Každý bod adrenalinu zvyšuje šanci na sražení o $I$% (max. $I$%, při úspěchu spotřebuje adrenalin). Zvyšuje šanci kritického zásahu o $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
 2110992123|cea74411||Úspěšný protiútok zvyšuje sílu dalšího útoku o $I$%.
 2110992124|cf2b2da2||Ochranný štít, který trvá dokud nepohltí $I$ bodů poškození. Pohlcené poškození se zvyšuje s intenzitou znamení. Současné pohlcení: $I$. <br>Trvání štítu: $I$ sekund.
 2110992125|163a8e77||Poškození způsobené Igni také permanentně snižuje nepřátelům celkovou zbroj o $S$% za každý zásah (zvyšuje se s intenzitou znamení). Maximální hodnota efektu nemůže přesáhnout $S$%.

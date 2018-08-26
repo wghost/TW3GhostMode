@@ -111,8 +111,8 @@
 2110992118|cea74417||Augmente les chances de coups critiques des attaques rapides de $I$% et les dégâts de ces coups critiques de $I$%.
 2110992119|1f70c027||Augmente les chances de coups critiques des attaques puissantes de $I$% et les dégâts de ces coups critiques de $I$%.
 2110992120|c1e68bc4||Les parades parfaites renvoient les flèches. Les dégâts sont accrus de $I$%.
-2110992121|c1e68f84||Une contre-attaque réussie augmente la puissance d'attaque du prochain coup de $I$%. Chaque point d'adrénaline augmente les chances de renversement de $I$% (max $I$%, l'adrénaline est consommée en cas de réussite).
-2110992122|c1e68f85||Une contre-attaque réussie augmente la puissance d'attaque du prochain coup de $I$%. Chaque point d'adrénaline augmente les chances de renversement de $I$% (max $I$%, l'adrénaline est consommée en cas de réussite). Augmente les chances de coups critiques  de $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
 2110992123|cea74411||Une contre-attaque réussie augmente la puissance de la prochaine attaque de $I$%.
 2110992124|cf2b2da2||Bouclier qui dure jusqu'à avoir absorbé $I$ points de dégâts. L'absorption augmente avec l'intensité du signe. Absorption actuelle : $I$. <br>Durée du bouclier: $I$s.
 2110992125|163a8e77||Les dégâts infligés par Igni réduisent aussi de façon permanente l'armure totale des ennemis de $S$% par coup (augmente avec l'intensité du signe). La valeur d'effet maximale ne peut pas excéder $S$%.

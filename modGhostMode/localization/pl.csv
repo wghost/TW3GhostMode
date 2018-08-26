@@ -107,8 +107,8 @@
 2110992118|cea74417||Szybki Atak - zwiększa o $I$% szansę na trafienie krytyczne, oraz obrażenia krytyczne o $I$%.
 2110992119|1f70c027||Silny Atak - zwiększa o $I$% szansę na trafienie krytyczne, oraz obrażenia krytyczne o $I$%.
 2110992120|c1e68bc4||Perfekcyjne parowanie odbija pociski, zwiększa obrażenia odbitych pocisków o $I$%.
-2110992121|c1e68f84||Kontratak zwiększa obrażenia kolejnego ciosu o $I$%. Każdy punkt Adrenaliny daje $I$% szans na powalenie (max. $I$%, Adrenalina jest wykorzystana w przypadku powodzenia).
-2110992122|c1e68f85||Kontratak zwiększa obrażenia kolejnego ciosu o $I$%. Każdy punkt Adrenaliny daje $I$% szans na powalenie (max. $I$%, Adrenalina jest wykorzystana w przypadku powodzenia). Zwiększa szansę na trafienie krytyczne o $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
 2110992123|cea74411||Kontratak zwiększa obrażenia kolejnego ciosu o $I$%.
 2110992124|cf2b2da2||Tarcza energetyczna, która absorbuje $I$ punktów obrażeń. Ilość absorbowanych obrażeń rośnie wraz z Mocą Znaku (aktualnie: $I$). <br>Czas działania: $I$s.
 2110992125|163a8e77||Zadanie obrażeń Znakiem Igni dodatkowo zmniejsza na stałe pancerz przeciwników o $S$%. Efekt skaluje się wraz z Mocą Znaków aż do $S$%.

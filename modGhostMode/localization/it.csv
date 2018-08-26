@@ -111,8 +111,8 @@
 2110992118|cea74417||Aumenta la probabilità di colpo critico dell'attacco rapido del $I$% e la potenza del colpo critico dell'attacco rapido del $I$%
 2110992119|1f70c027||Aumenta la probabilità di colpo critico dell'attacco potente del $I$% e la potenza del colpo critico dell'attacco potente del $I$%
 2110992120|c1e68bc4||Le parate perfettamente a tempo riflettono indietro le frecce, il danno è aumentato del $I$%.
-2110992121|c1e68f84||Un contrattacco andato a buon fine aumenta la potenza del prossimo attacco del $I$%. Ogni Punto Adrenalina aumenta la probabilità di atterramento del $I$% (max $I$%, l'adrenalina viene consumata in caso di successo).
-2110992122|c1e68f85||Un contrattacco andato a buon fine aumenta la potenza del prossimo attacco del $I$%. Ogni Punto Adrenalina aumenta la probabilità di atterramento del $I$% (max $I$%, l'adrenalina viene consumata in caso di successo). Aumenta la probabilità di colpo critico del $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
 2110992123|cea74411||Un contrattacco andato a buon fine aumenta la potenza del prossimo attacco del $I$%.
 2110992124|cf2b2da2||Lo scudo protettivo dura fino a quando non assorbe $I$ punti danno. L'assorbimento danni scala con intensità del Segno. Assorbimento attuale: $I$. <br>Durata scudo: $I$s.
 2110992125|163a8e77||Il danno inflitto da Igni diminuisce in modo permanente l'Armatura Totale del nemico del $S$% per colpo(scala con intensità del Segno). Il valore massimo dell'effetto non può superare il $S$%.

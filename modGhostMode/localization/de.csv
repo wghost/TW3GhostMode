@@ -111,8 +111,8 @@
 2110992118|cea74417||Erhöht die kritische Trefferchance für schnelle Angriffe um $I$% und die kritische Trefferstärke um $I$%.
 2110992119|1f70c027||Erhöht die kritische Trefferchance für starke Angriffe um $I$% und die kritische Trefferstärke um $I$%.
 2110992120|c1e68bc4||Perfekt abgepasste Paraden werfen Pfeile zurück und erhöhen den Schaden um $I$%.
-2110992121|c1e68f84||Erfolgreich ausgeführte Konter erhöhen die Angriffsstärke des nächsten Angriffs um $I$%. <br>Jeder Adrenalinpunkt erhöht die Chance auf einen Niederschlag des Gegners um $I$% (max $I$%, Adrenalin wird verbraucht bei erfolgreichem Treffer).
-2110992122|c1e68f85||Erfolgreich ausgeführte Konter erhöhen die Angriffsstärke des nächsten Angriffs um $I$%. <br>Jeder Adrenalinpunkt erhöht die Chance auf einen Niederschlag des Gegners um $I$% (max $I$%, Adrenalin wird verbraucht bei erfolgreichem Treffer). <br>Erhöht die kritische Trefferchance um $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
 2110992123|cea74411||Erfolgreich ausgeführte Konter erhöhen die Angriffsstärke des nächsten Angriffs um $I$%.
 2110992124|cf2b2da2||Ein Schild das solang anhält bis es $I$ Punkte Schaden absorbiert hat. <br>Schadensabsorption skaliert mit der Zeichenintensität. <br>Derzeitige Absorption: $I$ - Schilddauer: $I$s.
 2110992125|163a8e77||Schaden der von Igni zugefügt wird reduziert außerdem dauerhaft die Rüstung des Gegners pro Treffer um $S$%. <br>Skaliert mit der Zeichenintesität. <br>Der Maximale Wert von $S$% kann nicht überschritten werden.

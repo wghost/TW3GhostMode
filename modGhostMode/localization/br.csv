@@ -111,8 +111,8 @@
 2110992118|cea74417||Aumenta a chance de acerto crítico do ataque rápido em $I$% e o dano do acerto crítico do ataque rápido em $I$%.
 2110992119|1f70c027||Aumenta a chance de acerto critico de ataques fortes em $I$% e o dano do acerto critíco do ataque forte em $I$%.
 2110992120|c1e68bc4||Bloqueios perfeitos fazem flechas ricochetearem, o dano é aumentado em $I$%.
-2110992121|c1e68f84||Um contra-ataque bem sucedido aumenta o poder do próximo ataque em $I$% de dano. Cada Ponto de Adrenalina aumenta a chance de derrubar em $I$% (max $I$%, da Adrenalina é consumida em caso de sucesso ).
-2110992122|c1e68f85||Um contra-ataque bem sucedido aumenta o poder do próximo ataque em $I$% de dano. Cada Ponto de Adrenalina aumenta a chance de derrubar em $I$% (max $I$%, da Adrenalina é consumida em caso de sucesso ). Aumenta a chance de dano critítico em $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
 2110992123|cea74411||Um contra-ataque bem sucedido aumenta o poder do próximo ataque em $I$% de dano.
 2110992124|cf2b2da2||Escudo protetor que dura até que tenha absorvido $I$ pontos de dano. A absorção de danos varia com a intensidade do Sinal. Absorção atual: $I$. <br>Duração do escudo: $I$s.
 2110992125|163a8e77||O dano causado por Igni enfraquece a armadura do inimigo permamentemente em $S$% por acerto (varia com a intensidade do Sinal). O valor máximo do efeito não pode exceder $S$%.

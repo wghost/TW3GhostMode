@@ -111,8 +111,8 @@
 2110992118|cea74417||Increases fast attack critical hit chance by $I$% and fast attack critical hit power by $I$%.
 2110992119|1f70c027||Increases strong attack critical hit chance by $I$% and strong attack critical hit power by $I$%.
 2110992120|c1e68bc4||Perfectly timed parries reflect back arrows, damage is increased by $I$%.
-2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success).
-2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success). Increases critical hit chance by $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
 2110992123|cea74411||Successful counterattack increases next attack power by $I$%.
 2110992124|cf2b2da2||Protective shield that lasts until it has absorbed $I$ points of damage. Damage absorption scales with Sign intensity. Current absorption: $I$. <br>Shield duration: $I$s.
 2110992125|163a8e77||Damage dealt by Igni also permanently decreases enemy Total Armor by $S$% per hit (scales with Sign Intensity). Max effect value cannot exceed $S$%.
