@@ -93,8 +93,8 @@
 2110992098|c8467d3d||Dois adversários podem ser influenciados por Axii ao mesmo tempo. A duração do efeito não é mais reduzida.	
 2110992099|1f70c022||Cada ponto de adrenalina adiciona $I$% à chance de matar um oponente instantaneamente. Não se aplica a Espira.
 2110992102|1f70c021||Ataque forte que ignora a defesa do inimigo. Provoca $S$% de dano a mais e $S$% de dano por Ponto de Adrenalina em prorpoção ao Vigor consumido ($S$% max). Aumenta a chance de acerto crítico em $S$%.
-2110992103|1f70c020||Ataque giratório que acerta todos os inimigos ao seu redor. Provoca $S$% menos dano. Continuar atacando consome Vigor e Adrenalina. O dano sofrido é diminuido em $S$% durante o ataque.
-2110992104|064143d3||Ataque giratório que acerta todos os inimigos ao seu redor. Provoca $S$% menos dano. Continuar atacando consome Vigor e Adrenalina. O dano sofrido é diminuido em $S$% durante o ataque.
+2110992103|1f70c020||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992104|064143d3||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
 2110992105|        |gm_stat_adrenaline_gain|Ganho de Adrenalina
 2110992106|739e1e2c||Ataques fortes aumentam o dano do ataque rápido por $S$ segundos em $S$% para cada peça do conjunto. E vice versa, Bônus atual: $S$%.
 2110992107|8ed43e3e||Cada peça do conjunto diminui o Vigor gasto com lançamento de Sinal em $S$%.  Bônus atual: $S$%.

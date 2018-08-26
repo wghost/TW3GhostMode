@@ -93,8 +93,8 @@
 2110992098|c8467d3d||Až dva protivníci mohou být ve stejný okamžik ovlivněni Axie. Trvání efektu není nadále sníženo.
 2110992099|1f70c022||Každý bod adrenalinu přidává $I$% šanci na okamžité zabití protivníka. Nevztahuje se na použití schponosti Vír.
 2110992102|1f70c021||Drtivý útok, který projde krytím protivníků i jejich štíty. Způsobuje $S$% dodatečného poškození, plus $S$% poškození za každý bod adrenalinu v poměru spotřebované výdrže ($S$% max.). Zvyšuje šanci na kritický zásah o $S$%.
-2110992103|1f70c020||Vířivý útok, který zasáhne všechny nepřátele v dosahu. Způsobuje o $S$% menší poškození. Udržování útoku spotřebovává výdrž a adrenalin. Utržené poškození je při útoku sníženo o $S$%.
-2110992104|064143d3||Vířivý útok, který zasáhne všechny nepřátele v dosahu. Způsobuje o $S$% menší poškození. Udržování útoku spotřebovává výdrž a adrenalin. Utržené poškození je při útoku sníženo o $S$%.
+2110992103|1f70c020||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992104|064143d3||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
 2110992105|        |gm_stat_adrenaline_gain|Přísun adrenalinu
 2110992106|739e1e2c||Silný útok, který zvýší poškození rychlého útoku po $S$ sekund o $S$%, za každou část setu. Funguje i obráceně. Současný bonus: $S$%.
 2110992107|8ed43e3e||Každá část setu snižuje potřebnou výdrž pro seslání znamení o $S$%. Současný bonus: $S$%.

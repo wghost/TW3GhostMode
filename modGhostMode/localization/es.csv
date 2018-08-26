@@ -89,8 +89,8 @@
 2110992098|c8467d3d||Dos oponentes pueden ser influenciados por Axia al mismo tiempo. La duración del efecto ya no se reduce.
 2110992099|1f70c022||Cada Punto de adrenalina añade $I$% a la posibilidad de matar a un oponente al instante. No se aplica a Giro.
 2110992102|1f70c021||Fuerte ataque que atraviesa bloqueos y escudos. Ofrece un daño adicional de $S$% más $S$% de daño por punto de adrenalina en proporción al aguante consumido ($S$% máximo). Aumenta la probabilidad de golpe crítico en $S$%.
-2110992103|1f70c020||Ataque gitatorio que golpea a todos los enemigos en el área circundante. Hace $S$% menos de daño. Mantener el ataque consume aguante y adrenalina. El daño recibido se reduce en $S$% durante el ataque.
-2110992104|064143d3||Ataque gitatorio que golpea a todos los enemigos en el área circundante. Hace $S$% menos de daño. Mantener el ataque consume aguante y adrenalina. El daño recibido se reduce en $S$% durante el ataque.
+2110992103|1f70c020||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992104|064143d3||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
 2110992105|6f2a6f0f||Adrenalina Ganada
 2110992106|739e1e2c||Los ataques potentes aumentan el daño del ataque rápido por $S$ segundos por $S$% por cada pieza del set.
 2110992107|8ed43e3e||Cada pieza del set reduce el costo de la resistencia al lanzamiento de señales en $S$%. Bonificación actual: $S$%.

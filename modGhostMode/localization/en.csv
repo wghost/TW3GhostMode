@@ -93,8 +93,8 @@
 2110992098|c8467d3d||Two opponents can be influenced by Axii at the same time. Effect duration is no longer lowered.
 2110992099|1f70c022||Each Adrenaline Point adds $I$% to the chance of killing an opponent instantly. Does not apply to Whirl.
 2110992102|1f70c021||Strong attack that goes through blocks and shields. Deals additional $S$% damage plus $S$% damage per Adrenaline Point in proportion to the Stamina consumed ($S$% max). Increases critical hit chance by $S$%.
-2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
-2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992103|1f70c020||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992104|064143d3||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
 2110992105|        |gm_stat_adrenaline_gain|Adrenaline Gain
 2110992106|739e1e2c||Strong Attacks increase Fast Attack damage for $S$ seconds by $S$% for each piece of the set. And vice versa. Current bonus: $S$%.
 2110992107|8ed43e3e||Each piece of the set decreases sign casting stamina cost by $S$%. Current bonus: $S$%.
