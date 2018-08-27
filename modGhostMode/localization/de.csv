@@ -93,8 +93,8 @@
 2110992098|c8467d3d||Zwei Gegner können zur selben Zeit vom Axii Zeichen betroffen sein. <br>Effektdauer ist nicht länger reduziert.
 2110992099|1f70c022||Jeder Adrenalinpunkt erhöht die Chance um $I$% einen Gegner sofort zu töten.
 2110992102|1f70c021||Ein starker Angriff der durch jedes Schild und jeden Block geht. <br>Erteilt zusätzliche $S$% Schaden plus $S$% Schaden pro Adrenalinpunkt in Proportion zur verbrauchten Ausdauer ($S$% max).
-2110992103|1f70c020||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
-2110992104|064143d3||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
+2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Adrenalingewinn
 2110992106|739e1e2c||Starke Angriffe erhöhen den Schaden der schnellen Angriffe für $S$ Sekunden um $S$% für jedes Teil des Sets und umgekehrt. <br>Derzeitiger Bonus: $S$%.
 2110992107|8ed43e3e||Jedes Teil des Sets reduziert die Ausdauerkosten für das Wirken von Zeichen um $S$%. <br>Derzeitiger Bonus: $S$%.

@@ -93,8 +93,8 @@
 2110992098|c8467d3d||Axii peut influencer deux ennemis simultanément. Ne réduit plus la durée de l'effet.
 2110992099|1f70c022||Chaque point d'adrénaline ajoute $I$% de chance de tuer un ennemi instantanément. Ne s'applique pas à Tourbillon.
 2110992102|1f70c021||Attaque puissante qui traverse les parades et les boucliers. Inflige $S$% de dégâts additionnels et $S$% de dégâts par point d'adrénaline en proportion de la vigueur consommée ($S$% max). Augmente les chances de coups critiques de $S$%.
-2110992103|1f70c020||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
-2110992104|064143d3||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
+2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Gain d'adrénaline
 2110992106|739e1e2c||Les attaques puissantes augmentent les dégâts des attaques rapides pendant $S$ secondes et de $S$% pour chaque pièce de l'ensemble. Et vice versa. Bonus actuel : $S$%.
 2110992107|8ed43e3e||Chaque pièce de l'ensemble réduit le coût en vigueur pour lancer des signes de $S$%. Bonus actuel : $S$%.

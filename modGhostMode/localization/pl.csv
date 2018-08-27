@@ -89,8 +89,8 @@
 2110992098|c8467d3d||Znak Aksji może objąć dwóch przeciwników. Czas działania bez zmian.
 2110992099|1f70c022||Każdy punkt Adrenaliny dodaje $I$% do szansy natychmiastowego zabicia przeciwnika. Nie łączy się z Młynkiem.
 2110992102|1f70c021||Potężny atak przełamujący opór blokującego przeciwnika oraz osłonę tarczą. Dodaje $S$% do siły ataku plus $S$% na każdy Punkt Adrenaliny w proporcji do użytej wytrzymałości ($S$% max). Dodaje $S$% do szansy na trafienie krytyczne.
-2110992103|1f70c020||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
-2110992104|064143d3||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
+2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|6f2a6f0f||Przyrost punktów Adrenaliny
 2110992106|739e1e2c||Silny Atak zwiększa obrażenia następnych Szybkich Ataków przez $S$ sekund o $S$% za każdą część zestawu. Szybki atak vice versa. Obecna premia: $S$%.
 2110992107|8ed43e3e||Każdy element pancerza zmniejsza koszt wytrzymałości przy rzucania Znaków o $S$%. Aktualny efekt: $S$%.

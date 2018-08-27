@@ -93,8 +93,8 @@
 2110992098|c8467d3d||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto non diminuisce.
 2110992099|1f70c022||Ogni Punto Adrenalina aggiunge il $I$% di probabilità di uccidere istantaneamente un avversario. Non viene applicato al Turbine
 2110992102|1f70c021||L'attacco potente trapassa blocchi e scudi. Infligge un ulteriore $S$% di danni e $S$% danni per Punti Adrenalina in proporzione al Vigore consumato($S$% max). Aumenta la probabilità di colpo critico del $S$%.
-2110992103|1f70c020||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
-2110992104|064143d3||Unstoppable spinning attack that strikes all foes in the surrounding area. Deals $S$% less damage. Maintaining the attack consumes Stamina and Adrenaline. Damage received is decreased by $S$% during the attack.
+2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
+2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Guadagno Adrenalina
 2110992106|739e1e2c||Glia attacchi potenti aumentano il danno degli Attacchi Rapidi per $S$ secondi del $S$% per ogni pezzo del set. E viceversa. Bonus attuale: $S$%.
 2110992107|8ed43e3e||Ogni pezzo del set diminuisce il costo di Vigore per lanciare il segno del $S$%. Bonus attuale: $S$%.
