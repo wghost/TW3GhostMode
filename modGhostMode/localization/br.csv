@@ -224,7 +224,6 @@
 2110992234|        |item_desc_relic_oil_3|Aumenta a eficácia do ataque contra relictos.
 2110992235|874e9f88||Concede visão na escuridão total e imunidade contra hipnose. Duração estendida.
 2110992237|fe608837||Causa dano de estilhaços a oponentes no raio da explosão. Causa dano de fogo. Efeito melhorado. Dano ignora armadura do inimigo. Destrói ninhos de monstros.
-2110992238|63cd93a5||Solta uma nuvem de fragmentos de dimerítio que bloqueia mágica e habilidades mágicas de monstros.
 2110992239|        |attribute_name_duration_out_of_cloud|Duração fora da nuvem
 2110992240|874e9f87||Concede visão na escuridão total. Duração estendida.
 2110992241|e71d7c8e||Se você possuir Vigor disponivel, ataques fortes consomem tudo e reduzem a Vitalidade do oponente golpeado em 5%, se o Vigor consumido for inferior a 100%, o efeito é proporcionalmente diminuido.
@@ -324,3 +323,6 @@
 2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.

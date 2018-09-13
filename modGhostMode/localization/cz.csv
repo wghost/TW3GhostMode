@@ -224,7 +224,6 @@
 2110992234|        |item_desc_relic_oil_3|Zvyšuje efektivitu útoku proti reliktům.
 2110992235|874e9f88||Propůjčí zrak v naprosté tmě a imunitu proti hypnóze. Prodloužené trvání.
 2110992237|fe608837||Způsobí poškození střepinami všem protivníkům v dosahu výbuchu. Způsobuje poškození ohněm. Vylepšený účinek. Zničí protivníkovi štít. Zničí hnízdo příšer.
-2110992238|63cd93a5||Uvolňuje oblak dwimeritových úlomků, které blokují magii a magické schopnosti příšer.
 2110992239|        |attribute_name_duration_out_of_cloud|Trvání oblaku
 2110992240|874e9f87||Propůjčuje zrak v naprosté tmě. Prodloužené trvání.
 2110992241|e71d7c8e||Po úspěšném silném útoku je všechna dostupná výdrž pohlcena k dodatečnému snížení zdraví protivníka o 5%. Pokud je spotřebované výdrže méně než 100%, účinek je odpovídajícím způsobem snížen.
@@ -324,3 +323,6 @@
 2110992339|e810a7b8||Všechny vybavené části zbroje jsou brány jako lehká zbroj. Zbroj získá bonus k regeneraci výdrže. Penalizace výdrže za bojové akce zůstává nezměněna.
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.

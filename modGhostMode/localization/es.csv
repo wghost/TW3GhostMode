@@ -220,7 +220,6 @@
 2110992234|f8b46c38||Aumenta la efectividad del ataque contra Relictos.
 2110992235|874e9f88||Otorga vista en la oscuridad total e inmunidad a la hipnosis. Duración extendida
 2110992237|fe608837||Inflige daño de metralla a los enemigos dentro de su radio de explosión. Hace daño de fuego. Efecto mejorado. Destruye el escudo enemigo. Destruye los nidos de monstruos.
-2110992238|63cd93a5||Lanza una nube de astillas de dimeritium que bloquea la magia y las habilidades mágicas de los monstruos.
 2110992239|3ed03538||Duración fuera de la nube
 2110992240|874e9f87||Otorga vista en la oscuridad total. Duración extendida
 2110992241|e71d7c8e||Después de un ataque potente exitoso, toda la resistencia disponible se consume para reducir adicionalmente la vitalidad de la víctima en un 5%. Si la resistencia consumida es inferior al 100%, el efecto se reduce proporcionalmente.
@@ -320,3 +319,6 @@
 2110992339|e810a7b8||Todos los elementos de armadura equipados se tratan como Armadura ligera. La Armadura obtiene bonificación de regeneración de resistencia. Las penalizaciones de resistencia para las acciones de combate no se modifican.
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.

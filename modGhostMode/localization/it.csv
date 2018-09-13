@@ -224,7 +224,6 @@
 2110992234|        |item_desc_relic_oil_3|Aumenta l'efficacia di attacco contro gli ancestrali.
 2110992235|874e9f88||Permette di vedere nel buio più totale e concede l'immunità all'ipnosi. Durata estesa.
 2110992237|fe608837||Infligge danni da schegge ai nemici nel suo raggio di esplosione. Infligge anche danni da fuoco. Effetto potenziato. Distrugge lo scudo nemico. Distrugge i nidi dei mostri.
-2110992238|63cd93a5||Rilascia una nube di schegge al dimeritium che bloccano la magia e le abilità magiche dei mostri.
 2110992239|        |attribute_name_duration_out_of_cloud|Durata fuori dalla nube
 2110992240|874e9f87||Permette di vedere nel buio più totale. Durata estesa.
 2110992241|e71d7c8e||Dopo un attacco potente tutto il Vigore viene consumato per ridurre ulteriormente la vitalità delle vittime del 5%. Se il Vigore speso è inferiore al 100%, l'effetto viene proporzionalmente diminuito.
@@ -324,3 +323,6 @@
 2110992339|e810a7b8||Tutti i set armatura equipaggiati sono trattati come Armature Leggere. Le armature ottengono il bonus per la rigenerazione del vigore. Le penalità di vigore per le azioni in combattimento restano invariate. 
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.

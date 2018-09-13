@@ -220,7 +220,6 @@
 2110992234|f8b46c38||Zwiększa efektywność ataku względem Reliktów.
 2110992235|874e9f88||Umożliwia widzenie w całkowitej ciemności. Uodparnia na hipnozę. Wydłużony czas działania.
 2110992237|fe608837||Rani odłamkami wszystkich przeciwników w zasięgu rażenia. Zadaje obrażenia od ognia. Wzmocnione działanie. Niszczy tarcze przeciwników. Niszczy gniazda potworów.
-2110992238|63cd93a5||Uwalnia obłok opiłków dwimerytu, który blokuje magię i magiczne zdolności potworów.
 2110992239|3ed03538||Czas działania po opuszczeniu obłoku gazu.
 2110992240|874e9f87||Umożliwia widzenie w całkowitej ciemności. Wydłużony czas działania.
 2110992241|e71d7c8e||Udany Silny Atak pochłania całą dostępną wytrzymałość by dodatkowo zmniejszyć żywotność trafionego przeciwnika o 5% (przy 100% wytrzymałości, efekt skaluje się procentowo).
@@ -320,3 +319,6 @@
 2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.

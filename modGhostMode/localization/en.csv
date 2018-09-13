@@ -224,7 +224,6 @@
 2110992234|        |item_desc_relic_oil_3|Increases attack effectiveness against relicts.
 2110992235|874e9f88||Grants sight in total darkness and immunity to hypnosis. Extended duration.
 2110992237|fe608837||Inflicts shrapnel damage to foes within its explosion radius. Deals fire damage. Enhanced effect. Destroys enemy shield. Destroys monster nests.
-2110992238|63cd93a5||Releases a cloud of dimeritium slivers that block magic and monsters' magic abilities.
 2110992239|        |attribute_name_duration_out_of_cloud|Duration out of cloud
 2110992240|874e9f87||Grants sight in total darkness. Extended duration.
 2110992241|e71d7c8e||After successful strong attack all available Stamina is consumed to additionally reduce victim's vitality by 5%. If Stamina spent is less than 100%, effect is proportionally decreased.
@@ -324,3 +323,6 @@
 2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.

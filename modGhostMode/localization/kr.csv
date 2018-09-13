@@ -224,7 +224,6 @@
 2110992234|        |item_desc_relic_oil_3|잔존생물에게 주는 공격 효과가 증가한다.
 2110992235|874e9f88||암흑 속에서 시야를 강화 시키고 최면에 면역이 된다. 지속 시간 증가.
 2110992237|fe608837||폭팔 범위 내의 적에게 파편에 의한 피해를 준다. 화염 피해. 강화된 효과. 적의 보호막을 파괴한다. 괴물 둥지를 파괴한다.
-2110992238|63cd93a5||괴물의 마법 능력이나 마법을 막는 디메리티움 은 구름을 방출한다.
 2110992239|        |attribute_name_duration_out_of_cloud|구름 밖에서의 지속 시간
 2110992240|874e9f87||암흑 속에서 시야를 강화시킨다. 지속 시간 증가.
 2110992241|e71d7c8e||적에게 강공을 성공한 후에 현재 가지고 있는 원기가 적의 체력의 최대 5%의 피해를 준다. 원기 사용량이 100%이하일시, 소모량이 적을 수록 효과는 감소된다.
@@ -324,3 +323,6 @@
 2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
