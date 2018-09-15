@@ -147,3 +147,5 @@ sword_dmg_bonus;BAADA0;TRUE;attack;0.4
 duration_out_of_cloud;BAADA0;FALSE;duration;1
 staminaRegen_armor_mod;BAADA0;TRUE;defence;0.4
 q108_bounce_arrows;BAADA0;TRUE;defence;0.4
+dbomb_armor_piercing;BAADA0;FALSE;attack;0.1
+cloud_duration;BAADA0;FALSE;duration;1

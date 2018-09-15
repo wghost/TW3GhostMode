@@ -275,7 +275,7 @@
 2110992288|163a8e74||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign intensity. Current duration: $I$s.
 2110992289|71d0cd27||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign intensity. Current duration: $I$s.
 2110992290|71d0cd28||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign intensity. Current duration: $I$s.
-2110992291|483c9092||Damage dealt charges the sword increasing its critical hit power by $S$%. Charge decays over time and on damage taken. A fully-charged sword increases critical hit chance by $S$%.
+2110992291|483c9092||Damage dealt charges the sword increasing its critical hit power by $S$% (max. $S$%). Charge decays over time and on damage taken. A fully-charged sword increases critical hit chance by $S$%.
 2110992292|1f5adb4f||Killing a foe with a fully loaded sword will expend its charge to permanently increase the weapon's damage. When bonus damage exceeds its maximum, sword levels up. Damage is increased by: $S$ (to a maximum of 10).
 2110992293|        |gm_sign_stats_heavy_knockdown|Heavy knockdown chance
 2110992294|f76f46ed||Killing an enemy restores $I$% of your Stamina.
@@ -323,6 +323,8 @@
 2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
-2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities.
-2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
-2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens magic creature Armor.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens magic creature Armor. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens magic creature Armor. Lasts longer.
+2110992347|        |attribute_name_dbomb_armor_piercing|Armor piercing
+2110992348|        |attribute_name_cloud_duration|Cloud duration

@@ -271,7 +271,7 @@
 2110992288|163a8e74||Modo de signo alternativo: <br> El enemigo objetivo se convierte en un aliado por $I$ s. y gana $I$% de bonificación de poder de ataque. Escalas de duración del efecto con intensidad de señal. Duración actual: $I$ s.
 2110992289|71d0cd27||Modo de signo alternativo: <br> El enemigo objetivo se convierte en un aliado por $I$ s. y gana $I$% de bonificación de poder de ataque. Escalas de duración del efecto con intensidad de señal. Duración actual: $I$ s.
 2110992290|71d0cd28||Modo de signo alternativo: <br> El enemigo objetivo se convierte en un aliado por $I$ s. y gana $I$% de bonificación de poder de ataque. Escalas de duración del efecto con intensidad de señal. Duración actual: $I$ s.
-2110992291|483c9092||El daño infligido carga la espada aumentando su poder de golpe crítico en $S$%. La carga se deteriora con el tiempo y con el daño recibido. Una espada completamente cargada aumenta la probabilidad de golpe crítico en $S$%.
+2110992291|483c9092||Damage dealt charges the sword increasing its critical hit power by $S$% (max. $S$%). Charge decays over time and on damage taken. A fully-charged sword increases critical hit chance by $S$%.
 2110992292|1f5adb4f||Matar a un enemigo con una espada completamente cargada gastará su carga para aumentar permanentemente el daño del arma. Cuando el daño adicional excede su máximo, la espada sube. El daño se incrementa en: $S$ (hasta un máximo de 10).
 2110992293|0516c455||Gran oportunidad de derribo
 2110992294|f76f46ed||Matar a un enemigo restaura $I$% de tu aguante.
@@ -319,6 +319,8 @@
 2110992339|e810a7b8||Todos los elementos de armadura equipados se tratan como Armadura ligera. La Armadura obtiene bonificación de regeneración de resistencia. Las penalizaciones de resistencia para las acciones de combate no se modifican.
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
-2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities.
-2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
-2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Lasts longer.
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens magic creature Armor.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens magic creature Armor. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens magic creature Armor. Lasts longer.
+2110992347|        |attribute_name_dbomb_armor_piercing|Armor piercing
+2110992348|        |attribute_name_cloud_duration|Cloud duration
