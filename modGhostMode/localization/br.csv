@@ -269,8 +269,8 @@
 2110992281|71d0be24||Modo de Sinal Alternativo:<br>Aard acerta todos os oponentes em um certo raio. A intensidade do sinal não é diminuida neste modo.
 2110992282|71d0d0e8||Aard agora causa $I$ de dano. O dano varia com a intesidade do Sinal. Dano atual: $I$.
 2110992283|71d0d0e9||Aard agora causa $I$ de dano. O dano varia com a intesidade do Sinal. Dano atual: $I$.
-2110992284|cf2b2d9f||Uma rajada de energia telecinética que atordoa os oponentes e tem $I$% de chance de derrubá-los. Maior chance de derrubá-los é $I$%. A possibilidade varia com a intensidade do Sinal. Concede uma chance adicional de 15% para acertar de forma crítica o inimigo derrubado.
-2110992286|cf2b2da3||Encanta a mente de um oponente, confundindo-o eliminando-o do combate. <br>Duração da confusão: $S$ segundos (varia com a intensidade do Sinal). Concede uma chance adicional de 15% de acertar criticamente o inimigo confuso.
+2110992284|cf2b2d9f||A directed blast of telekinetic energy that staggers opponents and has $I$% knockdown chance. Heavy knockdown chance is $I$%. Chances scale with Sign intensity. Grants additional 25% chance to critically hit staggered or knocked down enemy. Heavy knockdown activates finisher move.
+2110992286|cf2b2da3||Encanta a mente de um oponente, confundindo-o eliminando-o do combate. <br>Duração da confusão: $S$ segundos (varia com a intensidade do Sinal). Concede uma chance adicional de 25% de acertar criticamente o inimigo confuso.
 2110992287|b1173fc8||Aumenta a duração do Sinal Axii em $I$%.
 2110992288|163a8e74||Modo de Sinal Alternativo:<br>O inimigo no alvo se torna um aliado por $I$s e ganha $I$% de bônus de poder de ataque. Duração do efeito varia com a intensidade do Sinal. Duração Atual: $I$s.
 2110992289|71d0cd27||Modo de Sinal alternativo:<br>O inimigo no alvo se torna um aliado por $I$s e ganha $I$% de bônus de poder de ataque. Duração do efeito varia com a intensidade do Sinal. Duração Atual: $I$s.

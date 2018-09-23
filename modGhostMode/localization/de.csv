@@ -269,8 +269,8 @@
 2110992281|71d0be24||Alternativer Zeichen Modus:<br>Aard trifft alle Gegner in Reichweite. Zeichenintensität ist nicht länger geringer in diesem Modus.
 2110992282|71d0d0e8||Aard verursacht jetzt $I$ Schaden. Schaden erhöht sicht mit der Zeichenintensität. Derzeitiger Schaden: $I$.
 2110992283|71d0d0e9||Aard verursacht jetzt $I$ Schaden. Schaden erhöht sicht mit der Zeichenintensität. Derzeitiger Schaden: $I$.
-2110992284|cf2b2d9f||Eine Zielgerichtete Druckwelle von telekinetischer Energie die Gegner Betäubt und eine $I$% Chance auf Niederschlagen hat. <br>Schwere Niederschlagschance ist $I$%. <br>Die Chance skaliert mit der Zeichenintensität.
-2110992286|cf2b2da3||Vernebelt den Verstand eines Gegners, was ihn vorübergehend aus dem Kampf nimmt. <br>Verwirrungsdauer: $S$ Sekunden. <br>Skaliert mit der Zeichenintensität.
+2110992284|cf2b2d9f||A directed blast of telekinetic energy that staggers opponents and has $I$% knockdown chance. Heavy knockdown chance is $I$%. Chances scale with Sign intensity. Grants additional 25% chance to critically hit staggered or knocked down enemy. Heavy knockdown activates finisher move.
+2110992286|cf2b2da3||Charms an opponent's mind, confusing they and temporarily eliminating they from combat. <br>Confusion duration: $S$ seconds (scales with Sign intensity). Grants additional 25% chance to critically hit confused enemy.
 2110992287|b1173fc8||Die Dauer von Axii ist um $I$% erhöht.
 2110992288|163a8e74||Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$% Bonus auf seine Angriffskraft. Effektdauer skaliert mit der Zeichenintensität. Derzeitige Dauer: $I$s.
 2110992289|71d0cd27||Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$% Bonus auf seine Angriffskraft. Effektdauer skaliert mit der Zeichenintensität. Derzeitige Dauer: $I$s.

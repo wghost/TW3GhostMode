@@ -265,8 +265,8 @@
 2110992281|71d0be24||Modo de signo alternativo: <br> Aard golpea a todos los oponentes en el rango. La intensidad de la señal ya no se reduce para este modo.
 2110992282|71d0d0e8||Aard ahora causa $I$ de daño. Escalas de daño con intensidad de señal. Daño actual: $I$.
 2110992283|71d0d0e9||Aard ahora causa $I$ de daño. Escalas de daño con intensidad de señal. Daño actual: $I$.
-2110992284|cf2b2d9f||Una ráfaga dirigida de energía telequinética que tambalea a los oponentes y tiene una probabilidad de caída de $I$%. La gran oportunidad de derribo es de $I$%. Escala de posibilidades con la intensidad de la señal. Otorga un 15% de probabilidad adicional de golpear críticamente al enemigo derribado.
-2110992286|cf2b2da3||Encanta la mente de un oponente, confundiéndolo y eliminando temporalmente del combate. <br> Duración de la confusión: $S$ segundos.Otorga un 15% más de probabilidad de golpear críticamente al enemigo confundido.
+2110992284|cf2b2d9f||A directed blast of telekinetic energy that staggers opponents and has $I$% knockdown chance. Heavy knockdown chance is $I$%. Chances scale with Sign intensity. Grants additional 25% chance to critically hit staggered or knocked down enemy. Heavy knockdown activates finisher move.
+2110992286|cf2b2da3||Encanta la mente de un oponente, confundiéndolo y eliminando temporalmente del combate. <br> Duración de la confusión: $S$ segundos. Otorga un 25% más de probabilidad de golpear críticamente al enemigo confundido.
 2110992287|b1173fc8||La duración de los efectos de Axia aumenta $I$%.
 2110992288|163a8e74||Modo de signo alternativo: <br> El enemigo objetivo se convierte en un aliado por $I$ s. y gana $I$% de bonificación de poder de ataque. Escalas de duración del efecto con intensidad de señal. Duración actual: $I$ s.
 2110992289|71d0cd27||Modo de signo alternativo: <br> El enemigo objetivo se convierte en un aliado por $I$ s. y gana $I$% de bonificación de poder de ataque. Escalas de duración del efecto con intensidad de señal. Duración actual: $I$ s.

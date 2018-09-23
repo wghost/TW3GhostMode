@@ -269,8 +269,8 @@
 2110992281|71d0be24||교체된 표식 모드:<br>아드가 일정 범위 내에 있는 모든 적을 공격한다. 표식 강도가 더 이상 낮아지지 않는다.
 2110992282|71d0d0e8||아드에 $I$ 만큼 공격력을 추가한다. 표식 강도에 따라 공격력이 증가한다. 현재 공격력: $I$.
 2110992283|71d0d0e9||아드에 $I$ 만큼 공격력을 추가한다. 표식 강도에 따라 공격력이 증가한다. 현재 공격력: $I$.
-2110992284|cf2b2d9f||상대에게 염동력 충격파를 날려 현기증 상태를 만든다.  $I$% 넉다운 확률. $I$% 강력한 넉다운 확률. 확률은 표식의 강도에 따라 올라간다.
-2110992286|cf2b2da3||적의 마음을 매혹시켜, 일시적으로 전투에서 배제한다. <br>매혹 시간: $S$초 (표식의 강도에 따라 증가)
+2110992284|cf2b2d9f||A directed blast of telekinetic energy that staggers opponents and has $I$% knockdown chance. Heavy knockdown chance is $I$%. Chances scale with Sign intensity. Grants additional 25% chance to critically hit staggered or knocked down enemy. Heavy knockdown activates finisher move.
+2110992286|cf2b2da3||Charms an opponent's mind, confusing they and temporarily eliminating they from combat. <br>Confusion duration: $S$ seconds (scales with Sign intensity). Grants additional 25% chance to critically hit confused enemy.
 2110992287|b1173fc8||액시 효과시간이 $I$% 증가한다.
 2110992288|163a8e74||교체된 표식 모드:<br>대상으로 삼은 적이 $I$초 동안 아군이 되며 이 적은 공격력이 $I$% 상승한다. 표식 강도에 따라 지속 시간이 증가한다. 현재 지속 시간: $I$초.
 2110992289|71d0cd27||교체된 표식 모드:<br>대상으로 삼은 적이 $I$초 동안 아군이 되며 이 적은 공격력이 $I$% 상승한다. 표식 강도에 따라 지속 시간이 증가한다. 현재 지속 시간: $I$초.
