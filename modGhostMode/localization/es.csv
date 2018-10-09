@@ -328,3 +328,9 @@
 2110992350|1517ddcf||Every known level 1 and 2 potion, bomb and oil formula, as well as alchemy substance formula increases maximum Toxicity by 1.
 2110992351|1517ddd0||Every known level 1, 2 and 3 potion, bomb and oil formula, alchemy substance and mutagen decoction formula increases maximum Toxicity by 1.
 2110992352|        |attribute_name_staminaRestore|Stamina
+2110992353|0083ce65||Prolonged Effects
+2110992354|8d17aa9f||Extents potion duration time by $S$%.
+2110992355|0ff5fe13||Strong Metabolism
+2110992356|15dda919||Decreases potion toxicity by $S$%.
+2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% (of the current Toxicity range reduced by Toxicity offset).
+2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% (of the current Toxicity range reduced by Toxicity offset).
