@@ -97,7 +97,7 @@
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Gain d'adrénaline
 2110992106|739e1e2c||Les attaques puissantes augmentent les dégâts des attaques rapides pendant $S$ secondes et de $S$% pour chaque pièce de l'ensemble. Et vice versa. Bonus actuel : $S$%.
-2110992107|8ed43e3e||Chaque pièce de l'ensemble réduit le coût en vigueur pour lancer des signes de $S$%. Bonus actuel : $S$%.
+2110992107|8ed43e3e||Casting a sign increases other signs' power for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
 2110992108|8ed43e3f||La taille des pièges d'Yrden est augmentée de $S$%. Lorsque vous êtes dans un piège d'Yrden, l'intensité des signes est augmentée de $S$% et les dégâts subis sont réduits de $S$%.
 2110992109|739e1e2d||Les coups critiques avec une épée doublent le gain d'adrénaline.
 2110992110|        |attribute_name_desc_knockdownchance_mult|Chances de renversement
@@ -161,7 +161,7 @@
 2110992171|5f63dbf5||Vous permet de créer des bombes qui peuvent être lancées sur les ennemis. Les lancers au jugé infligent 50% de dégâts en moins.
 2110992172|754d1891||En plus de l'effet habituel de Fureur guerrière, chaque point d'adrénaline augmente l'intensité des signes de $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Utilisé pour le rasage.
-2110992174|da7e5ba5||Chaque pièce d'armure intermédiaire augmente l'intensité des signes de $S$% et la régénération de vigueur de $S$%.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and decreases sign casting stamina cost by $S$%.
 2110992175|b1173fc7||La cible est ralentie de $I$% quand Geralt lance Axii. Augmente l'efficacité d'Axii pendant les dialogues.
 2110992176|c84675ba||La cible est ralentie de $I$% quand Geralt lance Axii. Augmente l'efficacité d'Axii pendant les dialogues.
 2110992177|c84675bb||La cible est ralentie de $I$% quand Geralt lance Axii. Les tentatives qui échouent font chanceler la cible. Augmente l'efficacité d'Axii pendant les dialogues.

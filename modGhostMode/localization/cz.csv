@@ -97,7 +97,7 @@
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Přísun adrenalinu
 2110992106|739e1e2c||Silný útok, který zvýší poškození rychlého útoku po $S$ sekund o $S$%, za každou část setu. Funguje i obráceně. Současný bonus: $S$%.
-2110992107|8ed43e3e||Každá část setu snižuje potřebnou výdrž pro seslání znamení o $S$%. Současný bonus: $S$%.
+2110992107|8ed43e3e||Casting a sign increases other signs' power for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
 2110992108|8ed43e3f||Rozsah pastí Yrdenu je zvýšen o $S$%. Dokud jsi uvnitř Yrdenu, je intenzita znamení zvýšena o $S$% a odolnost vůči poškození je zvýšena o $S$%.
 2110992109|739e1e2d||Kritické zásahy mečem zdvojnásobují získaný adrenalin.
 2110992110|        |attribute_name_dockdownchance_mult|Šance na sražení
@@ -161,7 +161,7 @@
 2110992171|5f63dbf5||Umožňuje výrobu petard, které mohou být vrženy na nepřátele. Házení bez míření působí o 50% menší poškození.
 2110992172|754d1891||Jako dodatečný efekt obvyklého účinku bojového transu, každý bod adrenalinu dále zvyšuje intenzitu znamení o $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Používá se na holení.
-2110992174|da7e5ba5||Každá část střední zbroje zvyšuje intenzitu znamení o $S$% a regeneraci výdrže o $S$%.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and decreases sign casting stamina cost by $S$%.
 2110992175|b1173fc7||Když Geralt sesílá Axie, cíl je zpomalen o $I$%. Zvyšuje efektivitu Axie v konverzacích.
 2110992176|c84675ba||Když Geralt sesílá Axie, cíl je zpomalen o $I$%. Zvyšuje efektivitu Axie v konverzacích.
 2110992177|c84675bb||Když Geralt sesílá Axie, cíl je zpomalen o $I$%. Neúspěšně seslané Axie se pokusí vyvést cíl z rovnováhy. Zvyšuje efektivitu Axie v konverzacích.

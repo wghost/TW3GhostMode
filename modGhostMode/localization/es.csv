@@ -93,7 +93,7 @@
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|6f2a6f0f||Adrenalina Ganada
 2110992106|739e1e2c||Los ataques potentes aumentan el daño del ataque rápido por $S$ segundos por $S$% por cada pieza del set.
-2110992107|8ed43e3e||Cada pieza del set reduce el costo de la resistencia al lanzamiento de señales en $S$%. Bonificación actual: $S$%.
+2110992107|8ed43e3e||Casting a sign increases other signs' power for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
 2110992108|8ed43e3f||El tamaño de las trampas de Yrden aumenta en $S$%. Mientras se encuentre dentro de una trampa de Yrden, la Intensidad al empezar aumenta en $S$% y la resistencia al daño aumenta en $S$%.
 2110992109|739e1e2d||Los golpes críticos con doble espada generara adrenalina.
 2110992110|328ae462||Oportunidad de derribo
@@ -157,7 +157,7 @@
 2110992171|5f63dbf5||Permite la creación de bombas portátiles que pueden lanzarse contra los enemigos. Los tiros sin objetivo infligen 50% menos de daño.
 2110992172|754d1891||Además del efecto Trance de Combate habitual, cada punto de adrenalina también aumenta la intensidad de la señal en $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|04bda90f||Se utiliza para el afeitado.
-2110992174|da7e5ba5||Cada pieza de armadura media aumenta la intensidad de la señal en $S$% y la regeneración de aguante por $S$%.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and decreases sign casting stamina cost by $S$%.
 2110992175|b1173fc7||El objetivo se ralentiza en $I$% mientras Geralt está lanzando Axia. Aumenta la efectividad de Axia en los diálogos.
 2110992176|c84675ba||El objetivo se ralentiza en $I$% mientras Geralt está lanzando Axia. Aumenta la efectividad de Axia en los diálogos.
 2110992177|c84675bb||El objetivo se ralentiza en $I$% mientras Geralt está lanzando Axia. Error Axia intenta escalonar el objetivo. Aumenta la efectividad de Axia en los diálogos.

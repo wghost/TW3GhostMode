@@ -93,7 +93,7 @@
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|6f2a6f0f||Przyrost punktów Adrenaliny
 2110992106|739e1e2c||Silny Atak zwiększa obrażenia następnych Szybkich Ataków przez $S$ sekund o $S$% za każdą część zestawu. Szybki atak vice versa. Obecna premia: $S$%.
-2110992107|8ed43e3e||Każdy element pancerza zmniejsza koszt wytrzymałości przy rzucania Znaków o $S$%. Aktualny efekt: $S$%.
+2110992107|8ed43e3e||Casting a sign increases other signs' power for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
 2110992108|8ed43e3f||Obszar połapki Znaku Yrden jest większy o $S$%. Obecność Bohatera w obszarze działania, zwiększa Moc Znaku o $S$%, oraz odporność na obrażenia o $S$%.
 2110992109|739e1e2d||Trafienie krytyczne mieczem generuje dwukrotną ilość punktów Adrenaliny.
 2110992110|328ae462||Szansa na powalenie
@@ -157,7 +157,7 @@
 2110992171|5f63dbf5||Umożliwia wytwarzanie petard, które są pociskami miotanymi w przeciwników. Rzut bez celowania zadaje o 50% mniej obrażeń.
 2110992172|754d1891||Trans Bojowy zwiększa dodatkowo Moc Znaków o $I$% za każdy punkt Adrenaliny. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|04bda90f||Służy do golenia.
-2110992174|da7e5ba5||Każdy element średniego rynsztunku dodaje $S$% do Mocy Znaków i $S$% do regeneracji wytrzymałości.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and decreases sign casting stamina cost by $S$%.
 2110992175|b1173fc7||Cel jest spowolniony o $I$% podczas rzucania Znaku. Zwiększa skuteczność Znaku Aksji w dialogach.
 2110992176|c84675ba||Cel jest spowolniony o $I$% podczas rzucania Znaku. Zwiększa skuteczność Znaku Aksji w dialogach.
 2110992177|c84675bb||Cel jest spowolniony o $I$% podczas rzucania Znaku. Nawet jeśli rzucenie Aksji jest nieudane, przeciwnik zostaje wytrącony z równowagi. Zwiększa skuteczność Znaku Aksji w dialogach.

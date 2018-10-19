@@ -97,7 +97,7 @@
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|아드레날린 획득
 2110992106|739e1e2c||강공을 할 경우, 속공 공격력이 $S$초 동안 세트의 각 부분마다 $S$% 상승한다(순서를 반대로 해도 가능).현재 보너스: $S$%.
-2110992107|8ed43e3e||세트의 각 부분마다 표식의 원기 사용량을 $S$% 줄인다. 현재 보너스: $S$%.
+2110992107|8ed43e3e||Casting a sign increases other signs' power for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
 2110992108|8ed43e3f||The size of Yrden traps is increased by $S$%. While you are within an Yrden trap, Sign Intensity is increased by $S$% and damage resistance is increased by $S$%.
 2110992109|739e1e2d||검으로 치명타 피해를 입힐 시에 아드레날린 점수를 두 배로 얻는다.
 2110992110|        |attribute_name_desc_knockdownchance_mult|넉다운 확률
@@ -161,7 +161,7 @@
 2110992171|5f63dbf5||적에게 던질 폭탄을 제조할 수 있다. 조준해서 던지지 않을 시 공격력이 50% 감소한다.
 2110992172|754d1891||전투 트랜스 상태에서 아드레날린 점수 뿐만 아니라 표식 강도가 $I$% 증가한다. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|면도에 사용한다.
-2110992174|da7e5ba5||일반 갑옷 한 부위당 표식 강도가 $S$% 증가하고 원기 회복이 $S$% 증가한다.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and decreases sign casting stamina cost by $S$%.
 2110992175|b1173fc7||액시 발동 중에 대상의 이동 속도가 $I$% 느려진다. 대화 중 액시 효과가 강화된다.
 2110992176|c84675ba||액시 발동 중에 대상의 이동 속도가 $I$% 느려진다. 대화 중 액시 효과가 강화된다.
 2110992177|c84675bb||액시 발동 중에 대상의 이동 속도가 $I$% 느려진다. 액시 시도 실패시 적이 현기증에 걸린다. 대화 중 액시 효과가 강화된다. 액시 시도 실패 시 적이 현기증에 걸린다.

@@ -97,7 +97,7 @@
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Adrenaline Gain
 2110992106|739e1e2c||Strong Attacks increase Fast Attack damage for $S$ seconds by $S$% for each piece of the set. And vice versa. Current bonus: $S$%.
-2110992107|8ed43e3e||Each piece of the set decreases sign casting stamina cost by $S$%. Current bonus: $S$%.
+2110992107|8ed43e3e||Casting a sign increases other signs' power for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
 2110992108|8ed43e3f||The size of Yrden traps is increased by $S$%. While you are within an Yrden trap, Sign Intensity is increased by $S$% and damage resistance is increased by $S$%.
 2110992109|739e1e2d||Critical hits with a sword double Adrenaline gained.
 2110992110|        |attribute_name_desc_knockdownchance_mult|Knockdown chance
@@ -161,7 +161,7 @@
 2110992171|5f63dbf5||Enables the creation of handheld bombs that can be thrown at enemies. Non-aimed throws deal 50% less damage.
 2110992172|754d1891||In addition to usual Battle Trance effect, each Adrenaline Point also increases Sign intensity by $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Used for shaving.
-2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and Stamina regeneration by $S$%.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and decreases sign casting stamina cost by $S$%.
 2110992175|b1173fc7||Target is slowed down by $I$% while Geralt is casting Axii. Increases the effectiveness of Axii in dialogues.
 2110992176|c84675ba||Target is slowed down by $I$% while Geralt is casting Axii. Increases the effectiveness of Axii in dialogues.
 2110992177|c84675bb||Target is slowed down by $I$% while Geralt is casting Axii. Failed Axii attempts stagger the target. Increases the effectiveness of Axii in dialogues.

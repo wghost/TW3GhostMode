@@ -97,7 +97,7 @@
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Adrenalingewinn
 2110992106|739e1e2c||Starke Angriffe erhöhen den Schaden der schnellen Angriffe für $S$ Sekunden um $S$% für jedes Teil des Sets und umgekehrt. <br>Derzeitiger Bonus: $S$%.
-2110992107|8ed43e3e||Jedes Teil des Sets reduziert die Ausdauerkosten für das Wirken von Zeichen um $S$%. <br>Derzeitiger Bonus: $S$%.
+2110992107|8ed43e3e||Casting a sign increases other signs' power for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
 2110992108|8ed43e3f||The size of Yrden traps is increased by $S$%. While you are within an Yrden trap, Sign Intensity is increased by $S$% and damage resistance is increased by $S$%.
 2110992109|739e1e2d||Kritische Treffer mit einem Schwert verdoppeln den Adrenalingewinn.
 2110992110|        |attribute_name_desc_knockdownchance_mult|Chance Niedergeworfen zu werden
@@ -161,7 +161,7 @@
 2110992171|5f63dbf5||Erlaubt es dir Bomben herzustellen die auf Gegner geworfen werden können. Nicht geziehlte Würfe verursachen 50% weniger Schaden.
 2110992172|754d1891||Zusätzlich zum normalen Kampftrance Zustand erhöht jeder Adrenalinpunkt die Zeichenintensität um $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Wird für die Rasur benötigt.
-2110992174|da7e5ba5||Jedes Teil einer mittleren Rüstung erhöht die Zeichenintensität um $S$% und die Ausdauerregeneration um $S$%.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and decreases sign casting stamina cost by $S$%.
 2110992175|b1173fc7||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Erhöht die Effektivität von Axii in Dialogen.
 2110992176|c84675ba||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Erhöht die Effektivität von Axii in Dialogen.
 2110992177|c84675bb||Das Ziel ist um $I$% verlangsamt während Geralt Axii wirkt. Fehlgeschlagene Axii-Versuche betäuben das Ziel. Erhöht die Effektivität von Axii in Dialogen.

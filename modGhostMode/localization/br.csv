@@ -97,7 +97,7 @@
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Ganho de Adrenalina
 2110992106|739e1e2c||Ataques fortes aumentam o dano do ataque rápido por $S$ segundos em $S$% para cada peça do conjunto. E vice versa, Bônus atual: $S$%.
-2110992107|8ed43e3e||Cada peça do conjunto diminui o Vigor gasto com lançamento de Sinal em $S$%.  Bônus atual: $S$%.
+2110992107|8ed43e3e||Casting a sign increases other signs' power for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
 2110992108|8ed43e3f||O tamanho das armadilhas Yrden é aumentado em $S$%. Enquanto você estiver dentro de uma armadilha de Yrden, a intensidade do Sinal é aumentada em $S$% e o dano sofrido é reduzido em $S$%.
 2110992109|739e1e2d||Danos críticos com uma espada dobram o ganho de Adrenalina.
 2110992110|        |attribute_name_desc_knockdownchance_mult|Chance de derrubar
@@ -161,7 +161,7 @@
 2110992171|5f63dbf5||Permite a criação de bombas que podem ser arremessadas nos inimigos. Os lançamentos não-mirados causam 50% menos dano..
 2110992172|754d1891||Além do habitual efeito transe de batalha, cada ponto de Adrenalina também aumenta a intensidade do Sinal em $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Usado para barbear.
-2110992174|da7e5ba5||Cada peça de armadura média aumenta a intensidade dos Sinais em $S$% e a regeneração de Vigor $S$%.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and decreases sign casting stamina cost by $S$%.
 2110992175|b1173fc7||O alvo é desacelerado em $I$% enquanto Geralt lança o Axii. Aumenta o efeito de Axii nos diálogos.
 2110992176|c84675ba||O alvo é desacelerado em $I$% enquanto Geralt lança o Axii. Aumenta o efeito de Axii nos diálogos.
 2110992177|c84675bb||O alvo é desacelerado em $I$% enquanto Geralt lança o Axii. Tentativas de uso do Axii fracassadas atordoam o inimigo. Aumenta o efeito de Axii nos diálogos.
