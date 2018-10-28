@@ -111,9 +111,9 @@
 2110992118|cea74417||속공 치명타 확률이 $I$% 증가하며 속공 치명타 피해가 $I$% 증가한다.
 2110992119|1f70c027||강공의 치명타 확률이 $I$% 증가하고 강공 치명타 피해가 $I$% 증가한다.
 2110992120|c1e68bc4||완벽한 타이밍에 쳐내면 공격자에게 화살을 되돌리고 $I$%의 데미지를 추가해 입힌다.
-2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
-2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
-2110992123|cea74411||반격에 성공할시 다음 가하는 공격 피해량이 $I$% 증가한다.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Increases critical hit chance by $I$%.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Increases critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
+2110992123|cea74411||Successful counterattack increases next attack power by $I$%.
 2110992124|cf2b2da2||$I$ 피해를 흡수 하는 보호막을 생성한다. 표식의 강도의 따라 공격 흡수량은 증가한다. 현재 흡수량: $I$. <br>보호막 지속시간: $I$초.
 2110992125|163a8e77||이그니로 피해를 줄때마다 적의 방어력의 $S$%를 영구히 감소시킨다.(표식의 강도의 따라 감소량 증가) 최대 감소량 $S$%.
 2110992126|cf2b2da0||화염 공격을 하여 $I$의 피해를 주고 $I$% 확률로 적에게 화상을 입힌다. 공격력은 표식의 강도에 따라 올라간다. 현재 공격력: $I$.
@@ -338,3 +338,4 @@
 2110992356|15dda919||Decreases potion toxicity by $S$%.
 2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% (of the current Toxicity range reduced by Toxicity offset).
 2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% (of the current Toxicity range reduced by Toxicity offset).
+2110992359|754d1893||When Adrenaline Points are at their maximum, drinking a toxic potion increases the Toxicity Decay Rate by $S$ points for $S$ sec.

@@ -111,9 +111,9 @@
 2110992118|cea74417||Augmente les chances de coups critiques des attaques rapides de $I$% et les dégâts de ces coups critiques de $I$%.
 2110992119|1f70c027||Augmente les chances de coups critiques des attaques puissantes de $I$% et les dégâts de ces coups critiques de $I$%.
 2110992120|c1e68bc4||Les parades parfaites renvoient les flèches. Les dégâts sont accrus de $I$%.
-2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
-2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
-2110992123|cea74411||Une contre-attaque réussie augmente la puissance de la prochaine attaque de $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Increases critical hit chance by $I$%.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Increases critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
+2110992123|cea74411||Successful counterattack increases next attack power by $I$%.
 2110992124|cf2b2da2||Bouclier qui dure jusqu'à avoir absorbé $I$ points de dégâts. L'absorption augmente avec l'intensité du signe. Absorption actuelle : $I$. <br>Durée du bouclier: $I$s.
 2110992125|163a8e77||Les dégâts infligés par Igni réduisent aussi de façon permanente l'armure totale des ennemis de $S$% par coup (augmente avec l'intensité du signe). La valeur d'effet maximale ne peut pas excéder $S$%.
 2110992126|cf2b2da0||Souffle incandescent qui inflige $I$ points de dégâts avec $I$% de chance d'enflammer les ennemis. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$.
@@ -338,3 +338,4 @@
 2110992356|15dda919||Decreases potion toxicity by $S$%.
 2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% (of the current Toxicity range reduced by Toxicity offset).
 2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% (of the current Toxicity range reduced by Toxicity offset).
+2110992359|754d1893||When Adrenaline Points are at their maximum, drinking a toxic potion increases the Toxicity Decay Rate by $S$ points for $S$ sec.

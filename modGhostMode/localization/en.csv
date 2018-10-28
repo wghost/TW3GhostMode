@@ -111,8 +111,8 @@
 2110992118|cea74417||Increases fast attack critical hit chance by $I$% and fast attack critical hit power by $I$%.
 2110992119|1f70c027||Increases strong attack critical hit chance by $I$% and strong attack critical hit power by $I$%.
 2110992120|c1e68bc4||Perfectly timed parries reflect back arrows, damage is increased by $I$%.
-2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher.
-2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Each Adrenaline Point increases knockdown chance by $I$% (max $I$%, adrenaline is consumed on success) and enables finisher. Increases critical hit chance by $I$%.
+2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Increases critical hit chance by $I$%.
+2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Increases critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Successful counterattack increases next attack power by $I$%.
 2110992124|cf2b2da2||Protective shield that lasts until it has absorbed $I$ points of damage. Damage absorption scales with Sign intensity. Current absorption: $I$. <br>Shield duration: $I$s.
 2110992125|163a8e77||Damage dealt by Igni also permanently decreases enemy Total Armor by $S$% per hit (scales with Sign Intensity). Max effect value cannot exceed $S$%.
@@ -338,3 +338,4 @@
 2110992356|15dda919||Decreases potion toxicity by $S$%.
 2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% (of the current Toxicity range reduced by Toxicity offset).
 2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% (of the current Toxicity range reduced by Toxicity offset).
+2110992359|754d1893||When Adrenaline Points are at their maximum, drinking a toxic potion increases the Toxicity Decay Rate by $S$ points for $S$ sec.
