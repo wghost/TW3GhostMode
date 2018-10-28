@@ -234,7 +234,7 @@
 2110992246|fc92152b||피해를 입으면 남은 전투 중 피해 저항이 증가한다. (최대 20%)
 2110992247|fc921505||명중한 각 공격마다 공격력(최대 100%)이 증가한다. 싸움이 끝나거나 피해(중독도 피해 제외)를 입을 때까지 지속된다.
 2110992248|fc921509||전투 중 공격력이 올라간다.(최대 30%)
-2110992249|fc921526||전투 중 표식을 사용할 때마다, 남은 전투 동안 원기 재생이 빨라진다. (최대 20)
+2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
 2110992250|        |option_gm_rnd_scaling_min_slider|랜덤 스케일: 낮은 레벨로 (플레이어 레벨 기준)
 2110992251|        |option_gm_rnd_scaling_max_slider|랜덤 스케일: 높은 레벨로 (플레이어 레벨 기준)
 2110992252|        |preset_value_gm_es_random|랜덤

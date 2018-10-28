@@ -234,7 +234,7 @@
 2110992246|fc92152b||Subire danni aumenta la resistenza al danno per tutta la durata del combattimento (fino al 20%).
 2110992247|fc921505||Ogni colpo assestato aumenta la potenza di attacco(max 100%) fino alla fine del combattimento o finché non si subisce danno(esclusa la Tossicità). 
 2110992248|fc921509||La Potenza di Attacco cresce nel corso del combattimento(fino al 30%).
-2110992249|fc921526||Ogni volta che viene lanciato un Segno aumenta la rigenerazione del Vigore(fino a 20) per il resto del combattimento.
+2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
 2110992250|        |option_gm_rnd_scaling_min_slider|Livellamento casuale: limite inferiore(rispetto il livello del giocatore)
 2110992251|        |option_gm_rnd_scaling_max_slider|Livellamento casuale: limite superiore(rispetto il livello del giocatore)
 2110992252|        |preset_value_gm_es_random|Casuale

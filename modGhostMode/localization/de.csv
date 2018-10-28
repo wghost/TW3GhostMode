@@ -234,7 +234,7 @@
 2110992246|fc92152b||Erlittener Schaden erhöht den Schadenswiderstand bis zu 20% für den Rest des Kampfes.
 2110992247|fc921505||Jeder erfolgreiche Schlag erhöht die Angriffsstärke bis zu 100% bis entweder der Kampf endet oder kein Schaden mehr erlitten wird. <br>(other than that from potion Toxicity)
 2110992248|fc921509||Die Angriffsstärke steigt über die Dauer des Kampfes bis zu einen Maximum von 30% an.
-2110992249|fc921526||Jedes Zeichen das gewirkt wird erhöht die Ausdauerregeneration für den Rest des Kampfes, bis zu einem Maximum von 20.
+2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
 2110992250|        |option_gm_rnd_scaling_min_slider|Zufällige Skalierung: Niedriger (relativ zum lvl des Spielers)
 2110992251|        |option_gm_rnd_scaling_max_slider|Zufällige Skalierung: Höher (relativ zum lvl des Spielers)
 2110992252|        |preset_value_gm_es_random|Zufällig

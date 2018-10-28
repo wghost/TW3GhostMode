@@ -234,7 +234,7 @@
 2110992246|fc92152b||Během souboje se za utržené zranění zvyšuje odolnost vůči poškození (až do 20%).
 2110992247|fc921505||Každý úspěšný zásah zvyšuje sílu (až do 100%), dokud boj neskončí, anebo neutržíš zranění (kromě toho způsobeného vysokou toxicitou).
 2110992248|fc921509||V průběhu boje roste Síla útoku (až do 30%).
-2110992249|fc921526||Po dobu trvání souboje, zvyšuje každé seslané znamení regeneraci výdrže (až do 20%).
+2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
 2110992250|        |option_gm_rnd_scaling_min_slider|Náhodné zvýšení úrovně nepřátel: min.
 2110992251|        |option_gm_rnd_scaling_max_slider|Náhodné zvýšení úrovně nepřátel: max.
 2110992252|        |preset_value_gm_es_random|Náhodně

@@ -234,7 +234,7 @@
 2110992246|fc92152b||Levar dano aumenta a resistência a dano pelo resto da luta (até 20%).
 2110992247|fc921505||Cada golpe acertado aumenta o poder de ataque (até 100%) até que a luta termine ou que leve dano (outro que não seja da toxicidade)
 2110992248|fc921509||Poder de ataque cresce ao longo de uma luta (até 30%)
-2110992249|fc921526||Cada Sinal lançado aumenta a regeneração do Vigor (até 20%) pelo restante da luta.
+2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
 2110992250|        |option_gm_rnd_scaling_min_slider|Escala randômica: limite inferior (relativo ao nível do jogador)
 2110992251|        |option_gm_rnd_scaling_max_slider|Escala randômica: limite superior (relativo ao nível do jogador)
 2110992252|        |preset_value_gm_es_random|Randômico

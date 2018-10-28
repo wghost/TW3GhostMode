@@ -234,7 +234,7 @@
 2110992246|fc92152b||Les dégâts subis augmentent la résistance aux dégâts pour le reste du combat (jusqu'à 20%).
 2110992247|fc921505||Chaque coup porté augmente la puissance d'attaque (jusqu'à 100%) jusqu'à ce que le combat se termine ou que des dégâts (sauf intoxication par les potions) soient subis.
 2110992248|fc921509||La puissance d'attaque augmente durant le combat (jusqu'à 30%).
-2110992249|fc921526||Chaque signe lancé augmente la régénération de vigueur (jusqu'à 20) pour le reste du combat.
+2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
 2110992250|        |option_gm_rnd_scaling_min_slider|Scaling aléatoire: niveau le plus bas (relatif au niveau du joueur)
 2110992251|        |option_gm_rnd_scaling_max_slider|Scaling aléatoire: niveau le plus haut (relatif au niveau du joueur)
 2110992252|        |preset_value_gm_es_random|Aléatoire

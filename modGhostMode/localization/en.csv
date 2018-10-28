@@ -234,7 +234,7 @@
 2110992246|fc92152b||Taking damage increases damage resistance for the remainder of the fight (up to 20%).
 2110992247|fc921505||Each blow landed increases Attack Power (up to 100%) until either the fight ends or damage (other than that from potion Toxicity) is taken.
 2110992248|fc921509||Attack Power grows over the course of a fight (up to 30%).
-2110992249|fc921526||Each Sign cast increases Stamina regeneration (up to 20) for the remainder of the fight.
+2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
 2110992250|        |option_gm_rnd_scaling_min_slider|Random scaling: lower bound (relative to player level)
 2110992251|        |option_gm_rnd_scaling_max_slider|Random scaling: upper bound (relative to player level)
 2110992252|        |preset_value_gm_es_random|Random

@@ -230,7 +230,7 @@
 2110992246|fc92152b||Tomar daño aumenta la resistencia al daño por el resto de la pelea (hasta 20%).
 2110992247|fc921505||Cada golpe conseguido aumenta el poder de ataque (hasta 100%) hasta que la pelea finaliza o se toma el daño (que no sea por la toxicidad de la poción).
 2110992248|fc921509||Poder de ataque crece en el transcurso de una pelea (hasta 30%).
-2110992249|fc921526||Cada lanzamiento de señal aumenta la regeneración de aguante (hasta 20) durante el resto de la pelea.
+2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
 2110992250|8cb0734c||Escalado aleatorio: límite inferior (relativo al nivel del jugador)
 2110992251|f958bbfa||Escalado aleatorio: límite superior (relativo al nivel del jugador)
 2110992252|beb0cec9||Aleatorio

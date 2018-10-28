@@ -230,7 +230,7 @@
 2110992246|fc92152b||Otrzymywane rany zwiększają odporność na obrażenia na czas trwania danej walki (max. 20%).
 2110992247|fc921505||Każde udane trafienie zwiększa Siłę Ataku (do max. 100%), do czasu zakończenia walki lub otrzymania obrażeń innych niż obrażenia od zatrucia eliksirami.
 2110992248|fc921509||Siła Ataku rośnie wraz z czasem trwania walki (do max. 30%).
-2110992249|fc921526||Każde użycie Znaku zwiększa regenerację wytrzymałości (do max. 20) na czas trwania danej walki.
+2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
 2110992250|8cb0734c||Losowe skalowanie: dolny limit (od poziomu Geralta)
 2110992251|f958bbfa||Losowe skalowanie: górny limit (od poziomu Geralta)
 2110992252|beb0cec9||Losowe
