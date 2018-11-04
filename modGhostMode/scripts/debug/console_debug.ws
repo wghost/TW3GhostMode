@@ -772,3 +772,43 @@ exec function resetme(optional level : int)
 	resetLevels_internal(level);
 	addAutogenEquipment_internal();
 }
+
+exec function addkmsetschematics()
+{
+	//thePlayer.inv.AddAnItem('Kaer Morhen Armor schematic',1); //Starting Armor Upgrade schematic 1
+	thePlayer.inv.AddAnItem('Kaer Morhen Armor 1 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Armor 2 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Armor 3 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Pants schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Pants 1 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Pants 2 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Pants 3 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Boots schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Boots 1 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Boots 2 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Boots 3 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Gloves schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Gloves 1 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Gloves 2 schematic',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Gloves 3 schematic',1);
+}
+
+exec function addkmset()
+{
+	thePlayer.inv.AddAnItem('Kaer Morhen Armor',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Armor 1',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Armor 2',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Armor 3',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Pants',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Pants 1',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Pants 2',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Pants 3',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Boots',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Boots 1',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Boots 2',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Boots 3',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Gloves',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Gloves 1',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Gloves 2',1);
+	thePlayer.inv.AddAnItem('Kaer Morhen Gloves 3',1);
+}

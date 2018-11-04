@@ -339,3 +339,24 @@
 2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% (of the current Toxicity range reduced by Toxicity offset).
 2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% (of the current Toxicity range reduced by Toxicity offset).
 2110992359|754d1893||When Adrenaline Points are at their maximum, drinking a toxic potion increases the Toxicity Decay Rate by $S$ points for $S$ sec.
+2110992360|        |item_name_kaer_morhen_armor|Kaer Morhen armor
+2110992361|        |item_name_kaer_morhen_armor_1|Enhanced Kaer Morhen armor
+2110992362|        |item_name_kaer_morhen_armor_2|Superior Kaer Morhen armor
+2110992363|        |item_name_kaer_morhen_armor_3|Mastercrafted Kaer Morhen armor
+2110992364|        |item_name_kaer_morhen_pants|Kaer Morhen trousers
+2110992365|        |item_name_kaer_morhen_pants_1|Enhanced Kaer Morhen trousers
+2110992366|        |item_name_kaer_morhen_pants_2|Superior Kaer Morhen trousers
+2110992367|        |item_name_kaer_morhen_pants_3|Mastercrafted Kaer Morhen trousers
+2110992368|        |item_name_kaer_morhen_boots|Kaer Morhen boots
+2110992369|        |item_name_kaer_morhen_boots_1|Enhanced Kaer Morhen boots
+2110992370|        |item_name_kaer_morhen_boots_2|Superior Kaer Morhen boots
+2110992371|        |item_name_kaer_morhen_boots_3|Mastercrafted Kaer Morhen boots
+2110992372|        |item_name_kaer_morhen_gloves|Kaer Morhen gauntlets
+2110992373|        |item_name_kaer_morhen_gloves_1|Enhanced Kaer Morhen gauntlets
+2110992374|        |item_name_kaer_morhen_gloves_2|Superior Kaer Morhen gauntlets
+2110992375|        |item_name_kaer_morhen_gloves_3|Mastercrafted Kaer Morhen gauntlets
+2110992376|        |item_name_starting_armor_gm|Worn Kaer Morhen armor
+2110992377|        |item_name_starting_pants_gm|Worn Kaer Morhen trousers
+2110992378|        |item_name_starting_boots_gm|Worn Kaer Morhen boots
+2110992379|        |item_name_starting_gloves_gm|Worn Kaer Morhen gauntlets
+2110992380|        |skill_desc_kaer_morhen_set_ability1|Stamina regeneration rate increases by $S$ for each additional enemy in combat (max. $S$).
