@@ -106,8 +106,8 @@
 2110992113|c1e6a9cc||체력이 0이 되면, 아드레날린을 소모하여 죽지않고 $S$초 동안 체력이 재생된다. 아드레날린 포인트당 체력 재생량이 $S$% 증가한다.(최대 $S$%). $S$초에 한 번씩만 발동될수 있다.
 2110992114|c1e6a9cb||체력이 0이 되면, 아드레날린을 소모하여 죽지않고 $S$초 동안 체력이 재생된다. 아드레날린 포인트당 체력 재생량이 $S$% 증가한다.(최대 $S$%). $S$초에 한 번씩만 발동될수 있다.
 2110992115|cea74418||체력이 0이 되면, 아드레날린을 소모하여 죽지않고 $S$초 동안 체력이 재생된다. 아드레날린 포인트당 체력 재생량이 $S$% 증가한다.(최대 $S$%). $S$초에 한 번씩만 발동될수 있다.
-2110992116|cea74430||속공 피해가 $I$% 증가한다.
-2110992117|1f70c023||강공 피해가 $I$% 증가한다.
+2110992116|cea74430||속공 피해가 $S$% 증가한다. Adrenaline gain for fast attacks is increased by $S$%.
+2110992117|1f70c023||강공 피해가 $S$% 증가한다. Adrenaline gain for strong attacks is increased by $S$%.
 2110992118|cea74417||속공 치명타 확률이 $I$% 증가하며 속공 치명타 피해가 $I$% 증가한다.
 2110992119|1f70c027||강공의 치명타 확률이 $I$% 증가하고 강공 치명타 피해가 $I$% 증가한다.
 2110992120|c1e68bc4||완벽한 타이밍에 쳐내면 공격자에게 화살을 되돌리고 $I$%의 데미지를 추가해 입힌다.
@@ -336,8 +336,8 @@
 2110992354|8d17aa9f||Extents potion duration time by $S$%.
 2110992355|0ff5fe13||Strong Metabolism
 2110992356|15dda919||Decreases potion toxicity by $S$%.
-2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% (of the current Toxicity range reduced by Toxicity offset).
-2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% (of the current Toxicity range reduced by Toxicity offset).
+2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% of your non-reserved Toxicity (current value: $S$%).
+2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% of your non-reserved Toxicity (current value: $I$%).
 2110992359|754d1893||When Adrenaline Points are at their maximum, drinking a toxic potion increases the Toxicity Decay Rate by $S$ points for $S$ sec.
 2110992360|        |item_name_kaer_morhen_armor|Kaer Morhen armor
 2110992361|        |item_name_kaer_morhen_armor_1|Enhanced Kaer Morhen armor
@@ -360,3 +360,7 @@
 2110992378|        |item_name_starting_boots_gm|Worn Kaer Morhen boots
 2110992379|        |item_name_starting_gloves_gm|Worn Kaer Morhen gauntlets
 2110992380|        |skill_desc_kaer_morhen_set_ability1|Stamina regeneration rate increases by $S$ for each additional enemy in combat (max. $S$).
+2110992381|        |attribute_name_toxicity_offset|Toxicity offset
+2110992382|        |gm_toxicity_offset_description|Toxicity offset reserves an amount of your maximum Toxicity.
+2110992383|        |gm_stat_adrenaline_gain_light|Fast attack Adrenaline Gain
+2110992384|        |gm_stat_adrenaline_gain_heavy|Strong attack Adrenaline Gain

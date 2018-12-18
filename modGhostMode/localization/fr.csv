@@ -106,8 +106,8 @@
 2110992113|c1e6a9cc||Quand la vitalité tombe à zero, les points d'adrénaline sont consommés pour tromper la mort et vous rendre invulnérable, augmentant la régénération de vitalité pendant $S$s. Redonne $S$% de vitalité par point d'adrénaline (max $S$%). Ne peut pas être déclenché plus d'une fois toutes les $S$s.
 2110992114|c1e6a9cb||Quand la vitalité tombe à zero, les points d'adrénaline sont consommés pour tromper la mort et vous rendre invulnérable, augmentant la régénération de vitalité pendant $S$s. Redonne $S$% de vitalité par point d'adrénaline (max $S$%). Ne peut pas être déclenché plus d'une fois toutes les $S$s.
 2110992115|cea74418||Quand la vitalité tombe à zero, les points d'adrénaline sont consommés pour tromper la mort et vous rendre invulnérable, augmentant la régénération de vitalité pendant $S$s. Redonne $S$% de vitalité par point d'adrénaline (max $S$%). Ne peut pas être déclenché plus d'une fois toutes les $S$s.
-2110992116|cea74430||La puissance d'attaque pour les attaques rapides est augmentée de $I$%.
-2110992117|1f70c023||La puissance d'attaque pour les attaques puissantes est augmentée de $I$%.
+2110992116|cea74430||La puissance d'attaque pour les attaques rapides est augmentée de $S$%. Adrenaline gain for fast attacks is increased by $S$%.
+2110992117|1f70c023||La puissance d'attaque pour les attaques puissantes est augmentée de $S$%. Adrenaline gain for strong attacks is increased by $S$%.
 2110992118|cea74417||Augmente les chances de coups critiques des attaques rapides de $I$% et les dégâts de ces coups critiques de $I$%.
 2110992119|1f70c027||Augmente les chances de coups critiques des attaques puissantes de $I$% et les dégâts de ces coups critiques de $I$%.
 2110992120|c1e68bc4||Les parades parfaites renvoient les flèches. Les dégâts sont accrus de $I$%.
@@ -336,8 +336,8 @@
 2110992354|8d17aa9f||Extents potion duration time by $S$%.
 2110992355|0ff5fe13||Strong Metabolism
 2110992356|15dda919||Decreases potion toxicity by $S$%.
-2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% (of the current Toxicity range reduced by Toxicity offset).
-2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% (of the current Toxicity range reduced by Toxicity offset).
+2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% of your non-reserved Toxicity (current value: $S$%).
+2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% of your non-reserved Toxicity (current value: $I$%).
 2110992359|754d1893||When Adrenaline Points are at their maximum, drinking a toxic potion increases the Toxicity Decay Rate by $S$ points for $S$ sec.
 2110992360|        |item_name_kaer_morhen_armor|Kaer Morhen armor
 2110992361|        |item_name_kaer_morhen_armor_1|Enhanced Kaer Morhen armor
@@ -360,3 +360,7 @@
 2110992378|        |item_name_starting_boots_gm|Worn Kaer Morhen boots
 2110992379|        |item_name_starting_gloves_gm|Worn Kaer Morhen gauntlets
 2110992380|        |skill_desc_kaer_morhen_set_ability1|Stamina regeneration rate increases by $S$ for each additional enemy in combat (max. $S$).
+2110992381|        |attribute_name_toxicity_offset|Toxicity offset
+2110992382|        |gm_toxicity_offset_description|Toxicity offset reserves an amount of your maximum Toxicity for the duration of the decoction effect.
+2110992383|        |gm_stat_adrenaline_gain_light|Fast attack Adrenaline Gain
+2110992384|        |gm_stat_adrenaline_gain_heavy|Strong attack Adrenaline Gain
