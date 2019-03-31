@@ -96,8 +96,8 @@
 2110992103|1f70c020||Vířivý útok, který zasahuje všechny protivníky v dosahu. Přidává $S$% síly útoku za každého dodatečného protivníka (max. $S$%). Udržování útoku spotřebovává $S$ výdrže za sekundu. Pokud je dostupný bod adrenalinu, je použit ke snížení utrženého poškození během útoku o $S$%.
 2110992104|064143d3||Vířivý útok, který zasahuje všechny protivníky v dosahu. Přidává $S$% síly útoku za každého dodatečného protivníka (max. $S$%). Udržování útoku spotřebovává $S$ výdrže za sekundu. Pokud je dostupný bod adrenalinu, je použit ke snížení utrženého poškození během útoku o $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Přísun adrenalinu
-2110992106|739e1e2c||Silný útok, který zvýší poškození rychlého útoku po $S$ sekund o $S$% za každou část setu. Funguje i obráceně. Současný bonus: $S$%.
-2110992107|8ed43e3e||Sesílání znamení zvyšuje sílu jiných znamení po $S$ sekund o $S$% za každou část setu. Současný bonus: $S$%.
+2110992106|739e1e2c||Damage dealt with Fast attacks charges your Strong attack with additional power: +$S$% to Attack Power for each piece of the set (currently +$S$%), up to +$S$% max. And vice versa. The bonus is reset after performing a charged attack and at the end of the combat.
+2110992107|8ed43e3e||Casting a sign reduces stamina cost of all the subsequent actions taken by $S$% for each piece of the set. Current bonus: $S$%. Lasts for $S$ sec.
 2110992108|8ed43e3f||Rozsah pastí Yrdenu je zvýšen o $S$%. Dokud jsi uvnitř Yrdenu, je intenzita znamení zvýšena o $S$% a odolnost vůči poškození je zvýšena o $S$%.
 2110992109|739e1e2d||Kritické zásahy mečem zdvojnásobují získaný adrenalin.
 2110992110|        |attribute_name_dockdownchance_mult|Šance na sražení
@@ -111,10 +111,10 @@
 2110992118|cea74417||Zvyšuje šanci kritického zásahu rychlým útokem o $I$% a sílu kritického zásahu rychlým útokem o $I$%.
 2110992119|1f70c027||Zvyšuje šanci kritického zásahu silným útokem o $I$% a sílu kritického zásahu silným útokem o $I$%.
 2110992120|c1e68bc4||Perfektně načasované parírování odráží šípy zpět na útočníka a poškození je zvýšeno o $I$%.
-2110992121|c1e68f84||Úspěšný protiútok zvyšuje sílu dalšího útoku o $I$%. Zvyšuje šanci na kritický zásah o $I$%.
-2110992122|c1e68f85||Úspěšný protiútok zvyšuje sílu dalšího útoku o $I$%. Zvyšuje šanci na kritický zásah o $I$%. Pokud jsou body adrenalinu na maximu, protiútok přidává $I$% šanci na sražení.
-2110992123|cea74411||Úspěšný protiútok zvyšuje sílu dalšího útoku o $I$%.
-2110992124|cf2b2da2||Ochranný štít, který trvá dokud nepohltí $I$ bodů poškození. Pohlcené poškození se zvyšuje s intenzitou znamení. Současné pohlcení: $I$. <br>Trvání štítu: $I$ sekund.
+2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
+2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
+2110992123|cea74411||Increases counterattack power by $I$%.
+2110992124|cf2b2da2||Ochranný štít, který trvá dokud nepohltí $I$ bodů poškození. Pohlcené poškození se zvyšuje s intenzitou znamení. Současné pohlcení: $I$. Prevents knockdown and stagger effects (and then breaks). Prevents burning, poison and bleeding effects. <br>Trvání štítu: $I$ sekund.
 2110992125|163a8e77||Poškození způsobené Igni také permanentně snižuje nepřátelům celkovou zbroj o $S$% za každý zásah (zvyšuje se s intenzitou znamení). Maximální hodnota efektu nemůže přesáhnout $S$%.
 2110992126|cf2b2da0||Sprška ohně, která způsobuje $I$ bodů poškození, s $I$% šancí podpálit nepřátele. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $I$.
 2110992127|163a8e71||Alternativní režim znamení:<br>Vysílá nepřetržitý proud ohně, který způsobuje podpálení a přidává $I$ bodů poškození za sekundu. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$). Spotřebovává $I$ bodů výdrže za sekundu.
@@ -122,23 +122,23 @@
 2110992129|71d0c1e5||Alternativní režim znamení:<br>Vysílá nepřetržitý proud ohně, který způsobuje podpálení a přidává $I$ bodů poškození za sekundu. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$). Spotřebovává $I$ bodů výdrže za sekundu.
 2110992130|163a8e75||Aard nyní způsobuje $I$ poškození. Poškození se zvyšuje s intezitou znamení. Současné poškození: $I$.
 2110992131|b3c8ebb8||Magická střílna                                                                                             
-2110992132|b1173fc0||Trvání magické pasti a střílny se zvyšuje o $I$%, počet zásobníků magické střílny se zvyšuje o $I$. 
-2110992133|        |gm_alt_yrden_lvl3_description|Trvání magické pasti a střílny se zvyšuje o $I$%, počet zásobníků magické střílny se zvyšuje o $I$. Nyní je možné umístit dodatečnou magickou past.
+2110992132|b1173fc0||Magic Trap duration increases by $I$%.
+2110992133|        |gm_alt_yrden_lvl3_description|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
 2110992134|b1173fc1||Nepřátelé za každou sekundu uvnitř magické pasti ztratí $S$% bodů zdraví nebo jen zlomek.
 2110992135|c84666b6||Když se rozbije, zatlačí štít Quenu protivníky zpět a způsobí jim $I$ bodů poškození. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$).
 2110992136|c84666b7||Když se rozbije, zatlačí štít Quenu se šancí ke sražení protivníky zpět a způsobí jim $I$ bodů poškození. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$).
 2110992137|163a8e73||Alternativní režim znamení:<br>Vytvoří aktivní štít, který pohltí o $I$% více poškození. Jeho udržování spotřebovává $I$ bodů výdrže za sekundu. Odražené útoky spotřebují výdrž úměrnou k pohlcenému poškození. Doplní zdraví o $I$% pohlceného poškození.
 2110992138|71d0c966||Alternativní režim znamení:<br>Vytvoří aktivní štít, který pohltí o $I$% více poškození. Jeho udržování spotřebovává $I$ bodů výdrže za sekundu. Odražené útoky spotřebují výdrž úměrnou k pohlcenému poškození. Doplní zdraví o $I$% pohlceného poškození.
 2110992139|71d0c967||Alternativní režim znamení:<br>Vytvoří aktivní štít, který pohltí o $I$% více poškození. Jeho udržování nadále nespotřebovává výdrž. Odražené útoky spotřebují výdrž úměrnou k pohlcenému poškození. Doplní zdraví o $I$% pohlceného poškození.
-2110992140|15dda916||S každým dalším zásahem přidává vhodně aplikovaný olej na čepele $I$% šanci otrávit protivníka. Vylepšený olej zvyšuje tuto šanci o $I$% a prvotřídní o $I$%.
+2110992140|15dda916||S každým dalším zásahem přidává vhodně aplikovaný olej na čepele $I$% šanci otrávit protivníka. Vylepšený olej zvyšuje tuto šanci o $I$% a prvotřídní o $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992141|15dda91a||Pokud je toxicita nad nulou a nepřítel se právě chystá provést protiútok, čas se automaticky zpomalí o $S$%. Trvání efektu: $S$ sekund .
 2110992142|1517d64d||Pokud je toxicita nad nulou a nepřítel se právě chystá provést protiútok, čas se automaticky zpomalí o $S$%. Trvání efektu: $S$ sekund.
 2110992143|1517d64e||Pokud je toxicita nad nulou a nepřítel se právě chystá provést protiútok, čas se automaticky zpomalí o $S$%. Trvání efektu: $S$ sekund.
-2110992145|329005f0||Umožňuje ti provést silné útoky nablízko, které způsobí o $I$% více poškození a přidají $I$ k průraznosti zbroje.
+2110992145|329005f0||Allows you to perform strong melee attacks which add +$I$% to Attack Power and +$I$ to Armor Penetration.
 2110992148|bab1daf5||Každý bod toxicity zvyšuje sílu útoku a intenzitu znamení o $S$% (do maxima $S$%).
 2110992149|c3f5389c||Znamení mohou způsobit kritické zásahy. Jejich síla a šance na kritický zásah se zvyšuje s intenzitou znamení (současná šance na kritický zásah: $S$%, síla kritického zásahu: $S$%). Protivníci zabití kritickými zásahy z účinků znamení explodují.
 2110992150|c3f538a0||Když se sešle znamení Aard, má dodatečnou $S$% šanci ke zmražení protivníků. Protivníci, co jsou současně zmraženi a sraženi, zemřou okamžitě. Protivníci, kteří nejsou zmraženi, utrží $S$ dodatečného poškození. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $S$.
-2110992151|cf2b2da1||Magická past, která v oblasti působení zpomalí nepřátele o $S$% (zvyšuje se s intenzitou znamení). Trvání pasti: $S$s.
+2110992151|cf2b2da1||Magic trap that slows enemies down by $S$% (scales with Sign Intensity) inside its area of effect. Trap duration: $S$s. The longer the trap persists, the less efficient it becomes.
 2110992152|c3f538a1||Na začátku souboje se za každého soupeře zvyšuje síla útoku a intenzita znamení o $S$%, a za každého dalšího (po prvním z nich), je doba trvání $S$ sekund. Pokud tedy bojuješ s $S$ soupeři, bonus je $S$%. Po vyprchání účinků klesne za každého soupeře (po prvním z nich) síla útoku a intenzita znamení o $S$% (ale ne o víc než $S$%), a o $S$ sekund.
 2110992153|c32e766a||Bonus za sílu kritického zásahu
 2110992154|28838f82||Průraznost zbroje
@@ -153,7 +153,7 @@
 2110992163|7968d6e0||Zmrazí soupeře. Údery zasazené zmraženým nepřátelům způsobují dodatečná poškození. Prodloužené trvání.
 2110992164|b02a28c2||Zvýšení poškození
 2110992165|9e58d1f5||Zvyšuje intenzitu znamení. Prodloužené trvání. Speciální účinky znamení jsou o jednu třetinu delší.
-2110992166|329005f3||Údery zasazené během boje generují body adrenalinu. Každý bod adrenalinu zvyšuje sílu útoku o $I$%.
+2110992166|329005f3||Damage dealt during melee combat generates Adrenaline Points. Each Adrenaline Point increases Attack Power by $I$%.
 2110992167|        |gm_combat_stats_fast_crit_attack_power|Síla kritického zásahu rychlým útokem
 2110992168|        |gm_combat_stats_strong_crit_attack_power|Síla kritického zásahu silným útokem
 2110992169|        |gm_used_razor_success|Geralt je nyní hladce oholen
@@ -227,14 +227,13 @@
 2110992239|        |attribute_name_duration_out_of_cloud|Trvání oblaku
 2110992240|874e9f87||Propůjčuje zrak v naprosté tmě. Prodloužené trvání.
 2110992241|e71d7c8e||Po úspěšném silném útoku je všechna dostupná výdrž pohlcena k dodatečnému snížení zdraví protivníka o 5%. Pokud je spotřebované výdrže méně než 100%, účinek je odpovídajícím způsobem snížen.
-2110992242|fc921527||Od soumraku do úsvitu budou mít aktivovaná místa Moci náhodný efekt. Trvá déle než ostatní odvary z mutagenů.
+2110992242|fc921527||Each Lesser Green Mutagen equipped increases your toxicity decay rate by $S$/sec. Green Mutagen increases the bonus to $S$/sec and Greater Green Mutagen - to $S$/sec.
 2110992243|e71d7c93||Zvyšuje intenzitu znamení během špatného počasí.
 2110992244|fc921524||Zvyšuje odolnost vůči účinkům krvácení, podpálení a jedům způsobených během boje. Čím déle tyto účinky trvají, tím větší je bonus k odolnosti.
 2110992245|fc921525||Provozovaním činností, které spotřebovávají výdrž, se doplňuje zdraví rovnající se spotřebované výdrži. Funguje jen během boje.
-2110992246|fc92152b||Během souboje se za utržené zranění zvyšuje odolnost vůči poškození (až do 20%).
 2110992247|fc921505||Každý úspěšný zásah zvyšuje sílu (až do 100%), dokud boj neskončí, anebo neutržíš zranění (kromě toho způsobeného vysokou toxicitou).
 2110992248|fc921509||V průběhu boje roste síla útoku (až do 30%).
-2110992249|fc921526||Pokaždé, když během boje klesne výdrž na nulu, rychlost regenerace výdrže se zvyšuje (až do 10), dokud boj neskončí.
+2110992249|fc921526||Killing an enemy increases Stamina regeneration rate by $I$/s (up to $I$/s) for the remainder of the fight.
 2110992250|        |option_gm_rnd_scaling_min_slider|Náhodné zvýšení úrovně nepřátel: min.
 2110992251|        |option_gm_rnd_scaling_max_slider|Náhodné zvýšení úrovně nepřátel: max.
 2110992252|        |preset_value_gm_es_random|Náhodně
@@ -259,9 +258,9 @@
 2110992271|        |option_gm_monster_exp_slider|Modifikátor zkušeností za vyhrané souboje:
 2110992272|        |attribute_name_knockdown|Šance na sražení            
 2110992273|b1173fc2||Zvyšuje šanci na sražení k zemi o $I$%.
-2110992274|163a8e76||Přidává $I$ bodů k poškození ohněm a $I$ bodů k poškození proudem ohně za sekundu. 
-2110992275|b1173fc6||Přidává $I$ bodů k poškození magickou střílnou.
-2110992276|b1173fc5||Přidává $I$ bodů k pohlcenému poškození štítem.
+2110992274|163a8e76||Přidává $I$ bodů k poškození ohněm a $I$ bodů k poškození proudem ohně za sekundu. Scales with Sign Power.
+2110992275|b1173fc6||Přidává $I$ bodů k poškození magickou střílnou. Scales with Sign Power.
+2110992276|b1173fc5||Přidává $I$ bodů k pohlcenému poškození štítem. Scales with Sign Power.
 2110992277|        |gm_sign_stats_axii_duration_confusion|Trvání účinku zmatení
 2110992278|        |gm_sign_stats_axii_duration_control|Trvání účinku ovládnutí
 2110992279|163a8e70||Alternativní režim znamení:<br>Aard zasáhne všechny protivníky v dosahu. Intenzita znamení je v tomto režimu o $I$% nižší.
@@ -278,7 +277,7 @@
 2110992291|483c9092||Působené poškození nabíjí meč a zvyšuje sílu kritického zásahu o $S$% (max. $S$%). Nabití se vybíjí buď časem nebo při utrženém zranění. Plně nabitý meč zvyšuje šanci na kritický zásah o $S$%.
 2110992292|1f5adb4f||Zabíjením nepřátel plně nabitým mečem se postupně permanentně navyšuje poškození zbraně. Když bonusové poškození přesáhne maximum nabití, postoupí meč na další úroveň. Poškození je zvýšeno o: $S$ (do maxima 10).
 2110992293|        |gm_sign_stats_heavy_knockdown|Šance na sražení k zemi
-2110992294|f76f46ed||Zabití protivníka ti doplní $I$% výdrže.
+2110992294|f76f46ed||Killing an enemy heals $I$% of maximum Vitality.
 2110992295|fad8f82b||Zabití protivníka přidá $F$ k $F$ bodům adrenalinu.
 2110992296|ed2f3195||Dává $I$% šanci vrácení $I$% utrženého poškození zpět útočníkovi.
 2110992299|f2e69faf||Působené poškození rychlými útoky nabíjí meč energií. Až se barva meče zbarví doruda, silný útok uvolní nastřádanou energii k mimořádně mocnému zásahu, za cenu části útočníkova zdraví.
@@ -293,17 +292,16 @@
 2110992308|        |gm_kills_humans_total|Humanoidi
 2110992309|        |gm_kills_bosses_total|Unikátní bytosti/Bossové
 2110992310|1f70c026||Zvyšuje šanci na kritický zásah kuší o $I$% a sílu kritického zásahu o $I$%.
-2110992311|e71d7c8c||Dává 15% dodatečné odolnosti proti všem druhům poškození, pokud je váha inventáře 60 nebo menší, s větší váhou se bonus snižuje.
 2110992312|        |option_gm_stash_sync_toggle|Použije režim synchronizace uložiště jako výchozí nastavení:
 2110992313|da7e5ba8||Pokud máš alespoň jeden bod adrenalinu, použije se na seslání znamení místo výdrže.
 2110992314|        |option_gm_no_add_levels_guards|Žádné dodatečné navýšení úrovně stráží:
 2110992315|329005f1||Obranné techniky školy Vlka: parírování, protiútok, únik/pirueta. Úspěšný protiútok přidá dodatečnou $I$% šanci na kritický zásah. Úspěch parírování a protiútoku závisí na typu útoku a druhu protivníka: částečné parírování snižuje utržené poškození o $I$% a zabraňuje krvácení, častečný protiútok navíc brání všem negativním efektům a umožňuje přesměrovávat poškození zpět na protivníka. Úspěšné parírování/protiútok snižuje utržené poškození na nulu. Kotoul umožňuje vyhnout se šípům a efektům sražení/vyvedení z rovnováhy. Úspěch úniku/piruety závisí na typu útoku, útočníkově vzdálenosti a směru úhybu (úhel vzdálenosti). Částečně úspěšný únik/pirueta snižuje utržené poškození jen častečně.
 2110992316|1f70c028||Každý dovednostní bod zvyšuje bezpečný úhel vzdálenosti během úniku/piruety o 10 stupňů.
-2110992317|8d17aaa0||Snižuje utržené poškození od příšer (dle druhu), pokud se proti nim použije typ oleje, vůči kterému jsou zranitelní, o $I$%.
+2110992317|8d17aaa0||Snižuje utržené poškození od příšer (dle druhu), pokud se proti nim použije typ oleje, vůči kterému jsou zranitelní, o $I$%. Enhanced oil additionally reduces the damage by $I$% and Superior - by $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992318|5f63dbf4||Umožňuje výrobu olejů, které mohou být aplikovány na meče. Efektivita se snižuje stíráním oleje z čepele během boje.
-2110992319|754d1890||Zvyšuje zisk adrenalinu o $I$%. Umožňuje bojovým akcím místo výdrže spotřebovávat adrenalin.
+2110992319|754d1890||Increases Adrenaline gain by $I$%. In addition to usual Battle Trance effect, each Adrenaline Point also decreases melee action Stamina cost by $I$%.
 2110992320|        |item_desc_armor_type_heavy_set_bonus|Bonus za set těžké zbroje: +$I$% ke všem odolnostem vůči poškození.
-2110992321|        |item_desc_armor_type_medium_set_bonus|Bonus za set střední zbroje: +$I$% k odolnostem vůči účinkům jedů, krvácení a podpálení.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$ to maximum Vitality.
 2110992322|        |item_desc_armor_type_light_set_bonus|Bonus za set lehké zbroje: +$I$ ke stupňům bezpečného úhlu vzdálenosti během úniku/piruety.
 2110992323|        |skill_desc_viper_set_ability1|Dáva imunitu vůči jedům. Jedy léčí $S$% poškození jedem za každou část stejného vybaveného setu (současné množství obnoveného zdraví: $S$%).
 2110992324|        |gm_stat_attack_power_levelup_bonus|Bonus silného útoku
@@ -318,14 +316,14 @@
 2110992333|        |item_desc_dismantle_kit_alchemy_1|Umožňuje rozebrat alchymistické součásti.
 2110992334|        |panel_button_hud_interaction_dismantle|Rozebrat
 2110992336|d23efdb0||Parírování útoku vyvede útočníka z rovnováhy.
-2110992337|e9c58057||Všechny vybavené části zbroje jsou brány jako střední zbroj. Regenerace výdrže je nezměněna. Penalizace výdrže za bojové akce zůstává nezměněna.
-2110992338|eb7a58f6||Všechny vybavené části zbroje jsou brány jako těžká zbroj. Zbroj získá penalizaci k regeneraci výdrže. Penalizace výdrže za bojové akce zůstává nezměněna.
-2110992339|e810a7b8||Všechny vybavené části zbroje jsou brány jako lehká zbroj. Zbroj získá bonus k regeneraci výdrže. Penalizace výdrže za bojové akce zůstává nezměněna.
+2110992337|e9c58057||Všechny vybavené části zbroje jsou brány jako střední zbroj. Penalizace výdrže za bojové akce zůstává nezměněna.
+2110992338|eb7a58f6||Všechny vybavené části zbroje jsou brány jako těžká zbroj. Penalizace výdrže za bojové akce zůstává nezměněna.
+2110992339|e810a7b8||Všechny vybavené části zbroje jsou brány jako lehká zbroj. Penalizace výdrže za bojové akce zůstává nezměněna.
 2110992342|cea7442f||Během začátku boje okamžitě získáš jeden bod adrenalinu. Generování adrenalinových bodů je zvýšeno o $I$%.
 2110992343|        |effect_dimeritium|Dwimerit
-2110992344|63cd93a3||Uvolňuje oblak dwimeritových odštěpků, který blokuje primitivní magii a magické shopnosti příšer. Oslabuje zbroj magických stvoření.
-2110992345|63cd93a4||Uvolňuje oblak dwimeritových odštěpků, který blokuje primitivní magii a magické shopnosti příšer. Oslabuje zbroj magických stvoření. Proudloužené trvání.
-2110992346|63cd93a5||Uvolňuje oblak dwimeritových odštěpků, který blokuje primitivní magii a magické shopnosti příšer. Oslabuje zbroj magických stvoření. Proudloužené trvání.
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage. Lasts longer.
 2110992347|        |attribute_name_dbomb_armor_piercing|Proražení zbroje
 2110992348|        |attribute_name_cloud_duration|Trvání oblaku
 2110992349|15dda91c||Každý známý elixír, petarda a olej 1. úrovně zvyšuje maximální toxicitu o 1 bod.
@@ -364,3 +362,77 @@
 2110992382|        |gm_toxicity_offset_description|Vyrovnání toxicity si vyhrazuje množství tvé maximální toxicity po dobu trvání účinku odvaru.
 2110992383|        |gm_stat_adrenaline_gain_light|Zisk adrenalinu rychlým útokem
 2110992384|        |gm_stat_adrenaline_gain_heavy|Zisk adrenalinu silným útokem
+2110992386|d02fd0a4||Once they reach their maximum level, Adrenaline Points steadily decline until they reach zero at a rate of $S$ points per sec. During this time Vitality regenerates faster by $S$%/sec, Stamina regenerates faster by $S$%/sec, and Toxicity declines faster by $S$ points/sec.
+2110992387|f098e2d3||Igni's basic attack strikes all opponents in a 360-degree radius. Burning chance is decreased by $I$%.
+2110992388|fc92152b||Getting hit more than once within $S$ sec makes you immune to damage for the next $S$ sec.
+2110992389|e71d7c8c||Gain adrenaline for damage received. Scales with the amount of damage proportional to your maximum health: $S$ points per 1% of health lost.
+2110992390|fc92152c||Damage dealt to enemies in spectral form is increased from $I$% to $I$% of normal damage.
+2110992391|        |option_gm_cbtsreg|Combat stamina regen (additional)
+2110992392|        |option_gm_ocbtsreg|Out of combat stamina regen (additional)
+2110992393|        |option_gm_cbtvreg|Combat vitality regen (additional)
+2110992394|        |option_gm_ocbtvreg|Out of combat vitality regen (additional)
+2110992395|        |option_gm_mscost|Melee action cost modifier
+2110992396|        |option_gm_sscost|Sign action cost modifier
+2110992397|        |option_gm_stdelay|Stamina regen delay (additional, seconds)
+2110992398|dd7afaaa||Attack is the Best Defense
+2110992399|754d18b0||Killing an enemy restores $I$% of your Stamina. Critical hits and successful counters restore $I$% of your Stamina.
+2110992400|        |effect_whirl_cooldown|Whirl cooldown
+2110992401|        |effect_rend_cooldown|Rend cooldown
+2110992402|        |effect_aard_cooldown|Aard cooldown
+2110992403|        |effect_igni_cooldown|Igni cooldown
+2110992404|        |effect_yrden_cooldown|Yrden cooldown
+2110992405|        |effect_quen_cooldown|Quen cooldown
+2110992406|        |effect_axii_cooldown|Axii cooldown
+2110992407|        |option_gm_mcooldown|Melee special cooldown (seconds)
+2110992408|        |option_gm_scooldown|Sign cooldown (seconds)
+2110992409|        |attribute_name_stamina_cost_light|Fast attack stamina cost
+2110992410|        |attribute_name_stamina_cost_heavy|Strong attack stamina cost
+2110992411|        |attribute_name_stamina_cost_parry|Parry stamina cost
+2110992412|        |attribute_name_stamina_cost_counter|Counter stamina cost
+2110992413|        |attribute_name_stamina_cost_dodge|Dodge stamina cost
+2110992414|        |attribute_name_stamina_cost_roll|Roll stamina cost
+2110992415|        |attribute_name_stamina_cost_sprint|Sprint stamina cost
+2110992416|        |attribute_name_stamina_cost_jump|Jump stamina cost
+2110992417|        |attribute_name_stamina_cost_item|Use item stamina cost
+2110992418|        |attribute_name_stamina_cost_aard|Aard stamina cost
+2110992419|        |attribute_name_stamina_cost_igni|Igni stamina cost
+2110992420|        |attribute_name_stamina_cost_yrden|Yrden stamina cost
+2110992421|        |attribute_name_stamina_cost_quen|Quen stamina cost
+2110992422|        |attribute_name_stamina_cost_axii|Axii stamina cost
+2110992423|        |attribute_name_nonres_tox|Non-reserved Toxicity
+2110992424|        |attribute_name_tox_dec_rate|Toxicity Decay Rate
+2110992425|        |attribute_name_avail_tox|Available Toxicity
+2110992426|736e017e||Light gear. Offers minimal protection.
+2110992427|320650a7||Medium gear. Offers average protection. Combat actions require more stamina.
+2110992428|942892ef||Heavy gear. Offers the best protection. Combat actions and sign casting require significantly more stamina.
+2110992429|6d1ad461||Light Armor does not provide much protection, but your combat actions require less stamina when it is equipped. Medium Armor and Heavy Armor absorb more damage, but your combat actions require more stamina.
+2110992430|4080bc95||Dealing damage in combat heals $S$% of maximum Vitality for each piece of the set (currently $S$%).
+2110992431|        |option_gm_ascooldown|Alternate Sign cooldown (seconds)
+2110992432|        |option_gm_sign_instant_cast_toggle|Instant sign casting with sign select key
+2110992433|9ec8a224||Immediately restores a portion of Vitality and stops bleeding.
+2110992434|9ec8a225||Immediately restores a large portion of Vitality and stops bleeding.
+2110992435|9ec8a226||Restores Vitality immediately and fully and stops bleeding. Grants immunity to damage for a short duration.
+2110992436|fc921529||Each Lesser Red Mutagen equipped decreases melee action stamina cost by $S$%. Red Mutagen increases the bonus to $S$% and Greater Red Mutagen - to $S$%.
+2110992437|        |option_gm_jump_in_cbt|Allow jumping in combat while sprinting
+2110992438|        |attribute_name_stamina_cost_whirl|Whirl stamina cost
+2110992439|        |attribute_name_stamina_cost_rend|Rend stamina cost
+2110992440|        |attribute_name_dismember_chance|Dismember chance
+2110992441|        |panel_gm_qol_options|QoL
+2110992442|        |option_gm_lowstamsfx|Low stamina sfx threshold (percents)
+2110992443|        |option_gm_lowstamsfx_vol|Low stamina sfx volume
+2110992444|        |option_gm_lowstamsfx_dynvol|Use dynamic low stamina sfx volume
+2110992445|        |option_gm_lowstamsfx_rate|Low stamina sfx rate
+2110992446|        |option_gm_lowstamsfx_dynrate|Use dynamic low stamina sfx rate
+2110992447|        |preset_Mods_ghost_mode_gm_qol_options|QoL Presets
+2110992448|        |preset_value_gm_recommended|Recommended
+2110992449|        |preset_value_gm_turn_off|Off
+2110992450|        |preset_Mods_ghost_mode_gm_gameplay_options|Gameplay Presets
+2110992451|        |preset_value_gm_default|Default
+2110992452|        |preset_Mods_ghost_mode_gm_exp_options|Experience Presets
+2110992453|        |preset_Mods_ghost_mode_gm_scaling_options|Scaling Presets
+2110992454|15dda917||When consumed, mutagen decoction increases maximum Vitality by $I$ points per each toxicity offset point for decoction's effective duration.
+2110992455|e71d7c8b||Non-critical damage dealt with a sword increases Critical hit chance for subsequent attacks by $I$% (max $I$%). Bonus resets on successful critical hit and at the end of the combat.
+2110992456|        |attribute_name_dbomb_dmg_reduction|Damage reduction
+2110992457|fc92150b||Hit Reaction Severity is reduced to zero, if damage received is less than $I$% of your maximum Health.
+2110992458|        |option_gm_armor_reg_penalty|Enable stamina regen penalty for armors
+2110992459|        |preset_value_gm_old_ver|Vanilla(ish)

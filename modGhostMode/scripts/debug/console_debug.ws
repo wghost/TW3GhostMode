@@ -812,3 +812,80 @@ exec function addkmset()
 	thePlayer.inv.AddAnItem('Kaer Morhen Gloves 2',1);
 	thePlayer.inv.AddAnItem('Kaer Morhen Gloves 3',1);
 }
+
+/*exec function PlayEffect(n : name)
+{
+	thePlayer.PlayEffect(n);
+}
+
+exec function PlayerSound(n : string)
+{
+	thePlayer.SoundEvent(n);
+}
+
+exec function GameSound(n : string)
+{
+	theSound.SoundEvent(n);
+}
+
+exec function LoadSoundBank(n : string)
+{
+	theSound.SoundLoadBank(n, true);
+}
+
+exec function heartbeatloadbank()
+{
+	theSound.SoundLoadBank("heartbeat02a.bnk", true);
+}
+
+exec function heartbeat()
+{
+	theSound.SoundEvent("play_heartbeat_02a_loop");
+}
+
+exec function heartbeatstop()
+{
+	theSound.SoundEvent("stop_heartbeat_02a_loop");
+}
+
+exec function heartbeatrate(r: float)
+{
+	r = ClampF(r, 0, 100);
+	theSound.SoundParameter("heartbeat_rate", r);
+}
+
+exec function heartbeatnpc()
+{
+	var ents : array< CGameplayEntity >;
+	var actor : CActor;
+	var interactionTarget : CInteractionComponent;
+	
+	interactionTarget = theGame.GetInteractionsManager().GetActiveInteraction();
+	
+	if( interactionTarget )
+	{
+		theGame.witcherLog.AddMessage("Object template: " + interactionTarget.GetEntity().GetReadableName());
+	}
+	
+	if( !interactionTarget )
+	{
+		actor = thePlayer.GetTarget();
+	}
+	
+	if( !actor )
+	{
+		FindGameplayEntitiesCloseToPoint( ents,  thePlayer.GetWorldPosition(), 3, 1, , , , 'CNewNPC');
+		if( ents.Size() > 0 )
+		{
+			actor = (CActor)ents[0];
+		}
+	}
+	
+	if( actor )
+	{
+		theGame.witcherLog.AddMessage("NPC template: " + actor.GetReadableName());
+		theSound.SoundLoadBank("heartbeat02a.bnk", false);
+		actor.SoundEvent("play_heartbeat_02a_loop");
+	}
+}
+*/

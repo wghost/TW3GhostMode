@@ -96,8 +96,8 @@
 2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Ganho de Adrenalina
-2110992106|739e1e2c||Ataques fortes aumentam o dano do ataque rápido por $S$ segundos em $S$% para cada peça do conjunto. E vice versa, Bônus atual: $S$%.
-2110992107|8ed43e3e||Casting a sign increases other signs' power for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
+2110992106|739e1e2c||Damage dealt with Fast attacks charges your Strong attack with additional power: +$S$% to Attack Power for each piece of the set (currently +$S$%), up to +$S$% max. And vice versa. The bonus is reset after performing a charged attack and at the end of the combat.
+2110992107|8ed43e3e||Casting a sign reduces stamina cost of all the subsequent actions taken by $S$% for each piece of the set. Current bonus: $S$%. Lasts for $S$ sec.
 2110992108|8ed43e3f||O tamanho das armadilhas Yrden é aumentado em $S$%. Enquanto você estiver dentro de uma armadilha de Yrden, a intensidade do Sinal é aumentada em $S$% e o dano sofrido é reduzido em $S$%.
 2110992109|739e1e2d||Danos críticos com uma espada dobram o ganho de Adrenalina.
 2110992110|        |attribute_name_desc_knockdownchance_mult|Chance de derrubar
@@ -111,10 +111,10 @@
 2110992118|cea74417||Aumenta a chance de acerto crítico do ataque rápido em $I$% e o dano do acerto crítico do ataque rápido em $I$%.
 2110992119|1f70c027||Aumenta a chance de acerto critico de ataques fortes em $I$% e o dano do acerto critíco do ataque forte em $I$%.
 2110992120|c1e68bc4||Bloqueios perfeitos fazem flechas ricochetearem, o dano é aumentado em $I$%.
-2110992121|c1e68f84||Successful counterattack increases next attack power by $I$%. Increases critical hit chance by $I$%.
-2110992122|c1e68f85||Successful counterattack increases next attack power by $I$%. Increases critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
-2110992123|cea74411||Successful counterattack increases next attack power by $I$%.
-2110992124|cf2b2da2||Escudo protetor que dura até que tenha absorvido $I$ pontos de dano. A absorção de danos varia com a intensidade do Sinal. Absorção atual: $I$. <br>Duração do escudo: $I$s.
+2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
+2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
+2110992123|cea74411||Increases counterattack power by $I$%.
+2110992124|cf2b2da2||Escudo protetor que dura até que tenha absorvido $I$ pontos de dano. A absorção de danos varia com a intensidade do Sinal. Absorção atual: $I$. Prevents knockdown and stagger effects (and then breaks). Prevents burning, poison and bleeding effects. <br>Duração do escudo: $I$s.
 2110992125|163a8e77||O dano causado por Igni enfraquece a armadura do inimigo permamentemente em $S$% por acerto (varia com a intensidade do Sinal). O valor máximo do efeito não pode exceder $S$%.
 2110992126|cf2b2da0||Explosão ardente que provoca $I$ pontos de dano com $I$% de chance de incendiar os inimigos. O dano varia com a intensidade do sinal. Dano atual: $I$.
 2110992127|163a8e71||Modo de Sinal Alternativo:<br>Emite um fluxo constante de fogo que atinge um único inimigo causando $I$ pontos de dano por segundo. O dano varia com a intensidade do Sinal (dano atual: $I$). Drena $I$ pontos de Vigor por segundo.
@@ -122,23 +122,23 @@
 2110992129|71d0c1e5||Modo de Sinal Alternativo:<br>Emite um fluxo constante de fogo que atinge um único inimigo causando $I$ pontos de dano por segundo. O dano varia com a intensidade do Sinal (dano atual: $I$). Drena $I$ pontos de Vigor por segundo.
 2110992130|163a8e75||Aard agora causa $I$ de dano. O dano varia com a intesidade do Sinal. Dano atual: $I$.
 2110992131|b3c8ebb8||TORRE MÁGICA
-2110992132|b1173fc0||Duração da Torre Mágica e Armadilha Mágica aumenta em $I$%, número de cargas da Torre Mágica aumenta em $I$.
-2110992133|        |gm_alt_yrden_lvl3_description|Duração da Torre Mágica e Armadilha Mágica aumenta em $I$%, número de cargas da Torre Mágica aumenta em $I$. Permite uma Armadilha Mágica a mais.
+2110992132|b1173fc0||Magic Trap duration increases by $I$%.
+2110992133|        |gm_alt_yrden_lvl3_description|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
 2110992134|b1173fc1||Inimigos dentro da Armadilha mágica perdem $S$% de ponto(s) de Saúde ou essência por segundo.
 2110992135|c84666b6||O escudo Quen empurra os oponentes para trás provocando $I$ pontos de dano ao ceder. O dano varia com a intensidade do Sinal (dano atual: $I$).
 2110992136|c84666b7||O Sinal Quen empurra os oponentes para trás com chance de nocaute provocando $I$ pontos de dano ao ceder. O dano varia com a intensidade do Sinal (dano atual: $I$).
 2110992137|163a8e73||Modo Alternativo de Sinal:<br>Cria um escudo ativo que absorve $I$% mais dano. Mantê-lo drena $I$ Pontos de Vigor por segundo. Os ataques bloqueados drenam Vigor proporcional aos danos absorvidos. Restaura a Vitalidade que corresponde a $I$% do dano absorvido.
 2110992138|71d0c966||Modo Alternativo de Sinal:<br>Cria um escudo ativo que absorve $I$% mais dano. Mantê-lo drena $I$ Pontos de Vigor por segundo. Os ataques bloqueados drenam Vigor proporcional aos danos absorvidos. Restaura a Vitalidade que corresponde a $I$% do dano absorvido.
 2110992139|71d0c967||Modo Alternativo de Sinal:<br>Cria um escudo ativo que absorve $I$% mais dano. Manter o escudo ativo não consome vigor. Os ataques bloqueados drenam Vigor proporcional aos danos absorvidos. Restaura a Vitalidade que corresponde a $I$% do dano absorvido. 
-2110992140|15dda916||Óleo de aplicação em lâminas que dá $I$% de chance de envenenar o alvo a cada acerto.Óleo Melhorado aumentam essa chance em $I$% e Superior - em $I$%.
+2110992140|15dda916||Óleo de aplicação em lâminas que dá $I$% de chance de envenenar o alvo a cada acerto.Óleo Melhorado aumentam essa chance em $I$% e Superior - em $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992141|15dda91a||Se a Toxicidade estiver acima de zero, O tempo automaticamente desacelera quando um inimigo estiver prestes a realizar um contra-ataque. Duração do efeito: $S$s.
 2110992142|1517d64d||Se a Toxicidade estiver acima de zero, O tempo automaticamente desacelera quando um inimigo estiver prestes a realizar um contra-ataque. Duração do efeito: $S$s.
 2110992143|1517d64e||Se a Toxicidade estiver acima de zero, O tempo automaticamente desacelera quando um inimigo estiver prestes a realizar um contra-ataque. Duração do efeito: $S$s.
-2110992145|329005f0||Permite que você realize ataques corporais fortes que provocam $I$% a mais de dano e adiciona $I$ para a penetração de armadura.
+2110992145|329005f0||Allows you to perform strong melee attacks which add +$I$% to Attack Power and +$I$ to Armor Penetration.
 2110992148|bab1daf5||Cada ponto de Toxicidade aumenta o poder de ataque e a intensidade do Sinal em $S$% ( até o máximo de $S$%).
 2110992149|c3f5389c||Sinais podem causar danos críticos. A chance e o dano de acertos críticos aumentam com a intesnsidade do Sinal (atual chance de acerto crítico - $S$%, poder de acerto crítico - $S$%). Oponentes mortos por um acerto crítico de Sinais explodem.
 2110992150|c3f538a0||Quando o Sinal Aard é lançado, há uma chance adicional de $S$% de congelar inimigos. Oponentes nocauteados e congelados ao mesmo tempo morrem de imediato. Oponentes que não forem congelados recebem um dano adicional de $S$. O dano varia com a intensidade do Sinal. Dano atual: $S$.
-2110992151|cf2b2da1||Armadilha mágica que desacelera os inimigos em $S$% (varia com a intensidade do Sinal) que estão em sua área de efeito. Duração da armadilha: $S$s.
+2110992151|cf2b2da1||Magic trap that slows enemies down by $S$% (scales with Sign Intensity) inside its area of effect. Trap duration: $S$s. The longer the trap persists, the less efficient it becomes.
 2110992152|c3f538a1||No começo do combate, O poder de ataque e a intensidade do Sinal aumentam em  $S$% para cada inimigo (exceto o primeiro) por $S$s. Assim, quando enfrentar $S$ inimigos, o bônus é de $S$%. Quando o efeito acaba, o poder de ataque e a intensidade do Sinal caem em $S$% para cada inimigo envolvido exceto o primeiro (o modificador não pode ultrapassar $S$%) por $S$s.
 2110992153|c32e766a||Bônus de poder de acerto crítico
 2110992154|28838f82||Penetração de armadura
@@ -153,7 +153,7 @@
 2110992163|7968d6e0||Congela inimigos. Ataques feitos contra inimigos congelados causam dano adicional. Duração estendida.
 2110992164|b02a28c2||Aumento de dano
 2110992165|9e58d1f5||Aumenta a intensidade do Sinal. Duração estendida. Os efeitos especiais dos Sinais são um terço mais duradouros.
-2110992166|329005f3||Ataques que atingem durante o combate geram Pontos de Adrenalina. Cada Ponto de Adrenalina aumenta o dano da arma em $I$%.
+2110992166|329005f3||Damage dealt during melee combat generates Adrenaline Points. Each Adrenaline Point increases Attack Power by $I$%.
 2110992167|        |gm_combat_stats_fast_crit_attack_power|Poder de acerto crítico do ataque rápido
 2110992168|        |gm_combat_stats_strong_crit_attack_power|Poder de acerto crítico do ataque rápido
 2110992169|        |gm_used_razor_success|Geralt está agora barbeado
@@ -227,14 +227,13 @@
 2110992239|        |attribute_name_duration_out_of_cloud|Duração fora da nuvem
 2110992240|874e9f87||Concede visão na escuridão total. Duração estendida.
 2110992241|e71d7c8e||Se você possuir Vigor disponivel, ataques fortes consomem tudo e reduzem a Vitalidade do oponente golpeado em 5%, se o Vigor consumido for inferior a 100%, o efeito é proporcionalmente diminuido.
-2110992242|fc921527||Aplica o efeito de um Lugar de Poder aleatório ao anoitecer e ao amanhecer. Dura mais que outros agentes mutagênicos.
+2110992242|fc921527||Each Lesser Green Mutagen equipped increases your toxicity decay rate by $S$/sec. Green Mutagen increases the bonus to $S$/sec and Greater Green Mutagen - to $S$/sec.
 2110992243|e71d7c93||Aumenta a intensidade do Sinal durante o mau tempo.
 2110992244|fc921524||Aumenta a resistência ao sangramento, efeitos que queimam e envenenam aplicados durante o combate. Quanto mais durarem estes efeitos, maior será o bônus de resistência.
 2110992245|fc921525||Realizar ações que consomem Vigor regenera a Vitalidade proporcinalmente ao Vigor gasto. Works only while in combat.
-2110992246|fc92152b||Levar dano aumenta a resistência a dano pelo resto da luta (até 20%).
 2110992247|fc921505||Cada golpe acertado aumenta o poder de ataque (até 100%) até que a luta termine ou que leve dano (outro que não seja da toxicidade)
 2110992248|fc921509||Poder de ataque cresce ao longo de uma luta (até 30%)
-2110992249|fc921526||Each time Stamina drops to zero in combat, Stamina regeneration rate increases (up to 10) for the remainder of the fight.
+2110992249|fc921526||Killing an enemy increases Stamina regeneration rate by $I$/s (up to $I$/s) for the remainder of the fight.
 2110992250|        |option_gm_rnd_scaling_min_slider|Escala randômica: limite inferior (relativo ao nível do jogador)
 2110992251|        |option_gm_rnd_scaling_max_slider|Escala randômica: limite superior (relativo ao nível do jogador)
 2110992252|        |preset_value_gm_es_random|Randômico
@@ -259,9 +258,9 @@
 2110992271|        |option_gm_monster_exp_slider|Modificador de experiência adquirida no combate
 2110992272|        |attribute_name_knockdown|Chance de derrubar
 2110992273|b1173fc2||Aumenta a intensidade para derrubar em $I$%.
-2110992274|163a8e76||Adiciona $I$ pontos na intensidade do Sinal e $I$ pontos na onda de fogo por segundo.
-2110992275|b1173fc6||Aumenta em $I$ pontos o dano da Armadilha mágica.
-2110992276|b1173fc5||Adiciona $I$ pontos na capacidade do escudo para absorver danos.
+2110992274|163a8e76||Adiciona $I$ pontos na intensidade do Sinal e $I$ pontos na onda de fogo por segundo. Scales with Sign Power.
+2110992275|b1173fc6||Aumenta em $I$ pontos o dano da Armadilha mágica. Scales with Sign Power.
+2110992276|b1173fc5||Adiciona $I$ pontos na capacidade do escudo para absorver danos. Scales with Sign Power.
 2110992277|        |gm_sign_stats_axii_duration_confusion|Duração da confusão
 2110992278|        |gm_sign_stats_axii_duration_control|Duração do controle
 2110992279|163a8e70||Modo de Sinal Alternativo:<br>Aard acerta todos os oponentes em um certo raio. A intensidade do sinal é $I$% menor neste modo.
@@ -278,7 +277,7 @@
 2110992291|483c9092||Damage dealt charges the sword increasing its critical hit power by $S$% (max. $S$%). Charge decays over time and on damage taken. A fully-charged sword increases critical hit chance by $S$%.
 2110992292|1f5adb4f||Matar um inimigo com a espada inteiramente carregada gastará sua carga para aumentar permanentemente o dano da arma. Quando o bônus de dano alcança seu máximo, o nível da espada aumenta. O dano é aumentado em $S$ (até um máximo de 10).
 2110992293|        |gm_sign_stats_heavy_knockdown|Chance de nocautear
-2110992294|f76f46ed||Matar um inimigo restaura $I$% de seu Vigor. 
+2110992294|f76f46ed||Killing an enemy heals $I$% of maximum Vitality.
 2110992295|fad8f82b||Matar um inimigo dá $F$ a $F$ Pontos de Adrenalina. 
 2110992296|ed2f3195||Dá $I$% de chance de devolver $I$% de dano sofrido para o atacante.
 2110992299|f2e69faf||Provocar danos com ataques rápidos faz a arma se carregar de energia, quando ganha uma coloração vermelha, um ataque forte libera esta energia em um golpe extra-forte, ao custo de parte da Vitalidade do atacante.
@@ -293,17 +292,16 @@
 2110992308|        |gm_kills_humans_total|Humanoides 
 2110992309|        |gm_kills_bosses_total|Criaturas únicas
 2110992310|1f70c026||Aumenta a chance de acerto crítico da besta em $I$% e o poder do acerto crítico da besta em $I$%.
-2110992311|e71d7c8c||Concede 15% de resistência adicional a todos os tipos de danos caso esteja com no máximo 60 kilos no invetário, bônus diminui com mais peso.
 2110992312|        |option_gm_stash_sync_toggle|Sincronizar o estoque com o inventário, modo padrão 
 2110992313|da7e5ba8||Se você tiver pelo menos um Ponto de Adrenalina, ele será usado para lançar um Sinal em vez de Vigor.
 2110992314|63833111||Não elevar o nivel dos guardas  
 2110992315|329005f1||Wolf School defensive techniques: parry, counter, dodge. Successful countering grants additional $I$% chance to critical hit. Parry and counter success depends on attack and enemy type: partial parry reduces damage taken by $I$% and prevents bleeding, partial counter additionally prevents all negative effects and allows to deal damage in return. Successful parry/counter reduces damage taken to zero. Rolling allows to dodge arrows and to avoid knockdown and stagger effects. Dodge success depends on attack type, attacker distance and dodge direction (angle distance). Partially successful dodge reduces damage taken just partially.
 2110992316|1f70c028||Each skill point increases the safe angle distance while dodging by 10 degrees.
-2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%.
+2110992317|8d17aaa0||Reduces the damage taken from the monster type the oil targets by $I$%. Enhanced oil additionally reduces the damage by $I$% and Superior - by $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992318|5f63dbf4||Enables the creation of oils that can be applied to swords. Effectiveness decreases with oil rubbing off the blade.
-2110992319|754d1890||Increases Adrenaline generation by $I$%. Allows to pay melee action Stamina cost with Adrenaline.
+2110992319|754d1890||Increases Adrenaline gain by $I$%. In addition to usual Battle Trance effect, each Adrenaline Point also decreases melee action Stamina cost by $I$%.
 2110992320|        |item_desc_armor_type_heavy_set_bonus|Heavy armor set bonus: +$I$% to all damage resistances.
-2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$% to poison, bleeding and burning effect resistances.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$ to maximum Vitality.
 2110992322|        |item_desc_armor_type_light_set_bonus|Light armor set bonus: +$I$ degrees to the safe angle distance while dodging.
 2110992323|        |skill_desc_viper_set_ability1|Grants poison immunity. Poisons heal by $S$% of poison damage for each set piece equipped (current healing rate is: $S$%).
 2110992324|        |gm_stat_attack_power_levelup_bonus|Attack Power bonus
@@ -318,14 +316,14 @@
 2110992333|        |item_desc_dismantle_kit_alchemy_1|Allows to dismantle alchemy components.
 2110992334|        |panel_button_hud_interaction_dismantle|Dismantle
 2110992336|d23efdb0||Parrying an attack staggers the attacking enemy.
-2110992337|e9c58057||All equipped armor items are treated as Medium Armor. Stamina regeneration is unchanged. Stamina penalties for combat actions are unchanged.
-2110992338|eb7a58f6||All equipped armor items are treated as Heavy Armor. Armor gets stamina regeneration penalty. Stamina penalties for combat actions are unchanged.
-2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Armor gets stamina regeneration bonus. Stamina penalties for combat actions are unchanged.
+2110992337|e9c58057||All equipped armor items are treated as Medium Armor. Stamina penalties for combat actions are unchanged.
+2110992338|eb7a58f6||All equipped armor items are treated as Heavy Armor. Stamina penalties for combat actions are unchanged.
+2110992339|e810a7b8||All equipped armor items are treated as Light Armor. Stamina penalties for combat actions are unchanged.
 2110992342|cea7442f||Instantly gain one Adrenaline Point when entering combat. The generation of Adrenaline Points is increased by $I$%.
 2110992343|        |effect_dimeritium|Dimeritium
-2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens magic creature Armor.
-2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens magic creature Armor. Lasts longer.
-2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens magic creature Armor. Lasts longer.
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage. Lasts longer.
 2110992347|        |attribute_name_dbomb_armor_piercing|Armor piercing
 2110992348|        |attribute_name_cloud_duration|Cloud duration
 2110992349|15dda91c||Every known level 1 potion, bomb and oil formula increases maximum Toxicity by 1.
@@ -364,3 +362,77 @@
 2110992382|        |gm_toxicity_offset_description|Toxicity offset reserves an amount of your maximum Toxicity for the duration of the decoction effect.
 2110992383|        |gm_stat_adrenaline_gain_light|Fast attack Adrenaline Gain
 2110992384|        |gm_stat_adrenaline_gain_heavy|Strong attack Adrenaline Gain
+2110992386|d02fd0a4||Once they reach their maximum level, Adrenaline Points steadily decline until they reach zero at a rate of $S$ points per sec. During this time Vitality regenerates faster by $S$%/sec, Stamina regenerates faster by $S$%/sec, and Toxicity declines faster by $S$ points/sec.
+2110992387|f098e2d3||Igni's basic attack strikes all opponents in a 360-degree radius. Burning chance is decreased by $I$%.
+2110992388|fc92152b||Getting hit more than once within $S$ sec makes you immune to damage for the next $S$ sec.
+2110992389|e71d7c8c||Gain adrenaline for damage received. Scales with the amount of damage proportional to your maximum health: $S$ points per 1% of health lost.
+2110992390|fc92152c||Damage dealt to enemies in spectral form is increased from $I$% to $I$% of normal damage.
+2110992391|        |option_gm_cbtsreg|Combat stamina regen (additional)
+2110992392|        |option_gm_ocbtsreg|Out of combat stamina regen (additional)
+2110992393|        |option_gm_cbtvreg|Combat vitality regen (additional)
+2110992394|        |option_gm_ocbtvreg|Out of combat vitality regen (additional)
+2110992395|        |option_gm_mscost|Melee action cost modifier
+2110992396|        |option_gm_sscost|Sign action cost modifier
+2110992397|        |option_gm_stdelay|Stamina regen delay (additional, seconds)
+2110992398|dd7afaaa||Attack is the Best Defense
+2110992399|754d18b0||Killing an enemy restores $I$% of your Stamina. Critical hits and successful counters restore $I$% of your Stamina.
+2110992400|        |effect_whirl_cooldown|Whirl cooldown
+2110992401|        |effect_rend_cooldown|Rend cooldown
+2110992402|        |effect_aard_cooldown|Aard cooldown
+2110992403|        |effect_igni_cooldown|Igni cooldown
+2110992404|        |effect_yrden_cooldown|Yrden cooldown
+2110992405|        |effect_quen_cooldown|Quen cooldown
+2110992406|        |effect_axii_cooldown|Axii cooldown
+2110992407|        |option_gm_mcooldown|Melee special cooldown (seconds)
+2110992408|        |option_gm_scooldown|Sign cooldown (seconds)
+2110992409|        |attribute_name_stamina_cost_light|Fast attack stamina cost
+2110992410|        |attribute_name_stamina_cost_heavy|Strong attack stamina cost
+2110992411|        |attribute_name_stamina_cost_parry|Parry stamina cost
+2110992412|        |attribute_name_stamina_cost_counter|Counter stamina cost
+2110992413|        |attribute_name_stamina_cost_dodge|Dodge stamina cost
+2110992414|        |attribute_name_stamina_cost_roll|Roll stamina cost
+2110992415|        |attribute_name_stamina_cost_sprint|Sprint stamina cost
+2110992416|        |attribute_name_stamina_cost_jump|Jump stamina cost
+2110992417|        |attribute_name_stamina_cost_item|Use item stamina cost
+2110992418|        |attribute_name_stamina_cost_aard|Aard stamina cost
+2110992419|        |attribute_name_stamina_cost_igni|Igni stamina cost
+2110992420|        |attribute_name_stamina_cost_yrden|Yrden stamina cost
+2110992421|        |attribute_name_stamina_cost_quen|Quen stamina cost
+2110992422|        |attribute_name_stamina_cost_axii|Axii stamina cost
+2110992423|        |attribute_name_nonres_tox|Non-reserved Toxicity
+2110992424|        |attribute_name_tox_dec_rate|Toxicity Decay Rate
+2110992425|        |attribute_name_avail_tox|Available Toxicity
+2110992426|736e017e||Light gear. Offers minimal protection.
+2110992427|320650a7||Medium gear. Offers average protection. Combat actions require more stamina.
+2110992428|942892ef||Heavy gear. Offers the best protection. Combat actions and sign casting require significantly more stamina.
+2110992429|6d1ad461||Light Armor does not provide much protection, but your combat actions require less stamina when it is equipped. Medium Armor and Heavy Armor absorb more damage, but your combat actions require more stamina.
+2110992430|4080bc95||Dealing damage in combat heals $S$% of maximum Vitality for each piece of the set (currently $S$%).
+2110992431|        |option_gm_ascooldown|Alternate Sign cooldown (seconds)
+2110992432|        |option_gm_sign_instant_cast_toggle|Instant sign casting with sign select key
+2110992433|9ec8a224||Immediately restores a portion of Vitality and stops bleeding.
+2110992434|9ec8a225||Immediately restores a large portion of Vitality and stops bleeding.
+2110992435|9ec8a226||Restores Vitality immediately and fully and stops bleeding. Grants immunity to damage for a short duration.
+2110992436|fc921529||Each Lesser Red Mutagen equipped decreases melee action stamina cost by $S$%. Red Mutagen increases the bonus to $S$% and Greater Red Mutagen - to $S$%.
+2110992437|        |option_gm_jump_in_cbt|Allow jumping in combat while sprinting
+2110992438|        |attribute_name_stamina_cost_whirl|Whirl stamina cost
+2110992439|        |attribute_name_stamina_cost_rend|Rend stamina cost
+2110992440|        |attribute_name_dismember_chance|Dismember chance
+2110992441|        |panel_gm_qol_options|QoL
+2110992442|        |option_gm_lowstamsfx|Low stamina sfx threshold (percents)
+2110992443|        |option_gm_lowstamsfx_vol|Low stamina sfx volume
+2110992444|        |option_gm_lowstamsfx_dynvol|Use dynamic low stamina sfx volume
+2110992445|        |option_gm_lowstamsfx_rate|Low stamina sfx rate
+2110992446|        |option_gm_lowstamsfx_dynrate|Use dynamic low stamina sfx rate
+2110992447|        |preset_Mods_ghost_mode_gm_qol_options|QoL Presets
+2110992448|        |preset_value_gm_recommended|Recommended
+2110992449|        |preset_value_gm_turn_off|Off
+2110992450|        |preset_Mods_ghost_mode_gm_gameplay_options|Gameplay Presets
+2110992451|        |preset_value_gm_default|Default
+2110992452|        |preset_Mods_ghost_mode_gm_exp_options|Experience Presets
+2110992453|        |preset_Mods_ghost_mode_gm_scaling_options|Scaling Presets
+2110992454|15dda917||When consumed, mutagen decoction increases maximum Vitality by $I$ points per each toxicity offset point for decoction's effective duration.
+2110992455|e71d7c8b||Non-critical damage dealt with a sword increases Critical hit chance for subsequent attacks by $I$% (max $I$%). Bonus resets on successful critical hit and at the end of the combat.
+2110992456|        |attribute_name_dbomb_dmg_reduction|Damage reduction
+2110992457|fc92150b||Hit Reaction Severity is reduced to zero, if damage received is less than $I$% of your maximum Health.
+2110992458|        |option_gm_armor_reg_penalty|Enable stamina regen penalty for armors
+2110992459|        |preset_value_gm_old_ver|Vanilla(ish)

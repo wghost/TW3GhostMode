@@ -92,8 +92,8 @@
 2110992103|1f70c020||Wirujący atak uderzający wszystkich przeciwników w zasięgu. Dodaje $S$% do obrażenia silnego ataku za każdego napastinka (max. $S$%). Używa $S$ punktów wytrzymałości na sekundę. Jeżeli jest obecny, punkt adrenaliny jest użyty do zmniejszenia obrażeń otrzymanych podczas ataku o $S$%.
 2110992104|064143d3||Wirujący atak uderzający wszystkich przeciwników w zasięgu. Dodaje $S$% do obrażenia silnego ataku za każdego napastinka (max. $S$%). Używa $S$ punktów wytrzymałości na sekundę. Jeżeli jest obecny, punkt adrenaliny jest użyty do zmniejszenia obrażeń otrzymanych podczas ataku o $S$%.
 2110992105|6f2a6f0f||Przyrost punktów Adrenaliny
-2110992106|739e1e2c||Silny Atak zwiększa obrażenia następnych Szybkich Ataków przez $S$ sekund o $S$% za każdą część zestawu. Szybki atak vice versa. Obecna premia: $S$%.
-2110992107|8ed43e3e||Rzucanie znaku zwiększa siłę pozastałych znaków na $S$ sekund o $S$% za każdy element zestawu. Obecna premia: $S$%.
+2110992106|739e1e2c||Damage dealt with Fast attacks charges your Strong attack with additional power: +$S$% to Attack Power for each piece of the set (currently +$S$%), up to +$S$% max. And vice versa. The bonus is reset after performing a charged attack and at the end of the combat.
+2110992107|8ed43e3e||Casting a sign reduces stamina cost of all the subsequent actions taken by $S$% for each piece of the set. Current bonus: $S$%. Lasts for $S$ sec.
 2110992108|8ed43e3f||Obszar połapki Znaku Yrden jest większy o $S$%. Obecność Bohatera w obszarze działania, zwiększa Moc Znaku o $S$%, oraz odporność na obrażenia o $S$%.
 2110992109|739e1e2d||Trafienie krytyczne mieczem generuje dwukrotną ilość punktów Adrenaliny.
 2110992110|328ae462||Szansa na powalenie
@@ -107,10 +107,10 @@
 2110992118|cea74417||Szybki Atak - zwiększa o $I$% szansę na trafienie krytyczne, oraz obrażenia krytyczne o $I$%.
 2110992119|1f70c027||Silny Atak - zwiększa o $I$% szansę na trafienie krytyczne, oraz obrażenia krytyczne o $I$%.
 2110992120|c1e68bc4||Perfekcyjne parowanie odbija pociski, zwiększa obrażenia odbitych pocisków o $I$%.
-2110992121|c1e68f84||Udany kontratak zwiększa siłę następnego ataku o $I$%. Zwiększa szansę na krytyczne uderzenie o $I$%.
-2110992122|c1e68f85||Udany kontratak zwiększa siłę następnego ataku o $I$%. Zwiększa szansę na krytyczne uderzenie o $I$%. Jeżeli punkty adrenaliny są na maksymalnym poziomie, kontratak dodaje $I$% szansy na powalenie.
-2110992123|cea74411||Udany kontratak zwiększa siłę następnego ataku o $I$%.
-2110992124|cf2b2da2||Tarcza energetyczna, która absorbuje $I$ punktów obrażeń. Ilość absorbowanych obrażeń rośnie wraz z Mocą Znaku (aktualnie: $I$). <br>Czas działania: $I$s.
+2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
+2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
+2110992123|cea74411||Increases counterattack power by $I$%.
+2110992124|cf2b2da2||Tarcza energetyczna, która absorbuje $I$ punktów obrażeń. Ilość absorbowanych obrażeń rośnie wraz z Mocą Znaku (aktualnie: $I$). Prevents knockdown and stagger effects (and then breaks). Prevents burning, poison and bleeding effects. <br>Czas działania: $I$s.
 2110992125|163a8e77||Zadanie obrażeń Znakiem Igni dodatkowo zmniejsza na stałe pancerz przeciwników o $S$%. Efekt skaluje się wraz z Mocą Znaków aż do $S$%.
 2110992126|cf2b2da0||Wybuch ognia powodujący $I$ punktów obrażeń, z $I$% szansą na podpalenie. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$.
 2110992127|163a8e71||Alternatywny tryb Znaku:<br>Nieprzerwany strumień ognia, który podpala, oraz powoduje $I$ obrażeń na sekundę. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$. Używa $I$ punktów wytrzymałości na sekundę.
@@ -118,23 +118,23 @@
 2110992129|71d0c1e5||Alternatywny tryb Znaku:<br>Nieprzerwany strumień ognia, który podpala, oraz powoduje $I$ obrażeń na sekundę. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$. Używa $I$ punktów wytrzymałości na sekundę.
 2110992130|163a8e75||Znaku Aard powoduje $I$ punktów obrażeń. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$.
 2110992131|b3c8ebb8||Magiczna Pułapka
-2110992132|b1173fc0||Dodaje $I$% do czasu działania glifu Yrden i Magicznej Pułapki, oraz $I$ do ilości ładunków Magicznej Pułapki.
-2110992133|ab0515e8||Dodaje $I$% do czasu działania glifu Yrden i Magicznej Pułapki, oraz $I$ do ilości ładunków Magicznej Pułapki. Zwiększa o 1 maksymalną liczbę glifów Yrden.
+2110992132|b1173fc0||Magic Trap duration increases by $I$%.
+2110992133|        |gm_alt_yrden_lvl3_description|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
 2110992134|b1173fc1||Przeciwnicy w obszarze Magicznej Pułapki tracą $S$% punktów żywotności lub esencji na sekundę.
 2110992135|c84666b6||Wyczerpana tarcza Quen odpycha i rani przeciwników za $I$ obrażeń. Obrażenia zależą od Mocy Znaku (aktualnie: $I$).
 2110992136|c84666b7||Wyczerpana tarcza Quen odpycha z szansą na powalenie, rani przeciwników za $I$ obrażeń. Obrażenia zależy od Mocy Znaku (aktualnie: $I$).
 2110992137|163a8e73||Alternatywny tryb Znaku:<br>Pozwala podtrzymać aktywną tarczę absorbującą o $I$% więcej obrażeń, zużywa $I$ punktów wytrzymałości na sekundę. Zablokowanie ataku zużywa wytrzymałość o wartości równej pochłoniętym obrażeniom. Odnawia Żywotność równą $I$% pochłoniętych obrażeń.
 2110992138|71d0c966||Alternatywny tryb Znaku:<br>Pozwala podtrzymać aktywną tarczę absorbującą o $I$% więcej obrażeń, zużywa $I$ punktów wytrzymałości na sekundę. Zablokowanie ataku zużywa wytrzymałość o wartości równej pochłoniętym obrażeniom. Odnawia Żywotność równą $I$% pochłoniętych obrażeń.
 2110992139|71d0c967||Alternatywny tryb Znaku:<br>Pozwala podtrzymać aktywną tarczę absorbującą o $I$% więcej obrażeń, bez zużywania wytrzymałości. Zablokowanie ataku zużywa wytrzymałość o wartości równej pochłoniętym obrażeniom. Odnawia Żywotność równą $I$% pochłoniętych obrażeń.
-2110992140|15dda916||Olej nałożony na ostrze daje $I$% szans na zatrucie przeciwnika przy każdym trafieniu, Ulepszony Olej zwiększa szansę o $I$%, a Wyśmienity o $I$% .
+2110992140|15dda916||Olej nałożony na ostrze daje $I$% szans na zatrucie przeciwnika przy każdym trafieniu, Ulepszony Olej zwiększa szansę o $I$%, a Wyśmienity o $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992141|15dda91a||Gdy wiedźmin jest zatruty eliksirami, podczas kontrataku przeciwnika następuje spowolnienie czasu o $S$%. Czas trwania: $S$s.
 2110992142|1517d64d||Gdy wiedźmin jest zatruty eliksirami, podczas kontrataku przeciwnika następuje spowolnienie czasu o $S$%. Czas trwania: $S$s.
 2110992143|1517d64e||Gdy wiedźmin jest zatruty eliksirami, podczas kontrataku przeciwnika następuje spowolnienie czasu o $S$%. Czas trwania: $S$s.
-2110992145|329005f0||Pozwala wykonywać Silne Ataki bronią, dodaje $I$% do obrażeń, oraz $I$ do Przebicia Pancerza.
+2110992145|329005f0||Allows you to perform strong melee attacks which add +$I$% to Attack Power and +$I$ to Armor Penetration.
 2110992148|bab1daf5||Każdy punkt Zatrucia zwiększa siłę ataku bronią oraz Moc Znaków o $S$% (max. $S$%).
 2110992149|c3f5389c||Znaki mogą zadać obrażenia krytyczne – szansa na trafienie oraz obrażenia wzrastają wraz z Mocą Znaków (aktualna szansa trafienia krytycznego $S$%, obrażenia krytyczne $S$%). Przeciwnicy zabici w wyniku obrażeń krytycznych od Znaków eksplodują.
 2110992150|c3f538a0||Znak Aard posiada dodatkowo $S$% szans na zamrożenie przeciwnika. Jeżeli przeciwnik zostanie zamrożony i powalony jednocześnie, ginie natychmiast. Jeżeli przeciwnik nie zostanie zamrożony, Znak zada dodatkowo $S$ obrażeń. Siła ataku zależy od Mocy Znaku (aktualnie obrażenia: $S$).
-2110992151|cf2b2da1||Magiczna pułapka, która spowalnia przeciwników znajdujących się w jej zasięgu o $S$%. Czas trwania zależy od Mocy Znaku, aktualnie: $S$s.
+2110992151|cf2b2da1||Magic trap that slows enemies down by $S$% (scales with Sign Intensity) inside its area of effect. Trap duration: $S$s. The longer the trap persists, the less efficient it becomes.
 2110992152|c3f538a1||Siła ataków i Znaków na początku walki wzrasta o $S$% na $S$s. za każdego z wrogów (poza 1.). Przykładowo, przy $S$ przeciwnikach, premia wyniesie $S$%. Potem siła ataków i Znaków zmniejsza się o $S$% za każdego przeciwnika poza 1. (do max. $S$%) i trwa: $S$s.
 2110992153|c32e766a||Premia do obrażeń krytycznych
 2110992154|28838f82||Przebicie Pancerza
@@ -149,7 +149,7 @@
 2110992163|7968d6e0||Zamraża przeciwników. Ciosy zadane zamrożonym przeciwnikom zadają dodatkowe obrażenia. Wydłużony czas działania.
 2110992164|b02a28c2||Zwiększenie obrażeń
 2110992165|9e58d1f5||Zwiększa Moc Znaków. Wydłużony czas działania. Czas działania efektów krytyczych Znaków dłuższy o 33%.
-2110992166|329005f3||Ciosy zadawane podczas walki wręcz generują Adrenalinę. Każdy punkt Adrenaliny zwiększa siłę ataku bronią o $I$%.
+2110992166|329005f3||Damage dealt during melee combat generates Adrenaline Points. Each Adrenaline Point increases Attack Power by $I$%.
 2110992167|d11e5fa2||Szybki Atak - obrażenia trafienia krytycznego
 2110992168|3018409d||Silny Atak - obrażenia trafienia krytycznego
 2110992169|25746309||Geralt jest teraz ogolony na czysto
@@ -223,14 +223,13 @@
 2110992239|3ed03538||Czas działania po opuszczeniu obłoku gazu.
 2110992240|874e9f87||Umożliwia widzenie w całkowitej ciemności. Wydłużony czas działania.
 2110992241|e71d7c8e||Udany Silny Atak pochłania całą dostępną wytrzymałość by dodatkowo zmniejszyć Żywotność trafionego przeciwnika o 5% (przy 100% wytrzymałości, efekt skaluje się procentowo).
-2110992242|fc921527||O świcie i o zmierzchu nakłada efekt zwiększający Moc losowego Znaku (jak Miejsce Mocy). Ma dłuższy czas działania niż inne odwary.
+2110992242|fc921527||Each Lesser Green Mutagen equipped increases your toxicity decay rate by $S$/sec. Green Mutagen increases the bonus to $S$/sec and Greater Green Mutagen - to $S$/sec.
 2110992243|e71d7c93||Zwiększa Moc Znaków kiedy panuje zła pogoda.
 2110992244|fc921524||Zwiększa odporność na krwawienie, podpalenie oraz truciznę w czasie walki. Wielkość premii rośnie z czasem.
 2110992245|fc921525||Wykonywanie akcji zużywających wytrzymałość regeneruje proporcjonalną ilość żywotności. Działa tylko podczas walki
-2110992246|fc92152b||Otrzymywane rany zwiększają odporność na obrażenia na czas trwania danej walki (max. 20%).
 2110992247|fc921505||Każde udane trafienie zwiększa Siłę Ataku (do max. 100%), do czasu zakończenia walki lub otrzymania obrażeń innych niż obrażenia od zatrucia eliksirami.
 2110992248|fc921509||Siła Ataku rośnie wraz z czasem trwania walki (do max. 30%).
-2110992249|fc921526||Za każdym razem kiedy wytrzymałość spadnie do zera podczas walki, poziom regeneracja wytrzymałości zwiększony (do max. 10) do końca trwania walki.
+2110992249|fc921526||Killing an enemy increases Stamina regeneration rate by $I$/s (up to $I$/s) for the remainder of the fight.
 2110992250|8cb0734c||Losowe skalowanie: dolny limit (od poziomu Geralta)
 2110992251|f958bbfa||Losowe skalowanie: górny limit (od poziomu Geralta)
 2110992252|beb0cec9||Losowe
@@ -255,9 +254,9 @@
 2110992271|773c6a77||Modyfikator doświadczenia za walkę.
 2110992272|7641d6c5||Szansa na powalenie
 2110992273|b1173fc2||Zwiększa szanę na poważne powalenie o $I$%.
-2110992274|163a8e76||Dodaje Strumieniowi Ognia $I$ punktów obrażeń oraz $I$ punktów do obrażeń na sekundę.
-2110992275|b1173fc6||Dodaje $I$ punktów obrażeń do ładunku Magicznej Pułapki.
-2110992276|b1173fc5||Tarcza Quen absorbuje o $I$ więcej obrażeń.
+2110992274|163a8e76||Dodaje Strumieniowi Ognia $I$ punktów obrażeń oraz $I$ punktów do obrażeń na sekundę. Scales with Sign Power.
+2110992275|b1173fc6||Dodaje $I$ punktów obrażeń do ładunku Magicznej Pułapki. Scales with Sign Power.
+2110992276|b1173fc5||Tarcza Quen absorbuje o $I$ więcej obrażeń. Scales with Sign Power.
 2110992277|9246181a||Czas trwania oszołomienia
 2110992278|b72fae71||Czas trwania uroku
 2110992279|163a8e70||Alternatywny tryb Znaku:<br>Aard działa na wszystkich przeciwników w zasięgu. Moc Znaku jest wtedy mniejsza o $I$%.
@@ -274,7 +273,7 @@
 2110992291|483c9092||Obrażenia zadawane ładują miecz zwiększając jego krytyczną moc uderzenia o $S$% (max. $S$%). Miecz rozładowuje się z czasem i od otrzymanych obrażeń. W pełni naładowany miecz zwiększa szansę na trafienie krytyczne o $S$%.
 2110992292|1f5adb4f||Zabicie wroga w pełni naładowanym mieczem rozładowuje miecz i trwale zwiększa obrażenia broni. Jeżeli dodatkowe obrażenia przekroczą max. dla aktualnego poziomu miecza, zostanie on zwiększony. Obrażenia są zwiększane o: $S$ (max. 10).
 2110992293|0516c455||Szansa na poważne powalenie
-2110992294|f76f46ed||Zabicie przeciwnika odnawia $I$% wytrzymałości.
+2110992294|f76f46ed||Killing an enemy heals $I$% of maximum Vitality.
 2110992295|fad8f82b||Zabicie przeciwnika dodaje od $F$ do $F$ punktów Adrenaliny
 2110992296|ed2f3195||Zapewnia $I$% szansy na odbicie $I$% otrzymanych obrażeń atakującemu.
 2110992299|f2e69faf||Zadawanie obrażeń Szybkimi Atakami ładuje broń energią, kiedy nabierze czerwoną poświatę, Silny Atak uwolni nagromadzoną energię w potężnym uderzeniu w zamian za część żywotności Geralta.
@@ -289,17 +288,16 @@
 2110992308|ba738dce||Humanoidy
 2110992309|8e8b5e03||Unikatowe
 2110992310|1f70c026||Zwiększa szansę na trafienie krytyczne kuszą o $I$%, oraz obrażenia trafienia krytycznego kuszą o $I$%.
-2110992311|e71d7c8c||Zwiększa odporności na każdy typ obrażeń o 15%, jeżeli obciążenie wynosi 60 lub mniej, efekt zmniejsza się wraz ze wzrostem obciążenia.
 2110992312|a5384b1f||Domyślnie użyj trybu synchronizacji
 2110992313|da7e5ba8||Jeżeli masz przynajmniej jeden punkt Adrenaliny, zostanie on użyty przy rzucaniu Znaku zamiast wytrzymałości.
 2110992314|63833111||Nie podnoś poziomu doświadczenia straży
 2110992315|329005f1||Techniki obronne Szkoły Wilka: parowanie, kontrataki, uniki. Pomyślny kontratak dodaje dodatkową szansę $I$% na krytyczne uderzenie. Sukces parowania i kontrataku zależy od rodzaju ataku i wroga: częściowy parowanie zmniejsza obrażenia zadawane o $I$% i zapobiega krwawieniu, częściowy kontratak dodatkowo zapobiega wszystkim negatywnym efektom i pozwala zadawać w zamian obrażenia. Udane parowanie lub kontratak zmniejsza zadawane obrażenia do zera. Wykonanie uniku pozwala na uniknięcie strzał, efektu powalenia i wytrącenia z równowagi. Sukces uniku zależy od typu ataku, odległości atakującego i kierunku wykonanego uniku (odległość kątowa). Częściowo skuteczny unik zmniejsza obrażenia zadawane tylko częściowo.
 2110992316|1f70c028||Każdy punkt umiejętności zwiększa bezpieczną odległość kątową przy uniku o 10 stopni.
-2110992317|8d17aaa0||Zmniejsza obrażenia zadawane przez potwora, którego cel jest olej o $I$%.
+2110992317|8d17aaa0||Zmniejsza obrażenia zadawane przez potwora, którego cel jest olej o $I$%. Enhanced oil additionally reduces the damage by $I$% and Superior - by $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992318|5f63dbf4||Umożliwia tworzenie olejów, które można zastosować do mieczy. Skuteczność spada wraz z olejem ścierającym się z ostrza.
-2110992319|754d1890||Zwiększa generację adrenaliny o $I$%. Pozwala zapłacić w walce Koszt wytrzymałości Adrenaliną.
+2110992319|754d1890||Increases Adrenaline gain by $I$%. In addition to usual Battle Trance effect, each Adrenaline Point also decreases melee action Stamina cost by $I$%.
 2110992320|        |item_desc_armor_type_heavy_set_bonus|Premia ciężkiego ryznsztunku: +$I$% do odporności na każdy typ obrażeń.
-2110992321|        |item_desc_armor_type_medium_set_bonus|Premia średniego ryznsztunku: +$I$% do odporności na truciznę, krwawienie i podpalenie.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$ to maximum Vitality.
 2110992322|        |item_desc_armor_type_light_set_bonus|Premia lekkiego ryznsztunku: +$I$ stopni do bezpiecznej odległości kątowej podczas wykonywania uniku.
 2110992323|        |skill_desc_viper_set_ability1|Uodparnia na trucizny. Trucizny leczą $S$% obrażeń od trucizny za każdy element wyposażongeo zestawu (aktualne tempo leczenia: $S$%).
 2110992324|        |gm_stat_attack_power_levelup_bonus|Premia do siły ataku.
@@ -314,14 +312,14 @@
 2110992333|        |item_desc_dismantle_kit_alchemy_1|Pozwala na demontaż komponentów alchemicznych
 2110992334|        |panel_button_hud_interaction_dismantle|Demontaż
 2110992336|d23efdb0||Sparowanie ataku wytrąca z równowagi atakującego wroga.
-2110992337|e9c58057||Wszystkie wyposażone elementy rynsztunku są traktowane jako Średni Rynsztunek. Regeneracja wytrzymałości nie ulega zmianie. Kary wytrzymałościowe za działania bojowe pozostają niezmienione.
-2110992338|eb7a58f6||Wszystkie wyposażone elementy rynsztunku są traktowane jako Cziężki Rynsztunek. Rynsztunek otrzymuje karę regeneracji wytrzymałości. Kary wytrzymałościowe za działania bojowe pozostają niezmienione.
-2110992339|e810a7b8||Wszystkie wyposażone elementy rynsztunku są traktowane jako Lekki Rynsztunek. Rynsztunek otrzymuje premię do regeneracji wytrzymałości. Kary wytrzymałościowe za działania bojowe pozostają niezmienione.
+2110992337|e9c58057||Wszystkie wyposażone elementy rynsztunku są traktowane jako Średni Rynsztunek. Kary wytrzymałościowe za działania bojowe pozostają niezmienione.
+2110992338|eb7a58f6||Wszystkie wyposażone elementy rynsztunku są traktowane jako Cziężki Rynsztunek. Kary wytrzymałościowe za działania bojowe pozostają niezmienione.
+2110992339|e810a7b8||Wszystkie wyposażone elementy rynsztunku są traktowane jako Lekki Rynsztunek. Kary wytrzymałościowe za działania bojowe pozostają niezmienione.
 2110992342|cea7442f||Natychmiast zdobywasz jeden Punkt Adrenaliny podczas wchodzenia do walki. Wytwarzanie punktów adrenaliny zwiększa się o $I$%.
 2110992343|        |effect_dimeritium|Dwimeryt
-2110992344|63cd93a3||Wypuszcza chmurę odłamków dwimerytu, które blokują prymitywną magię i magiczne zdolności potworów. Osłabia pancerz magicznych potworów.
-2110992345|63cd93a4||Wypuszcza chmurę odłamków dwimerytu, które blokują prymitywną magię i magiczne zdolności potworów. Osłabia pancerz magicznych potworów. Trwa dłużej.
-2110992346|63cd93a5||Wypuszcza chmurę odłamków dwimerytu, które blokują prymitywną magię i magiczne zdolności potworów. Osłabia pancerz magicznych potworów. Trwa dłużej.
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage. Lasts longer.
 2110992347|        |attribute_name_dbomb_armor_piercing|Przebicie pancerza
 2110992348|        |attribute_name_cloud_duration|Czas działania chmury
 2110992349|15dda91c||Każda znany eliksir, bomba i olej poziomu 1 zwiększa maksymalną Toksyczność o 1.
@@ -360,3 +358,74 @@
 2110992382|        |gm_toxicity_offset_description|Rezerwa Toksyczności zachowuje pewną ilość twojej maksymalnej toksyczności na czas trwania wywaru.
 2110992383|        |gm_stat_adrenaline_gain_light|Wzrost Adrenaliny szybkich ataków
 2110992384|        |gm_stat_adrenaline_gain_heavy|Wzrost Adrenaliny silnych ataków
+2110992386|d02fd0a4||Once they reach their maximum level, Adrenaline Points steadily decline until they reach zero at a rate of $S$ points per sec. During this time Vitality regenerates faster by $S$%/sec, Stamina regenerates faster by $S$%/sec, and Toxicity declines faster by $S$ points/sec.
+2110992387|f098e2d3||Igni's basic attack strikes all opponents in a 360-degree radius. Burning chance is decreased by $I$%.
+2110992388|fc92152b||Getting hit more than once within $S$ sec makes you immune to damage for the next $S$ sec.
+2110992389|e71d7c8c||Gain adrenaline for damage received. Scales with the amount of damage proportional to your maximum health: $S$ points per 1% of health lost.
+2110992390|fc92152c||Damage dealt to enemies in spectral form is increased from $I$% to $I$% of normal damage.
+2110992391|        |option_gm_cbtsreg|Combat stamina regen (additional)
+2110992392|        |option_gm_ocbtsreg|Out of combat stamina regen (additional)
+2110992393|        |option_gm_cbtvreg|Combat vitality regen (additional)
+2110992394|        |option_gm_ocbtvreg|Out of combat vitality regen (additional)
+2110992395|        |option_gm_mscost|Melee action cost modifier
+2110992396|        |option_gm_sscost|Sign action cost modifier
+2110992397|        |option_gm_stdelay|Stamina regen delay (additional, seconds)
+2110992398|dd7afaaa||Attack is the Best Defense
+2110992399|754d18b0||Killing an enemy restores $I$% of your Stamina. Critical hits and successful counters restore $I$% of your Stamina.
+2110992400|        |effect_whirl_cooldown|Whirl cooldown
+2110992401|        |effect_rend_cooldown|Rend cooldown
+2110992402|        |effect_aard_cooldown|Aard cooldown
+2110992403|        |effect_igni_cooldown|Igni cooldown
+2110992404|        |effect_yrden_cooldown|Yrden cooldown
+2110992405|        |effect_quen_cooldown|Quen cooldown
+2110992406|        |effect_axii_cooldown|Axii cooldown
+2110992407|        |option_gm_mcooldown|Melee special cooldown (seconds)
+2110992408|        |option_gm_scooldown|Sign cooldown (seconds)
+2110992409|        |attribute_name_stamina_cost_light|Fast attack stamina cost
+2110992410|        |attribute_name_stamina_cost_heavy|Strong attack stamina cost
+2110992411|        |attribute_name_stamina_cost_parry|Parry stamina cost
+2110992412|        |attribute_name_stamina_cost_counter|Counter stamina cost
+2110992413|        |attribute_name_stamina_cost_dodge|Dodge stamina cost
+2110992414|        |attribute_name_stamina_cost_roll|Roll stamina cost
+2110992415|        |attribute_name_stamina_cost_sprint|Sprint stamina cost
+2110992416|        |attribute_name_stamina_cost_jump|Jump stamina cost
+2110992417|        |attribute_name_stamina_cost_item|Use item stamina cost
+2110992418|        |attribute_name_stamina_cost_aard|Aard stamina cost
+2110992419|        |attribute_name_stamina_cost_igni|Igni stamina cost
+2110992420|        |attribute_name_stamina_cost_yrden|Yrden stamina cost
+2110992421|        |attribute_name_stamina_cost_quen|Quen stamina cost
+2110992422|        |attribute_name_stamina_cost_axii|Axii stamina cost
+2110992423|        |attribute_name_nonres_tox|Non-reserved Toxicity
+2110992424|        |attribute_name_tox_dec_rate|Toxicity Decay Rate
+2110992426|736e017e||Light gear. Offers minimal protection.
+2110992427|320650a7||Medium gear. Offers average protection. Combat actions require more stamina.
+2110992428|942892ef||Heavy gear. Offers the best protection. Combat actions and sign casting require significantly more stamina.
+2110992429|6d1ad461||Light Armor does not provide much protection, but your combat actions require less stamina when it is equipped. Medium Armor and Heavy Armor absorb more damage, but your combat actions require more stamina.
+2110992430|4080bc95||Dealing damage in combat heals $S$% of maximum Vitality for each piece of the set (currently $S$%).
+2110992431|        |option_gm_ascooldown|Alternate Sign cooldown (seconds)
+2110992432|        |option_gm_sign_instant_cast_toggle|Instant sign casting with sign select key
+2110992433|9ec8a224||Immediately restores a portion of Vitality and stops bleeding.
+2110992434|9ec8a225||Immediately restores a large portion of Vitality and stops bleeding.
+2110992435|9ec8a226||Restores Vitality immediately and fully and stops bleeding. Grants immunity to damage for a short duration.
+2110992436|fc921529||Each Lesser Red Mutagen equipped decreases melee action stamina cost by $S$%. Red Mutagen increases the bonus to $S$% and Greater Red Mutagen - to $S$%.
+2110992437|        |option_gm_jump_in_cbt|Allow jumping in combat while sprinting
+2110992440|        |attribute_name_dismember_chance|Dismember chance
+2110992441|        |panel_gm_qol_options|QoL
+2110992442|        |option_gm_lowstamsfx|Low stamina sfx threshold (percents)
+2110992443|        |option_gm_lowstamsfx_vol|Low stamina sfx volume
+2110992444|        |option_gm_lowstamsfx_dynvol|Use dynamic low stamina sfx volume
+2110992445|        |option_gm_lowstamsfx_rate|Low stamina sfx rate
+2110992446|        |option_gm_lowstamsfx_dynrate|Use dynamic low stamina sfx rate
+2110992447|        |preset_Mods_ghost_mode_gm_qol_options|QoL Presets
+2110992448|        |preset_value_gm_recommended|Recommended
+2110992449|        |preset_value_gm_turn_off|Off
+2110992450|        |preset_Mods_ghost_mode_gm_gameplay_options|Gameplay Presets
+2110992451|        |preset_value_gm_default|Default
+2110992452|        |preset_Mods_ghost_mode_gm_exp_options|Experience Presets
+2110992453|        |preset_Mods_ghost_mode_gm_scaling_options|Scaling Presets
+2110992454|15dda917||When consumed, mutagen decoction increases maximum Vitality by $I$ points per each toxicity offset point for decoction's effective duration.
+2110992455|e71d7c8b||Non-critical damage dealt with a sword increases Critical hit chance for subsequent attacks by $I$% (max $I$%). Bonus resets on successful critical hit and at the end of the combat.
+2110992456|        |attribute_name_dbomb_dmg_reduction|Damage reduction
+2110992457|fc92150b||Hit Reaction Severity is reduced to zero, if damage received is less than $I$% of your maximum Health.
+2110992458|        |option_gm_armor_reg_penalty|Enable stamina regen penalty for armors
+2110992459|        |preset_value_gm_old_ver|Vanilla(ish)
