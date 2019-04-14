@@ -8,6 +8,8 @@
 2110992005|c33062be||Nie skaluj
 2110992006|cffa3a49||Powyżej poziomu Geralta
 2110992007|a2c796ff||Równaj do poziomu Geralta
+2110992008|        |option_gm_boss_health_multiplier|Additional health modifier for bosses
+2110992009|        |option_gm_boss_damage_multiplier|Additional damage modifier for bosses
 2110992013|cdb77880||Odporność na chłód
 2110992014|99a2fd83||Znosi część odporności na obrażenia przeciwnika
 2110992015|c4ea0ecf||Czas działania eliksiru
@@ -88,7 +90,7 @@
 2110992097|c8467d3c||Znak Aksji może objąć dwóch przeciwników. Czas działania pomniejszony o $I$%.
 2110992098|c8467d3d||Znak Aksji może objąć dwóch przeciwników. Czas działania bez zmian.
 2110992099|1f70c022||Każdy punkt Adrenaliny dodaje $I$% do szansy natychmiastowego zabicia przeciwnika. Nie łączy się z Młynkiem.
-2110992102|1f70c021||Potężny atak przełamujący opór blokującego przeciwnika oraz osłonę tarczą. Dodaje $S$% do siły ataku plus $S$% na każdy Punkt Adrenaliny w proporcji do użytej wytrzymałości ($S$% max). Dodaje $S$% do szansy na trafienie krytyczne.
+2110992102|1f70c021||Strong attack that goes through blocks and shields. Increases Attack Power by $S$% plus $S$% per each Adrenaline Point proportional to the Stamina spent ($S$% max). Increases critical hit chance by $S$%.
 2110992103|1f70c020||Wirujący atak uderzający wszystkich przeciwników w zasięgu. Dodaje $S$% do obrażenia silnego ataku za każdego napastinka (max. $S$%). Używa $S$ punktów wytrzymałości na sekundę. Jeżeli jest obecny, punkt adrenaliny jest użyty do zmniejszenia obrażeń otrzymanych podczas ataku o $S$%.
 2110992104|064143d3||Wirujący atak uderzający wszystkich przeciwników w zasięgu. Dodaje $S$% do obrażenia silnego ataku za każdego napastinka (max. $S$%). Używa $S$ punktów wytrzymałości na sekundę. Jeżeli jest obecny, punkt adrenaliny jest użyty do zmniejszenia obrażeń otrzymanych podczas ataku o $S$%.
 2110992105|6f2a6f0f||Przyrost punktów Adrenaliny
@@ -110,7 +112,7 @@
 2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
 2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Increases counterattack power by $I$%.
-2110992124|cf2b2da2||Tarcza energetyczna, która absorbuje $I$ punktów obrażeń. Ilość absorbowanych obrażeń rośnie wraz z Mocą Znaku (aktualnie: $I$). Prevents knockdown and stagger effects (and then breaks). Prevents burning, poison and bleeding effects. <br>Czas działania: $I$s.
+2110992124|cf2b2da2||Protective shield that lasts until it has absorbed $I$ points of damage. Damage absorption scales with Sign intensity. Current absorption: $I$. Prevents stagger (and then breaks). Prevents burning, poison and bleeding effects. <br>Shield duration: $I$s.
 2110992125|163a8e77||Zadanie obrażeń Znakiem Igni dodatkowo zmniejsza na stałe pancerz przeciwników o $S$%. Efekt skaluje się wraz z Mocą Znaków aż do $S$%.
 2110992126|cf2b2da0||Wybuch ognia powodujący $I$ punktów obrażeń, z $I$% szansą na podpalenie. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$.
 2110992127|163a8e71||Alternatywny tryb Znaku:<br>Nieprzerwany strumień ognia, który podpala, oraz powoduje $I$ obrażeń na sekundę. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$. Używa $I$ punktów wytrzymałości na sekundę.
@@ -119,13 +121,13 @@
 2110992130|163a8e75||Znaku Aard powoduje $I$ punktów obrażeń. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$.
 2110992131|b3c8ebb8||Magiczna Pułapka
 2110992132|b1173fc0||Magic Trap duration increases by $I$%.
-2110992133|        |gm_alt_yrden_lvl3_description|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
+2110992133|        |skill_desc_magic_s10_l2|Magic Trap duration increases by $I$%. Magic Trap radius increases by $I$%.
 2110992134|b1173fc1||Przeciwnicy w obszarze Magicznej Pułapki tracą $S$% punktów żywotności lub esencji na sekundę.
 2110992135|c84666b6||Wyczerpana tarcza Quen odpycha i rani przeciwników za $I$ obrażeń. Obrażenia zależą od Mocy Znaku (aktualnie: $I$).
 2110992136|c84666b7||Wyczerpana tarcza Quen odpycha z szansą na powalenie, rani przeciwników za $I$ obrażeń. Obrażenia zależy od Mocy Znaku (aktualnie: $I$).
-2110992137|163a8e73||Alternatywny tryb Znaku:<br>Pozwala podtrzymać aktywną tarczę absorbującą o $I$% więcej obrażeń, zużywa $I$ punktów wytrzymałości na sekundę. Zablokowanie ataku zużywa wytrzymałość o wartości równej pochłoniętym obrażeniom. Odnawia Żywotność równą $I$% pochłoniętych obrażeń.
-2110992138|71d0c966||Alternatywny tryb Znaku:<br>Pozwala podtrzymać aktywną tarczę absorbującą o $I$% więcej obrażeń, zużywa $I$ punktów wytrzymałości na sekundę. Zablokowanie ataku zużywa wytrzymałość o wartości równej pochłoniętym obrażeniom. Odnawia Żywotność równą $I$% pochłoniętych obrażeń.
-2110992139|71d0c967||Alternatywny tryb Znaku:<br>Pozwala podtrzymać aktywną tarczę absorbującą o $I$% więcej obrażeń, bez zużywania wytrzymałości. Zablokowanie ataku zużywa wytrzymałość o wartości równej pochłoniętym obrażeniom. Odnawia Żywotność równą $I$% pochłoniętych obrażeń.
+2110992137|163a8e73||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
+2110992138|71d0c966||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
+2110992139|71d0c967||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it no longer drains Stamina. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
 2110992140|15dda916||Olej nałożony na ostrze daje $I$% szans na zatrucie przeciwnika przy każdym trafieniu, Ulepszony Olej zwiększa szansę o $I$%, a Wyśmienity o $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992141|15dda91a||Gdy wiedźmin jest zatruty eliksirami, podczas kontrataku przeciwnika następuje spowolnienie czasu o $S$%. Czas trwania: $S$s.
 2110992142|1517d64d||Gdy wiedźmin jest zatruty eliksirami, podczas kontrataku przeciwnika następuje spowolnienie czasu o $S$%. Czas trwania: $S$s.
@@ -408,7 +410,6 @@
 2110992434|9ec8a225||Immediately restores a large portion of Vitality and stops bleeding.
 2110992435|9ec8a226||Restores Vitality immediately and fully and stops bleeding. Grants immunity to damage for a short duration.
 2110992436|fc921529||Each Lesser Red Mutagen equipped decreases melee action stamina cost by $S$%. Red Mutagen increases the bonus to $S$% and Greater Red Mutagen - to $S$%.
-2110992437|        |option_gm_jump_in_cbt|Allow jumping in combat while sprinting
 2110992440|        |attribute_name_dismember_chance|Dismember chance
 2110992441|        |panel_gm_qol_options|QoL
 2110992442|        |option_gm_lowstamsfx|Low stamina sfx threshold (percents)
@@ -429,3 +430,5 @@
 2110992457|fc92150b||Hit Reaction Severity is reduced to zero, if damage received is less than $I$% of your maximum Health.
 2110992458|        |option_gm_armor_reg_penalty|Enable stamina regen penalty for armors
 2110992459|        |preset_value_gm_old_ver|Vanilla(ish)
+2110992460|        |skill_desc_magic_s10_l3|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
+2110992461|        |gm_sign_stats_yrden_range|Magic Trap Range

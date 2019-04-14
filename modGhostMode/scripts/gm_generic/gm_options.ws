@@ -58,7 +58,8 @@ function gmIsQoLOption(optionName : name) : bool
 
 function gmIsGameplayOption(optionName : name) : bool
 {
-	return (optionName == 'GMSignStaminaCostMultiplier' || optionName == 'GMMeleeStaminaCostMultiplier'
+	return (optionName == 'GMSinkBoat' || optionName == 'GMSinkBoatOverEnc' || optionName == 'GMEncumbranceMultiplier'
+			|| optionName == 'GMSignStaminaCostMultiplier' || optionName == 'GMMeleeStaminaCostMultiplier'
 			|| optionName == 'GMOutOfCombatVitalityRegen' || optionName == 'GMCombatVitalityRegen'
 			|| optionName == 'GMOutOfCombatStaminaRegen' || optionName == 'GMCombatStaminaRegen'
 			|| optionName == 'GMStaminaDelay' || optionName == 'GMMeleeSpecialCooldown'
@@ -77,4 +78,31 @@ function gmIsScalingOption(optionName : name) : bool
 function gmInstantCastingAllowed() : bool
 {
 	return theGame.params.GetInstantCasting();
+}
+
+function gmLoadDefaultSettings()
+{
+	if(!theGame.GetInGameConfigWrapper().GetVarValue('GMGameplayOptions', 'GMVersion'))
+	{
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMSinkBoat', true);
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMSinkBoatOverEnc', FloatToString(20.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMEncumbranceMultiplier', FloatToString(0.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMArmorRegenPenalty', false);
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMCombatStaminaRegen', FloatToString(0.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMOutOfCombatStaminaRegen', FloatToString(0.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMCombatVitalityRegen', FloatToString(0.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMOutOfCombatVitalityRegen', FloatToString(0.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMMeleeStaminaCostMultiplier', FloatToString(0.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMSignStaminaCostMultiplier', FloatToString(0.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMStaminaDelay', FloatToString(0.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMMeleeSpecialCooldown', FloatToString(10.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMSignCooldown', FloatToString(5.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMAltSignCooldown', FloatToString(10.0f));
+	}
+	gmSetGMVersion();
+}
+
+function gmSetGMVersion()
+{
+	theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMVersion', "4.0");
 }

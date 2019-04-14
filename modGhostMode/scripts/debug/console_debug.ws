@@ -56,18 +56,6 @@ exec function dumpallquests()
 	}
 }
 
-exec function toggledebugkills()
-{
-	if( FactsQuerySum( "modSigns_debug_kills" ) < 1 )
-	{
-		FactsAdd( "modSigns_debug_kills" );
-	}
-	else
-	{
-		FactsRemove( "modSigns_debug_kills" );
-	}
-}
-
 exec function toggledebugdmg()
 {
 	if( FactsQuerySum( "modSigns_debug_dmg" ) < 1 )
@@ -197,6 +185,8 @@ exec function whoareyou()
 	{
 		theGame.witcherLog.AddMessage("NPC template: " + actor.GetReadableName());
 		theGame.GetMonsterParamsForActor(actor, monsterCategory, tmpName, tmpBool, tmpBool, tmpBool);
+		theGame.witcherLog.AddMessage("NPC level: " + actor.GetLevel());
+		theGame.witcherLog.AddMessage("Immortal: " + actor.IsImmortal());
 		theGame.witcherLog.AddMessage("Monster category: " + monsterCategory);
 		actor.GetCharacterStats().GetAbilities( arrNames, true );
 		ArrayOfNamesAppendUnique(arrUniqueNames, arrNames);

@@ -12,6 +12,8 @@
 2110992005|        |preset_value_gm_es_none|하지 않음
 2110992006|        |preset_value_gm_es_upscale|업스케일
 2110992007|        |preset_value_gm_es_match|일치
+2110992008|        |option_gm_boss_health_multiplier|Additional health modifier for bosses
+2110992009|        |option_gm_boss_damage_multiplier|Additional damage modifier for bosses
 2110992013|        |attribute_name_frost_resistance_perc|빙결 저항
 2110992014|        |attribute_name_armor_reduction_perc|적 공격 저항 감소
 2110992015|        |attribute_name_potion_duration|포션 지속 시간
@@ -92,7 +94,7 @@
 2110992097|c8467d3c||액시를 대상 둘에게 걸 수 있게 된다. 효과 시간은 $I$% 감소된다.
 2110992098|c8467d3d||액시를 대상 둘에게 걸 수 있게 된다. 더 이상 효과 시간이 감소되지 않는다.
 2110992099|1f70c022||각 아드레날린 점수가 상대를 즉사시킬 확률을 $I$% 증가시킨다. 휩쓸기에는 적용되지 않는다.
-2110992102|1f70c021||적의 보호막과 막기를 뚫고 공격한다. 아드레날린 점수당 $S$% 피해와 원기 사용의 비례하여 최대 $S$% 피해를 준다. (최대 $S$%). 치명타 피해 확률이 $S$% 증가한다.
+2110992102|1f70c021||Strong attack that goes through blocks and shields. Increases Attack Power by $S$% plus $S$% per each Adrenaline Point proportional to the Stamina spent ($S$% max). Increases critical hit chance by $S$%.
 2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|아드레날린 획득
@@ -114,7 +116,7 @@
 2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
 2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Increases counterattack power by $I$%.
-2110992124|cf2b2da2||$I$ 피해를 흡수 하는 보호막을 생성한다. 표식의 강도의 따라 공격 흡수량은 증가한다. 현재 흡수량: $I$. Prevents knockdown and stagger effects (and then breaks). Prevents burning, poison and bleeding effects. <br>보호막 지속시간: $I$초.
+2110992124|cf2b2da2||Protective shield that lasts until it has absorbed $I$ points of damage. Damage absorption scales with Sign intensity. Current absorption: $I$. Prevents stagger (and then breaks). Prevents burning, poison and bleeding effects. <br>Shield duration: $I$s.
 2110992125|163a8e77||이그니로 피해를 줄때마다 적의 방어력의 $S$%를 영구히 감소시킨다.(표식의 강도의 따라 감소량 증가) 최대 감소량 $S$%.
 2110992126|cf2b2da0||화염 공격을 하여 $I$의 피해를 주고 $I$% 확률로 적에게 화상을 입힌다. 공격력은 표식의 강도에 따라 올라간다. 현재 공격력: $I$.
 2110992127|163a8e71||교체된 표식 모드:<br>지속되는 화염 물결을 발사하여 적들에게 초 당 $I$ 피해를 준다.표식 강도에 따라 공격력이 증가한다. (현재 공격력: $I$). 초당 $I$의 원기를 소모한다.
@@ -123,13 +125,13 @@
 2110992130|163a8e75||아드에 $I$ 만큼 공격력을 추가한다. 표식 강도에 따라 공격력이 증가한다. 현재 공격력: $I$.
 2110992131|b3c8ebb8||마법 터렛
 2110992132|b1173fc0||Magic Trap duration increases by $I$%.
-2110992133|        |gm_alt_yrden_lvl3_description|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
+2110992133|        |skill_desc_magic_s10_l2|Magic Trap duration increases by $I$%. Magic Trap radius increases by $I$%.
 2110992134|b1173fc1||마법 결계안에 있는 적은 초당 $S$%의 체력 혹은 원기가 감소된다.
 2110992135|c84666b6||쿠엔 방어막이 부서질 때 적을 밀어내고 $I$만큼 피해를 준다. 표식의 강도의 따라 피해량이 증가한다. (현재 피해량: $I$)
 2110992136|c84666b7||쿠엔 방어막이 부서질 때 적을 밀어내고 $I$만큼 피해를 준다. 이 때 녹다운 상태로 만들 확률이 있다. 표식의 강도의 따라 피해량이 증가한다.(현재 피해량: $I$)
-2110992137|163a8e73||교체된 표식 모드:<br>$I$%의 피해를 더 흡수하는 보호막을 생성 한다. 지속되는 동안 초당 $I$의 원기를 소모한다. 보호막으로 방어시 피해 흡수량에 비례해서 원기가 소모된다. 체력을 흡수한 피해의 $I$%만큼 회복한다.
-2110992138|71d0c966||교체된 표식 모드:<br>$I$%의 피해를 더 흡수하는 보호막을 생성 한다. 지속되는 동안 초당 $I$의 원기를 소모한다. 보호막으로 방어시 피해 흡수량에 비례해서 원기가 소모된다. 체력을 흡수한 피해의 $I$%만큼 회복한다.
-2110992139|71d0c967||교체된 표식 모드:<br>$I$%의 피해를 더 흡수하는 보호막을 생성 한다. 지속되도 더 이상 원기를 소모하지 않는다. 보호막으로 방어시 피해 흡수량에 비례해서 원기가 소모된다. 체력을 흡수한 피해의 $I$%만큼 회복한다.
+2110992137|163a8e73||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
+2110992138|71d0c966||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
+2110992139|71d0c967||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it no longer drains Stamina. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
 2110992140|15dda916||검에 기름을 바르면 타격 시 $I$% 확률로 대상을 중독 상태로 만든다. 확률은 사용하는 기름 등급이 올라 갈때 확률이 $I$% 올라 간다. 우수한 기름 - $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992141|15dda91a||만약 중독도가 0 이상이면, 상대가 반격을 날린느 시간이 $S$% 느려진다. 효과 지속 시간:$S$초.
 2110992142|1517d64d||만약 중독도가 0 이상이면, 상대가 반격을 날린느 시간이 $S$% 느려진다. 효과 지속 시간:$S$초.
@@ -413,7 +415,6 @@
 2110992434|9ec8a225||Immediately restores a large portion of Vitality and stops bleeding.
 2110992435|9ec8a226||Restores Vitality immediately and fully and stops bleeding. Grants immunity to damage for a short duration.
 2110992436|fc921529||Each Lesser Red Mutagen equipped decreases melee action stamina cost by $S$%. Red Mutagen increases the bonus to $S$% and Greater Red Mutagen - to $S$%.
-2110992437|        |option_gm_jump_in_cbt|Allow jumping in combat while sprinting
 2110992438|        |attribute_name_stamina_cost_whirl|Whirl stamina cost
 2110992439|        |attribute_name_stamina_cost_rend|Rend stamina cost
 2110992438|        |attribute_name_stamina_cost_whirl|Whirl stamina cost
@@ -438,3 +439,5 @@
 2110992457|fc92150b||Hit Reaction Severity is reduced to zero, if damage received is less than $I$% of your maximum Health.
 2110992458|        |option_gm_armor_reg_penalty|Enable stamina regen penalty for armors
 2110992459|        |preset_value_gm_old_ver|Vanilla(ish)
+2110992460|        |skill_desc_magic_s10_l3|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
+2110992461|        |gm_sign_stats_yrden_range|Magic Trap Range

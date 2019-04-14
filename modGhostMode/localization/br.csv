@@ -12,6 +12,8 @@
 2110992005|        |preset_value_gm_es_none|Nada
 2110992006|        |preset_value_gm_es_upscale|Escalar
 2110992007|        |preset_value_gm_es_match|Combinado
+2110992008|        |option_gm_boss_health_multiplier|Additional health modifier for bosses
+2110992009|        |option_gm_boss_damage_multiplier|Additional damage modifier for bosses
 2110992013|        |attribute_name_frost_resistance_perc|Resistência ao frio
 2110992014|        |attribute_name_armor_reduction_perc|Redução de resistência a danos do inimigo
 2110992015|        |attribute_name_potion_duration|Duração da poção  
@@ -92,7 +94,7 @@
 2110992097|c8467d3c||Dois adversários podem ser influenciados por Axii ao mesmo tempo. A duração do efeito é reduzida em $I$%.
 2110992098|c8467d3d||Dois adversários podem ser influenciados por Axii ao mesmo tempo. A duração do efeito não é mais reduzida.	
 2110992099|1f70c022||Cada ponto de adrenalina adiciona $I$% à chance de matar um oponente instantaneamente. Não se aplica a Espira.
-2110992102|1f70c021||Ataque forte que ignora a defesa do inimigo. Provoca $S$% de dano a mais e $S$% de dano por Ponto de Adrenalina em prorpoção ao Vigor consumido ($S$% max). Aumenta a chance de acerto crítico em $S$%.
+2110992102|1f70c021||Strong attack that goes through blocks and shields. Increases Attack Power by $S$% plus $S$% per each Adrenaline Point proportional to the Stamina spent ($S$% max). Increases critical hit chance by $S$%.
 2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Ganho de Adrenalina
@@ -114,7 +116,7 @@
 2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
 2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Increases counterattack power by $I$%.
-2110992124|cf2b2da2||Escudo protetor que dura até que tenha absorvido $I$ pontos de dano. A absorção de danos varia com a intensidade do Sinal. Absorção atual: $I$. Prevents knockdown and stagger effects (and then breaks). Prevents burning, poison and bleeding effects. <br>Duração do escudo: $I$s.
+2110992124|cf2b2da2||Protective shield that lasts until it has absorbed $I$ points of damage. Damage absorption scales with Sign intensity. Current absorption: $I$. Prevents stagger (and then breaks). Prevents burning, poison and bleeding effects. <br>Shield duration: $I$s.
 2110992125|163a8e77||O dano causado por Igni enfraquece a armadura do inimigo permamentemente em $S$% por acerto (varia com a intensidade do Sinal). O valor máximo do efeito não pode exceder $S$%.
 2110992126|cf2b2da0||Explosão ardente que provoca $I$ pontos de dano com $I$% de chance de incendiar os inimigos. O dano varia com a intensidade do sinal. Dano atual: $I$.
 2110992127|163a8e71||Modo de Sinal Alternativo:<br>Emite um fluxo constante de fogo que atinge um único inimigo causando $I$ pontos de dano por segundo. O dano varia com a intensidade do Sinal (dano atual: $I$). Drena $I$ pontos de Vigor por segundo.
@@ -123,13 +125,13 @@
 2110992130|163a8e75||Aard agora causa $I$ de dano. O dano varia com a intesidade do Sinal. Dano atual: $I$.
 2110992131|b3c8ebb8||TORRE MÁGICA
 2110992132|b1173fc0||Magic Trap duration increases by $I$%.
-2110992133|        |gm_alt_yrden_lvl3_description|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
+2110992133|        |skill_desc_magic_s10_l2|Magic Trap duration increases by $I$%. Magic Trap radius increases by $I$%.
 2110992134|b1173fc1||Inimigos dentro da Armadilha mágica perdem $S$% de ponto(s) de Saúde ou essência por segundo.
 2110992135|c84666b6||O escudo Quen empurra os oponentes para trás provocando $I$ pontos de dano ao ceder. O dano varia com a intensidade do Sinal (dano atual: $I$).
 2110992136|c84666b7||O Sinal Quen empurra os oponentes para trás com chance de nocaute provocando $I$ pontos de dano ao ceder. O dano varia com a intensidade do Sinal (dano atual: $I$).
-2110992137|163a8e73||Modo Alternativo de Sinal:<br>Cria um escudo ativo que absorve $I$% mais dano. Mantê-lo drena $I$ Pontos de Vigor por segundo. Os ataques bloqueados drenam Vigor proporcional aos danos absorvidos. Restaura a Vitalidade que corresponde a $I$% do dano absorvido.
-2110992138|71d0c966||Modo Alternativo de Sinal:<br>Cria um escudo ativo que absorve $I$% mais dano. Mantê-lo drena $I$ Pontos de Vigor por segundo. Os ataques bloqueados drenam Vigor proporcional aos danos absorvidos. Restaura a Vitalidade que corresponde a $I$% do dano absorvido.
-2110992139|71d0c967||Modo Alternativo de Sinal:<br>Cria um escudo ativo que absorve $I$% mais dano. Manter o escudo ativo não consome vigor. Os ataques bloqueados drenam Vigor proporcional aos danos absorvidos. Restaura a Vitalidade que corresponde a $I$% do dano absorvido. 
+2110992137|163a8e73||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
+2110992138|71d0c966||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
+2110992139|71d0c967||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it no longer drains Stamina. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
 2110992140|15dda916||Óleo de aplicação em lâminas que dá $I$% de chance de envenenar o alvo a cada acerto.Óleo Melhorado aumentam essa chance em $I$% e Superior - em $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992141|15dda91a||Se a Toxicidade estiver acima de zero, O tempo automaticamente desacelera quando um inimigo estiver prestes a realizar um contra-ataque. Duração do efeito: $S$s.
 2110992142|1517d64d||Se a Toxicidade estiver acima de zero, O tempo automaticamente desacelera quando um inimigo estiver prestes a realizar um contra-ataque. Duração do efeito: $S$s.
@@ -413,7 +415,6 @@
 2110992434|9ec8a225||Immediately restores a large portion of Vitality and stops bleeding.
 2110992435|9ec8a226||Restores Vitality immediately and fully and stops bleeding. Grants immunity to damage for a short duration.
 2110992436|fc921529||Each Lesser Red Mutagen equipped decreases melee action stamina cost by $S$%. Red Mutagen increases the bonus to $S$% and Greater Red Mutagen - to $S$%.
-2110992437|        |option_gm_jump_in_cbt|Allow jumping in combat while sprinting
 2110992438|        |attribute_name_stamina_cost_whirl|Whirl stamina cost
 2110992439|        |attribute_name_stamina_cost_rend|Rend stamina cost
 2110992440|        |attribute_name_dismember_chance|Dismember chance
@@ -436,3 +437,5 @@
 2110992457|fc92150b||Hit Reaction Severity is reduced to zero, if damage received is less than $I$% of your maximum Health.
 2110992458|        |option_gm_armor_reg_penalty|Enable stamina regen penalty for armors
 2110992459|        |preset_value_gm_old_ver|Vanilla(ish)
+2110992460|        |skill_desc_magic_s10_l3|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
+2110992461|        |gm_sign_stats_yrden_range|Magic Trap Range

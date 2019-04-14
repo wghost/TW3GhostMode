@@ -12,6 +12,8 @@
 2110992005|        |preset_value_gm_es_none|Aucun
 2110992006|        |preset_value_gm_es_upscale|Upscale
 2110992007|        |preset_value_gm_es_match|Egal
+2110992008|        |option_gm_boss_health_multiplier|Additional health modifier for bosses
+2110992009|        |option_gm_boss_damage_multiplier|Additional damage modifier for bosses
 2110992013|        |attribute_name_frost_resistance_perc|Résistance au gel
 2110992014|        |attribute_name_armor_reduction_perc|Réduction de la résistance aux dégâts des ennemis
 2110992015|        |attribute_name_potion_duration|Durée de la potion
@@ -92,7 +94,7 @@
 2110992097|c8467d3c||Axii peut influencer deux ennemis simultanément. La durée de l'effet est réduite de $I$%.
 2110992098|c8467d3d||Axii peut influencer deux ennemis simultanément. Ne réduit plus la durée de l'effet.
 2110992099|1f70c022||Chaque point d'adrénaline ajoute $I$% de chance de tuer un ennemi instantanément. Ne s'applique pas à Tourbillon.
-2110992102|1f70c021||Attaque puissante qui traverse les parades et les boucliers. Inflige $S$% de dégâts additionnels et $S$% de dégâts par point d'adrénaline en proportion de la vigueur consommée ($S$% max). Augmente les chances de coups critiques de $S$%.
+2110992102|1f70c021||Strong attack that goes through blocks and shields. Increases Attack Power by $S$% plus $S$% per each Adrenaline Point proportional to the Stamina spent ($S$% max). Increases critical hit chance by $S$%.
 2110992103|1f70c020||Attaque tournoyante qui affecte tous les ennemis proches. Gagne $S$% de puissance d'attaque par attaquant supplémentaire (max. $S$%). Une attaque continue consomme $S$ de vigueur par seconde. Si possible, un point d'adrénaline est utiisé pour réduire les dommages reçus pendant l'attaque de $S$%.
 2110992104|064143d3||Attaque tournoyante qui affecte tous les ennemis proches. Gagne $S$% de puissance d'attaque par attaquant supplémentaire (max. $S$%). Une attaque continue consomme $S$ de vigueur par seconde. Si possible, un point d'adrénaline est utiisé pour réduire les dommages reçus pendant l'attaque de $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Gain d'adrénaline
@@ -114,7 +116,7 @@
 2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
 2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Increases counterattack power by $I$%.
-2110992124|cf2b2da2||Bouclier qui dure jusqu'à avoir absorbé $I$ points de dégâts. L'absorption augmente avec l'intensité du signe. Absorption actuelle: $I$. Prevents knockdown and stagger effects (and then breaks). Prevents burning, poison and bleeding effects. <br>Durée du bouclier: $I$s.
+2110992124|cf2b2da2||Protective shield that lasts until it has absorbed $I$ points of damage. Damage absorption scales with Sign intensity. Current absorption: $I$. Prevents stagger (and then breaks). Prevents burning, poison and bleeding effects. <br>Shield duration: $I$s.
 2110992125|163a8e77||Les dégâts infligés par Igni réduisent aussi de façon permanente l'armure totale des ennemis de $S$% par coup (augmente avec l'intensité du signe). La valeur d'effet maximale ne peut pas excéder $S$%.
 2110992126|cf2b2da0||Souffle incandescent qui inflige $I$ points de dégâts avec $I$% de chance d'enflammer les ennemis. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$.
 2110992127|163a8e71||Mode de signe alternatif:<br>Emet une langue de flammes continue qui provoque des brûlures et inflige $I$ points de dégâts par seconde. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$. Draine $I$ points de vigueur par seconde.
@@ -123,13 +125,13 @@
 2110992130|163a8e75||Aard fait maintenant $I$ points de dégâts. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$.
 2110992131|b3c8ebb8||Tourelle magique
 2110992132|b1173fc0||Magic Trap duration increases by $I$%.
-2110992133|        |gm_alt_yrden_lvl3_description|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
+2110992133|        |skill_desc_magic_s10_l2|Magic Trap duration increases by $I$%. Magic Trap radius increases by $I$%.
 2110992134|b1173fc1||Les ennemis qui se trouvent dans un piège magique perdent $S$% de point(s) de vitalité ou d'essence par seconde.
 2110992135|c84666b6||Le bouclier de Quen repousse les ennemis et inflige $I$ points de dégâts quand il explose. Les dégâts augmentent avec l'intensité du signe (dégâts actuels: $I$).
 2110992136|c84666b7||Le bouclier de Quen repousse les ennemis avec une chance de les renverser et inflige $I$ points de dégâts quand il explose. Les dégâts augmentent avec l'intensité du signe (dégâts actuels: $I$).
-2110992137|163a8e73||Mode de signe alternatif:<br>Crée un bouclier actif qui absorbe $I$% de dégâts en plus. Le maintenir draine $I$ points de vigueur par seconde. Les attaques bloquées drainent la vigueur proportionnellement aux dégâts absorbés. Restaure la vitalité à hauteur de $I$% des dégâts absorbés.
-2110992138|71d0c966||Mode de signe alternatif:<br>Crée un bouclier actif qui absorbe $I$% de dégâts en plus. Le maintenir draine $I$ points de vigueur par seconde. Les attaques bloquées drainent la vigueur proportionnellement aux dégâts absorbés. Restaure la vitalité à hauteur de $I$% des dégâts absorbés.
-2110992139|71d0c967||Mode de signe alternatif:<br>Crée un bouclier actif qui absorbe $I$% de dégâts en plus. Le maintenir draine $I$ points de vigueur par seconde. Les attaques bloquées drainent la vigueur proportionnellement aux dégâts absorbés. Restaure la vitalité à hauteur de $I$% des dégâts absorbés.
+2110992137|163a8e73||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
+2110992138|71d0c966||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
+2110992139|71d0c967||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it no longer drains Stamina. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
 2110992140|15dda916||L'application de l'huile appropriée sur les lames octroie $I$% de chances d'empoisonner la cible à chaque coup. L'huile améliorée augmente ces chances de $I$% et l'huile supérieure de $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992141|15dda91a||Si l'intoxication est au-dessus de zero, le temps ralentit automatiquement de $S$% quand l'ennemi est sur le point d'effectuer une contre-attaque. Durée de l'effet: $S$s.
 2110992142|1517d64d||Si l'intoxication est au-dessus de zero, le temps ralentit automatiquement de $S$% quand l'ennemi est sur le point d'effectuer une contre-attaque. Durée de l'effet: $S$s.
@@ -413,7 +415,6 @@
 2110992434|9ec8a225||Immediately restores a large portion of Vitality and stops bleeding.
 2110992435|9ec8a226||Restores Vitality immediately and fully and stops bleeding. Grants immunity to damage for a short duration.
 2110992436|fc921529||Each Lesser Red Mutagen equipped decreases melee action stamina cost by $S$%. Red Mutagen increases the bonus to $S$% and Greater Red Mutagen - to $S$%.
-2110992437|        |option_gm_jump_in_cbt|Allow jumping in combat while sprinting
 2110992438|        |attribute_name_stamina_cost_whirl|Whirl stamina cost
 2110992439|        |attribute_name_stamina_cost_rend|Rend stamina cost
 2110992440|        |attribute_name_dismember_chance|Dismember chance
@@ -436,3 +437,5 @@
 2110992457|fc92150b||Hit Reaction Severity is reduced to zero, if damage received is less than $I$% of your maximum Health.
 2110992458|        |option_gm_armor_reg_penalty|Enable stamina regen penalty for armors
 2110992459|        |preset_value_gm_old_ver|Vanilla(ish)
+2110992460|        |skill_desc_magic_s10_l3|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
+2110992461|        |gm_sign_stats_yrden_range|Magic Trap Range
