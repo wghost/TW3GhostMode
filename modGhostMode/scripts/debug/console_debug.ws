@@ -879,3 +879,22 @@ exec function heartbeatnpc()
 	}
 }
 */
+
+exec function ciriquests()
+{
+	var journalManager : CWitcherJournalManager;
+	var journalEntry : CJournalBase;
+	var entryStatus : EJournalStatus;
+	var isActive : bool;
+	
+	journalManager = theGame.GetJournalManager();
+	journalEntry = journalManager.GetEntryByString("Q302 Ciri - Rescuing Dudu DC58A7F2-49D51834-AC99B3A6-6106D4CC");
+	entryStatus = journalManager.GetEntryStatus(journalEntry);
+	isActive = (entryStatus == JS_Active);
+	theGame.witcherLog.AddMessage("Q302 Ciri - Rescuing Dudu: " + entryStatus);
+	journalEntry = journalManager.GetEntryByString("Q305 Ciri - chase to the temple 12B8D11E-4BF80285-D48C5CAF-A75A0887");
+	entryStatus = journalManager.GetEntryStatus(journalEntry);
+	isActive = (isActive || (entryStatus == JS_Active));
+	theGame.witcherLog.AddMessage("Q305 Ciri - chase to the temple: " + entryStatus);
+	theGame.witcherLog.AddMessage("Q302 || Q305: " + isActive);
+}

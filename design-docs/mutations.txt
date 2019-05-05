@@ -1,12 +1,63 @@
-+ Mutation1  - Conductors of Magic: When drawn, magic, unique and witcher swords increase Sign damage dealt by 50% of their own damage dealt. (Requires Pirecing Cold)
-+ Mutation2  - Magic Sensibilities: Signs can deliver Critical Hits. The crit chance and damage scales with sign intensity.
-+ Mutation3  - Bloodbath: Each fatal strike of your sword triggers a finisher or dismemberment, and every blow you land will increase your Attack Power by 5% (up to a max of 250%) until either the fight is over or you take damage. (Requires Deadly Counter)
-+ Mutation4  - Toxic Blood: Whenever you take damage the attacker receives 1.5% (down to 1%) of the damage they inflicted for every point in your Toxicity level.
-+ Mutation5  - Mutated Skin: Each Adrenaline Point decreases the damage you take by 15% (down to 10%). (Requires Euphoria)
-+ Mutation6  - Piercing Cold: Aard gains a 25% (now checked against victim resistance to frost) chance to freeze opponents, and if the blast also knocks them down it will kill them instantly. Enemies who escape the freezing take 1500 (down to 750) damage instead (scales with sign power). (Requires Magic Sensibilities)
-+ Mutation7  - Adrenaline Rush: When starting combat against more than one enemy, Attack Power and Sign Intensity increase by 30% for every additional opponent for the first 30 seconds, after which they drop by 10%. (Requires Bloodbath and Piercing Cold)
-+ Mutation8  - Deadly Counter: Sword attacks deal 25% (down to 15%) more damage to monsters or to humans immune to counters. For all other enemies, performing a counter when they're at 25% (down to 15%) Vitality or less will trigger an automatic finisher.
-+ Mutation9  - Cat Eyes: +150 to base crossbow damage (replaced with 125% crit bonus), +50% to crit chance, and bolts will either pierce, stun, or knock down opponents. Foes at full health will take 15% damage when shot. (Requires Bloodbath and Euphoria)
-+ Mutation10 - Euphoria: Each point of Toxicity increases sword damage and Sign Intensity by 0.75%. (Requires Toxic Blood)
-+ Mutation11 - Second Life: If your Vitality hits 0 you recover 100% of it and gain brief invulnerability. The effect has a 3 minute cooldown. (Requires Adrenaline Rush)
-+ Mutation12 - Metamorphosis: Critical effects on enemies will activate a random decoction (to a maximum of 2) from your supply for 2 minutes at no Toxicity cost, and as a bonus it also improves Witcher Sense in dark areas. (Requires Cat Eyes)
+Mutation1  - Conductors of Magic: When drawn, magic, unique and witcher swords increase
+             Sign damage by 50% of their own damage. (Requires Piercing Cold)
+Mutation2  - Magic Sensibilities: Signs can deliver Critical Hits. The crit chance and
+             damage scales with sign intensity.
+Mutation3  - Bloodbath: Each fatal strike of your sword triggers a finisher or
+             dismemberment, and every blow you land will increase your Attack Power by 5%
+			 (up to a max of 250%) until either the fight is over or you take damage.
+			 (Requires Deadly Counter)
+Mutation4  - Toxic Blood: Whenever you take damage the attacker receives 1% of the damage
+             they inflicted for every point in your Toxicity level.
+Mutation5  - Mutated Skin: Each Adrenaline Point decreases the damage you take by 10%
+             (max 30%). (Requires Euphoria)
+Mutation6  - Piercing Cold: Aard gains a 25% (now checked against victim resistance to
+             frost) chance to freeze opponents, and if the blast also knocks them down it
+			 will kill them instantly. Enemies who escape the freezing take 250 damage
+			 instead (scales with sign power). (Requires Magic Sensibilities)
+Mutation7  - Adrenaline Rush: When starting combat against more than one enemy, Attack
+             Power and Sign Intensity increase by 30% for every additional opponent for
+			 the first 30 seconds, after which they drop by 10%. (Requires Bloodbath and
+			 Piercing Cold)
+Mutation8  - Deadly Counter: Sword attacks deal 20% more damage to monsters or to humans
+             immune to counters. For all other enemies, performing a counter when they're
+			 at 20% Vitality or less will trigger an automatic finisher.
+Mutation9  - Cat Eyes: +125% crit power and +25% to crit chance, bolts will either pierce,
+             stun, or knock down opponents. Foes at full health will take 15% * maxHP
+			 damage when shot. (Requires Bloodbath and Euphoria)
+Mutation10 - Euphoria: Each point of Toxicity increases sword damage and Sign Intensity
+             by 0.5% (max 50%). (Requires Toxic Blood)
+Mutation11 - Second Life: If your Vitality hits 0 you recover 100% of it and gain brief
+             invulnerability. The effect has a 3 minute cooldown. (Requires Adrenaline Rush)
+Mutation12 - Metamorphosis: Critical effects on enemies will activate a random decoction
+             (to a maximum of 3) from your supply for 2 minutes at no Toxicity cost, and
+			 as a bonus it also improves Witcher Sense in dark areas. (Requires Cat Eyes)
+
+Mutation3  - Bloodbath (Requires Deadly Counter):
+Each fatal strike of your sword triggers a finisher or dismemberment.
+Upon entering combat you immediately get +10% Attack Power for each sword skill you have
+equipped (max +160%). When you get hit, the bonus is reduced by 10%. When you kill an enemy
+the bonus is fully restored and you get additional +10% on top of it (max +100%). Bonus
+resets at the end of the combat.
+
+Mutation8  - Deadly Counter:
+Countering an enemy when they're at 15% of their full health kills them and triggers
+a finisher or dismemberment.
+
+This shit exists only because counters are useless in the base game!
+GM Counterattack is +100% to power, +100% to crit chance and
+25*3 knockdown chance for adrenaline.
+
+Mutation1  - Conductors of Magic  (Requires Piercing Cold):
+When drawn, magic, unique and witcher swords increase Sign damage by 50%
+of their own damage. Additionally, magic sword increases Sign Power by 25%,
+unique - by 50% and witcher - by 75%.
+
+Toxic Blood's description is misleading: it's not a damage, but a DoT effect that
+lasts for 5 sec and deals 0.001 * damageReceived of direct damage per second.
+Mutation4BloodDebuff - also adds -0.2 stamina regen penalty!
+
+Second Life - manually triggered berserk mode? Once per combat? Akin to N:A
+self-destruct?
+
+Euphoria - adds bonus per toxicity point when potion is consumed in combat. Bonus is
+removed when the potion's effect ends.

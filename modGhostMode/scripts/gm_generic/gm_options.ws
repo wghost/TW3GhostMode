@@ -9,6 +9,9 @@ function gmModRegenValue(attributeName : name, out effectValue : SAbilityAttribu
 		effectValue.valueAdditive += theGame.params.GetOutOfCombatVitalityRegen();
 	else if(attributeName == 'vitalityCombatRegen')
 		effectValue.valueAdditive += theGame.params.GetCombatVitalityRegen();
+	//theGame.witcherLog.AddMessage(attributeName + ": effectValue.valueAdditive = " + effectValue.valueAdditive);
+	//theGame.witcherLog.AddMessage(attributeName + ": effectValue.valueMultiplicative = " + effectValue.valueMultiplicative);
+	//theGame.witcherLog.AddMessage(attributeName + ": effectValue.valueBase = " + effectValue.valueBase);
 }
 
 function gmModMeleeStaminaCost(out cost : float)
@@ -41,12 +44,18 @@ function gmUpdateRegenEffects()
 		((W3Effect_AutoVitalityRegen)buffs[i]).UpdateEffectValue();
 	}
 	
+	if(buffs.Size() < 1)
+		thePlayer.StartVitalityRegen();
+	
 	buffs = thePlayer.GetBuffs(EET_AutoStaminaRegen);
 	
 	for(i = 0; i < buffs.Size(); i += 1)
 	{
 		((W3Effect_AutoStaminaRegen)buffs[i]).UpdateEffectValue();
 	}
+	
+	if(buffs.Size() < 1)
+		thePlayer.StartStaminaRegen();
 }
 
 function gmIsQoLOption(optionName : name) : bool

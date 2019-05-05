@@ -94,7 +94,7 @@
 2110992097|c8467d3c||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto diminuisce del $I$%.
 2110992098|c8467d3d||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto non diminuisce.
 2110992099|1f70c022||Ogni Punto Adrenalina aggiunge il $I$% di probabilità di uccidere istantaneamente un avversario. Non viene applicato al Turbine
-2110992102|1f70c021||Strong attack that goes through blocks and shields. Increases Attack Power by $S$% plus $S$% per each Adrenaline Point proportional to the Stamina spent ($S$% max). Increases critical hit chance by $S$%.
+2110992102|1f70c021||Strong attack that goes through blocks, armor and shields. Increases weapon damage by $S$% per each Stamina point spent and by $S$% per each Adrenaline Point ($S$% max). Increases critical hit chance by $S$%.
 2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Grants $S$% Attack Power per additional attacker (max. $S$%). Maintaining the attack consumes $S$ Stamina per second. If available, adrenaline point is used to decrease the damage received during the attack by $S$%.
 2110992105|        |gm_stat_adrenaline_gain|Guadagno Adrenalina
@@ -116,8 +116,8 @@
 2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
 2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Increases counterattack power by $I$%.
-2110992124|cf2b2da2||Protective shield that lasts until it has absorbed $I$ points of damage. Damage absorption scales with Sign intensity. Current absorption: $I$. Prevents stagger (and then breaks). Prevents burning, poison and bleeding effects. <br>Shield duration: $I$s.
-2110992125|163a8e77||Il danno inflitto da Igni diminuisce in modo permanente l'Armatura Totale del nemico del $S$% per colpo(scala con intensità del Segno). Il valore massimo dell'effetto non può superare il $S$%.
+2110992124|cf2b2da2||Protective shield that absorbs up to $I$% of damage dealt by enemy's weapon. Base damage absorption: $I$. Scales with Sign intensity. Current absorption: $I$. Prevents stagger, burning, poison and bleeding effects (and then breaks). <br>Shield duration: $I$s.
+2110992125|163a8e77||Damage dealt by Igni also permanently decreases enemy Armor and Damage Resistances by $S$% per hit (scales with Sign Intensity). Max effect rate cannot exceed $S$% of the starting values.
 2110992126|cf2b2da0||Un Esplosione di fuoco che infligge $I$ punti danno con il $I$% di probabilità di incenerire i nemici. Il danno scala con l'intensità del Segno. Danno attuale: $I$.
 2110992127|163a8e71||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
 2110992128|71d0c1e4||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
@@ -129,9 +129,9 @@
 2110992134|b1173fc1||I nemici dentro la Trappola Magica perdono $S$% punto(i) Vitalità o Essenza al secondo.
 2110992135|c84666b6||Lo scudo Quen spinge indietro i nemici e infligge $I$ punti danno quando si infrange. Il danno scala con intensità del Segno (danno corrente: $I$).
 2110992136|c84666b7||Lo scudo Quen spinge indietro i nemici con una probabilità di atterrare e infliggere $I$ punti danno quando si infrange.
-2110992137|163a8e73||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
-2110992138|71d0c966||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
-2110992139|71d0c967||Alternate Sign Mode:<br>Creates an active shield which absorbs $I$% more damage. Maintaining it no longer drains Stamina. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents knockdown (and then breaks).
+2110992137|163a8e73||Alternate Sign Mode:<br>An active shield that absorbs up to 100% of damage dealt by enemy's weapon. Base damage absorption is $I$% bigger. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents stagger, burning, poison and bleeding effects. Prevents knockdown (and then breaks).
+2110992138|71d0c966||Alternate Sign Mode:<br>An active shield that absorbs up to 100% of damage dealt by enemy's weapon. Base damage absorption is $I$% bigger. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents stagger, burning, poison and bleeding effects. Prevents knockdown (and then breaks).
+2110992139|71d0c967||Alternate Sign Mode:<br>An active shield that absorbs up to 100% of damage dealt by enemy's weapon. Base damage absorption is $I$% bigger. Maintaining it no longer drains Stamina. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents stagger, burning, poison and bleeding effects. Prevents knockdown (and then breaks).
 2110992140|15dda916||L'unguento appropiato applicato alle lame da una probabilità del $I$% di avvelenare il bersaglio con ogni colpo. L'unguento migliorato aumenta questa probabilità del $I$% e l'unguento Superiore - del $I$%. Effectiveness decreases with oil rubbing off the blade.
 2110992141|15dda91a||Se la Tossicità è maggiore di zero, il tempo rallenta automaticamente del $S$% quando un nemico si appresta a sferrare un contrattacco. Durata effetto: $S$s.
 2110992142|1517d64d||Se la Tossicità è maggiore di zero, il tempo rallenta automaticamente del $S$% quando un nemico si appresta a sferrare un contrattacco. Durata effetto: $S$s.
@@ -167,7 +167,7 @@
 2110992175|b1173fc7||Il bersaglio viene rallentato del $I$% mentre Geralt lancia il segno Axii. Aumenta l'efficacia di Axii nei dialoghi.
 2110992176|c84675ba||Il bersaglio viene rallentato del $I$% mentre Geralt lancia il segno Axii. Aumenta l'efficacia di Axii nei dialoghi.
 2110992177|c84675bb||Il bersaglio viene rallentato del $I$% mentre Geralt lancia il segno Axii. I tentativi falliti con Axii fanno vacillare il bersaglio. Aumenta l'efficacia di Axii nei dialoghi.
-2110992178|56747c57||Accellera la rigenerazione della Vitalità. Durata estesa. La rigenerazione della Vitalità non si ferma dopo aver subbito un danno.
+2110992178|56747c57||Accellera la rigenerazione della Vitalità. La rigenerazione della Vitalità non si ferma dopo aver subbito un danno.
 2110992179|        |gm_geralt_too_heavy|L'ingombro del tuo inventario è troppo alto.
 2110992180|        |option_gm_sink_boat_toggle|La barca affonda se l'ingombro dell'inventario è troppo alto
 2110992181|        |option_gm_sink_boat_slider|Oltre il limite d'ingombro la barca affonda(%)
@@ -177,7 +177,7 @@
 2110992185|        |gm_stash_inv_mode|Modalità scorta
 2110992186|        |gm_mixed_inv_mode|Modalità inventario misto
 2110992187|        |gm_synchronized_inv_mode|Modalità sincronizzata
-2110992188|e71d7c90||La Vitalità di Geralt viene aumentata per ogni nemico ucciso
+2110992188|e71d7c90||Increases Geralt's base Vitality by $S$ points with each foe killed.
 2110992189|d3510d11||Contains silver splinters that temporarily block or weaken monsters' transformation and regeneration abilities.
 2110992190|d3510d12||Contains silver splinters that temporarily block or weaken monsters' transformation and regeneration abilities. Extended duration.
 2110992191|d3510d13||Contains silver splinters that temporarily block or weaken monsters' transformation and regeneration abilities. Extended duration.
@@ -228,14 +228,15 @@
 2110992237|fe608837||Infligge danni da schegge ai nemici nel suo raggio di esplosione. Infligge anche danni da fuoco. Effetto potenziato. Distrugge lo scudo nemico. Distrugge i nidi dei mostri.
 2110992239|        |attribute_name_duration_out_of_cloud|Durata fuori dalla nube
 2110992240|874e9f87||Permette di vedere nel buio più totale. Durata estesa.
-2110992241|e71d7c8e||Dopo un attacco potente tutto il Vigore viene consumato per ridurre ulteriormente la vitalità delle vittime del 5%. Se il Vigore speso è inferiore al 100%, l'effetto viene proporzionalmente diminuito.
-2110992242|fc921527||Each Lesser Green Mutagen equipped increases your toxicity decay rate by $S$/sec. Green Mutagen increases the bonus to $S$/sec and Greater Green Mutagen - to $S$/sec.
-2110992243|e71d7c93||Aumenta l'Intensità dei Segni quando è nuvoloso.
-2110992244|fc921524||Aumenta la resistenza al sanguinamento, incenerimento e avvelenamento che vengono applicati durante il combattiemnto. Più è grande la durata di questi effetti, più grande è il bonus di resistenza.
-2110992245|fc921525||Compiere azioni che consumano Vigore rigenera la Vitalità in modo proporzionale al Vigore perso. Works only while in combat.
-2110992247|fc921505||Ogni colpo assestato aumenta la potenza di attacco(max 100%) fino alla fine del combattimento o finché non si subisce danno(esclusa la Tossicità). 
-2110992248|fc921509||La Potenza di Attacco cresce nel corso del combattimento(fino al 30%).
-2110992249|fc921526||Killing an enemy increases Stamina regeneration rate by $I$/s (up to $I$/s) for the remainder of the fight.
+2110992241|e71d7c8e||All your melee attacks cost $S$% more Stamina. Successful melee attack additionally reduces victim's health by $S$% of its current value per each Stamina point spent on the attack.
+2110992242|fc921527||Each Lesser Green Mutagen equipped increases your Vitality regeneration rate by $S$/sec. Green Mutagen increases the bonus to $S$/sec and Greater Green Mutagen - to $S$/sec.
+2110992243|e71d7c93||Each Lesser Blue Mutagen equipped increases base damage dealt with signs by $S$ points. Blue Mutagen increases the bonus to $S$ and Greater Blue Mutagen - to $S$.
+2110992244|fc921524||Increases the witcher's resistance to bleeding, burning, poison effects as well as to fire and poison damage by $I$%.
+2110992245|fc921525||Regenerates Vitality by $S$% for each point of Stamina spent. Works only while in combat.
+2110992246|e71d7c91||Regenerates Vitality by $S$% of the damage dealt to an enemy.
+2110992247|fc921505||Casting a sign increases your melee Attack Power by $I$% (max $I$%). Resets after dealing melee damage and at the end of the combat.
+2110992248|fc921509||Enemies controlled by Axii Puppet deal $I$% more damage.
+2110992249|fc921526||Casting a Sign in combat increases your Sign Power by $I$% (max $I$%). Resets at the end of the combat.
 2110992250|        |option_gm_rnd_scaling_min_slider|Livellamento casuale: limite inferiore(rispetto il livello del giocatore)
 2110992251|        |option_gm_rnd_scaling_max_slider|Livellamento casuale: limite superiore(rispetto il livello del giocatore)
 2110992252|        |preset_value_gm_es_random|Casuale
@@ -303,7 +304,7 @@
 2110992318|5f63dbf4||Consente la creazione di unguenti che possono essere applicati alle spade. L'efficacia dell'unguento diminuisce ogni volta che si sfrega la lama.
 2110992319|754d1890||Increases Adrenaline gain by $I$%. In addition to usual Battle Trance effect, each Adrenaline Point also decreases melee action Stamina cost by $I$%.
 2110992320|        |item_desc_armor_type_heavy_set_bonus|Bonus set armatura pesante: +$I$% per tutte le resistenze al danno.
-2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$I$ to maximum Vitality.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$S$/sec to Toxicity Decay Rate.
 2110992322|        |item_desc_armor_type_light_set_bonus|Bonus set armatura leggera: +$I$ gradi alla distanza dell'angolo di sicurezza delle schivate.
 2110992323|        |skill_desc_viper_set_ability1|Garantisce l'immunità all'avvelenamento.I veleni guariscono del $S$% del danno veleno per ogni set equipaggiato(Tasso di guarigione attuale: $S$%).
 2110992324|        |gm_stat_attack_power_levelup_bonus|Bonus Potenza di Attacco
@@ -333,12 +334,11 @@
 2110992351|1517ddd0||Every known level 1, 2 and 3 potion, bomb and oil formula, alchemy substance and mutagen decoction formula increases maximum Toxicity by 1.
 2110992352|        |attribute_name_staminaRestore|Stamina
 2110992353|0083ce65||Prolonged Effects
-2110992354|8d17aa9f||Extents potion duration time by $S$%.
-2110992355|0ff5fe13||Strong Metabolism
-2110992356|15dda919||Decreases potion toxicity by $S$%.
+2110992354|8d17aa9f||Extents potion duration time by $S$%. Potion effects persist while current Toxicity level exceeds $S$% of your non-reserved Toxicity (current value: $S$%).
+2110992355|15dda919||Toxicity drops $S$ points per second faster.
 2110992357|        |ignore_pain_gm|Increases maximum Vitality by $S$% while current Toxicity level exceeds $S$% of your non-reserved Toxicity (current value: $S$%).
-2110992358|8d17aa9e||Potion effects persist while current Toxicity level exceeds $I$% of your non-reserved Toxicity (current value: $I$%).
-2110992359|754d1893||When Adrenaline Points are at their maximum, drinking a toxic potion increases the Toxicity Decay Rate by $S$ points for $S$ sec.
+2110992358|8d17aa9e||Decreases potion toxicity by $S$ points.
+2110992359|0083ce64||Expert brewer
 2110992360|        |item_name_kaer_morhen_armor|Kaer Morhen armor
 2110992361|        |item_name_kaer_morhen_armor_1|Enhanced Kaer Morhen armor
 2110992362|        |item_name_kaer_morhen_armor_2|Superior Kaer Morhen armor
@@ -367,8 +367,8 @@
 2110992386|d02fd0a4||Once they reach their maximum level, Adrenaline Points steadily decline until they reach zero at a rate of $S$ points per sec. During this time Vitality regenerates faster by $S$%/sec, Stamina regenerates faster by $S$%/sec, and Toxicity declines faster by $S$ points/sec.
 2110992387|f098e2d3||Igni's basic attack strikes all opponents in a 360-degree radius. Burning chance is decreased by $I$%.
 2110992388|fc92152b||Getting hit more than once within $S$ sec makes you immune to damage for the next $S$ sec.
-2110992389|e71d7c8c||Gain adrenaline for damage received. Scales with the amount of damage proportional to your maximum health: $S$ points per 1% of health lost.
-2110992390|fc92152c||Damage dealt to enemies in spectral form is increased from $I$% to $I$% of normal damage.
+2110992389|e71d7c8c||When enemies damage you in melee combat, they get an Acid effect that reduces their Damage Resistance by $I$% (max $I$%).
+2110992390|fc92152c||Damage dealt to enemies in spectral form is increased from $I$% to $I$% of normal damage. Damage taken from enemies in spectral form is reduced by $I$%.
 2110992391|        |option_gm_cbtsreg|Combat stamina regen (additional)
 2110992392|        |option_gm_ocbtsreg|Out of combat stamina regen (additional)
 2110992393|        |option_gm_cbtvreg|Combat vitality regen (additional)
@@ -404,10 +404,10 @@
 2110992423|        |attribute_name_nonres_tox|Non-reserved Toxicity
 2110992424|        |attribute_name_tox_dec_rate|Toxicity Decay Rate
 2110992425|        |attribute_name_avail_tox|Available Toxicity
-2110992426|736e017e||Light gear. Offers minimal protection.
-2110992427|320650a7||Medium gear. Offers average protection. Combat actions require more stamina.
-2110992428|942892ef||Heavy gear. Offers the best protection. Combat actions and sign casting require significantly more stamina.
-2110992429|6d1ad461||Light Armor does not provide much protection, but your combat actions require less stamina when it is equipped. Medium Armor and Heavy Armor absorb more damage, but your combat actions require more stamina.
+2110992426|736e017e||Light gear. Offers minimal protection. Combat actions require less stamina.
+2110992427|320650a7||Medium gear. Offers optimal protection.
+2110992428|942892ef||Heavy gear. Offers the best protection. Combat actions and sign casting require more stamina.
+2110992429|6d1ad461||Light Armor does not provide much protection, but your combat actions require less stamina when it is equipped. Medium Armor and Heavy Armor absorb more damage, but while in Heavy Armor your combat actions require more stamina.
 2110992430|4080bc95||Dealing damage in combat heals $S$% of maximum Vitality for each piece of the set (currently $S$%).
 2110992431|        |option_gm_ascooldown|Alternate Sign cooldown (seconds)
 2110992432|        |option_gm_sign_instant_cast_toggle|Instant sign casting with sign select key
@@ -432,10 +432,34 @@
 2110992452|        |preset_Mods_ghost_mode_gm_exp_options|Experience Presets
 2110992453|        |preset_Mods_ghost_mode_gm_scaling_options|Scaling Presets
 2110992454|15dda917||When consumed, mutagen decoction increases maximum Vitality by $I$ points per each toxicity offset point for decoction's effective duration.
-2110992455|e71d7c8b||Non-critical damage dealt with a sword increases Critical hit chance for subsequent attacks by $I$% (max $I$%). Bonus resets on successful critical hit and at the end of the combat.
+2110992455|e71d7c8b||Non-critical damage dealt with a sword increases Critical hit chance for subsequent attacks by $I$% (max $I$%). When at max bonus, receive additional $I$% to Critical hit power. Bonus resets on successful critical hit and at the end of the combat.
 2110992456|        |attribute_name_dbomb_dmg_reduction|Damage reduction
 2110992457|fc92150b||Hit Reaction Severity is reduced to zero, if damage received is less than $I$% of your maximum Health.
 2110992458|        |option_gm_armor_reg_penalty|Enable stamina regen penalty for armors
 2110992459|        |preset_value_gm_old_ver|Vanilla(ish)
 2110992460|        |skill_desc_magic_s10_l3|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
 2110992461|        |gm_sign_stats_yrden_range|Magic Trap Range
+2110992462|dd7afa8f||Connoisseur
+2110992463|754d1895||Reduces alcohol and toxic food toxicity to zero. Removes drunken effect from alcohol. After drinking an alcoholic beverage, Vitality regenerates longer by $S$%.
+2110992464|a1370329||Increases breath supply while underwater and improves vision while diving.
+2110992465|437e276a||Immediately restores a small portion of Stamina and accelerates its regeneration.
+2110992466|437e276b||Immediately restores a small portion of Stamina and accelerates its regeneration.
+2110992467|437e276c||Immediately restores a small portion of Stamina and accelerates its regeneration. Never expires at night.
+2110992471|1b06cd09||Whenever you slay an enemy, time slows for a short period.
+2110992474|        |gm_crafting_bonus_title|Bonus for gear type:
+2110992475|        |item_name_caretaker_spade_desc|Restores Vitality proportional to damage dealt.
+2110992476|2ae9db22||Vitality drain
+2110992477|e71d7c8d||All bombs and potions (but not decoctions) can be used one additional time.
+2110992478|fc921506||Increases critical hit power by $I$% when attacking from behind.
+2110992479|fc92152a||$I$% of the damage taken by the witcher is reflected back on the attacker.
+2110992480|        |attribute_name_dbomb_resist_reduction|Damage resistance reduction
+2110992481|fc92150e||When the witcher is attacked from behind, normal Quen gets activated and reduces the damage. When hostile specters are around, Quen Power is increased by $S$%.
+2110992482|        |attribute_name_hpPercDamageBonusPerHit|Damage bonus
+2110992483|        |attribute_name_resistance_perc_bonus_descr|Damage resistances
+2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Power by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
+2110992485|e71d7c8f||Dealing melee damage to enemies increases your Attack Power by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
+2110992486|fc92150a||Dealing melee damage to enemies increases your Adrenaline Gain by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
+2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Power, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
+2110992488|fc921507||Gain +$I$ to non-combat Vitality regeneration and +$I$ to combat Vitality regeneration. When your Stamina is at $I$% and below, gain another +$I$ to combat Vitality regeneration.
+2110992489|fc92150d||When you kill a foe, gain +$I$ to Vitality regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
+2110992490|fc921508||When you kill a foe, gain +$I$ to combat Stamina regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.

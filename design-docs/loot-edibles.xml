@@ -9,8 +9,8 @@
 		<loot_entry name="Honeycomb"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
 		<loot_entry name="Mushroom"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
 		<loot_entry name="Olive"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="3"	chance="-1"			/>
-		<loot_entry name="Onion"									player_level_min="0"	player_level_max="0"	quantity_min="3"	quantity_max="4"	chance="-1"			/>
-		<loot_entry name="Pepper"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Onion"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
+		<loot_entry name="Pepper"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="3"	chance="-1"			/>
 		<loot_entry name="Potatoes"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
 		<loot_entry name="Raspberries"								player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="3"	chance="-1"			/>
 <!-- / -->
@@ -27,7 +27,6 @@
 <!-- edibles Q2 -->
 <!-- ingredients -->
 		<loot_entry name="Bread"									player_level_min="0"	player_level_max="0"	quantity_min="2"	quantity_max="4"	chance="-1"			/>
-		<loot_entry name="Butter Bandalura"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
 		<loot_entry name="Cheese"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="3"	chance="-1"			/>
 		<loot_entry name="Chicken"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
 		<loot_entry name="Chicken leg"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="2"	chance="-1"			/>
@@ -38,6 +37,7 @@
 		<loot_entry name="Baked apple"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Baked potato"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Bun"										player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Butter Bandalura"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Chips"									player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Dried fruit"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Dried fruit and nuts"						player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
@@ -58,17 +58,17 @@
 <!-- drinks Q1 -->
 		<loot_entry name="Bottled water"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="4"	chance="-1"			/>
 		<loot_entry name="Tirnalia potion"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+<!-- drinks Q2 -->
+		<loot_entry name="Apple juice"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Raspberry juice"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 <!-- alco -->
 		<loot_entry name="Rivian Kriek"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Viziman Champion"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Kaedwenian Stout"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Redanian Lager"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-<!-- drinks Q2 -->
-		<loot_entry name="Apple juice"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Cows milk"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="3"	chance="-1"			/>
-		<loot_entry name="Goats milk"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Raspberry juice"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 <!-- drinks Q3 -->
+		<loot_entry name="Cows milk"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
+		<loot_entry name="Goats milk"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 <!-- alco -->
 		<loot_entry name="Dijkstra Dry"								player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Beauclair White"							player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
@@ -140,7 +140,6 @@
 <!-- edibles Q2 -->
 		<loot_entry name="Recipe for Baked apple"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Baked potato"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
-		<loot_entry name="Recipe for Butter Bandalura"				player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Chicken leg"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 		<loot_entry name="Recipe for Gutted fish"					player_level_min="0"	player_level_max="0"	quantity_min="1"	quantity_max="1"	chance="-1"			/>
 <!-- edibles Q3 -->

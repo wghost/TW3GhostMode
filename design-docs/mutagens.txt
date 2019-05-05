@@ -1,28 +1,120 @@
-Mutagen_1 = Katakan -> +5% to critical hit chance.
-Mutagen_2 = Arachas -> 20% damage reduction bonus while at zero weight, 0% bonus while at full weight.
-Mutagen_3 = Cockatrice -> +1 ammo to all bombs and potions (not to mutagen potions).
-Mutagen_4 = ArchGriffin -> any non-zero stamina decreases HP by 5% * curHP per strong melee hit that deals any damage.
-Mutagen_5 = Water Hag -> +50% to any damage multiplier while at full health.
-Mutagen_6 = NightWraith -> +50 vitality per enemy killed, not removed at the end of the combat.
-Mutagen_7 = Ekimmara -> heals the witcher for 10% of damage dealt to an enemy.
-Mutagen_8 = Chort -> decreases knockdown to stagger and denies stagger.
-Mutagen_9 = Foglet -> +25% to sign power while weather is bad.
-Mutagen_10 = Wyvern -> +1% to attack power per melee hit that deals damage, no limits, removed on any damage dealt to witcher, removed at the end of combat.
-Mutagen_11 = Doppler -> +50% to crit damage multiplier when attacking from behind.
-Mutagen_12 = Troll -> +100 to vitality regen in exploration, +20 to vitality regen in combat.
-Mutagen_13 = Noonwraith -> sets Blindness, Hypnotized, Knockdown/Stagger/Confusion, Slowdown effects duration to 0.5 sec.
-Mutagen_14 = Succubus -> +1% to attack power mult each 2 seconds up to x30, removed at the end of combat.
-Mutagen_15 = Alghoul -> +0.5 to focus gain, removed on any damage dealt to witcher, removed at the end of combat.
-Mutagen_16 = Fiend -> +20 to max weight.
-Mutagen_17 = Forktail -> 50% to attack power and spell power after you did at least three of these actions: counter, attack, sign, bomb, crossbow. Clears buff after the attack, removed at the end of combat.
-Mutagen_18 = Grave Hag -> +5 to combat vitality regen per enemy killed, removed at the end of combat.
-Mutagen_19 = Wraith -> if damage dealt to the witcher is more than 30% if his max HP, normal quen gets activated.
-Mutagen_20 = Elemental -> +10% to burning, poison and bleeding DoT resists per second, no limit, removed when effect ends.
-Mutagen_21 = Ekhidna -> heals 10% * maxHP per action that has stamina cost (once per whirl, rend and sign channeling).
-Mutagen_22 = Ancient Leshen -> +2 to stamina regen per sign cast when in combat, no limits, removed at the end of combat.
-Mutagen_23 = Basilisk -> adds random shrine effect at dawn and dusk.
-Mutagen_24 = Werewolf -> sprint and jump cost zero stamina while not in combat.
-Mutagen_25 = Nekker Warrior -> +50% to attack power mult while fighting on horse, horse never panics.
-Mutagen_26 = Leshen -> returns 10 + 2% * damageDealt of physical damage to damage dealer.
-Mutagen_27 = Griffin -> +1% to all resists per hit that deals damage to witcher, limit is x25, removed at the end of combat.
-Mutagen_28 = Reliever's -> +10% to attack power mult vs spectres and +15% to vs spectres resistance.
+Mutagen_1 = Katakan - Red:
+Non-critical damage dealt with a sword increases critical chance of subsequent attacks
+by 5% (max 25%). When at max bonus, receive additional 50% to Critical hit power.
+Resets on successful critical hit and at the end of the combat.
+
+Mutagen_2 = Arachas - Green:
+When enemies damage you in melee combat, they get an Acid effect that reduces their
+Damage Resistance by 1% (max 10%).
+
+Mutagen_3 = Cockatrice - Blue:
+All bombs and potions (but not decoctions) can be used one additional time.
+
+Mutagen_4 = ArchGriffin - Red:
+All your melee attacks cost 50% more Stamina. Successful melee attack additionally
+reduces victim's health by 0.1% of its current value per each Stamina point spent
+on the attack.
+
+Mutagen_5 = Water Hag - Red:
+Dealing melee damage to enemies increases your Attack Power by 5% (max 100%).
+Getting hit decreases the bonus proportional to damage received:
+0.5% per 1% of health lost.
+Resets at the end of the combat.
+
+Mutagen_6  = Nightwraith - Green:
+Increases Geralt's base Vitality by 50 points with each foe killed.
+(Not removed at the end of the combat.)
+
+Mutagen_7 = Ekimmara - Green:
+Regenerates Vitality by 10% of the damage dealt to an enemy.
+
+Mutagen_8 = Chort - Blue:
+Grants immunity to stagger. Reduces knockdown to stagger.
+
+Mutagen_9 = Foglet - Blue:
+Each Lesser Blue Mutagen equipped increases base damage dealt with signs by 10 points.
+Blue Mutagen increases the bonus to 17.5 and Greater Blue Mutagen - to 25.
+
+Mutagen_10 = Wyvern - Red:
+Casting a sign increases your melee Attack Power by 10% (max 50%).
+Resets after dealing melee damage and at the end of the combat.
+
+Mutagen_11 = Doppler - Red:
++50% to crit damage multiplier when attacking from behind.
+
+Mutagen_12 = Troll - Green:
+Gain +100 to non-combat Vitality regeneration and +20 to combat Vitality regeneration.
+When your Stamina is at 33% and below, gain another +80 to combat Vitality regeneration.
+
+Mutagen_13 = Noonwraith - Green:
+When you kill a foe, gain +1 to combat Stamina regeneration per each alive enemy nearby.
+Max bonus cannot exceed +10. Resets at the end of the combat.
+
+Mutagen_14 = Succubus - Red:
+Enemies controlled by Axii Puppet deal 50% more damage.
+
+Mutagen_15 = Alghoul - Red:
+Dealing melee damage to enemies increases your Adrenaline Gain by 5% (max 50%).
+Getting hit decreases the bonus proportional to damage received:
+0.5% per 1% of health lost.
+Resets at the end of the combat.
+
+Mutagen_16 = Fiend - Green:
+Avoid hit stagger if damage received is less than 15% of your maximum health.
+
+Mutagen_17 = Forktail - Blue:
+Damage dealt with a melee weapon increases Sign Power by 10% (max 50%).
+Resets after casting a sign and at the end of the combat.
+
+Mutagen_18 = Grave Hag - Green:
+When you kill a foe, gain +5 to Vitality regeneration per each alive enemy nearby.
+Max bonus cannot exceed +50. Resets at the end of the combat.
+
+Mutagen_19 = Wraith - Green:
+When the witcher is attacked from behind, normal Quen gets activated and reduces
+the damage. When hostile specters are around, Quen Power is increased by 50%.
+
+Mutagen_20 = Elemental - Blue:
+Adds 50% resistance to bleeding, burning, poison effects and to fire and
+poison damage.
+
+Mutagen_21 = Ekhidna - Blue:
+Regenerates Vitality by 0.1% for each point of Stamina spent.
+Works only while in combat.
+
+Mutagen_22 = Ancient Leshen - Blue:
+Casting a Sign in combat increases your Sign Power by 2% (max 100%).
+Resets at the end of the combat.
+
+Mutagen_23 = Basilisk - Blue:
+Each Lesser Green Mutagen equipped increases your Vitality regeneration rate by 4/sec.
+Green Mutagen increases the bonus to 8/sec and Greater Green Mutagen - to 16/sec.
+
+Mutagen_24 = Werewolf - Red:
+Gain +50% to Attack and Sign Power, +5/s to Stamina regeneration
+and +25% to Adrenaline gain while your health is at 20% or lower.
+Resets when you regain your health and at the end of the combat.
+10 sec cooldown.
+
+Mutagen_25 = Nekker Warrior - Red:
+Each Lesser Red Mutagen equipped decreases melee action stamina cost by 2.5%.
+Red Mutagen increases the bonus to 3.75% and Greater Red Mutagen - to 5%.
+
+Mutagen_26 = Leshen - Blue:
+returns 15% of damage taken to damage dealer.
+
+Mutagen_27 = Griffin - Green:
+Getting hit more than once within 1 sec makes you immune to damage for the next 2 sec.
+
+Mutagen_28 = Reliever's - Green:
+Damage dealt to enemies in spectral form is increased from 10% to 60% of normal damage.
+Damage taken from enemies in spectral form is reduced by 50%.
+
+-----------------
+
+Arachas, Czart, Basilisk, Cockatrice, Forktail, Wyvern, Dao, Fiend, Fogling,
+Grave Hag, Water Hag, Gryphon, Volcanic Gryphon, Ekimma, Katakan, Leshy, Ancient Leshy,
+Nekker Warrior, Lamia, Succubus, Troll, Werewolf, Wraith, Nightwraith, Noonwraith,
+
+Resists: 53 max from armor + 10 from armor class bonus
+         + 5 max from random armor abl + 5 max from trophy = 73.
