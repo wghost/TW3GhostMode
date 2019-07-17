@@ -87,9 +87,9 @@
 2110992090|6c1d3ba3||Bombs are thrown without any delay and can deal critical damage. Each set piece increases bomb critical hit chance by $S$% (current bonus is: $S$%) and bomb critical hit power by $S$% (current bonus is: $S$%).
 2110992091|85e8fbd1||Each set piece increases the effectiveness of an oil applied to a sword by $S$% (current bonus is: $S$%).
 2110992092|1f70c024||Fast attacks have $S$% chance to apply Bleeding effect.
-2110992093|71d0c5a6||Alternate Sign Mode:<br>Deals $I$ points of damage to enemies within a $I$ yard radius. Damage scales with Sign intensity (current damage: $I$). Destroys projectiles passing through this area. Lasts for $I$s. Turret charges - $I$.
-2110992094|71d0c5a5||Alternate Sign Mode:<br>Deals $I$ points of damage to enemies within a $I$ yard radius. Damage scales with Sign intensity (current damage: $I$). Destroys projectiles passing through this area. Lasts for $I$s. Turret charges - $I$.
-2110992095|163a8e72||Alternate Sign Mode:<br>Deals $I$ points of damage to enemies within a $I$ yard radius. Damage scales with Sign intensity (current damage: $I$). Destroys projectiles passing through this area. Lasts for $I$s. Turret charges - $I$.
+2110992093|71d0c5a6||Alternate Sign Mode:<br>Deals $I$ points of damage to enemies within a $I$ yard radius. Damage scales with Sign Intensity (current damage: $I$). Ignores enemy Armor. Destroys projectiles passing through this area. Lasts for $I$s. Turret charges - $I$.
+2110992094|71d0c5a5||Alternate Sign Mode:<br>Deals $I$ points of damage to enemies within a $I$ yard radius. Damage scales with Sign Intensity (current damage: $I$). Ignores enemy Armor. Destroys projectiles passing through this area. Lasts for $I$s. Turret charges - $I$.
+2110992095|163a8e72||Alternate Sign Mode:<br>Deals $I$ points of damage to enemies within a $I$ yard radius. Damage scales with Sign Intensity (current damage: $I$). Ignores enemy Armor. Destroys projectiles passing through this area. Lasts for $I$s. Turret charges - $I$.
 2110992096|b1173fc9||Two opponents can be influenced by Axii at the same time. Effect duration is lowered by $I$%.
 2110992097|c8467d3c||Two opponents can be influenced by Axii at the same time. Effect duration is lowered by $I$%.
 2110992098|c8467d3d||Two opponents can be influenced by Axii at the same time. Effect duration is no longer lowered.
@@ -116,19 +116,19 @@
 2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
 2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Increases counterattack power by $I$%.
-2110992124|cf2b2da2||Protective shield that absorbs up to $I$% of damage dealt by enemy's weapon. Base damage absorption: $I$. Scales with Sign intensity. Current absorption: $I$. Prevents stagger, burning, poison and bleeding effects (and then breaks). <br>Shield duration: $I$s.
-2110992125|163a8e77||Damage dealt by Igni also permanently decreases enemy Armor and Damage Resistances by $S$% per hit (scales with Sign Intensity). Max effect rate cannot exceed $S$% of the starting values.
-2110992126|cf2b2da0||Fiery blast that deals $I$ points of damage with $I$% chance to set enemies on fire. Damage scales with Sign intensity. Current damage: $I$.
-2110992127|163a8e71||Alternate Sign Mode:<br>Emits a continuous focused stream of fire that causes burning and deals $I$ points of damage per second. Damage scales with Sign intensity (current damage: $I$). Drains $I$ points of Stamina per second.
-2110992128|71d0c1e4||Alternate Sign Mode:<br>Emits a continuous focused stream of fire that causes burning and deals $I$ points of damage per second. Damage scales with Sign intensity (current damage: $I$). Drains $I$ points of Stamina per second.
-2110992129|71d0c1e5||Alternate Sign Mode:<br>Emits a continuous focused stream of fire that causes burning and deals $I$ points of damage per second. Damage scales with Sign intensity (current damage: $I$). Drains $I$ points of Stamina per second.
-2110992130|163a8e75||Aard now deals $I$ damage. Damage scales with Sign intensity. Current damage: $I$.
+2110992124|cf2b2da2||Protective shield that absorbs up to $I$% of damage dealt by enemy's weapon. Base damage absorption: $I$. Scales with Sign Intensity. Current absorption: $I$. Prevents stagger, burning, poison and bleeding effects (and then breaks). <br>Shield duration: $I$s.
+2110992125|163a8e77||Damage dealt by Igni also decreases enemy Armor by $S$ point(s) and enemy Damage Resistances by $S$% (scales with Sign Intensity) for $S$ sec. Subsequently applied effects cumulate.
+2110992126|cf2b2da0||Fiery blast that deals $I$ points of damage with $I$% chance to set enemies on fire. Damage scales with Sign Intensity. Current damage: $I$.
+2110992127|163a8e71||Alternate Sign Mode:<br>Emits a continuous focused stream of fire that causes burning and deals $I$ points of damage per second. Damage scales with Sign Intensity (current damage: $I$). Drains $I$ points of Stamina per second.
+2110992128|71d0c1e4||Alternate Sign Mode:<br>Emits a continuous focused stream of fire that causes burning and deals $I$ points of damage per second. Damage scales with Sign Intensity (current damage: $I$). Drains $I$ points of Stamina per second.
+2110992129|71d0c1e5||Alternate Sign Mode:<br>Emits a continuous focused stream of fire that causes burning and deals $I$ points of damage per second. Damage scales with Sign Intensity (current damage: $I$). Drains $I$ points of Stamina per second.
+2110992130|163a8e75||Aard now deals $I$ damage. Damage scales with Sign Intensity. Current damage: $I$.
 2110992131|b3c8ebb8||Magic turret
 2110992132|b1173fc0||Magic Trap duration increases by $I$%.
 2110992133|        |skill_desc_magic_s10_l2|Magic Trap duration increases by $I$%. Magic Trap radius increases by $I$%.
 2110992134|b1173fc1||Enemies inside Magic Trap loose $S$% point(s) of Vitality or Essence per second.
-2110992135|c84666b6||Quen shield pushes opponents back and deals $I$ points of damage when it breaks. Damage scales with Sign intensity (current damage: $I$).
-2110992136|c84666b7||Quen shield pushes opponents back with a chance for knock-down and deals $I$ points of damage when it breaks. Damage scales with Sign intensity (current damage: $I$).
+2110992135|c84666b6||Quen shield pushes opponents back and deals $I$ points of damage when it breaks. Damage scales with Sign Intensity (current damage: $I$).
+2110992136|c84666b7||Quen shield pushes opponents back with a chance for knock-down and deals $I$ points of damage when it breaks. Damage scales with Sign Intensity (current damage: $I$).
 2110992137|163a8e73||Alternate Sign Mode:<br>An active shield that absorbs up to 100% of damage dealt by enemy's weapon. Base damage absorption is $I$% bigger. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents stagger, burning, poison and bleeding effects. Prevents knockdown (and then breaks).
 2110992138|71d0c966||Alternate Sign Mode:<br>An active shield that absorbs up to 100% of damage dealt by enemy's weapon. Base damage absorption is $I$% bigger. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents stagger, burning, poison and bleeding effects. Prevents knockdown (and then breaks).
 2110992139|71d0c967||Alternate Sign Mode:<br>An active shield that absorbs up to 100% of damage dealt by enemy's weapon. Base damage absorption is $I$% bigger. Maintaining it no longer drains Stamina. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents stagger, burning, poison and bleeding effects. Prevents knockdown (and then breaks).
@@ -139,7 +139,7 @@
 2110992145|329005f0||Allows you to perform strong melee attacks which add +$I$% to Attack Power and +$I$ to Armor Penetration.
 2110992148|bab1daf5||Each point of Toxicity increases Attack Power and Sign Intensity by $S$% (to a maximum of $S$%).
 2110992149|c3f5389c||Signs can deal critical hits. Their critical hit chance and power increase with Sign Intensity (current critical hit chance -  $S$%, critical hit power - $S$%). Opponents killed by critical hits from Signs explode.
-2110992150|c3f538a0||When the Aard Sign is cast, it additionally has a $S$% chance of freezing opponents. Opponents knocked down and frozen simultaneously die immediately. Opponents who are not frozen are dealt an additional $S$ damage. Damage scales with Sign intensity. Current damage: $S$.
+2110992150|c3f538a0||When the Aard Sign is cast, it additionally has a $S$% chance of freezing opponents. Opponents knocked down and frozen simultaneously die immediately. Opponents who are not frozen are dealt an additional $S$ damage. Damage scales with Sign Intensity. Current damage: $S$.
 2110992151|cf2b2da1||Magic trap that slows enemies down by $S$% (scales with Sign Intensity) inside its area of effect. Trap duration: $S$s. The longer the trap persists, the less efficient it becomes.
 2110992152|c3f538a1||At start of combat, Attack Power and Sign Intensity increase by $S$% for each foe (after first) for $S$s. So, when fighting $S$ foes, the bonus is $S$%. Once it wears off, Attack Power and Sign Intensity drop by $S$% for each participating foe after first (but no more than by $S$%) for $S$s.
 2110992153|c32e766a||Critical hit power bonus
@@ -154,16 +154,16 @@
 2110992162|        |attribute_name_sword_dmg_bonus|Weapon damage
 2110992163|7968d6e0||Freezes foes. Blows landed on frozen foes deal additional damage. Extended duration.
 2110992164|b02a28c2||Damage increase
-2110992165|9e58d1f5||Increases Sign intensity. Extended duration. Special effects from signs are one-third longer.
+2110992165|9e58d1f5||Increases Sign Intensity. Extended duration. Special effects from signs are one-third longer.
 2110992166|329005f3||Damage dealt during melee combat generates Adrenaline Points. Each Adrenaline Point increases Attack Power by $I$%.
 2110992167|        |gm_combat_stats_fast_crit_attack_power|Fast attack critical hit power
 2110992168|        |gm_combat_stats_strong_crit_attack_power|Strong attack critical hit power
 2110992169|        |gm_used_razor_success|Geralt is now clean-shaven
 2110992170|329005f2||Allows you to wield a light hand-held crossbow. Non-aimed shots deal 50% less damage.
 2110992171|5f63dbf5||Enables the creation of handheld bombs that can be thrown at enemies. Non-aimed throws deal 50% less damage.
-2110992172|754d1891||In addition to usual Battle Trance effect, each Adrenaline Point also increases Sign intensity by $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
+2110992172|754d1891||In addition to usual Battle Trance effect, each Adrenaline Point also increases Sign Intensity by $I$%. Using Signs now generates the same amount of Adrenaline Points as when using swords.
 2110992173|        |item_desc_razor_mod|Used for shaving.
-2110992174|da7e5ba5||Each piece of medium armor increases Sign intensity by $S$% and decreases sign casting stamina cost by $S$%.
+2110992174|da7e5ba5||Each piece of medium armor increases Sign Intensity by $S$% and decreases sign casting stamina cost by $S$%.
 2110992175|b1173fc7||Target is slowed down by $I$% while Geralt is casting Axii. Increases the effectiveness of Axii in dialogues.
 2110992176|c84675ba||Target is slowed down by $I$% while Geralt is casting Axii. Increases the effectiveness of Axii in dialogues.
 2110992177|c84675bb||Target is slowed down by $I$% while Geralt is casting Axii. Failed Axii attempts stagger the target. Increases the effectiveness of Axii in dialogues.
@@ -236,7 +236,7 @@
 2110992246|e71d7c91||Regenerates Vitality by $S$% of the damage dealt to an enemy.
 2110992247|fc921505||Casting a sign increases your melee Attack Power by $I$% (max $I$%). Resets after dealing melee damage and at the end of the combat.
 2110992248|fc921509||Enemies controlled by Axii Puppet deal $I$% more damage.
-2110992249|fc921526||Casting a Sign in combat increases your Sign Power by $I$% (max $I$%). Resets at the end of the combat.
+2110992249|fc921526||Casting a Sign in combat increases your Sign Intensity by $I$% (max $I$%). Resets at the end of the combat.
 2110992250|        |option_gm_rnd_scaling_min_slider|Random scaling: lower bound (relative to player level)
 2110992251|        |option_gm_rnd_scaling_max_slider|Random scaling: upper bound (relative to player level)
 2110992252|        |preset_value_gm_es_random|Random
@@ -261,29 +261,29 @@
 2110992271|        |option_gm_monster_exp_slider|Combat experience modifier
 2110992272|        |attribute_name_knockdown|Knockdown chance
 2110992273|b1173fc2||Increases heavy knockdown chance by $I$%.
-2110992274|163a8e76||Adds $I$ points to Fire damage and $I$ points to Firestream damage per sec. Scales with Sign Power.
-2110992275|b1173fc6||Adds $I$ points to Magic Turret damage. Scales with Sign Power.
-2110992276|b1173fc5||Adds $I$ points to shield damage absorption. Scales with Sign Power.
+2110992274|163a8e76||Adds $I$ points to Fire damage and $I$ points to Firestream damage per sec. Scales with Sign Intensity.
+2110992275|b1173fc6||Adds $I$ points to Magic Turret damage. Scales with Sign Intensity.
+2110992276|b1173fc5||Adds $I$ points to shield damage absorption. Scales with Sign Intensity.
 2110992277|        |gm_sign_stats_axii_duration_confusion|Confusion duration
 2110992278|        |gm_sign_stats_axii_duration_control|Control duration
-2110992279|163a8e70||Alternate Sign Mode:<br>Aard strikes all opponents in range. Sign intensity is $I$% lower for this mode.
-2110992280|71d0be23||Alternate Sign Mode:<br>Aard strikes all opponents in range. Sign intensity is $I$% lower for this mode.
-2110992281|71d0be24||Alternate Sign Mode:<br>Aard strikes all opponents in range. Sign intensity is no longer lowered for this mode.
-2110992282|71d0d0e8||Aard now deals $I$ damage. Damage scales with Sign intensity. Current damage: $I$.
-2110992283|71d0d0e9||Aard now deals $I$ damage. Damage scales with Sign intensity. Current damage: $I$.
-2110992284|cf2b2d9f||A directed blast of telekinetic energy that staggers opponents and has $I$% knockdown chance. Heavy knockdown chance is $I$%. Chances scale with Sign intensity. Grants additional 25% chance to critically hit staggered or knocked down enemy. Heavy knockdown activates finisher move.
-2110992286|cf2b2da3||Charms an opponent's mind, confusing them and temporarily eliminating them from combat. <br>Confusion duration: $S$ seconds (scales with Sign intensity). Grants additional 25% chance to critically hit confused enemy.
+2110992279|163a8e70||Alternate Sign Mode:<br>Aard strikes all opponents in range. Sign Intensity is $I$% lower for this mode.
+2110992280|71d0be23||Alternate Sign Mode:<br>Aard strikes all opponents in range. Sign Intensity is $I$% lower for this mode.
+2110992281|71d0be24||Alternate Sign Mode:<br>Aard strikes all opponents in range. Sign Intensity is no longer lowered for this mode.
+2110992282|71d0d0e8||Aard now deals $I$ damage. Damage scales with Sign Intensity. Current damage: $I$.
+2110992283|71d0d0e9||Aard now deals $I$ damage. Damage scales with Sign Intensity. Current damage: $I$.
+2110992284|cf2b2d9f||A directed blast of telekinetic energy that staggers opponents and has $I$% knockdown chance. Heavy knockdown chance is $I$%. Chances scale with Sign Intensity. Grants additional 25% chance to critically hit staggered or knocked down enemy. Heavy knockdown activates finisher move.
+2110992286|cf2b2da3||Charms an opponent's mind, confusing them and temporarily eliminating them from combat. <br>Confusion duration: $S$ seconds (scales with Sign Intensity). Grants additional 25% chance to critically hit confused enemy.
 2110992287|b1173fc8||Axii effects duration is increased by $I$%.
-2110992288|163a8e74||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign intensity. Current duration: $I$s.
-2110992289|71d0cd27||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign intensity. Current duration: $I$s.
-2110992290|71d0cd28||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign intensity. Current duration: $I$s.
-2110992291|483c9092||Damage dealt charges the sword increasing its critical hit power by $S$% (max. $S$%). Charge decays over time and on damage taken. A fully-charged sword increases critical hit chance by $S$%.
-2110992292|1f5adb4f||Killing a foe with a fully loaded sword will expend its charge to permanently increase the weapon's damage. When bonus damage exceeds its maximum, sword levels up. Damage is increased by: $S$ (to a maximum of 10).
+2110992288|163a8e74||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign Intensity. Current duration: $I$s.
+2110992289|71d0cd27||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign Intensity. Current duration: $I$s.
+2110992290|71d0cd28||Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$s and gains $I$% attack power bonus. Effect duration scales with Sign Intensity. Current duration: $I$s.
+2110992291|483c9092||While in combat, weapon damage increases by $I$ points per enemy. Each successful hit charges the sword. Fully charged sword discharges on successful hit, dealing critical damage with $I$% Attack Power bonus and ignoring Armor and damage resistances. Sword discharge also damages and staggers all the surrounding enemies.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage.
+2110992292|1f5adb4f||<br><br>Current charges: $I$/$I$. Current damage bonus: $I$ points.
 2110992293|        |gm_sign_stats_heavy_knockdown|Heavy knockdown chance
 2110992294|f76f46ed||Killing an enemy heals $I$% of maximum Vitality.
 2110992295|fad8f82b||Killing an enemy gives $F$ to $F$ Adrenaline Points.
 2110992296|ed2f3195||Gives a $I$% chance of returning $I$% of damage received to the attacker.
-2110992299|f2e69faf||Dealing damage with fast attacks charges weapon with energy. When its color changes to red, a strong attack will release this energy in an extra powerful strike, at the cost of part of the attacker's Vitality.
+2110992299|f2e69faf||Dealing damage with attacks charges the sword with energy. When attacking with the fully charged sword, weapon damage is increased by $I$% of the attacker's Vitality (if the attack is successful, Vitality is drained). A strong attack with the fully charged sword spawns a phantom copy of the sword that deals additional damage, which goes through shields, blocks and Armor and ignores damage resistances.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage. Fully charged sword discharges in $I$ sec. or after a strong attack.<br><br>Current charges: $I$/$I$. Current damage bonus for the fully charged sword: $I$ points.
 2110992300|        |option_gm_use_xml_exp_toggle|Fixed experience for quests and combat
 2110992301|        |gm_kills_humans|Humanoids
 2110992302|        |gm_kills_wh_warriors|Wild Hunt warriors
@@ -456,10 +456,13 @@
 2110992481|fc92150e||When the witcher is attacked from behind, normal Quen gets activated and reduces the damage. When hostile specters are around, Quen Power is increased by $S$%.
 2110992482|        |attribute_name_hpPercDamageBonusPerHit|Damage bonus
 2110992483|        |attribute_name_resistance_perc_bonus_descr|Damage resistances
-2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Power by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
+2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Intensity by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
 2110992485|e71d7c8f||Dealing melee damage to enemies increases your Attack Power by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
 2110992486|fc92150a||Dealing melee damage to enemies increases your Adrenaline Gain by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
-2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Power, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
+2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Intensity, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
 2110992488|fc921507||Gain +$I$ to non-combat Vitality regeneration and +$I$ to combat Vitality regeneration. When your Stamina is at $I$% and below, gain another +$I$ to combat Vitality regeneration.
 2110992489|fc92150d||When you kill a foe, gain +$I$ to Vitality regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
 2110992490|fc921508||When you kill a foe, gain +$I$ to combat Stamina regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
+2110992491|754d1896||You ignore bomb and special bolt effects. Damage from own bombs and bolts is halved.
+2110992492|8d17aaa2||When Adrenaline Points are at their maximum, critical hit power against the targeted enemy type is increased by $I$%.
+2110992493|        |effect_melt_armor_timer|Melt Armor Timer

@@ -159,6 +159,7 @@ exec function whoareyou()
 	var monsterCategory : EMonsterCategory;
 	var tmpName : name;
 	var tmpBool : bool;
+	var buffs : array<CBaseGameplayEffect>;
 	
 	interactionTarget = theGame.GetInteractionsManager().GetActiveInteraction();
 	
@@ -195,6 +196,9 @@ exec function whoareyou()
 			for( i = 0; i < arrUniqueNames.Size(); i += 1 )
 				theGame.witcherLog.AddMessage("Ability:" + arrUniqueNames[i]);
 		}
+		buffs = actor.GetBuffs();
+		for( i = 0; i < buffs.Size(); i += 1 )
+			theGame.witcherLog.AddMessage("Buff:" + buffs[i].GetEffectType());
 		arrNames.Clear();
 		arrNames = actor.GetTags();
 		if(arrNames.Size() > 0)

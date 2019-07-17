@@ -87,9 +87,9 @@
 2110992090|6c1d3ba3||Le bombe vengono lanciate senza alcun ritardo e possono infliggere danni critici. Ogni pezzo del set aumenta la probabilità di colpo critico delle bombe del $S$% (Bonus attuale: $S$%) e la potenza del colpo critico del $S$% (Bonus attuale: $S$%).
 2110992091|85e8fbd1||Ogni pezzo del set aumenta l'efficacia di un olio applicato a una spada del $S$% (Bonus attuale: $S$%).
 2110992092|1f70c024||Gli attacchi rapidi hanno una probabilità del $S$% di causare l'effetto sanguinamento.
-2110992093|71d0c5a6||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
-2110992094|71d0c5a5||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
-2110992095|163a8e72||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
+2110992093|71d0c5a6||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Ignores enemy Armor. Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
+2110992094|71d0c5a5||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Ignores enemy Armor. Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
+2110992095|163a8e72||Modalità segno alternativo:<br>Infligge $I$ punti danno ai nemici entro un raggio di $I$ metri. Il danno scala con l'intensità del Segno (danno attuale: $I$). Ignores enemy Armor. Distrugge i proiettli che passano in quest'area. Dura per $I$s. Cariche torretta - $I$.
 2110992096|b1173fc9||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto diminuisce del $I$%.
 2110992097|c8467d3c||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto diminuisce del $I$%.
 2110992098|c8467d3d||Due avversari possono essere influenzati da Axii nello stesso momento. La durata dell'effetto non diminuisce.
@@ -117,7 +117,7 @@
 2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Increases counterattack power by $I$%.
 2110992124|cf2b2da2||Protective shield that absorbs up to $I$% of damage dealt by enemy's weapon. Base damage absorption: $I$. Scales with Sign intensity. Current absorption: $I$. Prevents stagger, burning, poison and bleeding effects (and then breaks). <br>Shield duration: $I$s.
-2110992125|163a8e77||Damage dealt by Igni also permanently decreases enemy Armor and Damage Resistances by $S$% per hit (scales with Sign Intensity). Max effect rate cannot exceed $S$% of the starting values.
+2110992125|163a8e77||Damage dealt by Igni also decreases enemy Armor by $S$ points and enemy Damage Resistances by $S$% (scales with Sign Intensity) for $S$ sec. Subsequently applied effects cumulate.
 2110992126|cf2b2da0||Un Esplosione di fuoco che infligge $I$ punti danno con il $I$% di probabilità di incenerire i nemici. Il danno scala con l'intensità del Segno. Danno attuale: $I$.
 2110992127|163a8e71||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
 2110992128|71d0c1e4||Modalità Alternativa Segno:<br>Sprigiona una fiammata continua e mirata che provoca incenerimento e infligge $I$ punti danni al secondo. Il danno scala con l'intensità del Segno (danno attuale: $I$). Consuma $I$ punti Vigore al secondo.
@@ -236,7 +236,7 @@
 2110992246|e71d7c91||Regenerates Vitality by $S$% of the damage dealt to an enemy.
 2110992247|fc921505||Casting a sign increases your melee Attack Power by $I$% (max $I$%). Resets after dealing melee damage and at the end of the combat.
 2110992248|fc921509||Enemies controlled by Axii Puppet deal $I$% more damage.
-2110992249|fc921526||Casting a Sign in combat increases your Sign Power by $I$% (max $I$%). Resets at the end of the combat.
+2110992249|fc921526||Casting a Sign in combat increases your Sign Intensity by $I$% (max $I$%). Resets at the end of the combat.
 2110992250|        |option_gm_rnd_scaling_min_slider|Livellamento casuale: limite inferiore(rispetto il livello del giocatore)
 2110992251|        |option_gm_rnd_scaling_max_slider|Livellamento casuale: limite superiore(rispetto il livello del giocatore)
 2110992252|        |preset_value_gm_es_random|Casuale
@@ -261,9 +261,9 @@
 2110992271|        |option_gm_monster_exp_slider|Modificatore esperienza in combattimento
 2110992272|        |attribute_name_knockdown|Probabilità atterramento
 2110992273|b1173fc2||Grande Aumento della probabilità di atterramento del $I$%.
-2110992274|163a8e76||Aggiunge $I$ punti danni da fuoco e $I$ punti ai danni di fiammata al sec. Scales with Sign Power.
-2110992275|b1173fc6||Aggiunge $I$ punti danno alla Torretta Magica. Scales with Sign Power.
-2110992276|b1173fc5||Aggiunge $I$ punti all'assorbimento danno dello scudo. Scales with Sign Power.
+2110992274|163a8e76||Aggiunge $I$ punti danni da fuoco e $I$ punti ai danni di fiammata al sec. Scales with Sign Intensity.
+2110992275|b1173fc6||Aggiunge $I$ punti danno alla Torretta Magica. Scales with Sign Intensity.
+2110992276|b1173fc5||Aggiunge $I$ punti all'assorbimento danno dello scudo. Scales with Sign Intensity.
 2110992277|        |gm_sign_stats_axii_duration_confusion|Durata confusione
 2110992278|        |gm_sign_stats_axii_duration_control|Durata controllo
 2110992279|163a8e70||Modalità Segno Alternativo:<br> Aard colpisce tutti gli avversari nel raggio di azione. L'intensità del Segno è inferiore del $I$% in questa modalità.
@@ -277,13 +277,13 @@
 2110992288|163a8e74||Modalità Segno Alternativo:<br> il nemico bersaglio diventa un alleato per $I$s e guadagna un bonus alla forza di attacco del $I$%. La durata dell'effetto scala con l'intensità del Segno. Durata attuale: $I$s.
 2110992289|71d0cd27||Modalità Segno Alternativo:<br> il nemico bersaglio diventa un alleato per $I$s e guadagna un bonus alla forza di attacco del $I$%. La durata dell'effetto scala con l'intensità del Segno. Durata attuale: $I$s.
 2110992290|71d0cd28||Modalità Segno Alternativo:<br> il nemico bersaglio diventa un alleato per $I$s e guadagna un bonus alla forza di attacco del $I$%. La durata dell'effetto scala con l'intensità del Segno. Durata attuale: $I$s.
-2110992291|483c9092||Damage dealt charges the sword increasing its critical hit power by $S$% (max. $S$%). Charge decays over time and on damage taken. A fully-charged sword increases critical hit chance by $S$%.
-2110992292|1f5adb4f||Uccidendo un nemico con una spada caricata al massimo si spendono le cariche per aumentare in modo permanente i danni dell'arma. Quando il danno bonus supera il massimo, aumenta il livello della spada. Il danno è aumentato di: $S$ (fino a un massimo di 10).
+2110992291|483c9092||While in combat, weapon damage increases by $I$ points per enemy. Each successful hit charges the sword. Fully charged sword discharges on successful hit, dealing critical damage with $I$% Attack Power bonus and ignoring Armor and damage resistances. Sword discharge also damages and staggers all the surrounding enemies.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage.
+2110992292|1f5adb4f||<br><br>Current charges: $I$/$I$. Current damage bonus: $I$ points.
 2110992293|        |gm_sign_stats_heavy_knockdown|Alta probabilità di atterramento
 2110992294|f76f46ed||Killing an enemy heals $I$% of maximum Vitality.
 2110992295|fad8f82b||Uccidere un nemico conferisce da $F$ a $F$ Punti Adrenalina.
 2110992296|ed2f3195||Dona una probabilità del $I$% di riflettere all'attacante il $I$% di danni ricevuti.
-2110992299|f2e69faf||Infliggere danni con attacchi rapidi carica l'arma con energia. Quando il colore diventa rosso, un attacco potente rilascerà questa energia in un colpo più potente, al costo di una parte della vitalità dell'attaccante.
+2110992299|f2e69faf||Dealing damage with attacks charges the sword with energy. When attacking with the fully charged sword, weapon damage is increased by $I$% of the attacker's Vitality (if the attack is successful, Vitality is drained). A strong attack with the fully charged sword spawns a phantom copy of the sword that deals additional damage, which goes through shields, blocks and Armor and ignores damage resistances.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage. Fully charged sword discharges in $I$ sec. or after a strong attack.<br><br>Current charges: $I$/$I$. Current damage bonus for the fully charged sword: $I$ points.
 2110992300|        |option_gm_use_xml_exp_toggle|Corretta esperienza per quest e combattimenti
 2110992301|        |gm_kills_humans|Umanoidi
 2110992302|        |gm_kills_wh_warriors|Guerrieri della Caccia Selvaggia
@@ -456,10 +456,13 @@
 2110992481|fc92150e||When the witcher is attacked from behind, normal Quen gets activated and reduces the damage. When hostile specters are around, Quen Power is increased by $S$%.
 2110992482|        |attribute_name_hpPercDamageBonusPerHit|Damage bonus
 2110992483|        |attribute_name_resistance_perc_bonus_descr|Damage resistances
-2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Power by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
+2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Intensity by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
 2110992485|e71d7c8f||Dealing melee damage to enemies increases your Attack Power by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
 2110992486|fc92150a||Dealing melee damage to enemies increases your Adrenaline Gain by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
-2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Power, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
+2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Intensity, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
 2110992488|fc921507||Gain +$I$ to non-combat Vitality regeneration and +$I$ to combat Vitality regeneration. When your Stamina is at $I$% and below, gain another +$I$ to combat Vitality regeneration.
 2110992489|fc92150d||When you kill a foe, gain +$I$ to Vitality regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
 2110992490|fc921508||When you kill a foe, gain +$I$ to combat Stamina regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
+2110992491|754d1896||You ignore bomb and special bolt effects. Damage from own bombs and bolts is halved.
+2110992492|8d17aaa2||When Adrenaline Points are at their maximum, critical hit power against the targeted enemy type is increased by $I$%.
+2110992493|        |effect_melt_armor_timer|Melt Armor Timer

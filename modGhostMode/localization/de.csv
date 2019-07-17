@@ -87,9 +87,9 @@
 2110992090|6c1d3ba3||Bomben werden ohne Verzögerung geworfen und können kritischen Schaden verursachen. Jedes Teil des Sets erhöht die Wahrscheinlichkeit für kritische Treffer bei Bomben um $S$% (aktueller Bonus ist: $S$%) und die Stärke von kritischen Treffen von Bomben um $S$% (aktueller Bonus ist $S$%).
 2110992091|85e8fbd1||Jedes Teil des Sets erhöht die Effektivität von Ölen, die auf Schwertern angewendet wurden, um $S$% (aktueller Bonus ist: $S$%).
 2110992092|1f70c024||Schnelle Angriffe haben eine $S$%ige Wahrscheinlichkeit, einen Blutungseffekt zu verursachen.
-2110992093|71d0c5a6||Alternativer Zeichen-Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem Radius von $I$m. Der Schaden skaliert mit der Zeichenintensität (derzeitiger Schaden: $I$). Projektile, die durch das Gebiet fliegen, werden zerstört. Hält für $I$s an. Geschütz-Aufladungen: $I$.
-2110992094|71d0c5a5||Alternativer Zeichen-Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem Radius von $I$m. Der Schaden skaliert mit der Zeichenintensität (derzeitiger Schaden: $I$). Projektile, die durch das Gebiet fliegen, werden zerstört. Hält für $I$s an. Geschütz-Aufladungen: $I$.
-2110992095|163a8e72||Alternativer Zeichen-Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem Radius von $I$m. Der Schaden skaliert mit der Zeichenintensität (derzeitiger Schaden: $I$). Projektile, die durch das Gebiet fliegen, werden zerstört. Hält für $I$s an. Geschütz-Aufladungen: $I$.
+2110992093|71d0c5a6||Alternativer Zeichen-Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem Radius von $I$m. Der Schaden skaliert mit der Zeichenintensität (derzeitiger Schaden: $I$). Ignores enemy Armor. Projektile, die durch das Gebiet fliegen, werden zerstört. Hält für $I$s an. Geschütz-Aufladungen: $I$.
+2110992094|71d0c5a5||Alternativer Zeichen-Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem Radius von $I$m. Der Schaden skaliert mit der Zeichenintensität (derzeitiger Schaden: $I$). Ignores enemy Armor. Projektile, die durch das Gebiet fliegen, werden zerstört. Hält für $I$s an. Geschütz-Aufladungen: $I$.
+2110992095|163a8e72||Alternativer Zeichen-Modus:<br>Verursacht $I$ Puntkte Schaden an Gegnern in einem Radius von $I$m. Der Schaden skaliert mit der Zeichenintensität (derzeitiger Schaden: $I$). Ignores enemy Armor. Projektile, die durch das Gebiet fliegen, werden zerstört. Hält für $I$s an. Geschütz-Aufladungen: $I$.
 2110992096|b1173fc9||Zwei Gegner können gleichzeitig vom Axii-Zeichen betroffen sein. Die Dauer des Effektes ist um $I$% reduziert.
 2110992097|c8467d3c||Zwei Gegner können gleichzeitig vom Axii-Zeichen betroffen sein. Die Dauer des Effektes ist um $I$% reduziert.
 2110992098|c8467d3d||Zwei Gegner können gleichzeitig vom Axii-Zeichen betroffen sein. Die Dauer des Effektes ist um $I$% reduziert.
@@ -117,7 +117,7 @@
 2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Increases counterattack power by $I$%.
 2110992124|cf2b2da2||Protective shield that absorbs up to $I$% of damage dealt by enemy's weapon. Base damage absorption: $I$. Scales with Sign intensity. Current absorption: $I$. Prevents stagger, burning, poison and bleeding effects (and then breaks). <br>Shield duration: $I$s.
-2110992125|163a8e77||Damage dealt by Igni also permanently decreases enemy Armor and Damage Resistances by $S$% per hit (scales with Sign Intensity). Max effect rate cannot exceed $S$% of the starting values.
+2110992125|163a8e77||Damage dealt by Igni also decreases enemy Armor by $S$ points and enemy Damage Resistances by $S$% (scales with Sign Intensity) for $S$ sec. Subsequently applied effects cumulate.
 2110992126|cf2b2da0||Feuerstoß der $I$ Schaden verursacht und außerdem eine $I$% Wahrscheinlichkeit hat, den Gegner in Brand zu stecken. Schaden skaluert mit der Zeichenintensität (derzeitiger Schaden: $I$).
 2110992127|163a8e71||Alternativer Zeichen-Modus:<br>Erzeugt einen konstanten fokusierten Feuerstrahl, der das Ziel in Brand setzt und dabei $I$ Schaden pro Sekunde verursacht. Schaden skaliert mit der Zeichenintensität (derzeitiger Schaden: $I$). Verbraucht $I$ Punkte Ausdauer pro Sekunde.
 2110992128|71d0c1e4||Alternativer Zeichen-Modus:<br>Erzeugt einen konstanten fokusierten Feuerstrahl, der das Ziel in Brand setzt und dabei $I$ Schaden pro Sekunde verursacht. Schaden skaliert mit der Zeichenintensität (derzeitiger Schaden: $I$). Verbraucht $I$ Punkte Ausdauer pro Sekunde.
@@ -236,7 +236,7 @@
 2110992246|e71d7c91||Regenerates Vitality by $S$% of the damage dealt to an enemy.
 2110992247|fc921505||Casting a sign increases your melee Attack Power by $I$% (max $I$%). Resets after dealing melee damage and at the end of the combat.
 2110992248|fc921509||Enemies controlled by Axii Puppet deal $I$% more damage.
-2110992249|fc921526||Casting a Sign in combat increases your Sign Power by $I$% (max $I$%). Resets at the end of the combat.
+2110992249|fc921526||Casting a Sign in combat increases your Sign Intensity by $I$% (max $I$%). Resets at the end of the combat.
 2110992250|        |option_gm_rnd_scaling_min_slider|Zufällige Skalierung: Niedriger (relativ zum Level des Spielers)
 2110992251|        |option_gm_rnd_scaling_max_slider|Zufällige Skalierung: Höher (relativ zum Level des Spielers)
 2110992252|        |preset_value_gm_es_random|Zufällig
@@ -261,9 +261,9 @@
 2110992271|        |option_gm_monster_exp_slider|Modifikator für Kampf-Erfahrung 
 2110992272|        |attribute_name_knockdown|Wahrscheinlichkeit auf Niederschlagen
 2110992273|b1173fc2||Erhöht Wahrscheinlichkeit auf schweres Niederschlagen um $I$%.
-2110992274|163a8e76||Fügt dem Feuerschaden $I$ Punkte und dem Feuersturm $I$ Punkte an Schaden pro Sekunde hinzu. Scales with Sign Power.
-2110992275|b1173fc6||Fügt dem Magischen Geschütz $I$ Punkte an Schaden hinzu. Scales with Sign Power.
-2110992276|b1173fc5||Fügt dem Schild-$I$ Punkte an Schadensabsorption hinzu. Scales with Sign Power.
+2110992274|163a8e76||Fügt dem Feuerschaden $I$ Punkte und dem Feuersturm $I$ Punkte an Schaden pro Sekunde hinzu. Scales with Sign Intensity.
+2110992275|b1173fc6||Fügt dem Magischen Geschütz $I$ Punkte an Schaden hinzu. Scales with Sign Intensity.
+2110992276|b1173fc5||Fügt dem Schild-$I$ Punkte an Schadensabsorption hinzu. Scales with Sign Intensity.
 2110992277|        |gm_sign_stats_axii_duration_confusion|Dauer der Verwirrung
 2110992278|        |gm_sign_stats_axii_duration_control|Dauer der Kontrolle
 2110992279|163a8e70||Alternativer Zeichen-Modus:<br>Aard trifft alle Gegner in Reichweite. In diesem Modus ist die Zeichenintensitä um $I$% verringert.
@@ -277,13 +277,13 @@
 2110992288|163a8e74||Alternativer Zeichen-Modus:<br>Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$%igen Bonus auf seine Angriffsstärke. Effektdauer skaliert mit der Zeichenintensität (derzeitige Dauer: $I$s).
 2110992289|71d0cd27||Alternativer Zeichen-Modus:<br>Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$%igen Bonus auf seine Angriffsstärke. Effektdauer skaliert mit der Zeichenintensität (derzeitige Dauer: $I$s).
 2110992290|71d0cd28||Alternativer Zeichen-Modus:<br>Der anvisierte Gegner wird für $I$s zum Alliierten und erhält einen $I$%igen Bonus auf seine Angriffsstärke. Effektdauer skaliert mit der Zeichenintensität (derzeitige Dauer: $I$s).
-2110992291|483c9092||Verursachter Schaden lädt das Schwert auf und erhöht die Stärke von kritischen Treffen um $S$% (maximal $S$%). Aufladungen verfallen über die Zeit und wenn Schaden erlitten wird. Ein voll aufgeladenes Schwert erhöht die Wahrscheinlichkeit für kritische Treffer um $S$%.
-2110992292|1f5adb4f||Wenn ein Gegner mit voll aufgeladenem Schwert getötet wird, wird die Aufladung aufgebraucht und der Schaden der Waffe permanet erhöht. Wenn der Bonusschaden sein Maximum überschreitet erhöht sich das Level der Waffe.Schaden ist um $S$ erhöht, bis zu einem Maximum von 10.
+2110992291|483c9092||While in combat, weapon damage increases by $I$ points per enemy. Each successful hit charges the sword. Fully charged sword discharges on successful hit, dealing critical damage with $I$% Attack Power bonus and ignoring Armor and damage resistances. Sword discharge also damages and staggers all the surrounding enemies.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage.
+2110992292|1f5adb4f||<br><br>Current charges: $I$/$I$. Current damage bonus: $I$ points.
 2110992293|        |gm_sign_stats_heavy_knockdown|Wahrscheinlichkeit auf schweres Niederschlagen
 2110992294|f76f46ed||Killing an enemy heals $I$% of maximum Vitality.
 2110992295|fad8f82b||Das Töten von Gegnern gibt $F$ zu $F$ Adrenalinpunkte.
 2110992296|ed2f3195||Gewährt eine $I$% Wahrscheinlichkeit, dass $I$% des erlittenen Schadens auf den Angreifer zurückgeworfen wird.
-2110992299|f2e69faf||Schaden der mit schnellen Angriffen verursacht wird lädt das Schwert auf. Wenn sich das Schwert Rot färbt kommt es zu einem mächtigen Angriff auf Kosten eines Teils der Gesundheit des Angreifers.
+2110992299|f2e69faf||Dealing damage with attacks charges the sword with energy. When attacking with the fully charged sword, weapon damage is increased by $I$% of the attacker's Vitality (if the attack is successful, Vitality is drained). A strong attack with the fully charged sword spawns a phantom copy of the sword that deals additional damage, which goes through shields, blocks and Armor and ignores damage resistances.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage. Fully charged sword discharges in $I$ sec. or after a strong attack.<br><br>Current charges: $I$/$I$. Current damage bonus for the fully charged sword: $I$ points.
 2110992300|        |option_gm_use_xml_exp_toggle|Feste Erfahrung für Kämpfe und Quests
 2110992301|        |gm_kills_humans|Humanoiden
 2110992302|        |gm_kills_wh_warriors|Krieger der Wilden Jagd
@@ -456,10 +456,13 @@
 2110992481|fc92150e||When the witcher is attacked from behind, normal Quen gets activated and reduces the damage. When hostile specters are around, Quen Power is increased by $S$%.
 2110992482|        |attribute_name_hpPercDamageBonusPerHit|Damage bonus
 2110992483|        |attribute_name_resistance_perc_bonus_descr|Damage resistances
-2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Power by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
+2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Intensity by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
 2110992485|e71d7c8f||Dealing melee damage to enemies increases your Attack Power by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
 2110992486|fc92150a||Dealing melee damage to enemies increases your Adrenaline Gain by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
-2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Power, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
+2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Intensity, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
 2110992488|fc921507||Gain +$I$ to non-combat Vitality regeneration and +$I$ to combat Vitality regeneration. When your Stamina is at $I$% and below, gain another +$I$ to combat Vitality regeneration.
 2110992489|fc92150d||When you kill a foe, gain +$I$ to Vitality regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
 2110992490|fc921508||When you kill a foe, gain +$I$ to combat Stamina regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
+2110992491|754d1896||You ignore bomb and special bolt effects. Damage from own bombs and bolts is halved.
+2110992492|8d17aaa2||When Adrenaline Points are at their maximum, critical hit power against the targeted enemy type is increased by $I$%.
+2110992493|        |effect_melt_armor_timer|Melt Armor Timer

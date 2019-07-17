@@ -83,9 +83,9 @@
 2110992090|6c1d3ba3||Bomby są rzucane bez żadnego opóźnienia i mogą zadawać obrażenia krytyczne. każda część zestawu zwiększa szansę trafienia krytycznego bombą o $S$% (obecna premia: $S$%) i obrażenia trafienia krytycznego bombą o $S$% (obecna premia: $S$%).
 2110992091|85e8fbd1||Każda część zestawu zwiększa efektywność oleju nałożonego na miecz o $S$% (obecna premia: $S$%).
 2110992092|1f70c024||Szybki Atak - dodaje $S$% szans na spowodowanie efektu krwawienia.
-2110992093|71d0c5a6||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia zależą od Mocy Znaku (aktualne: $I$). Niszczy pociski w obszarze działania. Czas trwania $I$s, ładunki Magicznej Pułapki - $I$.
-2110992094|71d0c5a5||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia zależą od Mocy Znaku (aktualne: $I$). Niszczy pociski w obszarze działania. Czas trwania $I$s, ładunki Magicznej Pułapki - $I$.
-2110992095|163a8e72||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia zależą od Mocy Znaku (aktualne: $I$). Niszczy pociski w obszarze działania. Czas trwania $I$s, ładunki Magicznej Pułapki - $I$.
+2110992093|71d0c5a6||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia zależą od Mocy Znaku (aktualne: $I$). Ignores enemy Armor. Niszczy pociski w obszarze działania. Czas trwania $I$s, ładunki Magicznej Pułapki - $I$.
+2110992094|71d0c5a5||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia zależą od Mocy Znaku (aktualne: $I$). Ignores enemy Armor. Niszczy pociski w obszarze działania. Czas trwania $I$s, ładunki Magicznej Pułapki - $I$.
+2110992095|163a8e72||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia zależą od Mocy Znaku (aktualne: $I$). Ignores enemy Armor. Niszczy pociski w obszarze działania. Czas trwania $I$s, ładunki Magicznej Pułapki - $I$.
 2110992096|b1173fc9||Znak Aksji może objąć dwóch przeciwników. Czas działania pomniejszony o $I$%.
 2110992097|c8467d3c||Znak Aksji może objąć dwóch przeciwników. Czas działania pomniejszony o $I$%.
 2110992098|c8467d3d||Znak Aksji może objąć dwóch przeciwników. Czas działania bez zmian.
@@ -113,7 +113,7 @@
 2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. If Adrenaline Points are at their maximum, counterattack grants $I$% knockdown chance.
 2110992123|cea74411||Increases counterattack power by $I$%.
 2110992124|cf2b2da2||Protective shield that absorbs up to $I$% of damage dealt by enemy's weapon. Base damage absorption: $I$. Scales with Sign intensity. Current absorption: $I$. Prevents stagger, burning, poison and bleeding effects (and then breaks). <br>Shield duration: $I$s.
-2110992125|163a8e77||Damage dealt by Igni also permanently decreases enemy Armor and Damage Resistances by $S$% per hit (scales with Sign Intensity). Max effect rate cannot exceed $S$% of the starting values.
+2110992125|163a8e77||Damage dealt by Igni also decreases enemy Armor by $S$ points and enemy Damage Resistances by $S$% (scales with Sign Intensity) for $S$ sec. Subsequently applied effects cumulate.
 2110992126|cf2b2da0||Wybuch ognia powodujący $I$ punktów obrażeń, z $I$% szansą na podpalenie. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$.
 2110992127|163a8e71||Alternatywny tryb Znaku:<br>Nieprzerwany strumień ognia, który podpala, oraz powoduje $I$ obrażeń na sekundę. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$. Używa $I$ punktów wytrzymałości na sekundę.
 2110992128|71d0c1e4||Alternatywny tryb Znaku:<br>Nieprzerwany strumień ognia, który podpala, oraz powoduje $I$ obrażeń na sekundę. Efekt skaluje się wraz z Mocą Znaków, aktualne obrażenia: $I$. Używa $I$ punktów wytrzymałości na sekundę.
@@ -232,7 +232,7 @@
 2110992246|e71d7c91||Regenerates Vitality by $S$% of the damage dealt to an enemy.
 2110992247|fc921505||Casting a sign increases your melee Attack Power by $I$% (max $I$%). Resets after dealing melee damage and at the end of the combat.
 2110992248|fc921509||Enemies controlled by Axii Puppet deal $I$% more damage.
-2110992249|fc921526||Casting a Sign in combat increases your Sign Power by $I$% (max $I$%). Resets at the end of the combat.
+2110992249|fc921526||Casting a Sign in combat increases your Sign Intensity by $I$% (max $I$%). Resets at the end of the combat.
 2110992250|8cb0734c||Losowe skalowanie: dolny limit (od poziomu Geralta)
 2110992251|f958bbfa||Losowe skalowanie: górny limit (od poziomu Geralta)
 2110992252|beb0cec9||Losowe
@@ -257,9 +257,9 @@
 2110992271|773c6a77||Modyfikator doświadczenia za walkę.
 2110992272|7641d6c5||Szansa na powalenie
 2110992273|b1173fc2||Zwiększa szanę na poważne powalenie o $I$%.
-2110992274|163a8e76||Dodaje Strumieniowi Ognia $I$ punktów obrażeń oraz $I$ punktów do obrażeń na sekundę. Scales with Sign Power.
-2110992275|b1173fc6||Dodaje $I$ punktów obrażeń do ładunku Magicznej Pułapki. Scales with Sign Power.
-2110992276|b1173fc5||Tarcza Quen absorbuje o $I$ więcej obrażeń. Scales with Sign Power.
+2110992274|163a8e76||Dodaje Strumieniowi Ognia $I$ punktów obrażeń oraz $I$ punktów do obrażeń na sekundę. Scales with Sign Intensity.
+2110992275|b1173fc6||Dodaje $I$ punktów obrażeń do ładunku Magicznej Pułapki. Scales with Sign Intensity.
+2110992276|b1173fc5||Tarcza Quen absorbuje o $I$ więcej obrażeń. Scales with Sign Intensity.
 2110992277|9246181a||Czas trwania oszołomienia
 2110992278|b72fae71||Czas trwania uroku
 2110992279|163a8e70||Alternatywny tryb Znaku:<br>Aard działa na wszystkich przeciwników w zasięgu. Moc Znaku jest wtedy mniejsza o $I$%.
@@ -273,13 +273,13 @@
 2110992288|163a8e74||Alternatywny tryb Znaku:<br>Sprawia, że przeciwnik przez $I$s walczy po stronie wiedźmina i zadaje o $I$% więcej obrażeń. Czas działania zależy od Mocy Znaku, aktualnie: $I$s.
 2110992289|71d0cd27||Alternatywny tryb Znaku:<br>Sprawia, że przeciwnik przez $I$s walczy po stronie wiedźmina i zadaje o $I$% więcej obrażeń. Czas działania zależy od Mocy Znaku, aktualnie: $I$s.
 2110992290|71d0cd28||Alternatywny tryb Znaku:<br>Sprawia, że przeciwnik przez $I$s walczy po stronie wiedźmina i zadaje o $I$% więcej obrażeń. Czas działania zależy od Mocy Znaku, aktualnie: $I$s.
-2110992291|483c9092||Obrażenia zadawane ładują miecz zwiększając jego krytyczną moc uderzenia o $S$% (max. $S$%). Miecz rozładowuje się z czasem i od otrzymanych obrażeń. W pełni naładowany miecz zwiększa szansę na trafienie krytyczne o $S$%.
-2110992292|1f5adb4f||Zabicie wroga w pełni naładowanym mieczem rozładowuje miecz i trwale zwiększa obrażenia broni. Jeżeli dodatkowe obrażenia przekroczą max. dla aktualnego poziomu miecza, zostanie on zwiększony. Obrażenia są zwiększane o: $S$ (max. 10).
+2110992291|483c9092||While in combat, weapon damage increases by $I$ points per enemy. Each successful hit charges the sword. Fully charged sword discharges on successful hit, dealing critical damage with $I$% Attack Power bonus and ignoring Armor and damage resistances. Sword discharge also damages and staggers all the surrounding enemies.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage.
+2110992292|1f5adb4f||<br><br>Current charges: $I$/$I$. Current damage bonus: $I$ points.
 2110992293|0516c455||Szansa na poważne powalenie
 2110992294|f76f46ed||Killing an enemy heals $I$% of maximum Vitality.
 2110992295|fad8f82b||Zabicie przeciwnika dodaje od $F$ do $F$ punktów Adrenaliny
 2110992296|ed2f3195||Zapewnia $I$% szansy na odbicie $I$% otrzymanych obrażeń atakującemu.
-2110992299|f2e69faf||Zadawanie obrażeń Szybkimi Atakami ładuje broń energią, kiedy nabierze czerwoną poświatę, Silny Atak uwolni nagromadzoną energię w potężnym uderzeniu w zamian za część żywotności Geralta.
+2110992299|f2e69faf||Dealing damage with attacks charges the sword with energy. When attacking with the fully charged sword, weapon damage is increased by $I$% of the attacker's Vitality (if the attack is successful, Vitality is drained). A strong attack with the fully charged sword spawns a phantom copy of the sword that deals additional damage, which goes through shields, blocks and Armor and ignores damage resistances.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage. Fully charged sword discharges in $I$ sec. or after a strong attack.<br><br>Current charges: $I$/$I$. Current damage bonus for the fully charged sword: $I$ points.
 2110992300|ba719645||Nie skaluj ilości doświadczenia za zadania oraz walkę
 2110992301|bdf0ea49||Humanoidy
 2110992302|bafca59c||Wojownicy Dzikiego Gonu
@@ -449,10 +449,13 @@
 2110992481|fc92150e||When the witcher is attacked from behind, normal Quen gets activated and reduces the damage. When hostile specters are around, Quen Power is increased by $S$%.
 2110992482|        |attribute_name_hpPercDamageBonusPerHit|Damage bonus
 2110992483|        |attribute_name_resistance_perc_bonus_descr|Damage resistances
-2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Power by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
+2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Intensity by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
 2110992485|e71d7c8f||Dealing melee damage to enemies increases your Attack Power by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
 2110992486|fc92150a||Dealing melee damage to enemies increases your Adrenaline Gain by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
-2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Power, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
+2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Intensity, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
 2110992488|fc921507||Gain +$I$ to non-combat Vitality regeneration and +$I$ to combat Vitality regeneration. When your Stamina is at $I$% and below, gain another +$I$ to combat Vitality regeneration.
 2110992489|fc92150d||When you kill a foe, gain +$I$ to Vitality regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
 2110992490|fc921508||When you kill a foe, gain +$I$ to combat Stamina regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
+2110992491|754d1896||You ignore bomb and special bolt effects. Damage from own bombs and bolts is halved.
+2110992492|8d17aaa2||When Adrenaline Points are at their maximum, critical hit power against the targeted enemy type is increased by $I$%.
+2110992493|        |effect_melt_armor_timer|Melt Armor Timer
