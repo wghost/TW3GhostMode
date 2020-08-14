@@ -59,6 +59,9 @@ function FixQuestItems()
 		case 'q702_vampire_mask':
 		case 'q704_vampire_mask':
 		case 'sq701_item_wearable_feather':
+		case 'q701_hare_mask':
+		case 'q701_nml_notice':
+		case 'noon_shadow_loot_note':
 			playerInv.RemoveItemTag( questItems[itemIdx], 'Quest' );
 			break;
 		//quest based reset
@@ -87,6 +90,7 @@ function FixQuestItems()
 			break;
 		case 'th701_coward_journal':
 		case 'th701_portal_crystal':
+		case 'th701_wolf_witcher_note':
 			journalEntry = journalManager.GetEntryByString( "th701_wolf_gear 6DBE2D54-4A4E2066-CAC1ABB6-97CB905B" );
 			break;
 		case 'mh701_usable_lure':
@@ -106,6 +110,9 @@ function FixQuestItems()
 			break;
 		case 'sq701_victory_laurels':
 			journalEntry = journalManager.GetEntryByString( "sq701_tournament" );
+			break;
+		case 'mq7017_zmora_trophy':
+			journalEntry = journalManager.GetEntryByString( "mq7017_talking_horse 9876843E-47D51F74-12868095-A0A7D712" );
 			break;
 		case 'sq703_accountance_book':
 		case 'sq703_hunter_letter':
@@ -211,12 +218,14 @@ function FixQuestItems()
 			journalEntry = journalManager.GetEntryByString( "SQ301 Triss DF5C1032-43CFD052-056742B1-5E8C57B0" );
 			break;
 		case 'sq302_agates':
+		case 'sq302_eyes':
 			journalEntry = journalManager.GetEntryByString( "SQ302 Philippa 9D3E34EB-4DB8F4BA-4B1C649B-7B7BBAA5" );
 			break;
 		case 'sq204_wolf_heart':
 			journalEntry = journalManager.GetEntryByString( "SQ204 Forest Spirit ADF1F1F0-41C5D27D-3397258A-2893B653" );
 			break;
 		case 'th1009_journal_wolf_part4':
+		case 'th1009_journal_wolf_part2a':
 			journalEntry = journalManager.GetEntryByString( "Wolf Set ECDA507B-4902A54F-85D7CAA9-E26BF51C" );
 			break;
 		case 'mq1055_letters':
@@ -236,6 +245,9 @@ function FixQuestItems()
 			break;
 		case 'mq2020_slave_cells_key':
 			journalEntry = journalManager.GetEntryByString( "mq2020 Flesh for cash buisness 75CE5700-4B1F1BBE-069237AE-6D20CA0F" );
+			break;
+		case 'mq2038_headsman_sword':
+			journalEntry = journalManager.GetEntryByString( "mq2038_shieldmaiden 1D9F7929-4152C567-320675A4-7DCB72CE" );
 			break;
 		case 'mq2015_kurisus_note':
 			journalEntry = journalManager.GetEntryByString( "mq2015 Long Time Apart 62611322-4F5B1005-3765EA81-5D229FB0" );

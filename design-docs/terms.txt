@@ -1,0 +1,65 @@
+Weapon/sign/attack damage - Урон оружия/знаков/атаки
+Raw damage dealt by an attack, depends on weapon/sign used.
+"Сырой" (базовый) урон, наносимый атакой, зависит от оружия/знака.
+
+Damage increase - Увеличение урона
+Direct increase of your weapon/sign damage.
+Прямое увеличение урона от оружия/знаков.
+
+Attack Power - Сила атаки
+Attack damage multiplier. Starting value is 1 (100%).
+Множитель урона от атаки. Изначально равен единице (100%).
+
+Sign Power - Мощь знаков
+Sign effectiveness multiplier. Starting value is 0 (0%).
+Множитель эффективности знаков. Изначально равен нулю (0%).
+
+Critical hit chance - Вероятность крит. удара
+A chance to deal critical damage. Starting value is 0.05 (5%).
+Вероятность нанести критический урон. Изначально равна 0.05 (5%).
+
+Critical hit Power - Сила крит. удара
+Critical attack damage multiplier. Starting value is 0.25 (25%).
+Множитель урона от критической атаки. Изначально равен 0.25 (25%).
+
+Armor - Броня
+Damage type independent reduction of raw attack damage.
+Не зависящее от типа урона снижение "сырого" (базового) урона атаки.
+
+Damage reduction - Снижение урона
+Damage type dependent reduction of raw attack damage, cumulates with Armor.
+Определяемое типом урона снижение "сырого" (базового) урона атаки, складывается с бронёй.
+
+Total Armor - Суммарная броня
+Armor + Damage reduction
+Броня + Снижение урона
+
+Remaining damage - Остаточный урон
+Difference between attack damage and armor total.
+Разница между уроном атаки и суммарной бронёй.
+
+Damage resistance - Сопротивление урону
+Reduction (in percents) of remaining damage.
+Снижение (в процентах) остаточного урона.
+
+Armor penetration - Пробой брони
+Reduction of enemy's Total Armor.
+Снижение вражеской суммарной брони.
+
+Damage resistance reduction - Снижение сопротивления урону
+Reduction of enemy's damage resistance.
+Снижение вражеского сопротивления урону.
+
+Damage received - Получаемый урон
+Final received damage.
+Окончательный получаемый урон.
+
+Final received damage = (((Attack damage + Damage increase Points ) * (1 + Damage increase Percents) - Armor - Damage reduction + Armor penetration + Attack Power Base) * Attack Power Multiplicative + Attack Power Additive) * (1 - Damage resistance + Damage resistance reduction)
+
+Attack Power on Statistics screen represents Attack Power Multiplicative.
+Attack Power Additive is stealth stat which is never shown, but increased slightly with each level for both player and NPCs.
+Attack Power Base is an NPC stat, increases with level.
+
+Сила атаки на экране статистики отражает именно Attack Power Multiplicative.
+Attack Power Additive - скрытая статистика, которая незначительно увеличивается с каждым уровнем как для игрока, так и для НПС.
+Attack Power Base - статистика НПС, которая растёт с уровнем.

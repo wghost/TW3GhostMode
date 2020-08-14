@@ -3,10 +3,41 @@
    
     <Group id="GMScalingOptions" displayName="Mods.ghost_mode.gm_scaling_options">
 		<PresetsArray>
-			<Preset id="0" displayName="gm_default">
+			<Preset id="0" displayName="gm_recommended">
+				<Entry varId="GMScaling" value="3"/>
+				<Entry varId="GMRandomScalingMinLevel" value="0"/>
+				<Entry varId="GMRandomScalingMaxLevel" value="0"/>
+				<Entry varId="GMNonlinearLevelup" value="false"/>
+				<Entry varId="GMNonlinearLevelDelta" value="0"/>
+				<Entry varId="GMNonlinearAbilitiesDelta" value="0"/>
+				<Entry varId="GMNoAnimalUpscaling" value="false"/>
+				<Entry varId="GMNoAddLevelsGuards" value="false"/>
+				<Entry varId="GMHealthMultiplier" value="0"/>
+				<Entry varId="GMDamageMultiplier" value="0"/>
+				<Entry varId="GMBossHealthMultiplier" value="0"/>
+				<Entry varId="GMBossDamageMultiplier" value="0"/>
+			</Preset>
+			<Preset id="1" displayName="gm_hardcore">
+				<Entry varId="GMScaling" value="1"/>
+				<Entry varId="GMRandomScalingMinLevel" value="0"/>
+				<Entry varId="GMRandomScalingMaxLevel" value="0"/>
+				<Entry varId="GMNonlinearLevelup" value="true"/>
+				<Entry varId="GMNonlinearLevelDelta" value="10"/>
+				<Entry varId="GMNonlinearAbilitiesDelta" value="5"/>
+				<Entry varId="GMNoAnimalUpscaling" value="false"/>
+				<Entry varId="GMNoAddLevelsGuards" value="false"/>
+				<Entry varId="GMHealthMultiplier" value="0.5"/>
+				<Entry varId="GMDamageMultiplier" value="0.5"/>
+				<Entry varId="GMBossHealthMultiplier" value="0.5"/>
+				<Entry varId="GMBossDamageMultiplier" value="0.5"/>
+			</Preset>
+			<Preset id="2" displayName="gm_turn_off">
 				<Entry varId="GMScaling" value="0"/>
 				<Entry varId="GMRandomScalingMinLevel" value="0"/>
 				<Entry varId="GMRandomScalingMaxLevel" value="0"/>
+				<Entry varId="GMNonlinearLevelup" value="false"/>
+				<Entry varId="GMNonlinearLevelDelta" value="0"/>
+				<Entry varId="GMNonlinearAbilitiesDelta" value="0"/>
 				<Entry varId="GMNoAnimalUpscaling" value="false"/>
 				<Entry varId="GMNoAddLevelsGuards" value="false"/>
 				<Entry varId="GMHealthMultiplier" value="0"/>
@@ -40,8 +71,11 @@
 			</Var>
             <Var id="GMRandomScalingMinLevel" displayName="gm_rnd_scaling_min_slider" displayType="SLIDER;-12;12;24"/>
             <Var id="GMRandomScalingMaxLevel" displayName="gm_rnd_scaling_max_slider" displayType="SLIDER;-12;12;24"/>
-            <Var id="GMNoAnimalUpscaling" displayName="gm_no_animal_upscaling_toggle" displayType="TOGGLE"/>
+            <Var id="GMNonlinearLevelup" displayName="gm_nonlinear_levelup_toggle" displayType="TOGGLE"/>
+            <Var id="GMNonlinearLevelDelta" displayName="gm_nonlinear_level_delta_slider" displayType="SLIDER;0;20;20"/>
+            <Var id="GMNonlinearAbilitiesDelta" displayName="gm_nonlinear_abs_delta_slider" displayType="SLIDER;0;20;20"/>
             <Var id="GMNoAddLevelsGuards" displayName="gm_no_add_levels_guards" displayType="TOGGLE"/>
+            <Var id="GMNoAnimalUpscaling" displayName="gm_no_animal_upscaling_toggle" displayType="TOGGLE"/>
             <Var id="GMHealthMultiplier" displayName="gm_health_multiplier" displayType="SLIDER;-1;5;60"/>
             <Var id="GMDamageMultiplier" displayName="gm_damage_multiplier" displayType="SLIDER;-1;5;60"/>
             <Var id="GMBossHealthMultiplier" displayName="gm_boss_health_multiplier" displayType="SLIDER;-1;5;60"/>
@@ -77,12 +111,13 @@
 				<Entry varId="GMOutOfCombatStaminaRegen" value="0"/>
 				<Entry varId="GMCombatVitalityRegen" value="0"/>
 				<Entry varId="GMOutOfCombatVitalityRegen" value="0"/>
+				<Entry varId="GMAgilityStaminaCostMultiplier" value="0"/>
 				<Entry varId="GMMeleeStaminaCostMultiplier" value="0"/>
 				<Entry varId="GMSignStaminaCostMultiplier" value="0"/>
 				<Entry varId="GMStaminaDelay" value="0"/>
-				<Entry varId="GMMeleeSpecialCooldown" value="10"/>
+				<Entry varId="GMMeleeSpecialCooldown" value="7.5"/>
 				<Entry varId="GMSignCooldown" value="5"/>
-				<Entry varId="GMAltSignCooldown" value="10"/>
+				<Entry varId="GMAltSignCooldown" value="7.5"/>
 				<Entry varId="GMVersion" value="4.0"/>
 			</Preset>
 			<Preset id="1" displayName="gm_old_ver">
@@ -94,6 +129,7 @@
 				<Entry varId="GMOutOfCombatStaminaRegen" value="0"/>
 				<Entry varId="GMCombatVitalityRegen" value="1"/>
 				<Entry varId="GMOutOfCombatVitalityRegen" value="1"/>
+				<Entry varId="GMAgilityStaminaCostMultiplier" value="0"/>
 				<Entry varId="GMMeleeStaminaCostMultiplier" value="-1"/>
 				<Entry varId="GMSignStaminaCostMultiplier" value="1.5"/>
 				<Entry varId="GMStaminaDelay" value="0"/>
@@ -111,6 +147,7 @@
 				<Entry varId="GMOutOfCombatStaminaRegen" value="0"/>
 				<Entry varId="GMCombatVitalityRegen" value="0"/>
 				<Entry varId="GMOutOfCombatVitalityRegen" value="0"/>
+				<Entry varId="GMAgilityStaminaCostMultiplier" value="0"/>
 				<Entry varId="GMMeleeStaminaCostMultiplier" value="0"/>
 				<Entry varId="GMSignStaminaCostMultiplier" value="0"/>
 				<Entry varId="GMStaminaDelay" value="0"/>
@@ -129,6 +166,7 @@
             <Var id="GMOutOfCombatStaminaRegen" displayName="gm_ocbtsreg" displayType="SLIDER;-100;0;100"/>
             <Var id="GMCombatVitalityRegen" displayName="gm_cbtvreg" displayType="SLIDER;0;1000;1000"/>
             <Var id="GMOutOfCombatVitalityRegen" displayName="gm_ocbtvreg" displayType="SLIDER;0;1000;1000"/>
+            <Var id="GMAgilityStaminaCostMultiplier" displayName="gm_ascost" displayType="SLIDER;-1;5;60"/>
             <Var id="GMMeleeStaminaCostMultiplier" displayName="gm_mscost" displayType="SLIDER;-1;5;60"/>
             <Var id="GMSignStaminaCostMultiplier" displayName="gm_sscost" displayType="SLIDER;-1;3;40"/>
             <Var id="GMStaminaDelay" displayName="gm_stdelay" displayType="SLIDER;-1;5;60"/>

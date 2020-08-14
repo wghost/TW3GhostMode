@@ -1,0 +1,25 @@
+vitality = base * mult + add
+
+Base vitality sources:
+- starting vitality
+- levelups
+- armor bonuses
+- Survival Instinct perk
+- Nightwraith decoction
+- mq7023_cake (B&W magic cake)
+- green mutagen bonus for the mutagen itself
+- green link bonus from green mutagens
+- Synergy skill bonus from green mutagens
+
+Mult vitality sources:
+- Bear School Techniques perk
+- Endure Pain skill
+
+Add vitality sources:
+- B&W bed
+- Full Moon potion
+- Tissue Transmutation skill
+- mh201_cave_troll_trophy (DLC3 troll)
+
+
+"base vitality", "multiplies base vitality" and "grants additional vitality"

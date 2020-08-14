@@ -14,6 +14,12 @@ function gmModRegenValue(attributeName : name, out effectValue : SAbilityAttribu
 	//theGame.witcherLog.AddMessage(attributeName + ": effectValue.valueBase = " + effectValue.valueBase);
 }
 
+function gmModAgilityStaminaCost(out cost : float)
+{
+	cost *= 1 + theGame.params.GetAgilityStaminaCostMult();
+	cost = ClampF(cost, 0, 100);
+}
+
 function gmModMeleeStaminaCost(out cost : float)
 {
 	cost *= 1 + theGame.params.GetMeleeStaminaCostMult();
@@ -68,7 +74,7 @@ function gmIsQoLOption(optionName : name) : bool
 function gmIsGameplayOption(optionName : name) : bool
 {
 	return (optionName == 'GMSinkBoat' || optionName == 'GMSinkBoatOverEnc' || optionName == 'GMEncumbranceMultiplier'
-			|| optionName == 'GMSignStaminaCostMultiplier' || optionName == 'GMMeleeStaminaCostMultiplier'
+			|| optionName == 'GMSignStaminaCostMultiplier' || optionName == 'GMMeleeStaminaCostMultiplier' || optionName == 'GMAgilityStaminaCostMultiplier'
 			|| optionName == 'GMOutOfCombatVitalityRegen' || optionName == 'GMCombatVitalityRegen'
 			|| optionName == 'GMOutOfCombatStaminaRegen' || optionName == 'GMCombatStaminaRegen'
 			|| optionName == 'GMStaminaDelay' || optionName == 'GMMeleeSpecialCooldown'
@@ -104,9 +110,9 @@ function gmLoadDefaultSettings()
 		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMMeleeStaminaCostMultiplier', FloatToString(0.0f));
 		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMSignStaminaCostMultiplier', FloatToString(0.0f));
 		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMStaminaDelay', FloatToString(0.0f));
-		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMMeleeSpecialCooldown', FloatToString(10.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMMeleeSpecialCooldown', FloatToString(7.5f));
 		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMSignCooldown', FloatToString(5.0f));
-		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMAltSignCooldown', FloatToString(10.0f));
+		theGame.GetInGameConfigWrapper().SetVarValue('GMGameplayOptions', 'GMAltSignCooldown', FloatToString(7.5f));
 	}
 	gmSetGMVersion();
 }

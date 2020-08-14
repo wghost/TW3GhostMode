@@ -1,0 +1,522 @@
+;meta[language=pl]
+; id      |key(hex)|key(str)| text
+;
+;Translation (in part) made by Spontan, 13-02-2020
+;
+2110992000|4d5f8b0c||Modyfikacje
+2110992001|818b6a6e||Ghost Mode
+2110992002|205aa5f5||Modyfikator Żywotności przeciwników
+2110992003|a570c302||Modyfikator obrażeń przeciwników
+2110992004|be5d891f||Skalowanie przeciwników
+2110992005|c33062be||Nie skaluj
+2110992006|cffa3a49||Powyżej poziomu Geralta
+2110992007|a2c796ff||Równaj do poziomu Geralta
+2110992008|645abb61||Dodatkowy modyfikator Żywotności dla bossów
+2110992009|e970d86e||Dodatkowy modyfikator obrażeń dla bossów
+2110992013|cdb77880||Odporność na chłód
+2110992014|99a2fd83||Znosi część odporności na obrażenia u przeciwników
+2110992015|c4ea0ecf||Czas trwania eliksiru
+2110992016|c332a7b0||Skaluj lekko (trochę wyżej)
+2110992017|1662935c||Siła Ataku (broń srebrna)
+2110992018|4f1d703c||Siła Ataku (broń stalowa)
+2110992019|f38f5b36||Strumień Ognia - obrażenia na sekundę
+2110992020|6a994712||Limit Glifów
+2110992021|cc57bcc3||Obrażenia Magicznej Pułapki
+2110992022|60b53abe||Magiczna Pułapka - czas trwania
+2110992023|8594f9d5||Magiczna Pułapka - ładunki
+2110992024|1e6cbb19||Magiczna Pułapka - obrażenia
+2110992025|ee530dcc||Odbijane obrażenia
+2110992026|e379a123||Absorbcja obrażeń przez aktywą tarczę
+2110992027|27282d9d||Aksji - szansa
+2110992028|8566fddf||Szybki Atak - obrażenia
+2110992029|7a3d2c04||Silny Atak - obrażenia
+2110992030|a3e34c39||Absorbcja obrażeń
+2110992034|40aed692||Szansa na trafienie krytyczne względem Bestii
+2110992035|c8957121||Szansa na trafienie krytyczne względem Istot przeklętych
+2110992036|79a23d6e||Szansa na trafienie krytyczne względem Drakonidów
+2110992037|d33fe160||Szansa na trafienie krytyczne względem Humanoidów
+2110992038|f261a80b||Szansa na trafienie krytyczne względem Hybryd
+2110992039|97466e95||Szansa na trafienie krytyczne względem Insektoidów
+2110992040|4bfdf9ea||Szansa na trafienie krytyczne względem Istot magicznych
+2110992041|016d02ed||Szansa na trafienie krytyczne względem Trupojadów
+2110992042|9c73a4a6||Szansa na trafienie krytyczne względem Reliktów
+2110992043|c3702fb9||Szansa na trafienie krytyczne względem Zjaw
+2110992044|cd868a1a||Szansa na trafienie krytyczne względem Ogrowatych
+2110992045|42229941||Szansa na trafienie krytyczne względem Wampirów
+2110992046|4fa6c42d||Obrażenia trafienia krytycznego względem Bestii
+2110992047|df4cf77c||Obrażenia trafienia krytycznego względem Istot przeklętych
+2110992048|f7d09609||Obrażenia trafienia krytycznego względem Drakonidów
+2110992049|810bfc7b||Obrażenia trafienia krytycznego względem Humanoidów
+2110992050|6b0ad6e6||Obrażenia trafienia krytycznego względem Hybryd
+2110992051|6adf0df0||Obrażenia trafienia krytycznego względem Insektoidów
+2110992052|0cf40585||Obrażenia trafienia krytycznego względem Istot magicznych
+2110992053|69eb0048||Obrażenia trafienia krytycznego względem Trupojadów
+2110992054|2e15b341||Obrażenia trafienia krytycznego względem Reliktów
+2110992055|17546414||Obrażenia trafienia krytycznego względem Zjaw
+2110992056|b4fbb1b5||Obrażenia trafienia krytycznego względem Ogrowatych
+2110992057|d123879c||Obrażenia trafienia krytycznego względem Wampirów
+2110992058|c8d4450c||Odporność na obrażenia względem Bestii
+2110992059|4b1b4cdd||Odporność na obrażenia względem Istot przeklętych
+2110992060|da69abb0||Odporność na obrażenia względem Drakonidów
+2110992061|83b5dcfe||Odporność na obrażenia względem Humanoidów
+2110992062|5da28e33||Odporność na obrażenia względem Hybryd
+2110992063|ca4463e9||Odporność na obrażenia względem Insektoidów
+2110992064|d14fa0b4||Odporność na obrażenia względem Istot magicznych
+2110992065|8b85ee91||Odporność na obrażenia względem Trupojadów
+2110992066|0ecc4f78||Odporność na obrażenia względem Reliktów
+2110992067|64e2d545||Odporność na obrażenia względem Zjaw
+2110992068|111c7e84||Odporność na obrażenia względem Ogrowatych
+2110992069|5a3c18bd||Odporność na obrażenia względem Wampirów
+2110992070|d25344ee||Obrażenia względem Humanoidów
+2110992071|da7e5ba4||Każdy element lekkiego rynsztunku dodaje $S$% do szansy na trafienie krytyczne oraz $S$% do obrażeń krytycznych.
+2110992072|da7e5ba6||Każdy element ciężkiego rynsztunku zwiększa maksymalną Żywotność o $S$%, generowanie Punktów Adrenaliny bronią białą zostaje zwiększone o $S$ za każdą część ciężkiego rynsztunku.
+2110992073|163a8e78||Zwiększa szansę na podpalenie o $I$%.
+2110992074|3c4a6af2||Silny Atak - obrażenia
+2110992075|5806ca6e||Silny Atak - obrażenia trafienia krytycznego
+2110992076|69d8dd89||Szybki Atak - obrażenia trafienia krytycznego
+2110992077|89dfeac9||Szybki Atak - szansa na trafienie krytyczne
+2110992078|bc4297c4||Silny Atak - szansa na trafienie krytyczne
+2110992079|d23992f7||Szybki Atak - obrażenia
+2110992080|2e06698e||Silny Atak - obrażenia trafienia krytycznego
+2110992081|3375c4a9||Szybki Atak - obrażenia trafienia krytycznego
+2110992082|73d42fa9||Szybki Atak - szansa na trafienie krytyczne
+2110992083|b08bd7d2||Silny Atak - obrażenia
+2110992084|c7b0b7d7||Szybki Atak - obrażenia
+2110992085|fa3924a4||Silny Atak - szansa na trafienie krytyczne
+2110992090|6c1d3ba3||Bomby są rzucane bez żadnego opóźnienia i mogą zadawać obrażenia krytyczne. Każda część zestawu zwiększa szansę trafienia krytycznego bombą o $S$% (obecna premia: $S$%) i obrażenia trafienia krytycznego bombą o $S$% (obecna premia: $S$%).
+2110992091|85e8fbd1||Każda część zestawu zwiększa efektywność oleju nałożonego na miecz o $S$% (obecna premia: $S$%).
+2110992092|1f70c024||Szybkie Ataki mają $S$% szansy na wywołanie krwawienia. Obrażenia zadawane szybkimi atakami krwawiącym przeciwnikom są zwiększone o $S$%.
+2110992093|71d0c5a6||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia skalują się wraz z Mocą Znaku (obecne obrażenia: $I$). Ignoruje Pancerz przeciwnika. Niszczy pociski przelatujące przez obszar działania. Czas twania: $I$s. Ładunki Magicznej Pułapki: $I$.
+2110992094|71d0c5a5||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia skalują się wraz z Mocą Znaku (obecne obrażenia: $I$). Ignoruje Pancerz przeciwnika. Niszczy pociski przelatujące przez obszar działania. Czas trwania: $I$s. Ładunki Magicznej Pułapki: $I$.
+2110992095|163a8e72||Alternatywny tryb Znaku:<br>Zadaje $I$ punktów obrażeń przeciwnikom w zasięgu $I$ metrów. Obrażenia skalują się wraz z Mocą Znaku (obecne obrażenia: $I$). Ignoruje Pancerz przeciwnika. Niszczy pociski przelatujące przez obszar działania. Czas trwania: $I$s. Ładunki Magicznej Pułapki: $I$.
+2110992096|b1173fc9||Znak Aksji może objąć dwóch przeciwników. Czas trwania zmniejszony o $I$%.
+2110992097|c8467d3c||Znak Aksji może objąć dwóch przeciwników. Czas trwania zmniejszony o $I$%.
+2110992098|c8467d3d||Znak Aksji może objąć dwóch przeciwników. Czas trwania bez zmian.
+2110992099|1f70c022||Each Adrenaline Point adds $I$% to the chance of killing an opponent instantly when countering (up to $I$% max).
+2110992102|1f70c021||Silny atak, który ignoruje blok, pancerz oraz tarczę i jest w stanie powalić przeciwnika. Jeśli $S$ Punkty Adrenaliny są dostępne, wywołuje potężną falę uderzeniową zadającą obrażenia wszystkim przeciwnikom w zasięgu $S$ metrów, powodującą u nich wytrącenie z równowagi lub powalenie. Zwiększa obrażenia broni o $S$%. Każdy użyty punkt Wytrzymałości i Adrenaliny dodatkowo zwiększa obrażenia broni odpowiednio o $S$% i $S$% (do maksymalnego poziomu $S$%). Szansa na trafienie krytyczne jest zwiększona o $S$%.
+2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Maintaining the attack consumes $S$ Stamina. During the attack Adrenaline is drained at a speed of $S$ pts/sec. While performing the attack at non-zero Adrenaline, Attack Power is increased by $S$% per additional attacker (max. $S$%) and damage received is decreased by $S$%.
+2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Maintaining the attack consumes $S$ Stamina. During the attack Adrenaline is drained at a speed of $S$ pts/sec. While performing the attack at non-zero Adrenaline, Attack Power is increased by $S$% per additional attacker (max. $S$%) and damage received is decreased by $S$%.
+2110992105|6f2a6f0f||Generacja Punktów Adrenaliny
+2110992106|739e1e2c||Seryjne szybkie ciosy zwiększają Siłę Ataku o $S$% za każdą część zestawu (obecna premia: $S$%), aż do maksymalnego poziomu $S$%. Zakończenie serii szybkich ciosów ciosem silnym wyładowuje miecz podwajając obecną premię do Siły Ataku. Premia resetuje się po zakończeniu serii ciosów i po zakończeniu walki.
+2110992107|8ed43e3e||Rzucenie znaku zmniejsza koszt Wytrzymałości wszystkich kolejnych czynności o $S$% za każdą część zestawu. Obecna premia: $S$%. Czas trwania: $S$s.
+2110992108|8ed43e3f||Obszar połapki Znaku Yrden jest większy o $S$%. Wewnątrz obszaru działania Moc Znaków zwiększona jest o $S$%, a odporność na obrażenia o $S$%.
+2110992109|739e1e2d||Trafienie krytyczne mieczem generuje dwukrotną ilość Punktów Adrenaliny.
+2110992110|328ae462||Szansa na powalenie
+2110992111|c3f538a3||Crossbow bolts deal $S$% more base damage and will pierce and either stun or knock down opponents. Opponents at full health lose $S$% of their health when shot. If at non-zero toxicity, time slows down by additional $S$% when aiming with a crossbow.
+2110992112|925f2058||Niezabijalność
+2110992113|c1e6a9cc||Kiedy Żywotność spadnie do 0, użyty zostanie Punkt Adrenaliny do osłonienia przed śmiercią. Przez $S$s Geralt staje się niewrażliwy na obrażenia oraz zwiększona zostaje regeneracja Żywotności. Przywrócone zostaje $S$% Żywotności za każdy Punkt Adrenaliny (max $S$%). Może być użyte nie częściej niż raz na $S$s.
+2110992114|c1e6a9cb||Kiedy Żywotność spadnie do 0, użyty zostanie Punkt Adrenaliny do osłonienia przed śmiercią. Przez $S$s Geralt staje się niewrażliwy na obrażenia oraz zwiększona zostaje regeneracja Żywotności. Przywrócone zostaje $S$% Żywotności za każdy Punkt Adrenaliny (max $S$%). Może być użyte nie częściej niż raz na $S$s.
+2110992115|cea74418||Kiedy Żywotność spadnie do 0, użyty zostanie Punkt Adrenaliny do osłonienia przed śmiercią. Przez $S$s Geralt staje się niewrażliwy na obrażenia oraz zwiększona zostaje regeneracja Żywotności. Przywrócone zostaje $S$% Żywotności za każdy Punkt Adrenaliny (max $S$%). Może być użyte nie częściej niż raz na $S$s.
+2110992116|cea74430||Obrażenia Szybkich Ataków zwiększone zostają o $S$%. Wzrost Adrenaliny za Szybkie Ataki zostaje zwiększony o $S$%.
+2110992117|1f70c023||Obrażenia Silnych Ataków zwiększone zostają o $S$%. Wzrost Adrenaliny za Silne Ataki zostaje zwiększony o $S$%.
+2110992118|cea74417||Szansa na trafienie krytyczne Szybkiego Ataku zostaje zwiększona o $I$% oraz jego obrażenia zwiększone zostają o $I$%.
+2110992119|1f70c027||Szansa na trafienie krytyczne Silnego Ataku zostaje zwiększona o $I$% oraz jego obrażenia zwiększone zostają o $I$%.
+2110992120|c1e68bc4||Obrażenia otrzymane przez niepełne parowanie i kontry zostają zmniejszone o dodatkowe $I$% (do całkowitego poziomu $I$%). Odpowiednio sparowane strzały odbijane są w stronę przeciwników - obrażenia odbitych strzał zostają zwiększone o $I$%. Gdy Geralt otoczony jest przez wielu przeciwników koszt parowania zostaje zmniejszony o $I$%.
+2110992121|c1e68f84||Zwiększa obrażenia kontrataku o $I$% i szansę na trafienie krytyczne o $I$%.
+2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. Each Adrenaline Point grants $I$% knockdown chance when countering (up to $I$% max).
+2110992123|cea74411||Zwiększa obrażenia kontrataku o $I$%.
+2110992124|cf2b2da2||Ochronna tarcza absorbująca do $I$% obrażeń zadanych przez przeciwnika. Podstawowa absorbcja obrażeń: $I$. Skaluje się wraz z Mocą Znaku. Obecna absorbcja: $I$. Zapobiega efektom wytącenia z równowagi, podpalenia, zatrucia i krwawienia (a potem się wyczerpuje). <br>Czas trwania tarczy: $I$s.
+2110992125|163a8e77||Igni hit now also decreases enemy Armor by $S$ point(s) and enemy Damage Resistances by $S$% (scales with Sign Intensity) for $S$ sec. Subsequently applied effects do not cumulate.
+2110992126|cf2b2da0||Wybuch ognia powodujący $I$ punktów obrażeń z $I$% szansą na podpalenie przeciwników. Obrażenia skalują się wraz z Mocą Znaku. Obecne obrażenia: $I$.
+2110992127|163a8e71||Alternatywny tryb Znaku:<br>Nieprzerwany strumień ognia, który podpala, oraz powoduje obrażenia w tempie $I$/s. Efekt skaluje się wraz z Mocą Znaku (obecne obrażenia: $I$). Zużywa punkty Wytrzymałości w tempie $I$/s.
+2110992128|71d0c1e4||Alternatywny tryb Znaku:<br>Nieprzerwany strumień ognia, który podpala, oraz powoduje obrażenia w tempie $I$/s. Efekt skaluje się wraz z Mocą Znaku (obecne obrażenia: $I$). Zużywa punkty Wytrzymałości w tempie $I$/s.
+2110992129|71d0c1e5||Alternatywny tryb Znaku:<br>Nieprzerwany strumień ognia, który podpala, oraz powoduje obrażenia w tempie $I$/s. Efekt skaluje się wraz z Mocą Znaku (obecne obrażenia: $I$). Zużywa punkty Wytrzymałości w tempie $I$/s.
+2110992130|163a8e75||Znak Aard zadaje dodatkowo $I$ punktów obrażeń. Efekt skaluje się wraz z Mocą Znaku. Obecne obrażenia: $I$.
+2110992131|b3c8ebb8||Magiczna Pułapka
+2110992132|b1173fc0||Czas trwania Znaku zostaje wydłużony o $I$%.
+2110992133|40851a25||Czas trwania Znaku zostaje wydłużony o $I$%. Zasięg Magicznej Pułapki zwiększony zostaje o $I$%.
+2110992134|b1173fc1||Zwiększa obrażenia otrzymane przez wszystkich przeciwników wewnątrz Pułapki Yrden o $S$%.
+2110992135|c84666b6||Wyczerpana tarcza Quen odpycha i rani przeciwników za $I$ punktów obrażeń. Obrażenia skalują się wraz z Mocą Znaku (obecne obrażenia: $I$).
+2110992136|c84666b7||Wyczerpana tarcza Quen odpycha z szansą na powalenie, rani przeciwników za $I$ punktów obrażeń. Obrażenia skalują się wraz z Mocą Znaku (obecne obrażenia: $I$).
+2110992137|163a8e73||Alternatywny tryb Znaku:<br>Aktywna tarcza absorbująca do 100% obrażeń zadanych przez przeciwnika. Podstawowa absorbcja obrażeń zostaje zwiększona o $I$%. Podtrzymywanie Znaku zużywa punkty Wytrzymałości w tempie $I$/s. Zablokowanie ataku używa Wytrzymałość proporcjonalnie do pochłoniętych obrażeń. Odnawia Żywotność równą $I$% pochłoniętych obrażeń. Zapobiega efektom wytrącenia z równowagi, podpalenia, zatrucia i krwawienia. Zapobiega powaleniu (a potem się wyczerpuje).
+2110992138|71d0c966||Alternatywny tryb Znaku:<br>Aktywna tarcza absorbująca do 100% obrażeń zadanych przez przeciwnika. Podstawowa absorbcja obrażeń zostaje zwiększona o $I$%. Podtrzymywanie Znaku zużywa punkty Wytrzymałości w tempie $I$/s. Zablokowanie ataku używa Wytrzymałość proporcjonalnie do pochłoniętych obrażeń. Odnawia Żywotność równą $I$% pochłoniętych obrażeń. Zapobiega efektom wytrącenia z równowagi, podpalenia, zatrucia i krwawienia. Zapobiega powaleniu (a potem się wyczerpuje).
+2110992139|71d0c967||Alternatywny tryb Znaku:<br>Aktywna tarcza absorbująca do 100% obrażeń zadanych przez przeciwnika. Podstawowa absorbcja obrażeń zostaje zwiększona o $I$%. Podtrzymywanie Znaku nie zużywa już Wytrzymałości. Zablokowanie ataki używa Wytrzymałość proporcjonalnie do pochłoniętych obrażeń. Odnawia Żywotność równą $I$% pochłoniętych obrażeń. Zapobiega efektom wytrącenia z równowagi, podpalenia, zatrucia i krwawienia. Zapobiega powaleniu (a potem się wyczerpuje).
+2110992140|15dda916||Olej nałożony na ostrze daje $I$% szans na zatrucie przeciwnika przy każdym trafieniu. Ulepszony Olej zwiększa szansę o $I$%, a Wyśmienity o $I$%. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza(do $I$% pierwotnej wartości).
+2110992141|15dda91a||Gdy poziom Toksyczności jest powyżej zera, czas automatycznie spowalnia o $S$% na $S$s podczas konrataku przeciwnika. Zwiększa Siłę Ataku i Moc Znaków o $S$%, gdy Toksyczność przekracza bezpieczny próg.
+2110992142|1517d64d||Gdy poziom Toksyczności jest powyżej zera, czas automatycznie spowalnia o $S$% na $S$s podczas konrataku przeciwnika. Zwiększa Siłę Ataku i Moc Znaków o $S$%, gdy Toksyczność przekracza bezpieczny próg.
+2110992143|1517d64e||Gdy poziom Toksyczności jest powyżej zera, czas automatycznie spowalnia o $S$% na $S$s podczas konrataku przeciwnika. Zwiększa Siłę Ataku i Moc Znaków o $S$%, gdy Toksyczność przekracza bezpieczny próg.
+2110992145|329005f0||Pozwala wykonywać silne ciosy zwiększające obrażeń broni o $I$% i przebicie Pancerza o $I$.
+2110992148|bab1daf5||Zwiększa tempo wyczerpywania Żywotności w czasie przedawkowania o $S$% za każdy 1 punkt poziomu Toksyczności (obecne tempo wyczerpywania punktów Żywotności: $S$/s; maksymalna wartość: $S$/s). Ilość Żywotności jaką traci wiedźmin podczas przedawkowania jest dodana do podstawowych obrażeń broni i Znaków.
+2110992149|c3f5389c||Signs can deal critical hits. Their critical hit chance and power are determined by Sign Intensity (current critical hit chance -  $S$%, critical hit power bonus - $S$%). Opponents killed by critical hits from Signs explode.
+2110992150|c3f538a0||Znak Aard posiada dodatkowo $S$% szans na zamrożenie przeciwnika. Jeżeli przeciwnik zostanie zamrożony i powalony jednocześnie, ginie natychmiast. Jeżeli przeciwnik nie zostanie zamrożony, Znak zada dodatkowo $S$ punktów obrażeń. Siła ataku skaluje się wraz z Mocą Znaku (obecne obrażenia: $S$).
+2110992151|cf2b2da1||Magiczna pułapka, która spowalnia przeciwników o $S$% wewnątrz jej obszaru działania (skaluje się wraz z Mocą Znaku, maksymalne spowolnienie jest ograniczone do $S$%). Czas trwania pułapki: $S$s. Im dłużej pułapka działa, tym staje się mniej efektywna.
+2110992152|c3f538a1||While in combat you alternate between two states: Rush state that doubles your Adrenaline gain for $S$ sec and gives additional +$S$% to Attack Power and Sign Intensity per Adrenaline Point and Recovery state that halves your Adrenaline gain for $S$ sec and gives -$S$% to the same characteristics for each Adrenaline point gained during the Rush state.
+2110992153|c32e766a||Premia do obrażeń trafienia krytycznego
+2110992154|28838f82||Przebicie Pancerza
+2110992155|f35fcb73||Przebicie Pancerza
+2110992156|0147942a||Regeneracja Żywotności poza walką
+2110992157|a83467f6||Regeneracja Żywotności w trakcie walki
+2110992158|c95c6e28||Gdy poziom Żywotności jest na maksymalnym poziomie, dodatkowa regeneracja Żywotności zwiększa obrażenia broni o $I$% za każdy 1% zyskanej nadmiernej Żywotości (do maksymalnego poziomu $I$%). Działa tylko podczas walki. Resetuje się przy otrzymaniu i zadaniu obrażeń.
+2110992159|ccc61f66||Jedzenie regeneruje Żywotność o $I$% dłużej, ale wszystko smakuje jak pierogi.
+2110992160|22156cd6||When Yrden Magic Turret hits an enemy, an Yrden Magic Trap is placed at that position. Size, duration and slowdown for such a trap are unaffected by Yrden Intensity and upgrades and limited to $S$ yards, $S$ sec and $S$% respectively.
+2110992161|4a0f3f56||Obrażenia Znaku
+2110992162|4f424deb||Obrażenia broni
+2110992163|7968d6e0||Zamraża przeciwników. Ciosy zadane zamrożonym przeciwnikom zadają dodatkowe obrażenia. Wydłużony czas trwania.
+2110992164|b02a28c2||Zwiększenie obrażeń
+2110992165|9e58d1f5||Zwiększa Moc Znaków. Wydłużony czas trwania. Czas trwania efektów krytyczych Znaków zostaje wydłużony o 33%.
+2110992166|329005f3||Obrażenia zadane podczas walki wręcz generują Punkty Adrenaliny. Każdy Punkt Adrenaliny zwiększa Siłę Ataku o $I$%.
+2110992167|d11e5fa2||Szybki Atak - obrażenia trafienia krytycznego
+2110992168|3018409d||Silny Atak - obrażenia trafienia krytycznego
+2110992169|25746309||Geralt jest teraz ogolony na czysto
+2110992170|329005f2||Umożliwia posługiwanie się lekką kuszą. Strzał bez celowania zadaje o 50% mniej obrażeń.
+2110992171|5f63dbf5||Umożliwia wytwarzanie petard, które są pociskami miotanymi w przeciwników. Rzut bez celowania zadaje o 50% mniej obrażeń.
+2110992172|754d1891||Trans Bojowy zwiększa dodatkowo Moc Znaków o $I$% za każdy Punkt Adrenaliny. Używanie Znaków generuje teraz taką samą ilość Punktów Adrenaliny, jak podczas używania mieczy.
+2110992173|04bda90f||Służy do golenia.
+2110992174|da7e5ba5||Każdy element średniego rynsztunku zwiększa Moc Znaków o $S$% i zmniejsza koszt Wytrzymałości rzucania znaku o $S$%.
+2110992175|b1173fc7||Czas zostaje spowolniony o dodatkowe $I$% podczas rzucania Znaku Aksji. Szansa na trafienie krytyczne na przeciwnikowu pod wpływem Uroku jest zwiększona o $I$%. Zwiększa skuteczność Znaku Aksji w dialogach.
+2110992176|c84675ba||Czas zostaje spowolniony o dodatkowe $I$% podczas rzucania Znaku Aksji. Szansa na trafienie krytyczne na przeciwnikowu pod wpływem Uroku jest zwiększona o $I$%. Zwiększa skuteczność Znaku Aksji w dialogach.
+2110992177|c84675bb||Czas zostaje spowolniony o dodatkowe $I$% podczas rzucania Znaku Aksji. Szansa na trafienie krytyczne na przeciwnikowu pod wpływem Uroku jest zwiększona o $I$%. Zwiększa skuteczność Znaku Aksji w dialogach.
+2110992178|56747c57||Zwiększa regenerację Żywotności. Otrzymywane obrażenia nie zatrzymują regeneracji Żywotności.
+2110992179|b9aff26b||Twoje przeciążenie jest zbyt duże
+2110992180|b66cd6f6||Zatop łódź przy przeciążeniu
+2110992181|b48e9483||Limit przeciążenia do zatopienia łodzi (%)
+2110992182|cccbd483||Zmień tryb
+2110992183|2bf0877e||Zmniejsz obciążenie przedmiotów (%)
+2110992184|d0b08830||Pokaż cały ekwipunek
+2110992185|973a8234||Pokaż zawartość schowka
+2110992186|c7b4d16e||Tryb mieszany
+2110992187|7e63c963||Tryb synchronizacji
+2110992188|e71d7c90||Zwiększa maksymalną Żywotność Geralta o $S$ punktów za każdego zabitego przeciwnika.
+2110992189|d3510d11||Zawiera odłamki srebra które tymczasowo blokują lub osłabiają umiejętności transformacji i regeneracji potworów.
+2110992190|d3510d12||Zawiera odłamki srebra które tymczasowo blokują lub osłabiają umiejętności transformacji i regeneracji potworów. Wydłużony czas trwania.
+2110992191|d3510d13||Zawiera odłamki srebra które tymczasowo blokują lub osłabiają umiejętności transformacji i regeneracji potworów. Wydłużony czas trwania.
+2110992192|08eace65||Zwiększa efektywność ataku względem Insektoidów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992193|08eace66||Zwiększa efektywność ataku względem Insektoidów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992194|08eace67||Zwiększa efektywność ataku względem Insektoidów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992195|3a67f159||Zwiększa efektywność ataku względem Istot przeklętych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992196|3a67f15a||Zwiększa efektywność ataku względem Istot przeklętych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992197|3a67f15b||Zwiększa efektywność ataku względem Istot przeklętych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992198|65067e25||Zwiększa efektywność ataku względem Trupojadów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992199|65067e26||Zwiększa efektywność ataku względem Trupojadów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992200|65067e27||Zwiększa efektywność ataku względem Trupojadów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992201|7b1c29c3||Zwiększa efektywność ataku względem Hybryd. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992202|7b1c29c4||Zwiększa efektywność ataku względem Hybryd. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992203|7b1c29c5||Zwiększa efektywność ataku względem Hybryd. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992204|88e86911||Zwiększa efektywność ataku względem Wampirów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992205|88e86912||Zwiększa efektywność ataku względem Wampirów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992206|88e86913||Zwiększa efektywność ataku względem Wampirów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992207|aed490e2||Zwiększa efektywność ataku względem Istot magicznych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992208|aed490e3||Zwiększa efektywność ataku względem Istot magicznych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992209|aed490e4||Zwiększa efektywność ataku względem Istot magicznych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992210|d11afcde||Zwiększa efektywność ataku względem Humanoidów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992211|d11afcdf||Zwiększa efektywność ataku względem Humanoidów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992212|d11afce0||Zwiększa efektywność ataku względem Humanoidów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992213|ea1a3189||Zwiększa efektywność ataku względem Upiorów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992214|ea1a318a||Zwiększa efektywność ataku względem Upiorów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992215|ea1a318b||Zwiększa efektywność ataku względem Upiorów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992216|ef649cfe||Zwiększa efektywność ataku względem Drakonidów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992217|ef649cff||Zwiększa efektywność ataku względem Drakonidów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992218|ef649d00||Zwiększa efektywność ataku względem Drakonidów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992219|f8b46c36||Zwiększa efektywność ataku względem Reliktów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992220|f8b46c37||Zwiększa efektywność ataku względem Reliktów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992221|1ff07bf8||Zwiększa efektywność ataku względem Reliktów. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992222|7753393f||Zwiększa efektywność ataku względem Ogrowatych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992223|77533940||Zwiększa efektywność ataku względem Ogrowatych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992224|77533941||Zwiększa efektywność ataku względem Ogrowatych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992225|c0218f12||Zwiększa efektywność ataku względem Ogrowatych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992226|c0218f13||Zwiększa efektywność ataku względem Ogrowatych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992227|c0218f14||Zwiększa efektywność ataku względem Ogrowatych. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992228|dd8e2b22||Zwiększa efektywność ataku względem Bestii. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992229|dd8e2b23||Zwiększa efektywność ataku względem Bestii. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992230|dd8e2b24||Zwiększa efektywność ataku względem Bestii. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza.
+2110992231|de026195||Usuwa Toksyczność i efekty działania eliksirów.
+2110992232|de026196||Usuwa Toksyczność i efekty działania eliksirów.
+2110992233|de026197||Usuwa Toksyczność i efekty działania eliksirów.
+2110992234|f8b46c38||Zwiększa efektywność ataku względem Reliktów.
+2110992235|874e9f88||Umożliwia widzenie w całkowitej ciemności. Uodparnia na hipnozę. Wydłużony czas trwania.
+2110992237|fe608837||Rani odłamkami wszystkich przeciwników w zasięgu rażenia. Zadaje obrażenia od ognia. Wzmocnione działanie. Niszczy tarcze przeciwników. Niszczy gniazda potworów.
+2110992239|3ed03538||Czas trwania po opuszczeniu obłoku gazu
+2110992240|874e9f87||Umożliwia widzenie w całkowitej ciemności. Wydłużony czas trwania.
+2110992241|e71d7c8e||Wszystkie ataki wręcz używają $S$% więcej Wytrzymałości. Udany cios mieczem natomiast zmniejsza dodatkowo Żywotność celu o $S$% obecnej wartości za każdy punkt Wytrzymałości użyty na atak.
+2110992242|fc921527||Każdy założony Mniejszy Zielony Mutagen zwiększa regenerację punktów Żywotności o $S$. Zielony Mutagen zwiększa premię do $S$, a Większy Zielony Mutagen - do $S$.
+2110992243|e71d7c93||Każdy założony Mniejszy Niebieski Mutagen zwiększa podstawowe obrażenia od Znaków o $S$ punktów. Niebieski Mutagen zwiększa premię do $S$, a Większy Niebieski Mutagen - do $S$.
+2110992244|fc921524||Zwiększa odporność wiedźmina na krwawienie, podpalenie, zatrucie oraz na obrażenia od ognia i trucizny o $I$%.
+2110992245|fc921525||Regeneruje Żywotność o $S$% za każdy użyty punkt Wytrzymałości. Działa tylko podczas walki.
+2110992246|e71d7c91||Regeneruje Żywotność o wartość równą $S$% obrażeń zadanych przeciwnikowi.
+2110992247|fc921505||Rzucenie Znaku zwiększa Siłę Ataku o $I$% (maksymalnie $I$%). Resetuje się po zadaniu obrażeń wręcz i po zakończeniu walki.
+2110992248|fc921509||Przeciwnicy kontrolowani przez Marionetkę Aksji zadają $I$% więcej obrażeń.
+2110992249|fc921526||Rzucenie Znaku podczas walki zwiększa Moc Znaków o $S$% (maksymalnie $S$%). Po otrzymaniu obrażeń od przeciwnika premia zostaje zmniejszona o $S$% za każdy 1% straconej Żywotności. Resetuje się po zakończeniu walki.
+2110992250|8cb0734c||Losowe skalowanie: dolny limit (od poziomu Geralta)
+2110992251|f958bbfa||Losowe skalowanie: górny limit (od poziomu Geralta)
+2110992252|beb0cec9||Losowe
+2110992253|09d75838||Nie wymagaj minimalnego poziomu dla zadań
+2110992254|82df1e7b||Nie skaluj poziomu zwierząt
+2110992255|940edcea||Losowe, ale tylko w górę
+2110992256|256ad6b4||Nie zawiera nic ciekawego
+2110992257|2b555f18||Składniki rzemieślnicze
+2110992258|25691b0a||Rupieć. Może zostać odsprzedany handlarzom lub rozłożony na składniki rzemieślnicze.
+2110992259|b91d9859||Rupieć. Może zostać odsprzedany handlarzom.
+2110992260|7fd2ce90||Przedmiot wartościowy. Może zostać odsprzedany za dobrą cenę lub rozłożony na składniki rzemieślnicze.
+2110992261|4e7c5cf1||Menu schowka
+2110992262|cbb62004||Niezabijalność - czas odnowienia
+2110992263|80038142||Modyfikator regeneracji Wytrzymałości
+2110992264|2d9ff292||Szansa na zachowanie równowagi po otrzymaniu ciosu
+2110992265|2eaeb09b||Szansa na odbicie strzały
+2110992266|cb404984||Mistrzowskie narzędzia kowalskie
+2110992267|29e78e8a||Narzędzia używane przez najlepszych kowali. Na stałe zwiększają obrażenia broni. Wymagany poziom zostaje podniesiony o 1.
+2110992268|fcf7e421||Mistrzowskie narzędzia płatnerskie.
+2110992269|ad70e65b||Narzędzia używane przez najlepszych płatnerzy. Na stałe zwiększają ilość punktów Pancerza. Wymagany poziom zostaje podniesiony o 1.
+2110992270|b5a7442f||Modyfikator doświadczenia za zadania.
+2110992271|773c6a77||Modyfikator doświadczenia za walkę.
+2110992272|7641d6c5||Szansa na powalenie
+2110992273|b1173fc2||Zwiększa podstawową szansę na poważne powalenie o $I$%.
+2110992274|163a8e76||Dodaje $I$ punktów do obrażeń od ognia i zwiększa obrażenia od Strumienia Ognia o $I$/s. Efekt skaluje się wraz z Mocą Znaku.
+2110992275|b1173fc6||Dodaje $I$ punktów obrażeń do ładunku Magicznej Pułapki. Efekt skaluje się wraz z Mocą Znaku.
+2110992276|b1173fc5||Tarcza Quen absorbuje o $I$ więcej obrażeń. Efekt skaluje się wraz z Mocą Znaku.
+2110992277|9246181a||Czas pod wpływem Uroku Aksji
+2110992278|b72fae71||Czas pod wpływem Marionetki Aksji
+2110992279|163a8e70||Alternatywny tryb Znaku:<br>Aard działa na wszystkich przeciwników w zasięgu. Moc Znaku jest wtedy mniejsza o $I$%.
+2110992280|71d0be23||Alternatywny tryb Znaku:<br>Aard działa na wszystkich przeciwników w zasięgu. Moc Znaku jest wtedy mniejsza o $I$%.
+2110992281|71d0be24||Alternatywny tryb Znaku:<br>Aard działa na wszystkich przeciwników w zasięgu. Moc Znaku pozostaje taka sama.
+2110992282|71d0d0e8||Aard zadaje $I$ obrażeń. Obrażenia zależą od Mocy Znaku (obecne obrażenia: $I$).
+2110992283|71d0d0e9||Aard zadaje $I$ obrażeń. Obrażenia zależą od Mocy Znaku (obecne obrażenia: $I$).
+2110992284|cf2b2d9f||Kinetyczne uderzenie, które wytrąca z równowagi przeciwników stojących przed wiedźminem i ma $I$% szansy na powalenie ich. Szansa na poważne powalenie wynosi $I$%. Szanse skalują się wraz z Mocą Znaku i wzrastają, gdy przeciwnik jest zmęczony. Poważne powalenie umożliwia wykonanie ciosu kończącego.
+2110992286|cf2b2da3||Urok, który wpływa na umysł przeciwnika i wyłącza go z walki na krótki czas. Nieudana próba użycia Znaku wytrąca przeciwnika z równowagi. Daje $S$% szansy na krytyczne uderzenie wobec przeciwnika pod wpływem Uroku. Daje $S$% szansy na cios kończący lub rozczłonkowanie przeciwnika pod wpływem Uroku (skaluje się wraz z Mocą Znaku i ilością zadanych obrażeń). <br>Czas trwania Uroku: $S$s (skaluje się wraz z Mocą Znaku).
+2110992287|b1173fc8||Wydłuża czasu trwania efektów Znaku Aksji o $I$%.
+2110992288|163a8e74||Alternatywny tryb Znaku:<br>Sprawia, że przeciwnik przez $I$s walczy po stronie wiedźmina i zadaje o $I$% więcej obrażeń. Czas trwania skaluje się wraz z Mocą Znaku (obecnie: $I$s).
+2110992289|71d0cd27||Alternatywny tryb Znaku:<br>Sprawia, że przeciwnik przez $I$s walczy po stronie wiedźmina i zadaje o $I$% więcej obrażeń. Czas trwania skaluje się wraz z Mocą Znaku (obecnie: $I$s).
+2110992290|71d0cd28||Alternatywny tryb Znaku:<br>Sprawia, że przeciwnik przez $I$s walczy po stronie wiedźmina i zadaje o $I$% więcej obrażeń. Czas trwania skaluje się wraz z Mocą Znaku (obecnie: $I$s).
+2110992291|483c9092||Podczas walki obrażenia broni zwiększają się o $I$ punktów za każdego przeciwnika. Każdy cios ładuje miecz. W pełni naładowany miecz wraz z zadaniem ciosu wyładowuje się, zadając obrażenia krytyczne z $I$% premią do Siły Ataku i ignorując Pancerz oraz odporności na obrażenia. Wyładowanie miecza również rani i wytrąca z równowagi wszystkich okolicznych przeciwników.<br><br>Liczba ciosów do pełnego naładowania: $I$. Ładunki można stracić z czasem (jeden na $I$s) lub otrzymując obrażenia.
+2110992292|1f5adb4f||<br><br>Obecna ilość ładunków: $I$/$I$. Obecna premia do obrażeń: $I$.
+2110992293|0516c455||Szansa na poważne powalenie
+2110992294|f76f46ed||Zabicie przeciwnika regeneruje $I$% maksymalnej Żywotności.
+2110992295|fad8f82b||Zabicie przeciwnika generuje $F$ Punktów Adrenaliny.
+2110992296|ed2f3195||Obrażenia zadawane przez Rozładowanie Tarczy i Rozładowanie Quen zostają zwiększone o $I$%.
+2110992299|f2e69faf||Zadawanie obrażeń mieczem ładuje go energią. Zadając cios w pełni naładowanym mieczem, obrażenia broni są zwiększone o wartość równą $I$% Żywotności Geralta (udany atak wysysa Żywotność z dzierżącego miecz). Silny Atak w pełni naładowanym mieczem przywołuje widmową kopię miecza, która zadaje dodatkowe obrażenia, przebijając się jednocześnie przez tarczę, blok oraz Pancerz i ignorując odporności na obrażenia.<br><br>Uderzenia potrzebne do pełnego naładowania: $I$. Ładunki można stracić z czasem (jeden na $I$s) lub otrzymując obrażenia. W pełni naładowany miecz rozładowuje się w czasie $I$s lub po Silnym Ataku.<br><br>Obecna ilość ładunków: $I$/$I$. Obecna premia do obrażeń za w pełni naładowany miecz: $I$.
+2110992300|ba719645||Nie skaluj ilości doświadczenia za zadania oraz walkę
+2110992301|bdf0ea49||Humanoidy
+2110992302|bafca59c||Wojownicy Dzikiego Gonu
+2110992303|82a5fd81||Wszystkie
+2110992304|98357039||Zwierzęta
+2110992305|4153fdc1||Potwory
+2110992306|c8dde11f||Zabójstwa po typie
+2110992307|d8d52cd1||Ilość zabójstw
+2110992308|ba738dce||Humanoidy
+2110992309|8e8b5e03||Unikatowe
+2110992310|1f70c026||Zwiększa szansę na trafienie krytyczne kuszą o $I$%, oraz obrażenia trafienia krytycznego kuszą o $I$%.
+2110992312|a5384b1f||Domyślnie użyj trybu synchronizacji
+2110992313|da7e5ba8||Jeżeli dostępny jest przynajmniej jeden Punkt Adrenaliny, zostanie on użyty zamiast Wytrzymałości do rzuceniu Znaku.
+2110992314|63833111||Nie podnoś poziomu doświadczenia straży
+2110992315|329005f1||Techniki obronne Szkoły Wilka: parowanie, kontratak, unik. Udane parowanie, kontratak oraz unik zmniejszają otrzymane obrażenia do zera i zapobiegają negatywnym efektom. Udana kontra daje dodatkowe $I$% szansy na trafienie krytyczne. Niepełne parowanie zmniejsza otrzymane obrażenia o $I$% i zapobiega krwawieniu. Turlanie po ziemi zapewnia odporność na powalenie i wytrącenie z równowagi oraz pozwala unikać strzał. Unik jest nieskuteczny przeciwko niektórym atakom. Strzały mogą zostać sparowane.
+2110992316|1f70c028||Obrażenia otrzymane w trakcie uników zostają zmniejszone o $I$%.
+2110992317|8d17aaa0||Zmniejsza obrażenia zadawane przez typ przeciwnika, dla którego stworzony jest olej o $I$%. Ulepszony olej dodatkowo zmniejsza obrażenia o $I$%, a Wyśmienity - o $I$%. Efekt traci na mocy wraz ze ścieraniem się oleju z ostrza (do $I$% początkowej wartości).
+2110992318|5f63dbf4||Umożliwia tworzenie olejów, które można zastosować do mieczy. Efekt traci na mocy ze ścieraniem się oleju z ostrza (do $I$% podstawowej wartości).
+2110992319|754d1890||Zwiększa generowanie Adrenaliny o $I$%. Oprócz zwykłego efektu Transu Bojowego, każdy Punkt Adrenaliny również zmniejsza koszt Wytrzymałości wykonywania akcji wręcz o $I$%.
+2110992320|ff9b0dc7||Premia ciężkiego rynsztunku: +$I$% do odporności na każdy typ obrażeń.
+2110992321|2b2a501b||Premia średniego rynsztunku: +$S$/s do Tempa Redukcji Toksyczności.
+2110992322|31637b56||Premia lekkiego ryznsztunku: +$I$ stopni do bezpiecznej odległości kątowej podczas wykonywania uniku.
+2110992323|90f6cc99||Uodparnia na działanie trucizn. Trucizny leczą $S$% obrażeń od trucizny za każdy element wyposażongeo zestawu (obecne tempo leczenia: $S$%).
+2110992324|a0268440||Premia do Siły Ataku.
+2110992325|d23efdaf||Otrzymanie obrażeń generuje $S$ Punktów Adrenaliny za każdą założoną część zestawu (obecna premia: $S$ punktów). Każdy Punkt Adrenaliny dodatkowo zwiększa Siłę Ataku o $S$% za każdą założoną część zestawu (obecna premia: $S$%).
+2110992326|85e8fbd2||Na miecz można nakładać do trzech różnych olejów na raz. Każdy olej nałożony na miecz zwiększa szansę trafienia krytycznego o $S$% i obrażenia trafienia krytycznego o $S$%.
+2110992327|99d7dea8||Skalowanie wrogów
+2110992328|b9a7283e||Doświadczenie
+2110992329|137fa103||Rozgrywka
+2110992330|de9dbdb0||Zestaw do demontażu przedmiotów
+2110992331|54df196a||Pozwala na rozmontowanie śmieci i składników rzemieślniczych.
+2110992332|cd3869e4||Zestaw do demontażu komponentów alchemicznych
+2110992333|4d09bbea||Pozwala na rozmontowanie komponentów alchemicznych
+2110992334|0544643a||Demontaż
+2110992336|d23efdb0||Obrażenia zadane Silnym Atakiem odnawiają $S$% Wytrzymałości użytej do tego ataku.
+2110992337|e9c58057||Rzucenie Znaku używa $I$% mniej Wytrzymałości, ale wykonywanie czynności walki wręcz (oprócz ataków specjalnych) używa $I$% więcej Wytrzymałości.
+2110992338|eb7a58f6||Wykonywanie czynności walki wręcz zadających obrażenia (oprócz ataków specjalnych) używa $I$% więcej Wytrzymałości, ale zadają one $I$% więcej obrażeń.
+2110992339|e810a7b8||Wykonywanie czynności walki wręcz (oprócz ataków specjalnych) używa $I$% mniej Wytrzymałości, ale rzucanie Znaków używa $I$% więcej Wytrzymałości.
+2110992342|cea7442f||Zawsze rozpoczynasz walkę z przynajmniej $S$ Punktem(ami) Adrenaliny. Generowanie Punktów Adrenaliny jest zwiększone o $I$%.
+2110992343|b616490f||Dwimeryt
+2110992344|63cd93a3||Uwalnia obłok opiłków dwimerytu, który blokuje prymitywną magię i magiczne zdolności potworów. Osłabia Pancerz Istot Magicznych. Osłabia magów, redukując ich obrażenia.
+2110992345|63cd93a4||Uwalnia obłok opiłków dwimerytu, który blokuje prymitywną magię i magiczne zdolności potworów. Osłabia Pancerz Istot Magicznych. Osłabia magów, redukując ich obrażenia. Wydłużony czas trwania.
+2110992346|63cd93a5||Uwalnia obłok opiłków dwimerytu, który blokuje prymitywną magię i magiczne zdolności potworów. Osłabia Pancerz Istot Magicznych. Osłabia magów, redukując ich obrażenia. Wydłużony czas trwania.
+2110992347|db81c2af||Przebicie Pancerza
+2110992348|ec4dca6f||Czas trwania obłoku
+2110992349|15dda91c||Każda znana receptura alchemiczna poziomu 1, 2 i 3 zwiększa Tolerancję na Toksyny o 1 punkt. Maksymalna premia: $I$ punktów. Obecna premia: $I$ punktów.
+2110992350|1517ddcf||Każda znana receptura alchemiczna poziomu 1, 2 i 3 zwiększa Tolerancję na Toksyny o 1 punkt. Maksymalna premia: $I$ punktów. Obecna premia: $I$ punktów.
+2110992351|1517ddd0||Każda znana receptura alchemiczna poziomu 1, 2 i 3 zwiększa Tolerancję na Toksyny o 1 punkt. Maksymalna premia: $I$ punktów. Obecna premia: $I$ punktów.
+2110992352|f5503350||Wytrzymałość
+2110992353|0083ce65||Długotrwałe skutki
+2110992354|8d17aa9f||Wydłuża czas trwania eliksirów o $S$%.
+2110992355|15dda919||Poziom Toksyczności spada szybciej o $I$/s.
+2110992358|8d17aa9e||Zmniejsza Toksyczność eliksirów o $S$ punkt(y).
+2110992359|0083ce64||Ekspert alchemista
+2110992360|917ce1b5||Pancerz z Kaer Morhen
+2110992361|25cb5427||Ulepszony pancerz z Kaer Morhen
+2110992362|25cb5428||Wyśmienity pancerz z Kaer Morhen
+2110992363|25cb5429||Mistrzowski pancerz z Kaer Morhen
+2110992364|92488c52||Spodnie z Kaer Morhen
+2110992365|2256cb84||Ulepszone spodnie z Kaer Morhen
+2110992366|2256cb85||Wyśmienite spodnie z Kaer Morhen
+2110992367|2256cb86||Mistrzowskie spodnie z Kaer Morhen
+2110992368|9189a437||Buty z Kaer Morhen
+2110992369|55b17e29||Ulepszone buty z Kaer Morhen
+2110992370|55b17e2a||Wyśmienite buty z Kaer Morhen
+2110992371|55b17e2b||Mistrzowskie buty z Kaer Morhen
+2110992372|a808dd84||Rękawice z Kaer Morhen
+2110992373|c9479836||Ulepszone rękawice z Kaer Morhen
+2110992374|c9479837||Wyśmienite rękawice z Kaer Morhen
+2110992375|c9479838||Mistrzowskie rękawice z Kaer Morhen
+2110992376|e17342fd||Znoszony pancerz z Kaer Morhen
+2110992377|7656b740||Znoszone spodnie z Kaer Morhen
+2110992378|ae52593b||Znoszone buty z Kaer Morhen
+2110992379|cc58d3d4||Znoszone rękawice z Kaer Morhen
+2110992380|41dddfc6||Tempo regeneracji punktów Wytrzymałości wzrasta o $S$/s za każdego kolejnego przeciwnika w walce (maksymalnie $S$/s).
+2110992381|44aa9fca||Rezerwa Toksyczności
+2110992382|f4fd119f||Rezerwa Toksyczności oznacza zwiększenie Toksyczności na cały czas trwania efektów odwaru.
+2110992383|7d183fe6||Szybki Atak - generacja Adrenaliny
+2110992384|7cddfb97||Silny Atak - generacja Adrenaliny
+2110992386|d02fd0a4||Punkty Adrenaliny po osiągnięciu maksymalnego poziomu stopniowo spadają do zera w tempie $S$/s. W tym czasie regeneracja Żywotności jest zwiększona o $S$%/s, regeneracja punktów Wytrzymałości jest zwiększona o $S$%/s i Toksyczność spada szybciej o $S$/s.
+2110992387|f098e2d3||Podstawowy atak Znakiem Igni razi wszystkich przeciwników dookoła i zadaje $I$ więcej punktów obrażeń (skaluje się wraz z Mocą Znaku). Szansa na podpalenie jest zmniejszona o $I$%.
+2110992388|fc92152b||Gdy Geralt zostanie trafiony więcej niż raz w przeciągu $S$s, stanie się odporny na obrażenia przez następne $S$s.
+2110992389|e71d7c8c||Gdy przeciwnicy zranią Geralta w walce wręcz, zostanie na nich nałożony efekt Kwasu, który zredukuje ich odporność na obrażenia o $I$% (maksymalnie $I$%).
+2110992390|fc92152c||Obrażenia zadawane potworom w formie niematerialnej zostają zwiększone z $I$% do $I$% ich normalnej wartości. Obrażenia otrzymane od przeciwników o niematerialnej formie zostają zredukowane o $I$%.
+2110992391|18fb4c67||Regeneracja wytrzymałości w walce (dodatkowa)
+2110992392|fb3a17d6||Regeneracja wytrzymałości poza walką (dodatkowa)
+2110992393|18fca984||Regeneracja żywotności w walce (dodatkowa)
+2110992394|fb3b74f3||Regeneracja żywotności poza walką (dodatkowa)
+2110992395|866370a2||Modyfikator kosztu czynności walki wręcz
+2110992396|90a0845c||Modyfikator kosztu używania znaków
+2110992397|852e4f73||Opóźnienie w regeneracji wytrzymałości (dodatkowa, sekundy)
+2110992398|dd7afaaa||Najlepszą Obroną jest Atak
+2110992399|754d18b0||Zabicie przeciwnika przywraca $I$% Wytrzymałości (brak czasu odnowienia). Ciosy krytyczne i udane kontry odnawiają $I$% Wytrzymałości ($S$ czasu odnowienia).
+2110992400|cf56fd86||Młynek - czas odnowienia
+2110992401|c9405593||Rozpłatanie - czas odnowienia
+2110992402|27591c8a||Aard - czas odnowienia
+2110992403|3b779b63||Igni - czas odnowienia
+2110992404|16ae6564||Yrden - czas odnowienia
+2110992405|a4abc76f||Quen - czas odnowienia
+2110992406|61b3e4e5||Aksji - czas odnowienia
+2110992407|ea3ff249||Atak specjalny wręcz - czas odnowienia (sekundy)
+2110992408|63da8c4f||Znaki - czas odnowienia (sekundy)
+2110992409|da8dff85||Szybki Atak - koszt Wytrzymałości
+2110992410|da53bb36||Silnt Atak - koszt Wytrzymałości
+2110992411|dac2e517||Parowanie - koszt Wytrzymałości
+2110992412|9df940ab||Kontratak - koszt Wytrzymałości
+2110992413|da1ff246||Unik - koszt Wytrzymałości
+2110992414|49202c2e||Turlanie - koszt Wytrzymałości
+2110992415|838b858b||Sprint - koszt Wytrzymałości
+2110992416|491c9fdf||Skok - koszt Wytrzymałości
+2110992417|491c26c4||Użycie przedmiotu - koszt Wytrzymałości
+2110992418|49183e03||Aard - koszt Wytrzymałości
+2110992419|491bf70a||Igni - koszt Wytrzymałości
+2110992420|db493cc3||Yrden - koszt Wytrzymałości
+2110992421|491fcd7e||Quen - koszt Wytrzymałości
+2110992422|49189348||Aksji - koszt Wytrzymałości
+2110992423|fe37faf4||Wyczerpywanie Żywotności podczas przedawkowania
+2110992424|1f5ba9f0||Tempo Redukcji Toksyczności
+2110992425|1050a15c||Dostępna Tolerancja na Toksyny
+2110992426|736e017e||Element lekkiego rynsztunku. Oferuje minimalną ochronę. Czynności podczas walki używają mniej Wytrzymałości.
+2110992427|320650a7||Element średniego rynsztunku. Oferuje optymalną ochonę.
+2110992428|942892ef||Element ciężkiego rynsztunku. Oferuje najlepszą ochronę. Czynności podczas walki i rzucanie Znaków używają więcej Wytrzymałości.
+2110992429|6d1ad461||Lekki rynsztunek nie daje dużo ochrony, ale czynności podczas walki używają mniej Wytrzymałości, kiedy ten jest założony. Średni i ciężki rynsztunek absorbują więcej obrażeń, ale nosząc ciężki rynsztunek wykonywanie czynności podczas walki używa więcej Wytrzymałości.
+2110992430|4080bc95||Zadawanie obrażeń w walce przywraca $S$% maksymalnej Żywotności za każdą część zestawu (Obecnie: $S$%).
+2110992431|5590084c||Alternatywny tryb Znaku - czas odnowienia (sekundy)
+2110992432|d46535e3||Rzucanie Znaku przy pomocy klawisza do wyboru Znaku
+2110992433|9ec8a224||Momentalnie odnawia porcję Żywotności i zatrzymuje krwawienie.
+2110992434|9ec8a225||Momentalnie odnawia dużą porcję Żywotności i zatrzymuje krwawienie.
+2110992435|9ec8a226||Momentalnie odnawia całą Żywotność i zatrzymuje krwawienie. Na krótki czas daje całkowitą odporność na obrażenia.
+2110992436|fc921529||Każdy założony Mniejszy Czerwony Mutagen zmniejsza koszt wykonywania czynności walki wręcz o $S$%. Czerwony Mutagen zwiększa premię do $S$% i Większy Czerwony Mutagen - do $S$%.
+2110992438|db289661||Młynek - koszt Wytrzymałości
+2110992439|492006da||Rozpłatanie - koszt Wytrzymałości
+2110992440|6fd9d47c||Szansa na rozczłonkowanie
+2110992441|ccb8d32f||QoL
+2110992442|7cc7f3f3||Próg efektów niskiego poziomu Wytrzymałości (%)
+2110992443|2f23ba87||Głośność efektów niskiego poziomu Wytrzymałości
+2110992444|909fc586||Użyj dynamicznej głośności efektów niskiego poziomu Wytrzymałości
+2110992445|b55191ac||Tempo efektów niskiego poziomu Wytrzymałości
+2110992446|8356e68d||Użyj dynamicznego tempa efektów niskiego poziomu Wytrzymałości
+2110992447|6f6ee452||Presety QoL
+2110992448|9be2d670||Rekomendowane
+2110992449|433edeb8||Wyłącz
+2110992450|f0a5cdc0||Presety rozgrywki
+2110992451|76c320d6||Domyślne
+2110992452|5c5d3961||Presety doświadczenia
+2110992453|e30aa64b||Presety skalowania
+2110992454|15dda917||Spożyty odwar zwiększa maksymalą Żywotność o $I$ punktów za każdy punkt Rezerwy Toksyczności. Premia trwa przez czas efektywnego działania odwaru.
+2110992455|e71d7c8b||Niekrytyczne obrażenia zadane mieczem zwiększają szansę na trafienie krytyczne kolejnych ataków o $I$% (maksymalnie $I$%). Przy pełnej premii obrażenia krytyczne zostają zwiększone o dodatkowe $I$%. Premia resetuje się przy udanym trafieniu krytycznym oraz po zakończeniu walki.
+2110992456|0391a988||Redukcja obrażeń
+2110992457|fc92150b||Reakcja Geralta na uderzenie przez przeciwnika zostaje zniwelowana, jeśli otrzymane obrażenia są mniejsze niż $I$% maksymalnej Żywotności.
+2110992458|47ae434f||Włącz kary do regeneracji Wytrzymałości dla rynsztunków
+2110992459|c87c8420||Vanilla(ish)
+2110992460|40851a26||Czas trwania Magicznej pułapki zostaje zwiększony o $I$%. Można teraz postawić dodatkową Magiczną Pułapkę.
+2110992461|6a758d69||Zasięg Magicznej Pułapki
+2110992462|dd7afa8f||Koneser
+2110992463|754d1895||Reduces alcohol and toxic food toxicity to zero. Removes drunken effect from alcohol. After drinking an alcoholic beverage, its bonuses last longer by $S$%.
+2110992464|a1370329||Zwiększa zapas powietrza pod wodą i poprawia widoczność w czasie nurkowania.
+2110992471|1b06cd09||Kiedy zabijesz przeciwnika, czas zwalnia na chwilę.
+2110992474|0ced58f4||Premia za typ rynsztunku:
+2110992475|5a519178||Odnawia Żywotność proporcjonalnie do zadawanych obrażeń.
+2110992476|2ae9db22||Wyczerpywanie Żywotności
+2110992477|e71d7c8d||Wszystkie bomby i eliksiry (nie odwary) mogą zostać użyte jeden dodatkowy raz.
+2110992478|fc921506||Zwiększa obrażenia trafień krytycznych zadawanych od tyłu o $I$%.
+2110992479|fc92152a||Odbija $I$% otrzymanych obrażeń raniąc przeciwników atakujących wiedźmina.
+2110992480|9691af88||Redukcja odporności na obrażenia
+2110992481|fc92150e||Gdy wiedźmin zostaje zaatakowany od tyłu, zostaje aktywowana Tarcza Quen, która redukuje obrażenia. Gdy wokół grasują wrogie Upiory, Moc Znaku Quen zostaje zwiększona o $S$%.
+2110992482|6ac22a47||Premia do obrażeń
+2110992483|d400b4dd||Odporności na obrażenia
+2110992484|fc92150c||Zadawanie obrażeń bronią białą zwiększa Moc Znaków o $I$% (maksymalnie $I$%). Resetuje się po rzuceniu Znaku lub po zakończeniu walki.
+2110992485|e71d7c8f||Zadawanie obrażeń bronią białą zwiększa Siłę Ataku o $S$% (maksymalnie $S$%).  Po otrzymaniu obrażeń premia zostaje zmniejszona: $S$% za każdy 1% straconej Żywotności. Resetuje się po zakończeniu walki.
+2110992486|fc92150a||Zadawanie obrażeń bronią białą zwiększa generowanie Punktów Adrenaliny o $S$% (maksymalnie $S$%). Po otrzymaniu obrażeń premia zostaje zmniejszona: $S$% za każdy 1% straconej Żywotności. Resetuje się po zakończeniu walki.
+2110992487|fc921528||Siła Ataku zostaje zwiększona o $I$%, Moc Znaków o $I$%, regeneracja punktów Wytrzymałości o $I$/s i generacja Punktów Adrenaliny o $I$% kiedy Żywotność jest na poziomie $I$% lub niższym. Resetuje się przy odzyskaniu Żywotności oraz po zakończoniu walki. $I$s czasu odnowienia.
+2110992488|fc921507||Regeneracja punktów Żywotności poza walką zostaje zwiększona o $I$/s, a regeneracja punktów Żywotności w czasie walki o $I$/s. Kiedy poziom Wytrzymałości jest na poziomie $I$% lub niższym, regeneracja punktów Żywotności w czasie walki zostaje zwiększona o dodatkowe $I$/s.
+2110992489|fc92150d||Zabicie przeciwnika zwiększa regenerację punktów Żywotności w czasie walki o $I$/s za każdego żywego przeciwnika wokół Geralta. Maksymalna premia nie może przekroczyć $I$/s. Resetuje się po zakończeniu walki.
+2110992490|fc921508||Zabicie przeciwnika zwiększa regenerację punktów Wytrzymałości w czasie walki o $I$/s za każdego żywego przeciwnika wokół Geralta. Maksymalna premia nie może przekroczyć $I$ punktów. Resetuje się po zakończeniu walki.
+2110992491|754d1896||Efekty działania petard i specjalnych bełtów nie mają wpływu na wiedźmina. Obrażenia od własnych bomb i bełtów są zredukowane o 50%.
+2110992492|8d17aaa2||Critical hit power against the targeted enemy type is increased by $S$% for each Adrenaline Point available (up to $S$% max).
+2110992493|1d8e4094||Stopienie Pancerza - licznik
+2110992494|71e9492e||Sprint/skok - koszt Wytrzymałości
+2110992495|6438ae90||Użyj progresywnych bonusów dla poziomu
+2110992496|fefc523f||Delta poziomu
+2110992497|1a893f11||Zdolności na deltę poziomu
+2110992498|42290b15||Hardcore
+2110992499|eee40a34||Trafienie przeciwnika Znakiem Aard zmniejsza jego Wytrzymałość o $I$%, co również zwiększa szanse na powalenie i poważne powalenie.
+2110992500|c5f2bcea||Zwiększa zasięg Młynka o $S$m oraz Rozpłatania o $S$m. Końcowe obrażenia zadawane przez te ataki zostają zmniejszone o $S$%.
+2110992501|257f1e14||Po rozpoczęciu walki, automatycznie zostanie utworzona Tarcza Quen bez użycia Wytrzymałości i z $I$% premią do Siły Znaku.
+2110992502|c43de44b||Po rzuceniu Znaku Punkt Adrenaliny zostaje użyty i następny atak mieczem zostaje naładowany mocą tego Znaku. Aard: powalenie (szansa zależy od Siły Ataku). Igni: $S$% obrażeń broni zostaje dodanych jako obrażenia od ognia (skaluje się wraz z Siłą Ataku). Yrden: na $S$s nałożony zostaje efekt spowolnienia. Quen: leczy Geralta o wartość równą $S$% zadanych obrażeń. Aksji: na $S$s nałożony zostaje efekt oszołomienia.
+2110992504|0083ce63||Przywrócenie
+2110992505|0083ce62||Orzeźwienie
+2110992506|8d17aa9c||Każda zażyta porcja eliksiru odnawia $I$% maksymalnej Wytrzymałości.
+2110992507|f9241f8c||Gdy poziom Adrenaliny jest na maksymalnym poziomie, dodatkowa generacja Punktów Adrenaliny spowalnia czas trwania eliksirów o $S$% za każdy 1% nadwyżki Adrenaliny (3 Punkty = 100%). Maksymalna premia nie może przekroczyć $S$%. Premia resetuje się po straceniu Adrenaliny oraz po zakończoniu walki.
+2110992508|fa56c289||Obrażenia od ognia przy wybuchu
+2110992509|8dce0afd||Meteorytowa płyta
+2110992510|cea74419||Rzucając Znak, 3 Punkty Adrenaliny (jeśli dostępne) zostaną użyte do ulepszenia Znaku do najwyższego poziomu (odblokowuje wszystkie premie) i zwiększenia Mocy Znaku o $I$%. Jeśli aktywna jest Kontrola Gniewu, Punkty Adrenaliny nie zostają użyte od razu, ale koszt rzucania Znaków zostaje za to potrojony.
+2110992511|c1e6ad8c||Rzucając Znak, 3 Punkty Adrenaliny (jeśli dostępne) zostaną użyte do ulepszenia Znaku do najwyższego poziomu (odblokowuje wszystkie premie) i zwiększenia Mocy Znaku o $I$%. Jeśli aktywna jest Kontrola Gniewu, Punkty Adrenaliny nie zostają użyte od razu, ale koszt rzucania Znaków zostaje za to potrojony.
+2110992512|c1e6ad8d||Rzucając Znak, 3 Punkty Adrenaliny (jeśli dostępne) zostaną użyte do ulepszenia Znaku do najwyższego poziomu (odblokowuje wszystkie premie) i zwiększenia Mocy Znaku o $I$%. Jeśli aktywna jest Kontrola Gniewu, Punkty Adrenaliny nie zostają użyte od razu, ale koszt rzucania Znaków zostaje za to potrojony.
+2110992513|e2e48f8a||Odbicie
+2110992514|cea74410||Obrażenia otrzymane od niepełnego parowania i kontr są zmniejszone o dodatkowe $I$% (do całkowitego poziomu $I$%). Odpowiednio sparowane strzały odbijane są w stronę przeciwników.
+2110992515|c1e68bc3||Obrażenia otrzymane od niepełnego parowania i kontr są zmniejszone o dodatkowe $I$% (do całkowitego poziomu $I$%). Odpowiednio sparowane strzały odbijane są w stronę przeciwników - obrażenia odbitych strzał są zwiększone o $I$%.
+2110992516|4e736cfc||Umierając, przeciwnicy podpaleni Znakiem Igni eksplodują zadając $I$ punktów obrażeń w zasięgu $I$m i podpalają pobliskich przeciwników. Obrażenia skalują się wraz z Mocą Znaku.
+2110992517|198d31bb||Każdy przeciwnik kontrolowany przez Marionetkę Aksji zapewnia dodatkowe $I$% do Siły Ataku i Mocy Znaków wiedźmina (do maksymalnego poziomu $I$%).
+2110992518|20609437||Każdy przeciwnik pod wpływem Uroku Aksji zapewnia dodatkowe $I$% do szansy na trafienie krytyczne i do obrażeń trafienia krytycznego (do maksymalnego poziomu $I$%).
+2110992519|1dc1cde4||Próg przedawkowania
+2110992520|b93269f0||Twoi przeciwnicy mają ograniczone pokłady Wytrzymałości. Gdy ta się wyczerpie, będą mniej skuteczni w walce.
+2110992521|6d1ad3cb||Zwracaj uwagę na kolor liczby opisującej poziom przeciwnika. Zielony oznacza, że jest on na podobnym poziomie, co Geralt. Czerwony oznacza wyzwanie, a ikona czaszki – niemal pewną śmierć.
+2110992522|6d1ad3a6||Broń naostrzona na kamieniu szlifierskim jest bardziej skuteczna w walce.
+2110992523|6d1ad427||Kiedy zaatakujesz przeciwnika jadąc konno z dużą prędkością, zadasz większe obrażenia.
+2110992524|b93269e9||Atakowanie od tyłu zwiększa szansę na trafienie krytyczne.
+2110992525|6d1ad3e4||Petard i kusz można używać w jednym z dwóch trybów – z autocelowaniem dla szykiego ataku lub ręcznym celowaniem dla zwiększonych obrażeń.
+2110992526|6d1ad447||Wiedźmin jest w stanie odbijać mieczem lecące w jego stronę strzały i bełty.
+2110992527|363f99af||Możesz użyć Znaku Quen do ochrony przed krytycznymi efektami, np. podpaleniem czy krwawieniem.
+2110992528|6d1ad3cc||W czasie walki z większymi potworami zazwyczaj sprawdzają się uniki. W czasie walki z ludźmi i mniejszymi potworami lepiej parować i kontrować ich ataki mieczem.
+2110992529|c3f5389e||Zamienia krew wiedźmina w bardzo żrący kwas. Tempo Redukcji Toksyczności jest zmiejszone o $S$%. Za każdym razem, gdy wiedźmin otrzyma obrażenia fizyczne, jego krew spowoduje u atakującego stratę Żywotności w tempie $S$/s za każdy 1 punkt poziomu Toksyczności u Geralta (obecna wartość: $S$/s; maksymalna wartość: $S$/s). Czas trwania: $S$s. Spowalnia regenerację Wytrzymałości u atakującego o $S$%.
+2110992530|3a84c328||Uodparnia na działanie trucizn, neutralizuje trucizny obecne w krwiobiegu.
+2110992531|3a84c329||Uodparnia na działanie trucizn, neutralizuje trucizny obecne w krwiobiegu. Wydłużony czas trwania.
+2110992532|3a84c32a||Uodparnia na działanie trucizn, neutralizuje trucizny obecne w krwiobiegu. Wydłużony czas trwania. Zapewnia tymczasową niewrażliwość na działanie trucizn.
+2110992533|2e268281||Odporność na trucizny - czas trwania
+2110992534|437e276a||Przyspiesza regenerację Wytrzymałości.
+2110992535|437e276b||Przyspiesza regenerację Wytrzymałości.
+2110992536|437e276c||Przyspiesza regenerację Wytrzymałości. Nigdy nie wyczerpuje się w nocy.
+2110992537|56747c55||Zatrzymuje krwawienie i zwiększa odporność na krwawienie. Przyspiesza regenerację Żywotności. Otrzymanie obrażeń blokuje regenerację na 2s.
+2110992538|56747c56||Zatrzymuje krwawienie i zwiększa odporność na krwawienie. Przyspiesza regenerację Żywotności. Otrzymanie obrażeń blokuje regenerację na 2s.
+2110992539|56747c57||Zatrzymuje krwawienie i zwiększa odporność na krwawienie. Przyspiesza regenerację Żywotności. Otrzymane obrażenia nie zatrzymują regeneracji.
+2110992540|c3f5389f||Kiedy wiedźmin ma otrzymać obrażenia jego skóra absorbuje je i rozkłada w czasie $S$s za każdy dostępny Punkt Adrenaliny (do maksymalnego czasu $S$s, przynajmniej 1 Punkt Adrenaliny jest wymagany do aktywowania mutacji). W tym czasie poziom Adrenaliny spada w tempie 1 punktu na $S$s. Jeśli Adrenalina zostanie wyczerpana przed końcem działania efektu, wszystkie pozostałe obrażenia zostaną zadane na raz.
+2110992541|c3f538a2||Skontrowanie przeciwnika, gdy jego Żywotność jest na poziomie $S$% lub niższym zabija go i wywołuje cios kończący lub rozczłonkowanie. Each Adrenaline Point increases the damage dealt when countering by $S$% (up to +$S$% max).
+2110992542|363f9a0c||Deadly Precision is activated only when performing a counterattack.
+2110992543|c3f5389d||Each fatal blow of your sword triggers a finisher or dismemberment. Upon entering combat you immediately get a bonus to your Attack Power for each skill equipped: +$S$% for a combat skill, +$S$% for any other skill. Getting hit decreases the bonus by $S$% per 1% of health lost. Killing an enemy fully restores the bonus and adds +$S$% more on top of it. Max bonus: $S$%. Resets at the end of the combat.
+2110992544|        |item_name_mutation_trigger|Mutation Catalyst
+2110992545|        |item_desc_mutation_trigger|This potion serves as a catalyst to activate Life Leech mutation.
+2110992546|bab1daf6||Requires Mutation Catalyst potion to activate. Drains the life out of up to three surrounding enemies healing the witcher in the process. Drain rate is a sum of your weapon damage, Attack Power and Sign Intensity multiplied by Adrenaline Points and divided by the number of enemies. The effect lasts for $S$ sec and can only be activated once per $S$ sec. Current max drain rate: $S$/sec.
+2110992547|b4ca2ff0||Life Leech
+2110992548|da7e5ba1||Crossbow bolts deal $F$ pts more base damage.
+2110992549|cea74415||Each bolt that hits its target now generates the same amount of Adrenaline Points as when using swords.
+2110992550|754d1898||Damage dealt by a bomb's explosion generates $F$ Adrenaline Points. This value is not affected by any Adrenaline gain bonuses.
+2110992551|c3f5389b||When drawn, magic, relic and witcher swords increase Sign base damage by $S$% of their own base damage.
+2110992552|bab1daf7||Allows to imbibe up to $S$ decoction(s) with no toxicity cost. Each free decoction imbibed increases your chances to apply critical effects with both swords and Signs by $S$% (effect chance increases by $S$ times max). Witcher Senses help you see better in dark places.
+2110992553|15dda918||Decreases decoction toxicity by $S$%.

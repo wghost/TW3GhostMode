@@ -1,1 +1,0 @@
-w3strings.exe --encode en.csv --id-space 992

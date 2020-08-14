@@ -1,45 +1,67 @@
 Mutation1  - Conductors of Magic: When drawn, magic, unique and witcher swords increase
              Sign damage by 50% of their own damage. (Requires Piercing Cold)
-
-             When drawn, magic, unique and witcher swords increase Sign damage by 50%
-             of their own damage. Additionally, magic sword increases Sign Intensity by
-			 50%, unique - by 75% and witcher - by 100%.
+			 
+			 Modded: the same.
 
 
 Mutation2  - Magic Sensibilities: Signs can deliver Critical Hits. The crit chance and
              damage scales with sign intensity.
+			 
+			 Modded: calculations redone.
 
 
-Mutation3  - Bloodbath: Each fatal strike of your sword triggers a finisher or
+Mutation3  - Vanilla:
+             Bloodbath: Each fatal strike of your sword triggers a finisher or
              dismemberment, and every blow you land will increase your Attack Power by 5%
 			 (up to a max of 250%) until either the fight is over or you take damage.
 			 (Requires Deadly Counter)
+			 
+			 "We kinda forgot we already have Wyvern Decoction..."
 
-             Each fatal strike of your sword triggers a finisher or dismemberment.
-             Upon entering combat you immediately get +10% Attack Power for each sword
-			 skill you have equipped (max +160%). When you get hit, the bonus is reduced
-			 by 10%. When you kill an enemy the bonus is fully restored and you get
-			 additional +10% on top of it (max +100%). Bonus resets at the end of the
-			 combat.
+             Modded:
+             Each fatal blow of your sword triggers a finisher or dismemberment. Upon entering
+			 combat you immediately get a bonus to your Attack Power for each skill equipped:
+			 +10% for a combat skill, +5% for any other skill. Getting hit decreases the bonus
+			 by 0.5% per 1% of health lost. Killing an enemy fully restores the bonus and adds
+			 +20% more on top of it. Max bonus: 250%. Resets at the end of the combat.
 
-
-Mutation4  - Toxic Blood: Whenever you take damage the attacker receives 1% of the damage
+Mutation4  - Vanilla:
+             Toxic Blood: Whenever you take damage the attacker receives 1% of the damage
              they inflicted for every point in your Toxicity level.
-
+			 
              Toxic Blood's description is misleading: it's not a damage, but a DoT effect
 			 that lasts for 5 sec and deals 0.001 * damageReceived of direct damage per
-			 second.
-             Mutation4BloodDebuff - also adds -0.2 stamina regen penalty!
+			 second. The effect doesn't have hp reduction strength for some reason.
+             Mutation4BloodDebuff for vampires - also adds 20% stamina regen penalty and
+			 2000 pts essence regen penalty for 15 sec.
+			 
+			 Modded:			 
+			 Turns the blood of the witcher into a highly caustic acid. Toxicity Decay Rate
+			 is decreased by 50%. Whenever you take melee damage, your blood causes the
+			 attacker to lose 1.5 point(s) of their health for every 1 point in your
+			 Toxicity level per second. The effect lasts 5 sec. Slows down the attacker's
+			 stamina regeneration by 10%.
 
 
-Mutation5  - Mutated Skin: Each Adrenaline Point decreases the damage you take by 10%
+Mutation5  - Vanilla:
+			 Mutated Skin: Each Adrenaline Point decreases the damage you take by 10%
              (max 30%). (Requires Euphoria)
+			 
+			 Modded:
+			 When you are about to take damage your skin absorbs and redistributes that damage
+			 over time instead: 5 sec per each Adrenaline Point you have (up to 15 sec max,
+			 at least 1 point is required to trigger the mutation).
+			 During this period your Adrenaline is drained at a speed of 1 pt per 5 sec. If your
+			 Adrenaline reaches zero before the effect ends, all the remaining damage will be
+			 dealt at once.
 
 
-Mutation6  - Piercing Cold: Aard gains a 25% (now checked against victim resistance to
+Mutation6  - Piercing Cold: Aard gains a 30% (now checked against victim resistance to
              frost) chance to freeze opponents, and if the blast also knocks them down it
 			 will kill them instantly. Enemies who escape the freezing take 250 damage
 			 instead (scales with sign power). (Requires Magic Sensibilities)
+			 
+			 Modded: numbers tweaked, code adjusted.
 
 
 Mutation7  - Adrenaline Rush: When starting combat against more than one enemy, Attack
@@ -47,57 +69,76 @@ Mutation7  - Adrenaline Rush: When starting combat against more than one enemy, 
 			 the first 30 seconds, after which they drop by 10%. (Requires Bloodbath and
 			 Piercing Cold)
 			 
-			 Getting hit increases AP and SP by 10%.
-
-
-Mutation8  - Deadly Counter: Sword attacks deal 20% more damage to monsters or to humans
+			 Modded:
+			 While in combat you alternate between two states: Rush state that doubles your
+			 Adrenaline gain for 30 sec and gives additional +50% to 
+			 Attack Power and Sign Intensity per Adrenaline Point and Recovery state that
+			 halves your Adrenaline gain for 30 sec and gives -50% to the same
+			 characteristics for each Adrenaline point gained during the Rush state.
+			 
+Mutation8  - Vanilla:
+			 Deadly Counter: Sword attacks deal 20% more damage to monsters or to humans
              immune to counters. For all other enemies, performing a counter when they're
 			 at 20% Vitality or less will trigger an automatic finisher.
-			 
-             Countering an enemy when they're at 15% of their full health kills them and
-			 triggers a finisher or dismemberment.
 
              This shit exists only because counters are useless in the base game!
              GM Counterattack is +100% to power, +100% to crit chance and
-             25*3 knockdown chance for adrenaline.
+             15 knockdown chance for full adrenaline.
+			 
+			 Modded:
+			 Countering an enemy when their health is at 15% or less kills
+			 them and triggers a finisher or dismemberment. Each adrenaline point increases
+			 the damage dealt when countering by 33% (up to +100% max).
 
 
 Mutation9  - Cat Eyes: +125% crit power and +25% to crit chance, bolts will either pierce,
              stun, or knock down opponents. Foes at full health will take 15% * maxHP
 			 damage when shot. (Requires Bloodbath and Euphoria)
 			 
-			 Bolts deal 100% more damage and will either pierce, stun, or knock down
-			 opponents. Foes at full health take 15% * maxHP damage when shot.
-			 If at non-zero toxicity, time slows down by additional 50% when aiming with
-			 a crossbow or a bomb.
-			 As a bonus, the mutation also improves Witcher Sense in dark areas.
+			 Modded:
+			 Crossbow bolts deal 100% more base damage and will pierce and either stun or
+			 knock down opponents.
+			 Opponents at full health lose 15% of their health when shot.
+			 If at non-zero toxicity, time slows down by additional 25% when aiming with
+			 a crossbow.
 
-
-Mutation10 - Euphoria: Each point of Toxicity increases sword damage and Sign Intensity
+Mutation10 - Vanilla:
+             Euphoria: Each point of Toxicity increases sword damage and Sign Intensity
              by 0.5%. (Requires Toxic Blood)
 			 
-             When you drink a potion or a decoction in combat, gain +0.5% to
-			 Attack Power and Sign Intensity per each Toxicity point it adds for
-			 the duration of that potion. Resets at the end of the combat.
+			 Modded:
+             Increases Vitality drain on overdosing by 0.75% for every 1 point in your
+			 Toxicity level.
+             The amount of Vitality you lose when overdosing is added to your base weapon and
+			 Sign damage.
 
 
 Mutation11 - Second Life: If your Vitality hits 0 you recover 100% of it and gain brief
              invulnerability. The effect has a 3 minute cooldown. (Requires Adrenaline Rush)
+			 
+			 "We kinda forgot that we already have Undying..."
 
-             Triggers manually, drains adrenaline while active. 2 mins cooldown.
-			 
-			 Your attacks deal twice as much damage and cannot be blocked or countered.
-			 When damaged by an enemy, lose adrenaline instead of health.
-			 Each ... decreases adrenaline lost from damage by ... %.
-			 
+			 Modded:
+			 Life Leech: Requires Mutation Catalyst potion to activate. Drains the life out of
+			 up to three surrounding enemies healing the witcher in the process. Drain rate is
+			 a sum of your weapon damage, Attack Power and Sign Intensity multiplied by
+			 Adrenaline Points and divided by the number of enemies. The effect lasts for 6 sec
+			 and can only be activated once per 120 sec.
 
 Mutation12 - Metamorphosis: Critical effects on enemies will activate a random decoction
              (to a maximum of 3) from your supply for 2 minutes at no Toxicity cost, and
 			 as a bonus it also improves Witcher Sense in dark areas. (Requires Cat Eyes)
-
-             Triggers manually, drains adrenaline while active. 2 mins cooldown.
 			 
-			 Potions and decoctions cost zero toxicity and their effects last until the
-			 end of the mutation's effect. If toxicity is non-zero upon activating the
-			 mutation, time slows down by 0.2% per each toxicity point for the duration
-			 of the mutation's effect.
+			 "We kinda forgot that we already have Side Effects..."
+			 
+			 Modded: Allows to imbibe up to 3 decoctions with no toxicity cost. Each free
+			 decoction imbibed increases your chances to apply critical effects with both
+			 swords and Signs by 10% (effect chance increases by 1.3 times max). Witcher
+			 Senses help you see better in dark places.
+
+
+Berserker:
+Attack and Sign Power are doubled. Attacks cannot be blocked or parried. Critical effects from signs
+are always applied. Activated with Catalyst potion. Lasts 10 sec.
+
+Overdose heals instead of doing damage.

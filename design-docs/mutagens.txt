@@ -16,7 +16,7 @@ reduces victim's health by 0.1% of its current value per each Stamina point spen
 on the attack.
 
 Mutagen_5 = Water Hag - Red:
-Dealing melee damage to enemies increases your Attack Power by 5% (max 100%).
+Dealing melee damage to enemies increases your Attack Power by 10% (max 100%).
 Getting hit decreases the bonus proportional to damage received:
 0.5% per 1% of health lost.
 Resets at the end of the combat.
@@ -54,7 +54,7 @@ Mutagen_14 = Succubus - Red:
 Enemies controlled by Axii Puppet deal 50% more damage.
 
 Mutagen_15 = Alghoul - Red:
-Dealing melee damage to enemies increases your Adrenaline Gain by 5% (max 50%).
+Dealing melee damage to enemies increases your Adrenaline Gain by 10% (max 50%).
 Getting hit decreases the bonus proportional to damage received:
 0.5% per 1% of health lost.
 Resets at the end of the combat.
@@ -83,7 +83,9 @@ Regenerates Vitality by 0.1% for each point of Stamina spent.
 Works only while in combat.
 
 Mutagen_22 = Ancient Leshen - Blue:
-Casting a Sign in combat increases your Sign Power by 2% (max 100%).
+Casting a Sign in combat increases your Sign Power by 10% (max 50%).
+Getting hit decreases the bonus proportional to damage received:
+0.5% per 1% of health lost.
 Resets at the end of the combat.
 
 Mutagen_23 = Basilisk - Blue:
@@ -101,7 +103,7 @@ Each Lesser Red Mutagen equipped decreases melee action stamina cost by 2.5%.
 Red Mutagen increases the bonus to 3.75% and Greater Red Mutagen - to 5%.
 
 Mutagen_26 = Leshen - Blue:
-returns 15% of damage taken to damage dealer.
+returns 25% of damage taken to damage dealer.
 
 Mutagen_27 = Griffin - Green:
 Getting hit more than once within 1 sec makes you immune to damage for the next 2 sec.
@@ -117,4 +119,4 @@ Grave Hag, Water Hag, Gryphon, Volcanic Gryphon, Ekimma, Katakan, Leshy, Ancient
 Nekker Warrior, Lamia, Succubus, Troll, Werewolf, Wraith, Nightwraith, Noonwraith,
 
 Resists: 53 max from armor + 10 from armor class bonus
-         + 5 max from random armor abl + 5 max from trophy = 73.
+         + 5 max from random armor abl + 5 max from trophy + 5 from enhanced armor = 78.

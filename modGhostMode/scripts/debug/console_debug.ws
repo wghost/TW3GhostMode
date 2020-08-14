@@ -163,11 +163,6 @@ exec function whoareyou()
 	
 	interactionTarget = theGame.GetInteractionsManager().GetActiveInteraction();
 	
-	if( interactionTarget )
-	{
-		theGame.witcherLog.AddMessage("Object template: " + interactionTarget.GetEntity().GetReadableName());
-	}
-	
 	if( !interactionTarget )
 	{
 		actor = thePlayer.GetTarget();
@@ -182,6 +177,11 @@ exec function whoareyou()
 		}
 	}
 	
+	if( interactionTarget && !actor )
+	{
+		theGame.witcherLog.AddMessage("Object template: " + interactionTarget.GetEntity().GetReadableName());
+	}
+	
 	if( actor )
 	{
 		theGame.witcherLog.AddMessage("NPC template: " + actor.GetReadableName());
@@ -189,12 +189,14 @@ exec function whoareyou()
 		theGame.witcherLog.AddMessage("NPC level: " + actor.GetLevel());
 		theGame.witcherLog.AddMessage("Immortal: " + actor.IsImmortal());
 		theGame.witcherLog.AddMessage("Monster category: " + monsterCategory);
+		theGame.witcherLog.AddMessage("Base attitude: " + actor.GetBaseAttitudeGroup());
+		theGame.witcherLog.AddMessage("Attitude: " + actor.GetAttitudeGroup());
 		actor.GetCharacterStats().GetAbilities( arrNames, true );
 		ArrayOfNamesAppendUnique(arrUniqueNames, arrNames);
 		if(arrUniqueNames.Size() > 0)
 		{
 			for( i = 0; i < arrUniqueNames.Size(); i += 1 )
-				theGame.witcherLog.AddMessage("Ability:" + arrUniqueNames[i]);
+				theGame.witcherLog.AddMessage("Ability:" + arrUniqueNames[i] + " (" + (actor.GetAbilityCount(arrUniqueNames[i])) + ")");
 		}
 		buffs = actor.GetBuffs();
 		for( i = 0; i < buffs.Size(); i += 1 )
@@ -217,15 +219,25 @@ exec function whoareyou()
 
 exec function whoami()
 {
-	var arrNames, arrUniqueNames : array< name >;
-	var i : int;
+	var buffs : array<CBaseGameplayEffect>;
+	var arrNames, arrUniqueNames, pauseSources : array< name >;
+	var i, j : int;
 	theGame.witcherLog.AddMessage("Player template: " + thePlayer.GetReadableName());
-	thePlayer.GetCharacterStats().GetAbilities( arrNames, false );
+	theGame.witcherLog.AddMessage("Player is immortal: " + thePlayer.IsImmortal());
+	thePlayer.GetCharacterStats().GetAbilities( arrNames, true );
 	ArrayOfNamesAppendUnique(arrUniqueNames, arrNames);
-	if(arrUniqueNames.Size() > 0)
+	for( i = 0; i < arrUniqueNames.Size(); i += 1 )
+		theGame.witcherLog.AddMessage("Ability:" + arrUniqueNames[i] + " (" + (thePlayer.GetAbilityCount(arrUniqueNames[i])) + ")");
+	buffs = thePlayer.GetBuffs();
+	for( i = 0; i < buffs.Size(); i += 1 )
 	{
-		for( i = 0; i < arrUniqueNames.Size(); i += 1 )
-			theGame.witcherLog.AddMessage("Ability:" + arrUniqueNames[i]);
+		theGame.witcherLog.AddMessage("Buff:" + buffs[i].GetEffectType() + " (paused: " + buffs[i].IsPaused() + ")");
+		if(buffs[i].IsPaused())
+		{
+			pauseSources = buffs[i].PauseSources();
+			for( j = 0; j < pauseSources.Size(); j += 1 )
+				theGame.witcherLog.AddMessage("  Pause src:" + pauseSources[j]);
+		}
 	}
 }
 
@@ -901,4 +913,44 @@ exec function ciriquests()
 	isActive = (isActive || (entryStatus == JS_Active));
 	theGame.witcherLog.AddMessage("Q305 Ciri - chase to the temple: " + entryStatus);
 	theGame.witcherLog.AddMessage("Q302 || Q305: " + isActive);
+}
+
+exec function sethpprc(p : float)
+{
+	var vit : float = ClampF(p/100, 0.005, 1.0);
+	
+	thePlayer.SetHealthPerc(vit);
+}
+
+exec function sethp(hp : float)
+{
+	var vit : float = ClampF(hp, 1, thePlayer.GetStatMax(BCS_Vitality));
+	
+	thePlayer.SetHealth(vit);
+}
+
+exec function logfact(id : string)
+{
+    if(FactsDoesExist(id))
+		theGame.witcherLog.AddMessage("Fact " + id + " has val of " + FactsQuerySum(id));
+	else
+		theGame.witcherLog.AddMessage("Fact " + id + " doesn't exist");
+}
+
+exec function immortal()
+{
+	if(!thePlayer.IsInvulnerable())
+	{
+		thePlayer.SetImmortalityMode(AIM_Invulnerable, AIC_Default, true);
+		thePlayer.SetCanPlayHitAnim(false);
+		thePlayer.AddBuffImmunity_AllNegative('immortal', true);
+		theGame.witcherLog.AddMessage("Immortality on.");
+	}
+	else
+	{
+		thePlayer.SetImmortalityMode(AIM_None, AIC_Default, true);
+		thePlayer.SetCanPlayHitAnim(true);
+		thePlayer.RemoveBuffImmunity_AllNegative('immortal');
+		theGame.witcherLog.AddMessage("Immortality off.");
+	}
 }

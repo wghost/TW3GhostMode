@@ -1,0 +1,522 @@
+;meta[language=cz]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+2110992000|        |panel_Mods|Mods
+2110992001|        |panel_ghost_mode|Ghost Mode
+2110992002|        |option_gm_health_multiplier|Modifikátor zdraví nepřátel: 
+2110992003|        |option_gm_damage_multiplier|Modifikátor poškození nepřátel: 
+2110992004|        |option_gm_enemies_scaling|Navyšování úrovně nepřátel
+2110992005|        |preset_value_gm_es_none|Nenavyšovat 
+2110992006|        |preset_value_gm_es_upscale|Navýšit
+2110992007|        |preset_value_gm_es_match|Rovná se Geraltově úrovni
+2110992008|        |option_gm_boss_health_multiplier|Additional health modifier for bosses
+2110992009|        |option_gm_boss_damage_multiplier|Additional damage modifier for bosses
+2110992013|        |attribute_name_frost_resistance_perc|Odolnost proti mrazu
+2110992014|        |attribute_name_armor_reduction_perc|Snížení nepřítelovi odolnosti proti poškození
+2110992015|        |attribute_name_potion_duration|Trvání účinku lektvaru
+2110992016|        |preset_value_gm_es_soft|Mírné navýšení 
+2110992017|        |panel_common_statistics_tooltip_silver_dph_gm|Poškození za každý zásah (stříbro)
+2110992018|        |panel_common_statistics_tooltip_steel_dph_gm|Poškození za každý zásah (ocel)
+2110992019|        |gm_sign_stats_channeling_damage_per_sec|Poškození proudem ohně za sekundu
+2110992020|        |gm_sign_stats_yrden_traps|Magické pasti
+2110992021|        |gm_sign_stats_yrden_damage|Poškození magické pasti
+2110992022|        |gm_sign_stats_alt_yrden_duration|Trvání magické střílny
+2110992023|        |gm_sign_stats_alt_yrden_charges|Zásobníky magické střílny
+2110992024|        |gm_sign_stats_alt_yrden_damage|Poškození magické střílny                                   
+2110992025|        |gm_sign_stats_alt_quen_returned_damage|Vrácené poškození
+2110992026|        |gm_sign_stats_alt_quen_dmg_absorption|Pohlcení poškození aktivního štítu
+2110992027|        |gm_sign_stats_alt_axii_chance|Šance na alternativní efekt při seslání Axie
+2110992028|        |gm_combat_stats_fast_attack_power|Síla rychlého útoku
+2110992029|        |gm_combat_stats_strong_attack_power|Síla silného útoku
+2110992030|        |gm_sign_stats_quen_dmg_absorption|Pohlcené poškození
+2110992034|        |attribute_name_vsBeast_critical_hit_chance|Šance kritického zásahu proti zvířatům
+2110992035|        |attribute_name_vsCursed_critical_hit_chance|Šance kritického zásahu proti prokletým
+2110992036|        |attribute_name_vsDraconide_critical_hit_chance|Šance kritického zásahu proti drakovitým
+2110992037|        |attribute_name_vsHuman_critical_hit_chance|Šance kritického zásahu proti lidem
+2110992038|        |attribute_name_vsHybrid_critical_hit_chance|Šance kritického zásahu proti hybridům
+2110992039|        |attribute_name_vsInsectoid_critical_hit_chance|Šance kritického zásahu proti hmyzovitým
+2110992040|        |attribute_name_vsMagicals_critical_hit_chance|Šance kritického zásahu proti elementálům
+2110992041|        |attribute_name_vsNecrophage_critical_hit_chance|Šance kritického zásahu proti nekrofágům
+2110992042|        |attribute_name_vsRelic_critical_hit_chance|Šance kritického zásahu proti reliktům
+2110992043|        |attribute_name_vsSpecter_critical_hit_chance|Šance kritického zásahu proti přeludům
+2110992044|        |attribute_name_vsOgre_critical_hit_chance|Šance kritického zásahu proti zlobrovitým
+2110992045|        |attribute_name_vsVampire_critical_hit_chance|Šance kritického zásahu proti upírům
+2110992046|        |attribute_name_vsBeast_critical_hit_damage_bonus|Síla kritického zásahu proti zvířatům
+2110992047|        |attribute_name_vsCursed_critical_hit_damage_bonus|Síla kritického zásahu proti prokletým
+2110992048|        |attribute_name_vsDraconide_critical_hit_damage_bonus|Síla kritického zásahu proti drakovitým
+2110992049|        |attribute_name_vsHuman_critical_hit_damage_bonus|Síla kritického zásahu proti lidem
+2110992050|        |attribute_name_vsHybrid_critical_hit_damage_bonus|Síla kritického zásahu proti hybridům
+2110992051|        |attribute_name_vsInsectoid_critical_hit_damage_bonus|Síla kritického zásahu proti hmyzovitým
+2110992052|        |attribute_name_vsMagicals_critical_hit_damage_bonus|Síla kritického zásahu proti elementálům
+2110992053|        |attribute_name_vsNecrophage_critical_hit_damage_bonus|Síla kritického zásahu proti nekrofágům
+2110992054|        |attribute_name_vsRelic_critical_hit_damage_bonus|Síla kritického zásahu proti reliktům
+2110992055|        |attribute_name_vsSpecter_critical_hit_damage_bonus|Síla kritického zásahu proti přeludům
+2110992056|        |attribute_name_vsOgre_critical_hit_damage_bonus|Síla kritického zásahu proti zlobrovitým
+2110992057|        |attribute_name_vsVampire_critical_hit_damage_bonus|Síla kritického zásahu proti upírům
+2110992058|        |attribute_name_vsBeast_resist_reduction|Snížení odolnosti před poškozením proti zvířatům
+2110992059|        |attribute_name_vsCursed_resist_reduction|Snížení odolnosti před poškozením proti prokletým
+2110992060|        |attribute_name_vsDraconide_resist_reduction|Snížení odolnosti před poškozením proti drakovitým
+2110992061|        |attribute_name_vsHuman_resist_reduction|Snížení odolnosti před poškozením proti lidem
+2110992062|        |attribute_name_vsHybrid_resist_reduction|Snížení odolnosti před poškozením proti hybridům
+2110992063|        |attribute_name_vsInsectoid_resist_reduction|Snížení odolnosti před poškozením proti hmyzovitým
+2110992064|        |attribute_name_vsMagicals_resist_reduction|Snížení odolnosti před poškozením proti elementálům
+2110992065|        |attribute_name_vsNecrophage_resist_reduction|Snížení odolnosti před poškozením proti nekrofágům
+2110992066|        |attribute_name_vsRelic_resist_reduction|Snížení odolnosti před poškozením proti reliktům
+2110992067|        |attribute_name_vsSpecter_resist_reduction|Snížení odolnosti před poškozením proti přeludům
+2110992068|        |attribute_name_vsOgre_resist_reduction|Snížení odolnosti před poškozením proti zlobrovitým
+2110992069|        |attribute_name_vsVampire_resist_reduction|Snížení odolnosti před poškozením proti upírům
+2110992070|        |attribute_name_vsHuman_attack_power|Síla útoku proti lidem
+2110992071|da7e5ba4||Každá část lehké zbroje zvyšuje šanci na kritický zásah o $S$% a sílu kritického zásahu o $S$%.
+2110992072|da7e5ba6||Každá část těžké zbroje zvyšuje maximální zdraví o $S$%, uštědřené poškození útoky na blízko dává navíc $S$ adrenalinových bodů za každou další část těžké zbroje.
+2110992073|163a8e78||Zvyšuje šanci na podpálení o $I$%.
+2110992074|3c4a6af2||Poškození silným útokem
+2110992075|5806ca6e||Kritické poškození silným útokem
+2110992076|69d8dd89||Kritické poškození rychlým útokem
+2110992077|89dfeac9||Šance na kritický zásah rychlým útokem
+2110992078|bc4297c4||Šance na kritický zásah silným útokem
+2110992079|d23992f7||Poškození rychlým útokem
+2110992080|2e06698e||Kritické poškození silným útokem
+2110992081|3375c4a9||Kritické poškození rychlým útokem
+2110992082|73d42fa9||Šance na kritický zásah rychlým útokem
+2110992083|b08bd7d2||Poškození silným útokem
+2110992084|c7b0b7d7||Poškození rychlým útokem
+2110992085|fa3924a4||Šance na kritický zásah silným útokem
+2110992090|6c1d3ba3||Petardy jsou hozeny bez prodlevy a mohou způsobit kritické poškození. Každá část setu zvyšuje šanci kritického zásahu petardou o $S$% (současný bonus: $S$%) a sílu kritického zásahu petardou o $S$% (současný bonus: $S$%).
+2110992091|85e8fbd1||Každá část setu zvyšuje efektivitu aplikovaného oleje na meči o $S$% (současný bonus: $S$%).
+2110992092|1f70c024||Fast attacks have $S$% chance to apply Bleeding effect. The final damage dealt by fast attacks to bleeding enemies is increased by $S$%.
+2110992093|71d0c5a6||Alternativní režim znamení:<br>Způsobuje $I$ bodů poškození nepřátelům v rozmezí $I$ yardů. Poškození se zvyšuje s intenzitou znamení (současné poškození je: $I$). Ignores enemy Armor. Ničí střely procházející oblastí účinku. Trvá po dobu $I$ sekund. Zásobníky střílny - $I$.
+2110992094|71d0c5a5||Alternativní režim znamení:<br>Způsobuje $I$ bodů poškození nepřátelům v rozmezí $I$ yardů. Poškození se zvyšuje s intenzitou znamení (současné poškození je: $I$). Ignores enemy Armor. Ničí střely procházející oblastí účinku. Trvá po dobu $I$ sekund. Zásobníky střílny - $I$.
+2110992095|163a8e72||Alternativní režim znamení:<br>Způsobuje $I$ bodů poškození nepřátelům v rozmezí $I$ yardů. Poškození se zvyšuje s intenzitou znamení (současné poškození je: $I$). Ignores enemy Armor. Ničí střely procházející oblastí účinku. Trvá po dobu $I$ sekund. Zásobníky střílny - $I$.
+2110992096|b1173fc9||Až dva protivníci mohou být ve stejný okamžik ovlivněni Axie. Trvání efektu je sníženo o $I$%.
+2110992097|c8467d3c||Až dva protivníci mohou být ve stejný okamžik ovlivněni Axie. Trvání efektu je sníženo o $I$%.
+2110992098|c8467d3d||Až dva protivníci mohou být ve stejný okamžik ovlivněni Axie. Trvání efektu není nadále sníženo.
+2110992099|1f70c022||Each Adrenaline Point adds $I$% to the chance of killing an opponent instantly when countering (up to $I$% max).
+2110992102|1f70c021||Strong attack that goes through blocks, armor and shields and can knock down enemies. If $S$ Adrenaline Points are available, creates a powerful shock wave that damages all the enemies in a $S$-yard radius, staggering them or knocking them down. Increases weapon damage by $S$%. Each Stamina and Adrenaline point spent additionally increase weapon damage: by $S$% and $S$% respectively (up to $S$% max). Critical hit chance is increased by $S$%.
+2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Maintaining the attack consumes $S$ Stamina. During the attack Adrenaline is drained at a speed of $S$ pts/sec. While performing the attack at non-zero Adrenaline, Attack Power is increased by $S$% per additional attacker (max. $S$%) and damage received is decreased by $S$%.
+2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Maintaining the attack consumes $S$ Stamina. During the attack Adrenaline is drained at a speed of $S$ pts/sec. While performing the attack at non-zero Adrenaline, Attack Power is increased by $S$% per additional attacker (max. $S$%) and damage received is decreased by $S$%.
+2110992105|        |gm_stat_adrenaline_gain|Přísun adrenalinu
+2110992106|739e1e2c||Chained fast hits add +$S$% to Attack Power for each piece of the set (currently +$S$%), up to +$S$% max. Finishing a chain of fast hits with a strong hit discharges the sword doubling the current Attack Power bonus. The bonus resets when the chain of hits stops and at the end of the combat.
+2110992107|8ed43e3e||Casting a sign reduces stamina cost of all the subsequent actions taken by $S$% for each piece of the set. Current bonus: $S$%. Lasts for $S$ sec.
+2110992108|8ed43e3f||Rozsah pastí Yrdenu je zvýšen o $S$%. Dokud jsi uvnitř Yrdenu, je intenzita znamení zvýšena o $S$% a odolnost vůči poškození je zvýšena o $S$%.
+2110992109|739e1e2d||Kritické zásahy mečem zdvojnásobují získaný adrenalin.
+2110992110|        |attribute_name_dockdownchance_mult|Šance na sražení
+2110992111|c3f538a3||Crossbow bolts deal $S$% more base damage and will pierce and either stun or knock down opponents. Opponents at full health lose $S$% of their health when shot. If at non-zero toxicity, time slows down by additional $S$% when aiming with a crossbow.
+2110992112|        |effect_undying_skill|Účinky schopnosti Nehynoucí
+2110992113|c1e6a9cc||Pokud zdraví klesne na nulu, aby se předešlo smrti, spotřebují se body adrenalinu, a získáš na $S$ sekund zvýšené zdraví a dočasnou nezranitelnost. Obnoví $S$% zdraví za každý bod adrenalinu (max. $S$%) a nemůže být použito víc než jednou za každých $S$ sekund.
+2110992114|c1e6a9cb||Pokud zdraví klesne na nulu, aby se předešlo smrti, spotřebují se body adrenalinu, a získáš na $S$ sekund zvýšené zdraví a dočasnou nezranitelnost. Obnoví $S$% zdraví za každý bod adrenalinu (max. $S$%) a nemůže být použito víc než jednou za každých $S$ sekund.
+2110992115|cea74418||Pokud zdraví klesne na nulu, aby se předešlo smrti, spotřebují se body adrenalinu, a získáš na $S$ sekund zvýšené zdraví a dočasnou nezranitelnost. Obnoví $S$% zdraví za každý bod adrenalinu (max. $S$%) a nemůže být použito víc než jednou za každých $S$ sekund.
+2110992116|cea74430||Síla útoku rychlými útoky je zvýšena o $S$%. Přísun adrenalinu pro rychlé útoky je zvýšen o $S$%.
+2110992117|1f70c023||Síla útoku silnými útoky je zvýšena o $S$%. Přísun adrenalinu pro silné útoky je zvýšen o $S$%.
+2110992118|cea74417||Zvyšuje šanci kritického zásahu rychlým útokem o $I$% a sílu kritického zásahu rychlým útokem o $I$%.
+2110992119|1f70c027||Zvyšuje šanci kritického zásahu silným útokem o $I$% a sílu kritického zásahu silným útokem o $I$%.
+2110992120|c1e68bc4||Damage taken from partial parries and counters is reduced by additional $I$% (down to $I$% total). Perfectly timed parries reflect back arrows, damage on reflected arrows is increased by $I$%. When multiple enemies are around, parry cost is decreased by $I$%.
+2110992121|c1e68f84||Increases counterattack power by $I$% and critical hit chance by $I$%.
+2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. Each Adrenaline Point grants $I$% knockdown chance when countering (up to $I$% max).
+2110992123|cea74411||Increases counterattack power by $I$%.
+2110992124|cf2b2da2||Protective shield that absorbs up to $I$% of damage dealt by enemy's weapon. Base damage absorption: $I$. Scales with Sign intensity. Current absorption: $I$. Prevents stagger, burning, poison and bleeding effects (and then breaks). <br>Shield duration: $I$s.
+2110992125|163a8e77||Igni hit now also decreases enemy Armor by $S$ point(s) and enemy Damage Resistances by $S$% (scales with Sign Intensity) for $S$ sec. Subsequently applied effects do not cumulate.
+2110992126|cf2b2da0||Sprška ohně, která způsobuje $I$ bodů poškození, s $I$% šancí podpálit nepřátele. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $I$.
+2110992127|163a8e71||Alternativní režim znamení:<br>Vysílá nepřetržitý proud ohně, který způsobuje podpálení a přidává $I$ bodů poškození za sekundu. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$). Spotřebovává $I$ bodů výdrže za sekundu.
+2110992128|71d0c1e4||Alternativní režim znamení:<br>Vysílá nepřetržitý proud ohně, který způsobuje podpálení a přidává $I$ bodů poškození za sekundu. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$). Spotřebovává $I$ bodů výdrže za sekundu.
+2110992129|71d0c1e5||Alternativní režim znamení:<br>Vysílá nepřetržitý proud ohně, který způsobuje podpálení a přidává $I$ bodů poškození za sekundu. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$). Spotřebovává $I$ bodů výdrže za sekundu.
+2110992130|163a8e75||Aard nyní způsobuje $I$ poškození. Poškození se zvyšuje s intezitou znamení. Současné poškození: $I$.
+2110992131|b3c8ebb8||Magická střílna                                                                                             
+2110992132|b1173fc0||Magic Trap duration increases by $I$%.
+2110992133|        |skill_desc_magic_s10_l2|Magic Trap duration increases by $I$%. Magic Trap radius increases by $I$%.
+2110992134|b1173fc1||Increases the final damage taken for all the enemies inside Yrden Trap by $S$%.
+2110992135|c84666b6||Když se rozbije, zatlačí štít Quenu protivníky zpět a způsobí jim $I$ bodů poškození. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$).
+2110992136|c84666b7||Když se rozbije, zatlačí štít Quenu se šancí ke sražení protivníky zpět a způsobí jim $I$ bodů poškození. Poškození se zvyšuje s intenzitou znamení (současné poškození: $I$).
+2110992137|163a8e73||Alternate Sign Mode:<br>An active shield that absorbs up to 100% of damage dealt by enemy's weapon. Base damage absorption is $I$% bigger. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents stagger, burning, poison and bleeding effects. Prevents knockdown (and then breaks).
+2110992138|71d0c966||Alternate Sign Mode:<br>An active shield that absorbs up to 100% of damage dealt by enemy's weapon. Base damage absorption is $I$% bigger. Maintaining it drains $I$ Stamina Points per second. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents stagger, burning, poison and bleeding effects. Prevents knockdown (and then breaks).
+2110992139|71d0c967||Alternate Sign Mode:<br>An active shield that absorbs up to 100% of damage dealt by enemy's weapon. Base damage absorption is $I$% bigger. Maintaining it no longer drains Stamina. Blocked attacks drain Stamina proportional to damage absorbed. Restores Vitality by $I$% of damage absorbed. Prevents stagger, burning, poison and bleeding effects. Prevents knockdown (and then breaks).
+2110992140|15dda916||S každým dalším zásahem přidává vhodně aplikovaný olej na čepele $I$% šanci otrávit protivníka. Vylepšený olej zvyšuje tuto šanci o $I$% a prvotřídní o $I$%. Effectiveness decreases with oil rubbing off the blade (down to $I$% of the original value).
+2110992141|15dda91a||If Toxicity is above zero, time automatically slows by $S$% for $S$ sec when an enemy is about to perform a counterattack. Increases Attack Power and Sign Intensity by $S$% when Toxicity exceeds the safe threshold.
+2110992142|1517d64d||If Toxicity is above zero, time automatically slows by $S$% for $S$ sec when an enemy is about to perform a counterattack. Increases Attack Power and Sign Intensity by $S$% when Toxicity exceeds the safe threshold.
+2110992143|1517d64e||If Toxicity is above zero, time automatically slows by $S$% for $S$ sec when an enemy is about to perform a counterattack. Increases Attack Power and Sign Intensity by $S$% when Toxicity exceeds the safe threshold.
+2110992145|329005f0||Allows you to perform strong melee attacks which add +$I$% to weapon damage and +$I$ to Armor Penetration.
+2110992148|bab1daf5||Increases Vitality drain on overdosing by $S$% for every 1 point in your Toxicity level (current Vitality drain value: $S$ pts; max value: $S$ pts). The amount of Vitality you lose when overdosing is added to your base weapon and Sign damage.
+2110992149|c3f5389c||Signs can deal critical hits. Their critical hit chance and power are determined by Sign Intensity (current critical hit chance -  $S$%, critical hit power bonus - $S$%). Opponents killed by critical hits from Signs explode.
+2110992150|c3f538a0||Když se sešle znamení Aard, má dodatečnou $S$% šanci ke zmražení protivníků. Protivníci, co jsou současně zmraženi a sraženi, zemřou okamžitě. Protivníci, kteří nejsou zmraženi, utrží $S$ dodatečného poškození. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $S$.
+2110992151|cf2b2da1||Magic trap that slows enemies down by $S$% inside its area of effect (scales with Sign Intensity, max slowdown is limited by $S$%). Trap duration: $S$s. The longer the trap persists, the less efficient it becomes.
+2110992152|c3f538a1||While in combat you alternate between two states: Rush state that doubles your Adrenaline gain for $S$ sec and gives additional +$S$% to Attack Power and Sign Intensity per Adrenaline Point and Recovery state that halves your Adrenaline gain for $S$ sec and gives -$S$% to the same characteristics for each Adrenaline point gained during the Rush state.
+2110992153|c32e766a||Bonus za sílu kritického zásahu
+2110992154|28838f82||Průraznost zbroje
+2110992155|f35fcb73||Průraznost zbroje
+2110992156|        |attribute_name_vitalityRegen|Regenerace zdraví mimo boj
+2110992157|        |attribute_name_vitalityCombatRegen|Regenerace zdraví během boje
+2110992158|c95c6e28||When at maximum Vitality, additional Vitality regeneration increases your weapon damage by $I$% per 1% of excess Vitality gained (up to +$I$%). Works only in combat. Resets on damage taken and damage dealt.
+2110992159|ccc61f66||Všechno jídlo účinkuje o $I$% déle, ale chutná jako knedlíčky.
+2110992160|22156cd6||When Yrden Magic Turret hits an enemy, an Yrden Magic Trap is placed at that position. Size, duration and slowdown for such a trap are unaffected by Yrden Intensity and upgrades and limited to $S$ yards, $S$ sec and $S$% respectively.
+2110992161|        |attribute_name_spell_dmg_bonus|Poškození znamením
+2110992162|        |attribute_name_sword_dmg_bonus|Poškození zbraní
+2110992163|7968d6e0||Zmrazí soupeře. Údery zasazené zmraženým nepřátelům způsobují dodatečná poškození. Prodloužené trvání.
+2110992164|b02a28c2||Zvýšení poškození
+2110992165|9e58d1f5||Zvyšuje intenzitu znamení. Prodloužené trvání. Speciální účinky znamení jsou o jednu třetinu delší.
+2110992166|329005f3||Damage dealt during melee combat generates Adrenaline Points. Each Adrenaline Point increases Attack Power by $I$%.
+2110992167|        |gm_combat_stats_fast_crit_attack_power|Síla kritického zásahu rychlým útokem
+2110992168|        |gm_combat_stats_strong_crit_attack_power|Síla kritického zásahu silným útokem
+2110992169|        |gm_used_razor_success|Geralt je nyní hladce oholen
+2110992170|329005f2||Umožňuje třímat lehkou kuši. Střelba bez míření působí o 50% menší poškození.
+2110992171|5f63dbf5||Umožňuje výrobu petard, které mohou být vrženy na nepřátele. Házení bez míření působí o 50% menší poškození.
+2110992172|754d1891||Jako dodatečný efekt obvyklého účinku bojového transu, každý bod adrenalinu dále zvyšuje intenzitu znamení o $I$%. Používání znamení nyní generuje stejný počet adrenalinových bodů jako při použití mečů.
+2110992173|        |item_desc_razor_mod|Používá se na holení.
+2110992174|da7e5ba5||Každá část střední zbroje zvyšuje intenzitu znamení o $S$% a snižuje spotřebu výdrže seslaných znamení o $S$%.
+2110992175|b1173fc7||Time is slowed down by additional $I$% while casting Axii. A chance to critically hit a confused opponent is increased by $I$%. Increases the effectiveness of Axii in dialogues.
+2110992176|c84675ba||Time is slowed down by additional $I$% while casting Axii. A chance to critically hit a confused opponent is increased by $I$%. Increases the effectiveness of Axii in dialogues.
+2110992177|c84675bb||Time is slowed down by additional $I$% while casting Axii. A chance to critically hit a confused opponent is increased by $I$%. Increases the effectiveness of Axii in dialogues.
+2110992178|56747c57||Zrychlení regenerace zdraví. Při utrženém poškození se regenerace zdraví nezastaví.
+2110992179|        |gm_geralt_too_heavy|Tvé přetížení je příliš vysoké
+2110992180|        |option_gm_sink_boat_toggle|Při přetížení se loďka potopí:
+2110992181|        |option_gm_sink_boat_slider|Práh přetížení k potopení loďky: (%)
+2110992182|        |gm_switch_inv_mode|Přepnout režim nastavení inventáře
+2110992183|        |option_gm_encumbrance_slider|Snížení váhy předmětu: (%)
+2110992184|        |gm_normal_inv_mode|Nastavení běžného režimu Geraltova inventáře
+2110992185|        |gm_stash_inv_mode|Nastavení režimu uložiště
+2110992186|        |gm_mixed_inv_mode|Nastavení režimu kombinace inventáře
+2110992187|        |gm_synchronized_inv_mode|Nastavení režimu synchronizace inventáře
+2110992188|e71d7c90||Increases Geralt's base Vitality by $S$ points with each foe killed.
+2110992189|d3510d11||Obsahuje stříbrné střepy, které dočasně blokují nebo oslabují schopnost přeměny příšer a jejich regeneraci.
+2110992190|d3510d12||Obsahuje stříbrné střepy, které dočasně blokují nebo oslabují schopnost přeměny příšer a jejich regeneraci. Prodloužené trvání.
+2110992191|d3510d13||Obsahuje stříbrné střepy, které dočasně blokují nebo oslabují schopnost přeměny příšer a jejich regeneraci. Prodloužené trvání.
+2110992192|08eace65||Zvyšuje efektivitu útoku proti hmyzovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992193|08eace66||Zvyšuje efektivitu útoku proti hmyzovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992194|08eace67||Zvyšuje efektivitu útoku proti hmyzovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992195|3a67f159||Zvyšuje efektivitu útoku proti prokletým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992196|3a67f15a||Zvyšuje efektivitu útoku proti prokletým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992197|3a67f15b||Zvyšuje efektivitu útoku proti prokletým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992198|65067e25||Zvyšuje efektivitu útoku proti nekrofágům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992199|65067e26||Zvyšuje efektivitu útoku proti nekrofágům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992200|65067e27||Zvyšuje efektivitu útoku proti nekrofágům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992201|7b1c29c3||Zvyšuje efektivitu útoku proti hybridům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992202|7b1c29c4||Zvyšuje efektivitu útoku proti hybridům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992203|7b1c29c5||Zvyšuje efektivitu útoku proti hybridům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992204|88e86911||Zvyšuje efektivitu útoku proti upírům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992205|88e86912||Zvyšuje efektivitu útoku proti upírům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992206|88e86913||Zvyšuje efektivitu útoku proti upírům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992207|aed490e2||Zvyšuje efektivitu útoku proti elementálům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992208|aed490e3||Zvyšuje efektivitu útoku proti elementálům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992209|aed490e4||Zvyšuje efektivitu útoku proti elementálům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992210|d11afcde||Zvyšuje efektivitu útoku proti lidem, elfům, trpaslíkům a půlčíkům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992211|d11afcdf||Zvyšuje efektivitu útoku proti lidem, elfům, trpaslíkům a půlčíkům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992212|d11afce0||Zvyšuje efektivitu útoku proti lidem, elfům, trpaslíkům a půlčíkům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992213|ea1a3189||Zvyšuje efektivitu útoku proti přeludům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992214|ea1a318a||Zvyšuje efektivitu útoku proti přeludům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992215|ea1a318b||Zvyšuje efektivitu útoku proti přeludům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992216|ef649cfe||Zvyšuje efektivitu útoku proti drakovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992217|ef649cff||Zvyšuje efektivitu útoku proti drakovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992218|ef649d00||Zvyšuje efektivitu útoku proti drakovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992219|f8b46c36||Zvyšuje efektivitu útoku proti reliktům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992220|f8b46c37||Zvyšuje efektivitu útoku proti reliktům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992221|1ff07bf8||Zvyšuje efektivitu útoku proti reliktům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992222|7753393f||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992223|77533940||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992224|77533941||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992225|c0218f12||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992226|c0218f13||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992227|c0218f14||Zvyšuje efektivitu útoku proti zlobrovitým. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992228|dd8e2b22||Zvyšuje efektivitu útoku proti zvířatům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992229|dd8e2b23||Zvyšuje efektivitu útoku proti zvířatům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992230|dd8e2b24||Zvyšuje efektivitu útoku proti zvířatům. Efektivita se snižuje stíráním oleje z čepele během boje.
+2110992231|de026195||Vyčistí toxicitu a zruší aktivní účinky všech lektvarů.
+2110992232|de026196||Vyčistí toxicitu a zruší aktivní účinky všech lektvarů.
+2110992233|de026197||Vyčistí toxicitu a zruší aktivní účinky všech lektvarů.
+2110992234|        |item_desc_relic_oil_3|Zvyšuje efektivitu útoku proti reliktům.
+2110992235|874e9f88||Propůjčí zrak v naprosté tmě a imunitu proti hypnóze. Prodloužené trvání.
+2110992237|fe608837||Způsobí poškození střepinami všem protivníkům v dosahu výbuchu. Způsobuje poškození ohněm. Vylepšený účinek. Zničí protivníkovi štít. Zničí hnízdo příšer.
+2110992239|        |attribute_name_duration_out_of_cloud|Trvání oblaku
+2110992240|874e9f87||Propůjčuje zrak v naprosté tmě. Prodloužené trvání.
+2110992241|e71d7c8e||All your melee attacks cost $S$% more Stamina. Successful melee attack additionally reduces victim's health by $S$% of its current value per each Stamina point spent on the attack.
+2110992242|fc921527||Each Lesser Green Mutagen equipped increases your Vitality regeneration rate by $S$/sec. Green Mutagen increases the bonus to $S$/sec and Greater Green Mutagen - to $S$/sec.
+2110992243|e71d7c93||Each Lesser Blue Mutagen equipped increases base damage dealt with signs by $S$ points. Blue Mutagen increases the bonus to $S$ and Greater Blue Mutagen - to $S$.
+2110992244|fc921524||Increases the witcher's resistance to bleeding, burning, poison effects as well as to fire and poison damage by $I$%.
+2110992245|fc921525||Regenerates Vitality by $S$% for each point of Stamina spent. Works only while in combat.
+2110992246|e71d7c91||Regenerates Vitality by $S$% of the damage dealt to an enemy.
+2110992247|fc921505||Casting a sign increases your melee Attack Power by $I$% (max $I$%). Resets after dealing melee damage and at the end of the combat.
+2110992248|fc921509||Enemies controlled by Axii Puppet deal $I$% more damage.
+2110992249|fc921526||Casting a Sign in combat increases your Sign Intensity by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
+2110992250|        |option_gm_rnd_scaling_min_slider|Náhodné zvýšení úrovně nepřátel: min.
+2110992251|        |option_gm_rnd_scaling_max_slider|Náhodné zvýšení úrovně nepřátel: max.
+2110992252|        |preset_value_gm_es_random|Náhodně
+2110992253|        |option_gm_no_quest_levels_toggle|Vypnout doporučenou úroveň pro plnění úkolů: 
+2110992254|        |option_gm_no_animal_upscaling_toggle|Nezvyšovat úroveň zvířat:
+2110992255|        |preset_value_gm_es_random_no_down|Náhodně, bez snížení úrovně
+2110992256|        |item_desc_note|Obsahuje neužitečné informace.
+2110992257|        |gm_recycling_parts|Výrobní součásti
+2110992258|25691b0a||Může být prodáno obchodníkům nebo rozebráno na výrobní součásti.
+2110992259|        |item_desc_junk_no_ingr|Může být prodáno obchodníkům.
+2110992260|7fd2ce90||Může být prodáno za vysokou cenu nebo rozebráno na výrobní součásti.
+2110992261|        |PanelStash|Menu uložiště
+2110992262|        |effect_undying_cooldown|Reaktivace účinků schopnosti Nehynoucí
+2110992263|        |attribute_name_staminaRegen_armor_mod|Modifikátor regenerace výdrže
+2110992264|        |attribute_name_chanceToIgnoreHitAnim|Šance na udržení rovnováhy při zasažení protivníkem
+2110992265|        |attribute_name_q108_bounce_arrows|Šance na odražení šípu
+2110992266|        |item_name_repair_kit_weapon_4|Nástroje mistra kováře
+2110992267|        |item_desc_repair_kit_weapon_4|Kovářské nástroje mistra kováře. Permanentně zvyšuje poškození zbraně.
+2110992268|        |item_name_repair_kit_armor_4|Nástroje mistra zbrojíře
+2110992269|        |item_desc_repair_kit_armor_4|Kovářské nástroje mistra zbrojíře. Permanentně zvyšuje obranu zbroje.
+2110992270|        |option_gm_quest_exp_slider|Modifikátor zkušeností za plnění úkolů:
+2110992271|        |option_gm_monster_exp_slider|Modifikátor zkušeností za vyhrané souboje:
+2110992272|        |attribute_name_knockdown|Šance na sražení            
+2110992273|b1173fc2||Increases base heavy knockdown chance by $I$%.
+2110992274|163a8e76||Přidává $I$ bodů k poškození ohněm a $I$ bodů k poškození proudem ohně za sekundu. Scales with Sign Intensity.
+2110992275|b1173fc6||Přidává $I$ bodů k poškození magickou střílnou. Scales with Sign Intensity.
+2110992276|b1173fc5||Přidává $I$ bodů k pohlcenému poškození štítem. Scales with Sign Intensity.
+2110992277|        |gm_sign_stats_axii_duration_confusion|Trvání účinku zmatení
+2110992278|        |gm_sign_stats_axii_duration_control|Trvání účinku ovládnutí
+2110992279|163a8e70||Alternativní režim znamení:<br>Aard zasáhne všechny protivníky v dosahu. Intenzita znamení je v tomto režimu o $I$% nižší.
+2110992280|71d0be23||Alternativní režim znamení:<br>Aard zasáhne všechny protivníky v dosahu. Intenzita znamení je v tomto režimu o $I$% nižší.
+2110992281|71d0be24||Alternativní režim znamení:<br>Aard zasáhne všechny protivníky v dosahu. Intenzita znamení se v tomto režimu nadále nesnižuje.
+2110992282|71d0d0e8||Aard nyní způsobuje $I$ poškození. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $I$.
+2110992283|71d0d0e9||Aard nyní způsobuje $I$ poškození. Poškození se zvyšuje s intenzitou znamení. Současné poškození: $I$.
+2110992284|cf2b2d9f||A directed blast of telekinetic energy that staggers opponents and has $I$% knockdown chance. Heavy knockdown chance is $I$%. Chances scale with Sign Intensity and increase if enemy is low on Stamina. Heavy knockdown activates finisher move.
+2110992286|cf2b2da3||Charms an opponent's mind, confusing them and temporarily eliminating them from combat. Failed Axii attempts stagger the opponent. Grants a $S$% chance to critically hit confused enemy. Can trigger a finisher or dismemberment on a confused enemy with $S$% chance (scales with Sign Intensity and damage severity). <br>Confusion duration: $S$ seconds (scales with Sign Intensity).
+2110992287|b1173fc8||Doba trvání účinků Axie se zvyšuje o $I$%.
+2110992288|163a8e74||Alternativní režim znamení:<br>Zaměřený nepřítel se na $I$ sekund stane Geraltovým spolubojovníkem a získá $I$% bonus k síle útoku. Trvání účinku se zvyšuje s intenzitou znamení. Současné trvání: $I$ sekund.
+2110992289|71d0cd27||Alternativní režim znamení:<br>Zaměřený nepřítel se na $I$ sekund stane Geraltovým spolubojovníkem a získá $I$% bonus k síle útoku. Trvání účinku se zvyšuje s intenzitou znamení. Současné trvání: $I$ sekund.
+2110992290|71d0cd28||Alternativní režim znamení:<br>Zaměřený nepřítel se na $I$ sekund stane Geraltovým spolubojovníkem a získá $I$% bonus k síle útoku. Trvání účinku se zvyšuje s intenzitou znamení. Současné trvání: $I$ sekund.
+2110992291|483c9092||While in combat, weapon damage increases by $I$ points per enemy. Each successful hit charges the sword. Fully charged sword discharges on successful hit, dealing critical damage with $I$% Attack Power bonus and ignoring Armor and damage resistances. Sword discharge also damages and staggers all the surrounding enemies.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage.
+2110992292|1f5adb4f||<br><br>Current charges: $I$/$I$. Current damage bonus: $I$ points.
+2110992293|        |gm_sign_stats_heavy_knockdown|Šance na sražení k zemi
+2110992294|f76f46ed||Killing an enemy heals $I$% of maximum Vitality.
+2110992295|fad8f82b||Killing an enemy gives $F$ Adrenaline Points.
+2110992296|ed2f3195||Damage dealt by Quen Discharge and Exploding Shield is increased by $I$%.
+2110992299|f2e69faf||Dealing damage with attacks charges the sword with energy. When attacking with the fully charged sword, weapon damage is increased by $I$% of the player's Vitality (if the attack is successful, player's Vitality is drained). A strong attack with the fully charged sword spawns a phantom copy of the sword that deals additional damage, which goes through shields, blocks and Armor and ignores damage resistances.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage. Fully charged sword discharges in $I$ sec. or after a strong attack.<br><br>Current charges: $I$/$I$. Current damage bonus for the fully charged sword: $I$ points.
+2110992300|        |option_gm_use_xml_exp_toggle|Splnění všech úkolů a vyhraných bojů dává stejný počet zkušeností:
+2110992301|        |gm_kills_humans|Humanoidi
+2110992302|        |gm_kills_wh_warriors|Bojovníci Divokého honu
+2110992303|        |gm_kills_total|Celkové množství zabití
+2110992304|        |gm_kills_animals_total|Zvířata
+2110992305|        |gm_kills_monsters_total|Příšery
+2110992306|        |gm_kills_by_type|Zabití dle kategorie
+2110992307|        |gm_kills_kill_count|Počet zabití
+2110992308|        |gm_kills_humans_total|Humanoidi
+2110992309|        |gm_kills_bosses_total|Unikátní bytosti/Bossové
+2110992310|1f70c026||Zvyšuje šanci na kritický zásah kuší o $I$% a sílu kritického zásahu o $I$%.
+2110992312|        |option_gm_stash_sync_toggle|Použije režim synchronizace uložiště jako výchozí nastavení:
+2110992313|da7e5ba8||Pokud máš alespoň jeden bod adrenalinu, použije se na seslání znamení místo výdrže.
+2110992314|        |option_gm_no_add_levels_guards|Žádné dodatečné navýšení úrovně stráží:
+2110992315|329005f1||Wolf School defensive techniques: parry, counter, dodge. Successful parry, counter and dodge reduce damage taken to zero and prevent all negative effects. Successful countering grants additional $I$% chance to critical hit. Partial parry reduces damage taken by $I$% and prevents bleeding. Rolling grants immunity to all knockdown and stagger effects and allows to dodge arrows. Some of the attacks cannot be dodged. Arrows can be parried.
+2110992316|1f70c028||Decreases the graze damage taken while dodging by $I$%.
+2110992317|8d17aaa0||Snižuje utržené poškození od příšer (dle druhu), pokud se proti nim použije typ oleje, vůči kterému jsou zranitelní, o $I$%. Enhanced oil additionally reduces the damage by $I$% and Superior - by $I$%. Effectiveness decreases with oil rubbing off the blade (down to $I$% of the original value).
+2110992318|5f63dbf4||Umožňuje výrobu olejů, které mohou být aplikovány na meče. Efektivita se snižuje stíráním oleje z čepele během boje (down to $I$% of the original value).
+2110992319|754d1890||Increases Adrenaline gain by $I$%. In addition to usual Battle Trance effect, each Adrenaline Point also decreases melee action Stamina cost by $I$%.
+2110992320|        |item_desc_armor_type_heavy_set_bonus|Bonus za set těžké zbroje: +$I$% ke všem odolnostem vůči poškození.
+2110992321|        |item_desc_armor_type_medium_set_bonus|Medium armor set bonus: +$S$/sec to Toxicity Decay Rate.
+2110992322|        |item_desc_armor_type_light_set_bonus|Bonus za set lehké zbroje: +$I$ ke stupňům bezpečného úhlu vzdálenosti během úniku/piruety.
+2110992323|        |skill_desc_viper_set_ability1|Dáva imunitu vůči jedům. Jedy léčí $S$% poškození jedem za každou část stejného vybaveného setu (současné množství obnoveného zdraví: $S$%).
+2110992324|        |gm_stat_attack_power_levelup_bonus|Bonus silného útoku
+2110992325|d23efdaf||Taking damage increases your Adrenaline by $S$ points per set piece equipped (current bonus: $S$ points). Each Adrenaline point additionally increases your Attack Power by $S$% per set piece equipped (current bonus: $S$%).
+2110992326|85e8fbd2||Na meč mohou být současně aplikovány až tři různé typy oleje. Každý na meč aplikovaný olej zvyšuje šanci na kritický zásah o $S$% a sílu kritického útoku o $S$%.
+2110992327|        |panel_gm_scaling_options|Navyšování úrovně nepřátel
+2110992328|        |panel_gm_exp_options|Zkušenosti
+2110992329|        |panel_gm_gameplay_options|Hratelnost
+2110992330|        |item_name_dismantle_kit_gear_1|Nářadí na rozebrání předmětů
+2110992331|        |item_desc_dismantle_kit_gear_1|Umožňuje rozebrat nepotřebné předměty a výrobní součásti.
+2110992332|        |item_name_dismantle_kit_alchemy_1|Nářadí na rozebrání alchymistických předmětů
+2110992333|        |item_desc_dismantle_kit_alchemy_1|Umožňuje rozebrat alchymistické součásti.
+2110992334|        |panel_button_hud_interaction_dismantle|Rozebrat
+2110992336|d23efdb0||Damage dealt with a strong attack restores $S$% Stamina spent on that attack.
+2110992337|e9c58057||Casting a Sign costs $I$% less Stamina, but all melee actions (except for special attacks) cost $I$% more Stamina.
+2110992338|eb7a58f6||All damaging melee actions (except for special attacks) cost $I$% more Stamina, but deal $I$% more damage.
+2110992339|e810a7b8||All melee actions (except for special attacks) cost $I$% less Stamina, but all Signs cost $I$% more Stamina.
+2110992342|cea7442f||You always enter combat with at least $S$ Adrenaline Point(s). The generation of Adrenaline Points is increased by $I$%.
+2110992343|        |effect_dimeritium|Dwimerit
+2110992344|63cd93a3||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage.
+2110992345|63cd93a4||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage. Lasts longer.
+2110992346|63cd93a5||Releases a cloud of dimeritium slivers that block primitive magic and monsters' magic abilities. Weakens Armor of magic creatures. Weakens mages, reducing their damage. Lasts longer.
+2110992347|        |attribute_name_dbomb_armor_piercing|Proražení zbroje
+2110992348|        |attribute_name_cloud_duration|Trvání oblaku
+2110992349|15dda91c||Every known level 1, 2 and 3 potion, bomb and oil formula, alchemy substance and mutagen decoction formula increases maximum Toxicity by 1 point, up to +$I$ points max. Current bonus is $I$ points.
+2110992350|1517ddcf||Every known level 1, 2 and 3 potion, bomb and oil formula, alchemy substance and mutagen decoction formula increases maximum Toxicity by 1 point, up to +$I$ points max. Current bonus is $I$ points.
+2110992351|1517ddd0||Every known level 1, 2 and 3 potion, bomb and oil formula, alchemy substance and mutagen decoction formula increases maximum Toxicity by 1 point, up to +$I$ points max. Current bonus is $I$ points.
+2110992352|        |attribute_name_staminaRestore|Výdrž
+2110992353|0083ce65||Prodloužené účinky
+2110992354|8d17aa9f||Extends potion duration time by $S$%.
+2110992355|15dda919||Toxicity drops $S$ points per second faster.
+2110992358|8d17aa9e||Decreases potion toxicity by $S$ points.
+2110992359|0083ce64||Expert brewer
+2110992360|        |item_name_kaer_morhen_armor|Kaer Morhenská zbroj
+2110992361|        |item_name_kaer_morhen_armor_1|Vylepšená Kaer Morhenská zbroj
+2110992362|        |item_name_kaer_morhen_armor_2|Prvotřídní Kaer Morhenská zbroj
+2110992363|        |item_name_kaer_morhen_armor_3|Mistrovská Kaer Morhenská zbroj
+2110992364|        |item_name_kaer_morhen_pants|Kaer Morhenské kalhoty
+2110992365|        |item_name_kaer_morhen_pants_1|Vylepšené Kaer Morhenské kalhoty
+2110992366|        |item_name_kaer_morhen_pants_2|Prvotřídní Kaer Morhenské kalhoty
+2110992367|        |item_name_kaer_morhen_pants_3|Mistrovské Kaer Morhenské kalhoty
+2110992368|        |item_name_kaer_morhen_boots|Kaer Morhenské boty
+2110992369|        |item_name_kaer_morhen_boots_1|Vylepšené Kaer Morhenské boty
+2110992370|        |item_name_kaer_morhen_boots_2|Prvotřídní Kaer Morhenské boty
+2110992371|        |item_name_kaer_morhen_boots_3|Mistrovské Kaer Morhenské boty
+2110992372|        |item_name_kaer_morhen_gloves|Kaer Morhenské rukavice
+2110992373|        |item_name_kaer_morhen_gloves_1|Vylepšené Kaer Morhen rukavice
+2110992374|        |item_name_kaer_morhen_gloves_2|Prvotřídní Morhenské rukavice
+2110992375|        |item_name_kaer_morhen_gloves_3|Mistrovské Morhenské rukavice
+2110992376|        |item_name_starting_armor_gm|Obnošená Kaer Morhenská zbroj
+2110992377|        |item_name_starting_pants_gm|Obnošené Kaer Morhenské kalhoty
+2110992378|        |item_name_starting_boots_gm|Obnošené Kaer Morhenské boty
+2110992379|        |item_name_starting_gloves_gm|Obnošené Kaer Morhenské rukavice
+2110992380|        |skill_desc_kaer_morhen_set_ability1|Rychlost regenerace výdrže se zvyšuje o $S$ za každého dodatečného protivníka v boji (max. $S$).
+2110992381|        |attribute_name_toxicity_offset|Vyrovnání toxicity
+2110992382|        |gm_toxicity_offset_description|Vyrovnání toxicity si vyhrazuje množství tvé maximální toxicity po dobu trvání účinku odvaru.
+2110992383|        |gm_stat_adrenaline_gain_light|Zisk adrenalinu rychlým útokem
+2110992384|        |gm_stat_adrenaline_gain_heavy|Zisk adrenalinu silným útokem
+2110992386|d02fd0a4||Once they reach their maximum level, Adrenaline Points steadily decline until they reach zero at a rate of $S$ points per sec. During this time Vitality regenerates faster by $S$%/sec, Stamina regenerates faster by $S$%/sec, and Toxicity declines faster by $S$ points/sec.
+2110992387|f098e2d3||Igni's basic attack strikes all opponents in a 360-degree radius and deals $I$ more damage (scales with Sign Intensity). Burning chance is decreased by $I$%.
+2110992388|fc92152b||Getting hit more than once within $S$ sec makes you immune to damage for the next $S$ sec.
+2110992389|e71d7c8c||When enemies damage you in melee combat, they get an Acid effect that reduces their Damage Resistance by $I$% (max $I$%).
+2110992390|fc92152c||Damage dealt to enemies in spectral form is increased from $I$% to $I$% of normal damage. Damage taken from enemies in spectral form is reduced by $I$%.
+2110992391|        |option_gm_cbtsreg|Combat stamina regen (additional)
+2110992392|        |option_gm_ocbtsreg|Out of combat stamina regen (additional)
+2110992393|        |option_gm_cbtvreg|Combat vitality regen (additional)
+2110992394|        |option_gm_ocbtvreg|Out of combat vitality regen (additional)
+2110992395|        |option_gm_mscost|Melee action cost modifier
+2110992396|        |option_gm_sscost|Sign action cost modifier
+2110992397|        |option_gm_stdelay|Stamina regen delay (additional, seconds)
+2110992398|dd7afaaa||Attack is the Best Defense
+2110992399|754d18b0||Killing an enemy restores $I$% of your Stamina (no cooldown). Critical hits and successful counters restore $I$% of your Stamina ($S$ sec cooldown).
+2110992400|        |effect_whirl_cooldown|Whirl cooldown
+2110992401|        |effect_rend_cooldown|Rend cooldown
+2110992402|        |effect_aard_cooldown|Aard cooldown
+2110992403|        |effect_igni_cooldown|Igni cooldown
+2110992404|        |effect_yrden_cooldown|Yrden cooldown
+2110992405|        |effect_quen_cooldown|Quen cooldown
+2110992406|        |effect_axii_cooldown|Axii cooldown
+2110992407|        |option_gm_mcooldown|Melee special cooldown (seconds)
+2110992408|        |option_gm_scooldown|Sign cooldown (seconds)
+2110992409|        |attribute_name_stamina_cost_light|Fast attack stamina cost
+2110992410|        |attribute_name_stamina_cost_heavy|Strong attack stamina cost
+2110992411|        |attribute_name_stamina_cost_parry|Parry stamina cost
+2110992412|        |attribute_name_stamina_cost_counter|Counter stamina cost
+2110992413|        |attribute_name_stamina_cost_dodge|Dodge stamina cost
+2110992414|        |attribute_name_stamina_cost_roll|Roll stamina cost
+2110992415|        |attribute_name_stamina_cost_sprint|Sprint stamina cost
+2110992416|        |attribute_name_stamina_cost_jump|Jump stamina cost
+2110992417|        |attribute_name_stamina_cost_item|Use item stamina cost
+2110992418|        |attribute_name_stamina_cost_aard|Aard stamina cost
+2110992419|        |attribute_name_stamina_cost_igni|Igni stamina cost
+2110992420|        |attribute_name_stamina_cost_yrden|Yrden stamina cost
+2110992421|        |attribute_name_stamina_cost_quen|Quen stamina cost
+2110992422|        |attribute_name_stamina_cost_axii|Axii stamina cost
+2110992423|        |attribute_name_tox_hp_drain|Overdose Vitality drain
+2110992424|        |attribute_name_tox_dec_rate|Toxicity Decay Rate
+2110992425|        |attribute_name_avail_tox|Available Toxicity
+2110992426|736e017e||Light gear. Offers minimal protection. Combat actions require less stamina.
+2110992427|320650a7||Medium gear. Offers optimal protection.
+2110992428|942892ef||Heavy gear. Offers the best protection. Combat actions and sign casting require more stamina.
+2110992429|6d1ad461||Light Armor does not provide much protection, but your combat actions require less stamina when it is equipped. Medium Armor and Heavy Armor absorb more damage, but while in Heavy Armor your combat actions require more stamina.
+2110992430|4080bc95||Dealing damage in combat heals $S$% of maximum Vitality for each piece of the set (currently $S$%).
+2110992431|        |option_gm_ascooldown|Alternate Sign cooldown (seconds)
+2110992432|        |option_gm_sign_instant_cast_toggle|Instant sign casting with sign select key
+2110992433|9ec8a224||Immediately restores a portion of Vitality and stops bleeding.
+2110992434|9ec8a225||Immediately restores a large portion of Vitality and stops bleeding.
+2110992435|9ec8a226||Restores Vitality immediately and fully and stops bleeding. Grants immunity to damage for a short duration.
+2110992436|fc921529||Each Lesser Red Mutagen equipped decreases melee action stamina cost by $S$%. Red Mutagen increases the bonus to $S$% and Greater Red Mutagen - to $S$%.
+2110992438|        |attribute_name_stamina_cost_whirl|Whirl stamina cost
+2110992439|        |attribute_name_stamina_cost_rend|Rend stamina cost
+2110992440|        |attribute_name_dismember_chance|Dismember chance
+2110992441|        |panel_gm_qol_options|QoL
+2110992442|        |option_gm_lowstamsfx|Low stamina sfx threshold (percents)
+2110992443|        |option_gm_lowstamsfx_vol|Low stamina sfx volume
+2110992444|        |option_gm_lowstamsfx_dynvol|Use dynamic low stamina sfx volume
+2110992445|        |option_gm_lowstamsfx_rate|Low stamina sfx rate
+2110992446|        |option_gm_lowstamsfx_dynrate|Use dynamic low stamina sfx rate
+2110992447|        |preset_Mods_ghost_mode_gm_qol_options|QoL Presets
+2110992448|        |preset_value_gm_recommended|Recommended
+2110992449|        |preset_value_gm_turn_off|Off
+2110992450|        |preset_Mods_ghost_mode_gm_gameplay_options|Gameplay Presets
+2110992451|        |preset_value_gm_default|Default
+2110992452|        |preset_Mods_ghost_mode_gm_exp_options|Experience Presets
+2110992453|        |preset_Mods_ghost_mode_gm_scaling_options|Scaling Presets
+2110992454|15dda917||When consumed, mutagen decoction increases maximum Vitality by $I$ points per each toxicity offset point for decoction's effective duration.
+2110992455|e71d7c8b||Non-critical damage dealt with a sword increases Critical hit chance for subsequent attacks by $I$% (max $I$%). When at max bonus, receive additional $I$% to Critical hit power. Bonus resets on successful critical hit and at the end of the combat.
+2110992456|        |attribute_name_dbomb_dmg_reduction|Damage reduction
+2110992457|fc92150b||Hit Reaction Severity is reduced to zero, if damage received is less than $I$% of your maximum Health.
+2110992458|        |option_gm_armor_reg_penalty|Enable stamina regen penalty for armors
+2110992459|        |preset_value_gm_old_ver|Vanilla(ish)
+2110992460|        |skill_desc_magic_s10_l3|Magic Trap duration increases by $I$%. Can now place an additional Magic Trap.
+2110992461|        |gm_sign_stats_yrden_range|Magic Trap Range
+2110992462|dd7afa8f||Connoisseur
+2110992463|754d1895||Reduces alcohol and toxic food toxicity to zero. Removes drunken effect from alcohol. After drinking an alcoholic beverage, its bonuses last longer by $S$%.
+2110992464|a1370329||Increases breath supply while underwater and improves vision while diving.
+2110992471|1b06cd09||Whenever you slay an enemy, time slows for a short period.
+2110992474|        |gm_crafting_bonus_title|Bonus for gear type:
+2110992475|        |item_name_caretaker_spade_desc|Restores Vitality proportional to damage dealt.
+2110992476|2ae9db22||Vitality drain
+2110992477|e71d7c8d||All bombs and potions (but not decoctions) can be used one additional time.
+2110992478|fc921506||Increases critical hit power by $I$% when attacking from behind.
+2110992479|fc92152a||$I$% of the damage taken by the witcher is reflected back on the attacker.
+2110992480|        |attribute_name_dbomb_resist_reduction|Damage resistance reduction
+2110992481|fc92150e||When the witcher is attacked from behind, normal Quen gets activated and reduces the damage. When hostile specters are around, Quen Power is increased by $S$%.
+2110992482|        |attribute_name_hpPercDamageBonusPerHit|Damage bonus
+2110992483|        |attribute_name_resistance_perc_bonus_descr|Damage resistances
+2110992484|fc92150c||Damage dealt with a melee weapon increases Sign Intensity by $I$% (max $I$%). Resets after casting a sign and at the end of the combat.
+2110992485|e71d7c8f||Dealing melee damage to enemies increases your Attack Power by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
+2110992486|fc92150a||Dealing melee damage to enemies increases your Adrenaline Gain by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
+2110992487|fc921528||Gain +$I$% to Attack Power, +$I$% to Sign Intensity, +$I$/s to Stamina regeneration and +$I$% to Adrenaline gain while your health is at $I$% or lower. Resets when you regain your health and at the end of the combat. $I$ sec cooldown.
+2110992488|fc921507||Gain +$I$ to non-combat Vitality regeneration and +$I$ to combat Vitality regeneration. When your Stamina is at $I$% and below, gain another +$I$ to combat Vitality regeneration.
+2110992489|fc92150d||When you kill a foe, gain +$I$ to Vitality regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
+2110992490|fc921508||When you kill a foe, gain +$I$ to combat Stamina regeneration per each alive enemy nearby. Max bonus cannot exceed +$I$. Resets at the end of the combat.
+2110992491|754d1896||You ignore bomb and special bolt effects. Damage from own bombs and bolts is halved.
+2110992492|8d17aaa2||Critical hit power against the targeted enemy type is increased by $S$% for each Adrenaline Point available (up to $S$% max).
+2110992493|        |effect_melt_armor_timer|Melt Armor Timer
+2110992494|        |option_gm_ascost|Sprint/jump action cost modifier
+2110992495|        |option_gm_nonlinear_levelup_toggle|Use progressive level bonuses
+2110992496|        |option_gm_nonlinear_level_delta_slider|Level delta
+2110992497|        |option_gm_nonlinear_abs_delta_slider|Abilities per level delta
+2110992498|        |preset_value_gm_hardcore|Hardcore
+2110992499|eee40a34||Hitting enemies with Aard reduces their Stamina by $I$%, which also increases knockdown and heavy knockdown chances.
+2110992500|c5f2bcea||Increases the range of Whirl by $S$ yards and Rend by $S$ yards. Final damage dealt by these attacks is decreased by $S$%.
+2110992501|257f1e14||When you enter combat, you will automatically get a Quen shield without using any Stamina and with $I$% bonus to Sign Power.
+2110992502|c43de44b||After you cast a Sign, an Adrenaline Point is consumed and your next sword attack is charged with the power of that Sign. Aard: knockdown (chances depend on Attack Power). Igni: $S$% of your weapon damage is added as Fire damage (scales with Attack Power). Yrden: slowdown effect is applied for $S$ sec. Quen: heals Geralt for $S$% of damage dealt. Axii: confusion effect is applied for $S$ sec.
+2110992504|0083ce63||Restoration
+2110992505|0083ce62||Refreshment
+2110992506|8d17aa9c||Each potion dose imbibed restores $I$% of maximum Stamina.
+2110992507|f9241f8c||Excess Adrenaline generated slows down potion expiration timer by $S$% per 1% of excess Adrenaline (3 points = 100%). Max bonus cannot exceed $S$%. The bonus resets when you lose Adrenaline and at the end of the combat.
+2110992508|        |attribute_name_explosionFireDamage|Fire damage on explosion
+2110992510|cea74419||When casting a Sign, 3 Adrenaline Points (if available) will be consumed to upgrade the Sign to the highest level (unlocking all bonuses) and increase Sign intensity by $I$%. If Rage Management is active, Adrenaline Points are not consumed immediately, but sign casting cost is tripled instead.
+2110992511|c1e6ad8c||When casting a Sign, 3 Adrenaline Points (if available) will be consumed to upgrade the Sign to the highest level (unlocking all bonuses) and increase Sign intensity by $I$%. If Rage Management is active, Adrenaline Points are not consumed immediately, but sign casting cost is tripled instead.
+2110992512|c1e6ad8d||When casting a Sign, 3 Adrenaline Points (if available) will be consumed to upgrade the Sign to the highest level (unlocking all bonuses) and increase Sign intensity by $I$%. If Rage Management is active, Adrenaline Points are not consumed immediately, but sign casting cost is tripled instead.
+2110992513|e2e48f8a||Deflection
+2110992514|cea74410||Damage taken from partial parries and counters is reduced by additional $I$% (to $I$% total). Perfectly timed parries reflect arrows back at the attacker.
+2110992515|c1e68bc3||Damage taken from partial parries and counters is reduced by additional $I$% (to $I$% total). Perfectly timed parries reflect back arrows, damage on reflected arrows is increased by $I$%.
+2110992516|4e736cfc||Foes killed by Igni (burning or fire) explode dealing $I$ damage to other enemies within a $I$-yard radius and igniting them. Damage scales with Sign Intensity.
+2110992517|198d31bb||Each enemy controlled by Axii Puppet adds $I$% to your Attack Power and Sign Intensity (up to $I$%).
+2110992518|20609437||Each enemy affected by Axii Confusion adds $I$% to your critical hit chance and critical hit power (up to $I$%).
+2110992519|        |attribute_name_tox_overdose|Overdose threshold
+2110992520|b93269f0||Your opponents have limited Stamina. When their Stamina is exhausted, they won't be able to fight as effectively.
+2110992521|6d1ad3cb||Pay attention to the color of your enemies' level numbers. Green means they are close to your level. Red means they are a challenge, and a skull icon means they are deadly.
+2110992522|6d1ad3a6||Sharpening your blade on a grindstone will enhance its combat capabilities.
+2110992523|6d1ad427||Strike an opponent while riding towards him at high speed for an increased damage.
+2110992524|b93269e9||Striking from behind increases you critical hit chances.
+2110992525|6d1ad3e4||When throwing a bomb or shooting a bolt from your crossbow, you can either take advantage of auto-aiming for a quick attack, or aim manually for better damage.
+2110992526|6d1ad447||You can deflect incoming bolts and arrows with your sword.
+2110992527|363f99af||You can use Quen to protect from critical effects such as Burning, Bleeding, etc.
+2110992528|6d1ad3cc||Dodging is usually the best tactic when fighting huge monsters. When fighting humans and smaller monsters, try to parry and counter their attacks with your sword.
+2110992529|c3f5389e||Turns the blood of the witcher into a highly caustic acid. Toxicity Decay Rate is decreased by $S$%. Whenever you take melee damage, your blood causes the attacker to lose $S$ point(s) of their health for every 1 point in your Toxicity level per second (current value: $S$ pts; max value: $S$ pts). The effect lasts $S$ sec. Slows down the attacker's stamina regeneration by $S$%.
+2110992530|3a84c328||Increases poison resistance, neutralizes the effects of poisons already in bloodstream.
+2110992531|3a84c329||Increases poison resistance, neutralizes the effects of poisons already in bloodstream. Extended duration.
+2110992532|3a84c32a||Increases poison resistance, neutralizes the effects of poisons already in bloodstream. Extended duration. Grants temporary immunity to poison effects.
+2110992533|        |attribute_name_poison_immunity_duration|Poison immunity duration
+2110992534|437e276a||Accelerates Stamina regeneration.
+2110992535|437e276b||Accelerates Stamina regeneration.
+2110992536|437e276c||Accelerates Stamina regeneration. Never expires at night.
+2110992537|56747c55||Stops bleeding and increases bleeding resistance. Accelerates Vitality regeneration. Vitality regeneration pauses for 2 seconds upon receiving damage.
+2110992538|56747c56||Stops bleeding and increases bleeding resistance. Accelerates Vitality regeneration. Vitality regeneration pauses for 2 seconds upon receiving damage.
+2110992539|56747c57||Stops bleeding and increases bleeding resistance. Accelerates Vitality regeneration. Taking damage does not interrupt Vitality regeneration.
+2110992540|c3f5389f||When you are about to take damage your skin absorbs and redistributes that damage over time instead: $S$ sec per each Adrenaline Point you have (up to $S$ sec max, at least 1 point is required to trigger the mutation). During this period your Adrenaline is drained at a speed of 1 pt per $S$ sec. If your Adrenaline reaches zero before the effect ends, all the remaining damage will be dealt at once.
+2110992541|c3f538a2||Countering an enemy when their health is at $S$% or less kills them and triggers a finisher or dismemberment. Each Adrenaline Point increases the damage dealt when countering by $S$% (up to +$S$% max).
+2110992542|363f9a0c||Deadly Precision is activated only when performing a counterattack.
+2110992543|c3f5389d||Each fatal blow of your sword triggers a finisher or dismemberment. Upon entering combat you immediately get a bonus to your Attack Power for each skill equipped: +$S$% for a combat skill, +$S$% for any other skill. Getting hit decreases the bonus by $S$% per 1% of health lost. Killing an enemy fully restores the bonus and adds +$S$% more on top of it. Max bonus: $S$%. Resets at the end of the combat.
+2110992544|        |item_name_mutation_trigger|Mutation Catalyst
+2110992545|        |item_desc_mutation_trigger|This potion serves as a catalyst to activate Life Leech mutation.
+2110992546|bab1daf6||Requires Mutation Catalyst potion to activate. Drains the life out of up to three surrounding enemies healing the witcher in the process. Drain rate is a sum of your weapon damage, Attack Power and Sign Intensity multiplied by Adrenaline Points and divided by the number of enemies. The effect lasts for $S$ sec and can only be activated once per $S$ sec. Current max drain rate: $S$/sec.
+2110992547|b4ca2ff0||Life Leech
+2110992548|da7e5ba1||Crossbow bolts deal $F$ pts more base damage.
+2110992549|cea74415||Each bolt that hits its target now generates the same amount of Adrenaline Points as when using swords.
+2110992550|754d1898||Damage dealt by a bomb's explosion generates $F$ Adrenaline Points. This value is not affected by any Adrenaline gain bonuses.
+2110992551|c3f5389b||When drawn, magic, relic and witcher swords increase Sign base damage by $S$% of their own base damage.
+2110992552|bab1daf7||Allows to imbibe up to $S$ decoction(s) with no toxicity cost. Each free decoction imbibed increases your chances to apply critical effects with both swords and Signs by $S$% (effect chance increases by $S$ times max). Witcher Senses help you see better in dark places.
+2110992553|15dda918||Decreases decoction toxicity by $S$%.

@@ -149,8 +149,9 @@ staminaRegen_armor_mod;BAADA0;TRUE;defence;0.4
 q108_bounce_arrows;BAADA0;TRUE;defence;0.4
 dbomb_armor_piercing;BAADA0;FALSE;attack;0.1
 cloud_duration;BAADA0;FALSE;duration;1
-staminaRestore;BAADA0;FALSE;defence;0.4
 dbomb_dmg_reduction;BAADA0;TRUE;attack;0.4
 dbomb_resist_reduction;BAADA0;TRUE;attack;0.4
 hpPercDamageBonusPerHit;BAADA0;TRUE;attack;0.4
 resistance_perc_bonus_descr;BAADA0;TRUE;defence;0.4
+explosionFireDamage;BAADA0;FALSE;attack;0.4
+poison_immunity_duration;BAADA0;FALSE;duration;1

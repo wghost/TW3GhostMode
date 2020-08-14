@@ -1,0 +1,518 @@
+;meta[language=fr]
+; id      |key(hex)|key(str)| text
+2110992000|4d5f8b0c||Mods
+2110992001|818b6a6e||Ghost Mode
+2110992002|205aa5f5||Modificateur de santé des ennemis
+2110992003|a570c302||Modificateur de dégâts des ennemis
+2110992004|be5d891f||Mise à niveau des ennemis
+2110992005|c33062be||Aucun
+2110992006|cffa3a49||Mise à niveau
+2110992007|a2c796ff||Égal
+2110992008|645abb61||Modificateur additionnel de santé des boss
+2110992009|e970d86e||Modificateur additionnel de dégâts des boss
+2110992013|cdb77880||Résistance au gel
+2110992014|99a2fd83||Réduction de la résistance aux dégâts des ennemis
+2110992015|c4ea0ecf||Durée de la potion
+2110992016|c332a7b0||Mise à niveau légère
+2110992017|1662935c||Dégâts par coup (argent)
+2110992018|4f1d703c||Dégâts par coup (acier)
+2110992019|f38f5b36||Dégâts par seconde de Langue de feu
+2110992020|6a994712||Pièges magiques
+2110992021|cc57bcc3||Dégâts des pièges magiques
+2110992022|60b53abe||Durée de la tourelle magique
+2110992023|8594f9d5||Charges de la tourelle magique
+2110992024|1e6cbb19||Dégâts de la tourelle magique
+2110992025|ee530dcc||Dégâts renvoyés
+2110992026|e379a123||Absorption des dégâts par le bouclier actif
+2110992027|27282d9d||Chances d'Axii
+2110992028|8566fddf||Dégâts des attaques rapides
+2110992029|7a3d2c04||Dégâts des attaques puissantes
+2110992030|a3e34c39||Absorption des dégâts
+2110992034|40aed692||Chances de coups critiques contre les bêtes
+2110992035|c8957121||Chances de coups critiques contre les créatures maudites
+2110992036|79a23d6e||Chances de coups critiques contre les draconides
+2110992037|d33fe160||Chances de coups critiques contre les humains
+2110992038|f261a80b||Chances de coups critiques contre les hybrides
+2110992039|97466e95||Chances de coups critiques contre les insectoïdes
+2110992040|4bfdf9ea||Chances de coups critiques contre les élémentaires
+2110992041|016d02ed||Chances de coups critiques contre les nécrophages
+2110992042|9c73a4a6||Chances de coups critiques contre les vestiges
+2110992043|c3702fb9||Chances de coups critiques contre les spectres
+2110992044|cd868a1a||Chances de coups critiques contre les ogroïdes
+2110992045|42229941||Chances de coups critiques contre les vampires
+2110992046|4fa6c42d||Puissance des coups critiques contre les bêtes
+2110992047|df4cf77c||Puissance des coups critiques contre les créatures maudites
+2110992048|f7d09609||Puissance des coups critiques contre les draconides
+2110992049|810bfc7b||Puissance des coups critiques contre les humains
+2110992050|6b0ad6e6||Puissance des coups critiques contre les hybrides
+2110992051|6adf0df0||Puissance des coups critiques contre les insectoïdes
+2110992052|0cf40585||Puissance des coups critiques contre les élémentaires
+2110992053|69eb0048||Puissance des coups critiques contre les nécrophages
+2110992054|2e15b341||Puissance des coups critiques contre les vestiges
+2110992055|17546414||Puissance des coups critiques contre les spectres
+2110992056|b4fbb1b5||Puissance des coups critiques contre les ogroïdes
+2110992057|d123879c||Puissance des coups critiques contre les vampires
+2110992058|c8d4450c||Réduction de la résistance aux dégâts contre les bêtes
+2110992059|4b1b4cdd||Réduction de la résistance aux dégâts contre les créatures maudites
+2110992060|da69abb0||Réduction de la résistance aux dégâts contre les draconides
+2110992061|83b5dcfe||Réduction de la résistance aux dégâts contre les humains
+2110992062|5da28e33||Réduction de la résistance aux dégâts contre les hybrides
+2110992063|ca4463e9||Réduction de la résistance aux dégâts contre les insectoïdes
+2110992064|d14fa0b4||Réduction de la résistance aux dégâts contre les élémentaires
+2110992065|8b85ee91||Réduction de la résistance aux dégâts contre les nécrophages
+2110992066|0ecc4f78||Réduction de la résistance aux dégâts contre les vestiges
+2110992067|64e2d545||Réduction de la résistance aux dégâts contre les spectres
+2110992068|111c7e84||Réduction de la résistance aux dégâts contre les ogroïdes
+2110992069|5a3c18bd||Réduction de la résistance aux dégâts contre les vampires
+2110992070|d25344ee||Puissance des attaques contre les humains
+2110992071|da7e5ba4||Chaque pièce d'armure légère augmente les chances de coups critiques de $S$% et la puissance des coups critiques de $S$%.
+2110992072|da7e5ba6||Chaque pièce d'armure lourde augmente la vitalité maximum de $S$% et le gain de points d'adrénaline des attaques de mêlée de $S$.
+2110992073|163a8e78||Augmente les chances de brûlure de $I$%.
+2110992074|3c4a6af2||Dégâts des attaques puissantes
+2110992075|5806ca6e||Dégâts critiques des attaques puissantes
+2110992076|69d8dd89||Dégâts des attaques rapides
+2110992077|89dfeac9||Chances de coups critiques des attaques rapides
+2110992078|bc4297c4||Chances de coups critiques des attaques puissantes
+2110992079|d23992f7||Dégâts des attaques rapides
+2110992080|2e06698e||Dégâts critiques des attaques puissantes
+2110992081|3375c4a9||Dégâts critiques des attaques rapides
+2110992082|73d42fa9||Chances de coups critiques des attaques rapides
+2110992083|b08bd7d2||Dégâts des attaques puissantes
+2110992084|c7b0b7d7||Dégâts des attaques rapides
+2110992085|fa3924a4||Chances de coups critiques des attaques puissantes
+2110992090|6c1d3ba3||Les bombes sont lancées sans délai et peuvent provoquer des coups critiques. Chaque pièce d'ensemble accroît les chances de coups critiques des bombes de $S$% (bonus actuel : $S$%) et la puissance des coups critiques de $S$% (bonus actuel : $S$%).
+2110992091|85e8fbd1||Chaque pièce d'ensemble accroît l'efficacité des huiles appliquées aux lames de $S$% (bonus actuel : $S$%).
+2110992092|1f70c024||Fast attacks have $S$% chance to apply Bleeding effect. The final damage dealt by fast attacks to bleeding enemies is increased by $S$%.
+2110992093|71d0c5a6||Mode de signe alternatif:<br>Inflige $I$ points de dégâts aux ennemis dans un rayon de $I$ mètres. Les dégâts augmentent avec l'intensité du signe (dégâts actuels : $I$). Ignore les armures ennemis. Détruit les projectiles qui traversent la zone d'effet. Dure pendant $I$s. Charges de la tourelle : $I$.
+2110992094|71d0c5a5||Mode de signe alternatif:<br>Inflige $I$ points de dégâts aux ennemis dans un rayon de $I$ mètres. Les dégâts augmentent avec l'intensité du signe (dégâts actuels : $I$). Ignore les armures ennemis. Détruit les projectiles qui traversent la zone d'effet. Dure pendant $I$s. Charges de la tourelle : $I$.
+2110992095|163a8e72||Mode de signe alternatif:<br>Inflige $I$ points de dégâts aux ennemis dans un rayon de $I$ mètres. Les dégâts augmentent avec l'intensité du signe (dégâts actuels : $I$). Ignore les armures ennemis. Détruit les projectiles qui traversent la zone d'effet. Dure pendant $I$s. Charges de la tourelle : $I$.
+2110992096|b1173fc9||Axii peut influencer deux ennemis simultanément. La durée de l'effet est réduite de $I$%.
+2110992097|c8467d3c||Axii peut influencer deux ennemis simultanément. La durée de l'effet est réduite de $I$%.
+2110992098|c8467d3d||Axii peut influencer deux ennemis simultanément. Ne réduit plus la durée de l'effet.
+2110992099|1f70c022||Each Adrenaline Point adds $I$% to the chance of killing an opponent instantly when countering (up to $I$% max).
+2110992102|1f70c021||Strong attack that goes through blocks, armor and shields and can knock down enemies. If $S$ Adrenaline Points are available, creates a powerful shock wave that damages all the enemies in a $S$-yard radius, staggering them or knocking them down. Increases weapon damage by $S$%. Each Stamina and Adrenaline point spent additionally increase weapon damage: by $S$% and $S$% respectively (up to $S$% max). Critical hit chance is increased by $S$%.
+2110992103|1f70c020||Spinning attack that strikes all foes in the surrounding area. Maintaining the attack consumes $S$ Stamina. During the attack Adrenaline is drained at a speed of $S$ pts/sec. While performing the attack at non-zero Adrenaline, Attack Power is increased by $S$% per additional attacker (max. $S$%) and damage received is decreased by $S$%.
+2110992104|064143d3||Spinning attack that strikes all foes in the surrounding area. Maintaining the attack consumes $S$ Stamina. During the attack Adrenaline is drained at a speed of $S$ pts/sec. While performing the attack at non-zero Adrenaline, Attack Power is increased by $S$% per additional attacker (max. $S$%) and damage received is decreased by $S$%.
+2110992105|6f2a6f0f||Gain d'adrénaline
+2110992106|739e1e2c||Chained fast hits add +$S$% to Attack Power for each piece of the set (currently +$S$%), up to +$S$% max. Finishing a chain of fast hits with a strong hit discharges the sword doubling the current Attack Power bonus. The bonus resets when the chain of hits stops and at the end of the combat.
+2110992107|8ed43e3e||Lancer un signe réduit le coût en vigueur de toutes les actions ultérieures de $S$% pour chaque pièce d'ensemble. Bonus actuel : $S$%. Dure pendant $S$ secondes.
+2110992108|8ed43e3f||La taille des pièges d'Yrden est augmentée de $S$%. Pris dans un piège d'Yrden, l'intensité des signes augmente de $S$% et les dégâts subis sont réduits de $S$%.
+2110992109|739e1e2d||Les coups critiques infligés avec une épée doublent le gain d'adrénaline.
+2110992110|328ae462||Chances de renversement
+2110992111|c3f538a3||Crossbow bolts deal $S$% more base damage and will pierce and either stun or knock down opponents. Opponents at full health lose $S$% of their health when shot. If at non-zero toxicity, time slows down by additional $S$% when aiming with a crossbow.
+2110992112|925f2058||Immortalité
+2110992113|c1e6a9cc||Quand la vitalité tombe à zero, les points d'adrénaline sont consommés pour tromper la mort et rend invulnérable, augmentant la régénération de la vitalité pendant $S$s. Redonne $S$% de vitalité par point d'adrénaline (max $S$%). Ne peut pas être déclenché plus d'une fois toutes les $S$s.
+2110992114|c1e6a9cb||Quand la vitalité tombe à zero, les points d'adrénaline sont consommés pour tromper la mort et rend invulnérable, augmentant la régénération de la vitalité pendant $S$s. Redonne $S$% de vitalité par point d'adrénaline (max $S$%). Ne peut pas être déclenché plus d'une fois toutes les $S$s.
+2110992115|cea74418||Quand la vitalité tombe à zero, les points d'adrénaline sont consommés pour tromper la mort et rend invulnérable, augmentant la régénération de la vitalité pendant $S$s. Redonne $S$% de vitalité par point d'adrénaline (max $S$%). Ne peut pas être déclenché plus d'une fois toutes les $S$s.
+2110992116|cea74430||La puissance des attaques rapides augmente de $S$%. Le gain d'adrénaline des attaques rapides augmente de $S$%.
+2110992117|1f70c023||La puissance des attaques puissantes augmente de $S$%. Le gain d'adrénaline des attaques puissantes augmente de $S$%.
+2110992118|cea74417||Augmente les chances de coup critique des attaques rapides de $I$% et les dégâts de ces coups critiques de $I$%.
+2110992119|1f70c027||Augmente les chances de coup critique des attaques puissantes de $I$% et les dégâts de ces coups critiques de $I$%.
+2110992120|c1e68bc4||Damage taken from partial parries and counters is reduced by additional $I$% (down to $I$% total). Perfectly timed parries reflect back arrows, damage on reflected arrows is increased by $I$%. When multiple enemies are around, parry cost is decreased by $I$%.
+2110992121|c1e68f84||Augmente la puissance des contre-attaques de $I$% et les chances de coup critique de $I$%.
+2110992122|c1e68f85||Increases counterattack power by $I$% and critical hit chance by $I$%. Each Adrenaline Point grants $I$% knockdown chance when countering (up to $I$% max).
+2110992123|cea74411||Augmente la puissance des contre-attaques de $I$%.
+2110992124|cf2b2da2||Bouclier protecteur qui absorbe jusqu'à $I$% des dégâts infligés par l'arme de l'ennemi. Absorption des dégâts de base : $I$. S'équilibre à l'intensité du signe. Absorption actuelle : $I$. Empêche les effets de chancèlements, brûlures, poison et saignement (et puis s'arrête). <br>Durée du bouclier : $I$s.
+2110992125|163a8e77||Igni hit now also decreases enemy Armor by $S$ point(s) and enemy Damage Resistances by $S$% (scales with Sign Intensity) for $S$ sec. Subsequently applied effects do not cumulate.
+2110992126|cf2b2da0||Souffle incandescent qui inflige $I$ points de dégâts avec $I$% de chance d'enflammer les ennemis. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$.
+2110992127|163a8e71||Mode de signe alternatif:<br>Emet une langue de flamme continue qui provoque des brûlures et inflige $I$ points de dégâts par seconde. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$. Draine $I$ points de vigueur par seconde.
+2110992128|71d0c1e4||Mode de signe alternatif:<br>Emet une langue de flamme continue qui provoque des brûlures et inflige $I$ points de dégâts par seconde. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$. Draine $I$ points de vigueur par seconde.
+2110992129|71d0c1e5||Mode de signe alternatif:<br>Emet une langue de flamme continue qui provoque des brûlures et inflige $I$ points de dégâts par seconde. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$. Draine $I$ points de vigueur par seconde.
+2110992130|163a8e75||Aard inflige désormais $I$ points de dégâts. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$.
+2110992131|b3c8ebb8||Tourelle magique
+2110992132|b1173fc0||La durée des pièges magiques augmente de $I$%.
+2110992133|40851a25||La durée des pièges magiques augmente de $I$%. Le rayon des pièges magiques augmente de $I$%.
+2110992134|b1173fc1||Increases the final damage taken for all the enemies inside Yrden Trap by $S$%.
+2110992135|c84666b6||Le bouclier de Quen repousse les ennemis et inflige $I$ points de dégâts quand il explose. Les dégâts augmentent avec l'intensité du signe (dégâts actuels: $I$).
+2110992136|c84666b7||Le bouclier de Quen repousse les ennemis avec une chance de les renverser et inflige $I$ points de dégâts quand il explose. Les dégâts augmentent avec l'intensité du signe (dégâts actuels: $I$).
+2110992137|163a8e73||Mode de signe alternatif :<br>Un bouclier actif qui absorbe jusqu'à 100% des dégâts infligés par l'arme de l'ennemi. L'absorption des dégâts de base est $I$% plus importante. Le maintenir draine $I$ points de vigueur par seconde. Les attaques parées drainent de la vigueur proportionnellement aux dégâts absorbés. Restaure la vitalité de $I$% des dégâts absorbés. Empêche les effets de chancelement, brûlures, empoisonnement et saignement. Empêche les renversements (puis s'arrête).
+2110992138|71d0c966||Mode de signe alternatif :<br>Un bouclier actif qui absorbe jusqu'à 100% des dégâts infligés par l'arme de l'ennemi. L'absorption des dégâts de base est $I$% plus importante. Le maintenir draine $I$ points de vigueur par seconde. Les attaques parées drainent de la vigueur proportionnellement aux dégâts absorbés. Restaure la vitalité de $I$% des dégâts absorbés. Empêche les effets de chancelement, brûlures, empoisonnement et saignement. Empêche les renversements (puis s'arrête).
+2110992139|71d0c967||Mode de signe alternatif :<br>Un bouclier actif qui absorbe jusqu'à 100% des dégâts infligés par l'arme de l'ennemi. L'absorption des dégâts de base est $I$% plus importante. Le maintenir ne draine plus la vigueur. Les attaques parées drainent de la vigueur proportionnellement aux dégâts absorbés. Restaure la vitalité de $I$% des dégâts absorbés. Empêche les effets de chancelement, brûlures, empoisonnement et saignement. Empêche les renversements (puis s'arrête).
+2110992140|15dda916||L'application de l'huile appropriée sur les lames confère $I$% de chances d'empoisonner la cible à chaque coup. L'huile améliorée augmente ces chances de $I$% et l'huile supérieure de $I$%. L'efficacité diminue à mesure que l'huile s'estompe de la lame (down to $I$% of the original value).
+2110992141|15dda91a||If Toxicity is above zero, time automatically slows by $S$% for $S$ sec when an enemy is about to perform a counterattack. Increases Attack Power and Sign Intensity by $S$% when Toxicity exceeds the safe threshold.
+2110992142|1517d64d||If Toxicity is above zero, time automatically slows by $S$% for $S$ sec when an enemy is about to perform a counterattack. Increases Attack Power and Sign Intensity by $S$% when Toxicity exceeds the safe threshold.
+2110992143|1517d64e||If Toxicity is above zero, time automatically slows by $S$% for $S$ sec when an enemy is about to perform a counterattack. Increases Attack Power and Sign Intensity by $S$% when Toxicity exceeds the safe threshold.
+2110992145|329005f0||Allows you to perform strong melee attacks which add +$I$% to weapon damage and +$I$ to Armor Penetration.
+2110992148|bab1daf5||Increases Vitality drain on overdosing by $S$% for every 1 point in your Toxicity level (current Vitality drain value: $S$ pts; max value: $S$ pts). The amount of Vitality you lose when overdosing is added to your base weapon and Sign damage.
+2110992149|c3f5389c||Signs can deal critical hits. Their critical hit chance and power are determined by Sign Intensity (current critical hit chance -  $S$%, critical hit power bonus - $S$%). Opponents killed by critical hits from Signs explode.
+2110992150|c3f538a0||Le signe d'Aard a une chance supplémentaire de $S$% de geler les ennemis. Les ennemis renversés et gelés simultanément meurent instantanément. Les ennemis qui ne sont pas gelés encaissent $S$ de dégâts supplémentaires. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels : $S$.
+2110992151|cf2b2da1||Magic trap that slows enemies down by $S$% inside its area of effect (scales with Sign Intensity, max slowdown is limited by $S$%). Trap duration: $S$s. The longer the trap persists, the less efficient it becomes.
+2110992152|c3f538a1||While in combat you alternate between two states: Rush state that doubles your Adrenaline gain for $S$ sec and gives additional +$S$% to Attack Power and Sign Intensity per Adrenaline Point and Recovery state that halves your Adrenaline gain for $S$ sec and gives -$S$% to the same characteristics for each Adrenaline point gained during the Rush state.
+2110992153|c32e766a||Bonus de puissance des coups critiques
+2110992154|28838f82||Pénétration d'armure
+2110992155|f35fcb73||Pénétration d'armure
+2110992156|0147942a||Régénération de la vitalité hors combat
+2110992157|a83467f6||Régénération de la vitalité en combat
+2110992158|c95c6e28||When at maximum Vitality, additional Vitality regeneration increases your weapon damage by $I$% per 1% of excess Vitality gained (up to +$I$%). Works only in combat. Resets on damage taken and damage dealt.
+2110992159|ccc61f66||Les aliments consommés durent $I$% plus longtemps.
+2110992160|22156cd6||When Yrden Magic Turret hits an enemy, an Yrden Magic Trap is placed at that position. Size, duration and slowdown for such a trap are unaffected by Yrden Intensity and upgrades and limited to $S$ yards, $S$ sec and $S$% respectively.
+2110992161|4a0f3f56||Dégâts des signes
+2110992162|4f424deb||Dégâts des armes
+2110992163|7968d6e0||Gèle les ennemis. Frapper un ennemi gelé lui inflige des dégâts supplémentaires. Durée accrue.
+2110992164|b02a28c2||Augmentation des dégâts
+2110992165|9e58d1f5||Augmente l'intensité des signes. Durée accrue. Les effets spéciaux des signes durent un tiers plus longtemps.
+2110992166|329005f3||Les dégâts infligés pendant les combats de mêlée génère des Points d'adrénaline. Chaque point d'adrénaline augmente la puissance des attaques de $I$%.
+2110992167|d11e5fa2||Puissance des coups critiques des attaques rapides
+2110992168|3018409d||Puissance des coups critiques des attaques puissantes
+2110992169|25746309||Geralt est maintenant rasé de près.
+2110992170|329005f2||Permet d'utiliser une arbalète légère. Les tirs au jugé infligent 50% de dégâts en moins.
+2110992171|5f63dbf5||Permet de créer des bombes qui peuvent être lancées sur les ennemis. Les lancers au jugé infligent 50% de dégâts en moins.
+2110992172|754d1891||En plus de l'effet habituel de Fureur guerrière, chaque point d'adrénaline augmente l'intensité des signes de $I$%. Les signes génèrent le même montant d'adrénaline que les épées.
+2110992173|04bda90f||Utilisé pour se raser.
+2110992174|da7e5ba5||Chaque pièce d'armure intermédiaire augmente de $S$% l'intensité des signes et réduit le coût en vigueur pour leur lancement de $S$%.
+2110992175|b1173fc7||Time is slowed down by additional $I$% while casting Axii. A chance to critically hit a confused opponent is increased by $I$%. Increases the effectiveness of Axii in dialogues.
+2110992176|c84675ba||Time is slowed down by additional $I$% while casting Axii. A chance to critically hit a confused opponent is increased by $I$%. Increases the effectiveness of Axii in dialogues.
+2110992177|c84675bb||Time is slowed down by additional $I$% while casting Axii. A chance to critically hit a confused opponent is increased by $I$%. Increases the effectiveness of Axii in dialogues.
+2110992178|56747c57||Accélère le regain de vitalité. Le regain de vitalité ne s'arrête pas en cas de dégâts reçus.
+2110992179|b9aff26b||L'encombrement est trop important.
+2110992180|b66cd6f6||Fire couler le bateau en cas de surencombrement
+2110992181|b48e9483||Surencombrement limite pour faire couler le bateau (en %)
+2110992182|cccbd483||Changement de mode
+2110992183|2bf0877e||Réduction du niveau d'encombrement (en %)
+2110992184|d0b08830||Mode inventaire du joueur
+2110992185|973a8234||Mode réserve
+2110992186|c7b4d16e||Mode inventaire mélangé
+2110992187|7e63c963||Mode synchronisé
+2110992188|e71d7c90||Augmente la vitalité de base de Geralt de $S$ points par ennemis tués.
+2110992189|d3510d11||Contient des éclats d'argent qui bloquent ou affaiblissent temporairement les capacités de transformation et de régénération des monstres.
+2110992190|d3510d12||Contient des éclats d'argent qui bloquent ou affaiblissent temporairement les capacités de transformation et de régénération des monstres. Durée augmentée.
+2110992191|d3510d13||Contient des éclats d'argent qui bloquent ou affaiblissent temporairement les capacités de transformation et de régénération des monstres. Durée augmentée.
+2110992192|08eace65||Augmente l'efficacité des attaques contre les insectoïdes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992193|08eace66||Augmente l'efficacité des attaques contre les insectoïdes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992194|08eace67||Augmente l'efficacité des attaques contre les insectoïdes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992195|3a67f159||Augmente l'efficacité des attaques contre les créatures maudites. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992196|3a67f15a||Augmente l'efficacité des attaques contre les créatures maudites. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992197|3a67f15b||Augmente l'efficacité des attaques contre les créatures maudites. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992198|65067e25||Augmente l'efficacité des attaques contre les nécrophages. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992199|65067e26||Augmente l'efficacité des attaques contre les nécrophages. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992200|65067e27||Augmente l'efficacité des attaques contre les nécrophages. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992201|7b1c29c3||Augmente l'efficacité des attaques contre les hybrides. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992202|7b1c29c4||Augmente l'efficacité des attaques contre les hybrides. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992203|7b1c29c5||Augmente l'efficacité des attaques contre les hybrides. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992204|88e86911||Augmente l'efficacité des attaques contre les vampires. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992205|88e86912||Augmente l'efficacité des attaques contre les vampires. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992206|88e86913||Augmente l'efficacité des attaques contre les vampires. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992207|aed490e2||Augmente l'efficacité des attaques contre les élémentaires. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992208|aed490e3||Augmente l'efficacité des attaques contre les élémentaires. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992209|aed490e4||Augmente l'efficacité des attaques contre les élémentaires. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992210|d11afcde||Augmente l'efficacité des attaques contre les humains, les elfes, les nains et les halfelins. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992211|d11afcdf||Augmente l'efficacité des attaques contre les humains, les elfes, les nains et les halfelins. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992212|d11afce0||Augmente l'efficacité des attaques contre les humains, les elfes, les nains et les halfelins. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992213|ea1a3189||Augmente l'efficacité des attaques contre les spectres. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992214|ea1a318a||Augmente l'efficacité des attaques contre les spectres. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992215|ea1a318b||Augmente l'efficacité des attaques contre les spectres. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992216|ef649cfe||Augmente l'efficacité des attaques contre les draconides. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992217|ef649cff||Augmente l'efficacité des attaques contre les draconides. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992218|ef649d00||Augmente l'efficacité des attaques contre les draconides. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992219|f8b46c36||Augmente l'efficacité des attaques contre les vestiges. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992220|f8b46c37||Augmente l'efficacité des attaques contre les vestiges. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992221|1ff07bf8||Augmente l'efficacité des attaques contre les vestiges. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992222|7753393f||Augmente l'efficacité des attaques contre les ogroïdes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992223|77533940||Augmente l'efficacité des attaques contre les ogroïdes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992224|77533941||Augmente l'efficacité des attaques contre les ogroïdes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992225|c0218f12||Augmente l'efficacité des attaques contre les ogroïdes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992226|c0218f13||Augmente l'efficacité des attaques contre les ogroïdes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992227|c0218f14||Augmente l'efficacité des attaques contre les ogroïdes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992228|dd8e2b22||Augmente l'efficacité des attaques contre les bêtes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992229|dd8e2b23||Augmente l'efficacité des attaques contre les bêtes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992230|dd8e2b24||Augmente l'efficacité des attaques contre les bêtes. L'efficacité diminue à mesure que l'huile s'estompe de la lame.
+2110992231|de026195||Supprime l'intoxication et annule tous les effets actifs des potions.
+2110992232|de026196||Supprime l'intoxication et annule tous les effets actifs des potions.
+2110992233|de026197||Supprime l'intoxication et annule tous les effets actifs des potions.
+2110992234|f8b46c38||Augmente l'efficacité des attaques contre les vestiges.
+2110992235|874e9f88||Permet de voir dans l'obscurité totale et immunise contre l'hypnose. Durée accrue.
+2110992237|fe608837||Explose en libérant des éclats qui blessent les ennemis dans la zone. Inflige des dégâts de feu. Effet accru. Détruit les boucliers ennemis et les nids de monstres.
+2110992239|3ed03538||Durée hors du nuage
+2110992240|874e9f87||Permet de voir dans l'obscurité totale. Durée accrue.
+2110992241|e71d7c8e||Toutes les attaques de mêlée coûte $S$% de vigueur en plus. Les attaques de mêlée réussies réduisent aditionellement la santé de l'ennemi de $S$% de sa valeur actuelle pour chaque points de vigueur dépensé pour l'attaque.
+2110992242|fc921527||Chaque mutagène vert inférieur équipé augmente le taux de régénération de la vitalité de $S$/sec. Les mutagènes verts augmentent le bonus de $S$/sec et les mutagènes verts supérieurs de $S$/sec.
+2110992243|e71d7c93||Chaque mutagène bleu inférieur équipé augmente les dégâts de base infligés par les signes de $S$ points. Les mutagènes bleus augmentent le bonus de $S$/sec et les mutagènes bleus supérieurs de $S$/sec.
+2110992244|fc921524||Augmente la résistance aux saignements, brûlures et poisons. Augmente la résistance aux effets de saignement, de brûlure, de poison ainsi que les dégâts de feu et de poison de $I$%.
+2110992245|fc921525||Régénère la vitalité de $S$% pour chaque points de vigueur dépensés. Fonctionne uniquement en combat.
+2110992246|e71d7c91||Régénère la vitalité de $S$% des dégâts infligés à l'ennemi.
+2110992247|fc921505||Lancer un signe augmente la puissance des attaques de mêlée de $I$% (max : $I$%). L'effet s'arrête après avoir infligé des dégâts de mêlée et à la fin du combat.
+2110992248|fc921509||Les ennemis controlés par le Pantin Axii infligent $I$% de dégâts en plus.
+2110992249|fc921526||Casting a Sign in combat increases your Sign Intensity by $S$% (max $S$%). Getting hit decreases the bonus proportional to damage received: $S$% per 1% of health lost. Resets at the end of the combat.
+2110992250|8cb0734c||Mise à niveau aléatoire : niveau le plus bas (relatif au niveau du joueur)
+2110992251|f958bbfa||Mise à niveau aléatoire : niveau le plus haut (relatif au niveau du joueur)
+2110992252|beb0cec9||Aléatoire
+2110992253|09d75838||Désactiver le niveau des quêtes
+2110992254|82df1e7b||Ne pas mettre les animaux à niveau
+2110992255|940edcea||Aléatoire sans réduction de niveau
+2110992256|256ad6b4||Contient des informations inutiles.
+2110992257|2b555f18||Composants d'artisanat
+2110992258|25691b0a||Peut être vendu aux marchands ou désassemblé.
+2110992259|b91d9859||Peut être vendu aux marchands.
+2110992260|7fd2ce90||Peut être vendu à très bon prix ou désassemblé.
+2110992261|4e7c5cf1||Menu de la réserve
+2110992262|cbb62004||Délai d'immortalité
+2110992263|80038142||Modificateur de régénération de la vigueur
+2110992264|2d9ff292||Chances de garder l'équilibre en cas de coup encaissé
+2110992265|2eaeb09b||Chances de renvoyer les flèches
+2110992266|cb404984||Outils de maître forgeron
+2110992267|29e78e8a||Outils de forge utilisés par les maîtres forgerons. Augmente les dégâts de l'arme de façon permanente.
+2110992268|fcf7e421||Outils de maître armurier
+2110992269|ad70e65b||Outils de forge utilisés par les maîtres armuriers. Augmente la valeur de l'armure de façon permanente.
+2110992270|b5a7442f||Modificateur d'expérience des quêtes
+2110992271|773c6a77||Modificateur d'expérience des combats
+2110992272|7641d6c5||Chances de renversement
+2110992273|b1173fc2||Increases base heavy knockdown chance by $I$%.
+2110992274|163a8e76||Ajoute $I$ points de dégâts de feu et $I$ points de dégâts de Langue de feu par seconde. Varie en fonction de l'intensité du signe.
+2110992275|b1173fc6||Ajoute $I$ points de dégâts aux tourelles magiques. Varie en fonction de l'intensité du signe.
+2110992276|b1173fc5||Ajoute $I$ points à l'absorption des dégâts du bouclier. Varie en fonction de l'intensité du signe.
+2110992277|9246181a||Durée de la confusion
+2110992278|b72fae71||Durée du contrôle
+2110992279|163a8e70||Mode de signe alternatif:<br>Aard frappe tous les ennemis dans la zone. L'intensité du signe est réduite de $I$% avec ce mode.
+2110992280|71d0be23||Mode de signe alternatif:<br>Aard frappe tous les ennemis dans la zone. L'intensité du signe est réduite de $I$% avec ce mode.
+2110992281|71d0be24||Mode de signe alternatif:<br>Aard frappe tous les ennemis dans la zone. L'intensité du signe n'est plus réduite.
+2110992282|71d0d0e8||Aard inflige à présent $I$ points de dégâts. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$.
+2110992283|71d0d0e9||Aard inflige à présent $I$ points de dégâts. Les dégâts augmentent avec l'intensité du signe. Dégâts actuels: $I$.
+2110992284|cf2b2d9f||A directed blast of telekinetic energy that staggers opponents and has $I$% knockdown chance. Heavy knockdown chance is $I$%. Chances scale with Sign Intensity and increase if enemy is low on Stamina. Heavy knockdown activates finisher move.
+2110992286|cf2b2da3||Charms an opponent's mind, confusing them and temporarily eliminating them from combat. Failed Axii attempts stagger the opponent. Grants a $S$% chance to critically hit confused enemy. Can trigger a finisher or dismemberment on a confused enemy with $S$% chance (scales with Sign Intensity and damage severity). <br>Confusion duration: $S$ seconds (scales with Sign Intensity).
+2110992287|b1173fc8||La durée d'effet d'Axii augmente de $I$%.
+2110992288|163a8e74||Mode de signe alternatif:<br>L'ennemi ciblé devient un allié pendant $I$s et gagne $I$% de bonus à sa puissance d'attaque. La durée de l'effet augmente avec l'intensité du signe. Durée actuelle: $I$s.
+2110992289|71d0cd27||Mode de signe alternatif:<br>L'ennemi ciblé devient un allié pendant $I$s et gagne $I$% de bonus à sa puissance d'attaque. La durée de l'effet augmente avec l'intensité du signe. Durée actuelle: $I$s.
+2110992290|71d0cd28||Mode de signe alternatif:<br>L'ennemi ciblé devient un allié pendant $I$s et gagne $I$% de bonus à sa puissance d'attaque. La durée de l'effet augmente avec l'intensité du signe. Durée actuelle: $I$s.
+2110992291|483c9092||En combat, les dégâts de l'arme augmentent de $I$ points par ennemi. Chaque coup qui touche sa cible charge l'épée. Une épée entièrement chargée se décharge à chaque coup réussi, infligeant des dégâts critiques avec un bonus de $I$% à la puissance de l'attaque et qui ignorent la résistance aux dégâts et la résistance de l'armure. La décharge de l'épée inflige également des dégâts et étourdit tous les ennemis proches.<br><br>Coups avant la charge complète de l'épée : $I$. Les charges diminuent au fil du temps (une par $I$ secondes) et se réinitialise lorsque Geralt encaisse des dégâts.
+2110992292|1f5adb4f||<br><br>Charges actuelles : $I$/$I$. Bonus de dégâts actuel : $I$ points.
+2110992293|0516c455||Chances de renversement critique
+2110992294|f76f46ed||Tuer un ennemi soigne $I$% de la vitalité maximum.
+2110992295|fad8f82b||Killing an enemy gives $F$ Adrenaline Points.
+2110992296|ed2f3195||Damage dealt by Quen Discharge and Exploding Shield is increased by $I$%.
+2110992299|f2e69faf||Dealing damage with attacks charges the sword with energy. When attacking with the fully charged sword, weapon damage is increased by $I$% of the player's Vitality (if the attack is successful, player's Vitality is drained). A strong attack with the fully charged sword spawns a phantom copy of the sword that deals additional damage, which goes through shields, blocks and Armor and ignores damage resistances.<br><br>Hits to fully charge the sword: $I$. Charges decay over time (one per $I$ sec.) and reset when Geralt takes damage. Fully charged sword discharges in $I$ sec. or after a strong attack.<br><br>Current charges: $I$/$I$. Current damage bonus for the fully charged sword: $I$ points.
+2110992300|ba719645||Expérience fixe pour les quêtes et les combats
+2110992301|bdf0ea49||Humanoïdes
+2110992302|bafca59c||Guerriers de la Chasse Sauvage
+2110992303|82a5fd81||Total
+2110992304|98357039||Animaux
+2110992305|4153fdc1||Monstres
+2110992306|c8dde11f||Victimes par type
+2110992307|d8d52cd1||Compteur de victimes
+2110992308|ba738dce||Humanoïdes
+2110992309|8e8b5e03||Créatures uniques
+2110992310|1f70c026||Augmente les chances de coup critique à l'arbalète de $I$% et la puissance de ces coups critiques de $I$%.
+2110992312|a5384b1f||Utiliser le mode de réserve synchronisée par défaut
+2110992313|da7e5ba8||Avec au moins un point d'adrénaline, il sera utilisé pour lancer un signe à la place de la vigueur.
+2110992314|63833111||Pas de niveau additionnel pour les gardes
+2110992315|329005f1||Wolf School defensive techniques: parry, counter, dodge. Successful parry, counter and dodge reduce damage taken to zero and prevent all negative effects. Successful countering grants additional $I$% chance to critical hit. Partial parry reduces damage taken by $I$% and prevents bleeding. Rolling grants immunity to all knockdown and stagger effects and allows to dodge arrows. Some of the attacks cannot be dodged. Arrows can be parried.
+2110992316|1f70c028||Decreases the graze damage taken while dodging by $I$%.
+2110992317|8d17aaa0||Réduit les dégâts reçus par les monstres ciblés par l'huile de $I$%. L'huile améliorée réduit en plus les dégâts de $I$% and l'huile supérieure de $I$%. L'efficacité diminue à mesure que l'huile s'estompe de la lame (down to $I$% of the original value).
+2110992318|5f63dbf4||Permet la création d'huiles pouvant être appliquées sur les lames. L'efficacité diminue à mesure que l'huile s'estompe de la lame (down to $I$% of the original value).
+2110992319|754d1890||Augmente le gain d'adrénaline de $I$%. En plus de l'effet habituel de la Transe de Bataille, chaque Point d'adrénaline diminue également le coût en vigueur des actions de mêlée de $I$%.
+2110992320|ff9b0dc7||Bonus d'ensemble d'armure lourde: +$I$% à toutes les résistances aux dégâts.
+2110992321|2b2a501b||Bonus d'ensemble d'armure moyenne : +$S$/sec au taux de diminution de l'intoxication.
+2110992322|31637b56||Bonus d'ensemble d'armure légère: +$I$ degrés à l'angle protégé durant l'esquive.
+2110992323|90f6cc99||Confère une immunité aux poisons. Le poison soigne à hauteur de $S$% des dégâts de poison pour chaque pièce d'ensemble équipée (soin actuel : $S$%).
+2110992324|a0268440||Bonus d'attaque puissante
+2110992325|d23efdaf||Taking damage increases your Adrenaline by $S$ points per set piece equipped (current bonus: $S$ points). Each Adrenaline point additionally increases your Attack Power by $S$% per set piece equipped (current bonus: $S$%).
+2110992326|85e8fbd2||Jusqu'à trois huiles différentes peuvent être appliquées simultanément sur une lame. Chaque huile appliquée sur une lame accroît les chances de coups critiques de $S$% et les dégâts de ces coups de $S$%.
+2110992327|99d7dea8||Mise à niveau des ennemis
+2110992328|b9a7283e||Experience
+2110992329|137fa103||Gameplay
+2110992330|de9dbdb0||Kit de désassemblage d'objets
+2110992331|54df196a||Permet de désassembler des objets et des composants d'artisanat.
+2110992332|cd3869e4||Kit de désassemblement alchimique
+2110992333|4d09bbea||Permet de désassembler des composants alchimiques.
+2110992334|0544643a||Désassembler
+2110992336|d23efdb0||Damage dealt with a strong attack restores $S$% Stamina spent on that attack.
+2110992337|e9c58057||Casting a Sign costs $I$% less Stamina, but all melee actions (except for special attacks) cost $I$% more Stamina.
+2110992338|eb7a58f6||All damaging melee actions (except for special attacks) cost $I$% more Stamina, but deal $I$% more damage.
+2110992339|e810a7b8||All melee actions (except for special attacks) cost $I$% less Stamina, but all Signs cost $I$% more Stamina.
+2110992342|cea7442f||You always enter combat with at least $S$ Adrenaline Point(s). The generation of Adrenaline Points is increased by $I$%.
+2110992343|b616490f||Dimeritium
+2110992344|63cd93a3||Libère un nuage d'éclats de dimeritium qui bloque les aptitudes magiques des primitifs magiques et des monstres. Affaiblit l'armure de créatures magiques. Affaiblit les mages en réduisant leurs dégâts.
+2110992345|63cd93a4||Libère un nuage d'éclats de dimeritium qui bloque les aptitudes magiques des primitifs magiques et des monstres. Affaiblit l'armure de créatures magiques. Affaiblit les mages en réduisant leurs dégâts. Dure plus longtemps.
+2110992346|63cd93a5||Libère un nuage d'éclats de dimeritium qui bloque les aptitudes magiques des primitifs magiques et des monstres. Affaiblit l'armure de créatures magiques. Affaiblit les mages en réduisant leurs dégâts. Dure plus longtemps.
+2110992347|db81c2af||Pénétration d'armure
+2110992348|ec4dca6f||Durée du nuage
+2110992349|15dda91c||Every known level 1, 2 and 3 potion, bomb and oil formula, alchemy substance and mutagen decoction formula increases maximum Toxicity by 1 point, up to +$I$ points max. Current bonus is $I$ points.
+2110992350|1517ddcf||Every known level 1, 2 and 3 potion, bomb and oil formula, alchemy substance and mutagen decoction formula increases maximum Toxicity by 1 point, up to +$I$ points max. Current bonus is $I$ points.
+2110992351|1517ddd0||Every known level 1, 2 and 3 potion, bomb and oil formula, alchemy substance and mutagen decoction formula increases maximum Toxicity by 1 point, up to +$I$ points max. Current bonus is $I$ points.
+2110992352|f5503350||Vigueur
+2110992353|0083ce65||Effets prolongés
+2110992354|8d17aa9f||Augmente la durée des potions de $S$%.
+2110992355|15dda919||L'intoxication baisse de $S$ points par seconde plus rapidement.
+2110992358|8d17aa9e||Diminue la toxicité des potions de $S$ points.
+2110992359|0083ce64||Brasseur expert
+2110992360|917ce1b5||Armure de Kaer Morhen
+2110992361|25cb5427||Armure de Kaer Morhen améliorée
+2110992362|25cb5428||Armure de Kaer Morhen supérieure
+2110992363|25cb5429||Armure de Kaer Morhen de maître
+2110992364|92488c52||Pantalon de Kaer Morhen
+2110992365|2256cb84||Pantalon de Kaer Morhen amélioré
+2110992366|2256cb85||Pantalon de Kaer Morhen supérieur
+2110992367|2256cb86||Pantalon de Kaer Morhen de maître
+2110992368|9189a437||Bottes de Kaer Morhen
+2110992369|55b17e29||Bottes de Kaer Morhen améliorées
+2110992370|55b17e2a||Bottes de Kaer Morhen supérieures
+2110992371|55b17e2b||Bottes de Kaer Morhen de maître
+2110992372|a808dd84||Gantelets de Kaer Morhen
+2110992373|c9479836||Gantelets de Kaer Morhen améliorés
+2110992374|c9479837||Gantelets de Kaer Morhen supérieurs
+2110992375|c9479838||Gantelets de Kaer Morhen de maître
+2110992376|e17342fd||Armure de Kaer Morhen usée
+2110992377|7656b740||Pantalon de Kaer Morhen usé
+2110992378|ae52593b||Bottes de Kaer Morhen usées
+2110992379|cc58d3d4||Gantelets de Kaer Morhen usés
+2110992380|41dddfc6||Le taux de régénération de vigueur augmente de $S$ pour chaque ennemi supplémentaire en combat (max : $S$).
+2110992381|44aa9fca||Tolérance dégradée
+2110992382|f4fd119f||La Tolérance dégradée retient une partie de l'intoxication maximum pendant la durée de l'effet de la décoction.
+2110992383|7d183fe6||Gain en adrénaline des attaques rapides
+2110992384|7cddfb97||Gain en adrénaline des attaques puissantes
+2110992386|d02fd0a4||Une fois à leur niveau maximum, les points d'adrénaline diminuent progressivement jusqu'à 0 à un taux de $S$ points par secondes. Dans le même temps, la vitalité régénère plus vite de $S$%/sec, la vigueur de $S$%/sec et l'intoxication diminue plus rapidement de $S$ points/sec.
+2110992387|f098e2d3||Igni's basic attack strikes all opponents in a 360-degree radius and deals $I$ more damage (scales with Sign Intensity). Burning chance is decreased by $I$%.
+2110992388|fc92152b||Se faire toucher plus d'une fois dans les $S$ secondes protège des dégâts pour les $S$ secondes suivantes.
+2110992389|e71d7c8c||Lorsque les ennemis infligent des dégâts de mêlée, ils souffrent de l'effet Acide qui réduit leur résistance aux dégâts de $I$% (max : $I$%).
+2110992390|fc92152c||Les dégâts infligés aux ennemis de forme spectrale passent de $I$% à $I$% des dégâts normaux. Les dégâts reçus des ennemis de type spectral sont réduits de $I$%.
+2110992391|18fb4c67||Régénération de la vigueur en combat (additionel)
+2110992392|fb3a17d6||Régénération de la vigueur hors combat (additionel)
+2110992393|18fca984||Régénération de la vitalité en combat (additionel)
+2110992394|fb3b74f3||Régénération de la vitalité hors combat (additionel)
+2110992395|866370a2||Modificateur de coût des actions de mêlée
+2110992396|90a0845c||Modificateur de coût des actions de signe
+2110992397|852e4f73||Delai de régénération de la vigueur (additionel, en secondes)
+2110992398|dd7afaaa||L'attaque est la meilleure défense
+2110992399|754d18b0||Killing an enemy restores $I$% of your Stamina (no cooldown). Critical hits and successful counters restore $I$% of your Stamina ($S$ sec cooldown).
+2110992400|cf56fd86||Récupération de Tourbillon
+2110992401|c9405593||Récupération de Déchirure
+2110992402|27591c8a||Récupération de Aard
+2110992403|3b779b63||Récupération de Igni
+2110992404|16ae6564||Récupération de Yrden
+2110992405|a4abc76f||Récupération de Quen
+2110992406|61b3e4e5||Récupération de Axii
+2110992407|ea3ff249||Récupération spéciale de Mêlée (en secondes)
+2110992408|63da8c4f||Récupération de Signe (en secondes)
+2110992409|da8dff85||Coût en vigueur des attaques rapides
+2110992410|da53bb36||Coût en vigueur des attaques puissantes
+2110992411|dac2e517||Coût en vigueur des parades
+2110992412|9df940ab||Coût en vigueur des contre-attaques
+2110992413|da1ff246||Coût en vigueur des esquives
+2110992414|49202c2e||Coût en vigueur des roulades
+2110992415|838b858b||Coût en vigueur des sprints
+2110992416|491c9fdf||Coût en vigueur des sauts
+2110992417|491c26c4||Coût en vigueur de l'utilisation d'objets
+2110992418|49183e03||Coût en vigueur de Aard
+2110992419|491bf70a||Coût en vigueur de Igni
+2110992420|db493cc3||Coût en vigueur de Yrden
+2110992421|491fcd7e||Coût en vigueur de Quen
+2110992422|49189348||Coût en vigueur de Axii
+2110992423|        |attribute_name_tox_hp_drain|Overdose Vitality drain
+2110992424|1f5ba9f0||Taux de diminution de l'intoxication
+2110992425|1050a15c||Intoxication disponible
+2110992426|736e017e||Equipement léger. Offre une protection minimale. Les actions de combat consomment moins de vigueur.
+2110992427|320650a7||Equipement moyen. Offre une protection optimale.
+2110992428|942892ef||Equipement lourd. Offre la meilleure protection. Les actions de combats et le lancement de signes consomment plus de vigueur.
+2110992429|6d1ad461||Les armures légères offrent peu de protection mais les actions de combat demandent moins de vigueur lorsqu'elles sont équipées. Les Armures Moyennes et Lourdes absorbent davantage de dégâts mais en portant une armure lourde, les actions en combats demandent davantage de Vigueur.
+2110992430|4080bc95||Causer des dégâts en combat restaure $S$% de la vigueur maximal pour chaque pièce d'ensemble (actuellement $S$%).
+2110992431|5590084c||Récupération alternative de Signe (en secondes)
+2110992432|d46535e3||Lancement instantané du Signe via la touche de raccourci
+2110992433|9ec8a224||Restaure immédiatement une portion de vigueur et stoppe le saignement.
+2110992434|9ec8a225||Restaure immédiatement une large portion de vigueur et stoppe le saignement.
+2110992435|9ec8a226||Restaure immédiatement et intégralement la vigueur et stoppe le saignement. Accorde une imunité contre les dégâts pendant un court laps de temps.
+2110992436|fc921529||Chaque Mutagène Rouge Inférieur équipé diminue le coût en vigueur des actions de mêlée de $S$%. Les Mutagènes ouges augmentent le bonus de $S$% et les Mutagènes Rouges Supérieur de $S$%.
+2110992438|db289661||Coût en vigueur de Tourbillon
+2110992439|492006da||Coût en vigeur de Déchirure
+2110992440|6fd9d47c||Chance de démembrement
+2110992441|ccb8d32f||Qualité de vie
+2110992442|7cc7f3f3||Seuil du son de vigeur faible (en %)
+2110992443|2f23ba87||Volume du son de vigeur faible
+2110992444|909fc586||Volume du son de vigeur faible dynamique
+2110992445|b55191ac||Taux du son de vigueur faible
+2110992446|8356e68d||Taux du son de vigueur faible dynamique
+2110992447|6f6ee452||Préréglages de qualité de vie
+2110992448|9be2d670||Recommandé
+2110992449|433edeb8||Désactivé
+2110992450|f0a5cdc0||Préréglages de jouabilité
+2110992451|76c320d6||Défaut
+2110992452|5c5d3961||Préréglages d'expérience
+2110992453|e30aa64b||Préréglages de mise à niveau
+2110992454|15dda917||Lorsqu'elle est consommée, la décoction de mutagène augmente la vitalité de $I$ points pour chaque point de compensation d'intoxication pour toute la durée effective de la décoction.
+2110992455|e71d7c8b||Les dégâts non critiques infligés avec une épée augmentent les chances de coups critiques des attaques suivantes de $I$% (max $I$%). Lorsque le bonus max est atteint, $I$% est ajouté à la puissance des coups critiques. Le bonus se réinitialise après un coup critique réussi et à la fin du combat.
+2110992456|0391a988||Réduction de dégât
+2110992457|fc92150b||La gravité de la réaction des coups est réduite à zéro si les dégâts reçus sont inférieurs à $I$% de la santé maximum.
+2110992458|47ae434f||Active la régénération de la vigueur pour les armures
+2110992459|c87c8420||Vanilla(ish)
+2110992460|40851a26||La durée des pièges magiques augmente de $I$%. Il est maintenant possible de placer un piège magique additionnel.
+2110992461|6a758d69||Portée des pièges magiques
+2110992462|dd7afa8f||Connaisseur
+2110992463|754d1895||Reduces alcohol and toxic food toxicity to zero. Removes drunken effect from alcohol. After drinking an alcoholic beverage, its bonuses last longer by $S$%.
+2110992464|a1370329||Augmente la durée de la respiration sous l'eau et améliore la vision en plongée.
+2110992471|1b06cd09||Chaque fois qu'un ennemi est tué, le temps ralentit pendant un bref instant.
+2110992474|0ced58f4||Bonus par type d'équipement :
+2110992475|5a519178||Restaure la vitalité proportionnelement aux dégâts infligés.
+2110992476|2ae9db22||Drain de vitalité
+2110992477|e71d7c8d||Les bombes et potions (à l'exception des décoctions) peuvent être utilisées une fois de plus.
+2110992478|fc921506||Augmente la puissance des coups critiques de $I$% en attaquant par derrière.
+2110992479|fc92152a||$I$% des dégâts encaissés par le joueur sont renvoyés vers l'attaquant.
+2110992480|9691af88||Réduction de la résistance aux dégâts
+2110992481|fc92150e||Lorsque le personnage est attaqué par derrière, le signe Quen normal s'active et réduit les dégâts. Lorsqu'un spectre hostile se trouve à proximité, la puissance de Quen Power augmente de $S$%.
+2110992482|6ac22a47||Bonus de dégâts
+2110992483|d400b4dd||Résistances aux dégâts
+2110992484|fc92150c||Les dégâts infligés avec une arme de mêlée augmente l'intensité des signes de $I$% (max $I$%). Se réinitialise après avoir lancé un signe et à la fin du combat.
+2110992485|e71d7c8f||Les dégâts infligés aux ennemis augmentent la puissance d'attaque de $S$% (max $S$%). Être touché diminue le bonus proportionnellement aux dégâts reçus : $S$% par 1% de santé perdue. Se réinitialise à la fin du combat.
+2110992486|fc92150a||Infliger des dégâts de mêlée augmente la gain d'adrénaline de $S$% (max $S$%). Se faire toucher diminue le bonus proportionnellement aux dégâts reçus : $S$% par 1% de santé perdue. Se réinitialise à la fin du combat.
+2110992487|fc921528||Augmente de $I$% la puissance des attaques, de $I$% l'intensité des signes, de $I$/s la régénération de vigueur et de $I$% le gain d'adrénaline tant que la santé est inférieure ou égale à $I$%. Se réinitialise quand la santé remonte et à la fin du combat. Temps de recharge : $I$ secondes.
+2110992488|fc921507||Augmente de $I$ la régénération de vitalité hors combat et de $I$ la régénération de vitalité en combat. Quand la vigueur est inférieure à $I$%, gagne +$I$ supplémentaire à la régénération de la vitalité en combat.
+2110992489|fc92150d||Quand un ennemi est tué, gagne +$I$ à la régénération de vitalité pour chaque ennemi vivant à proximité. Le bonus max ne peut exéder +$I$. Se réinitialise à la fin du combat.
+2110992490|fc921508||Quand un ennemi est tué, gagne +$I$ à la régénération de vigueur en combat pour chaque ennemi vivant à proximité. Le bonus max ne peut exéder +$I$. Se réinitialise à la fin du combat.
+2110992491|754d1896||Vous ignorez les bombes et les effets spéciaux des carreaux d'arbalète. Les dégâts de vos bombes et carreaux sont réduits de moitié.
+2110992492|8d17aaa2||Critical hit power against the targeted enemy type is increased by $S$% for each Adrenaline Point available (up to $S$% max).
+2110992493|1d8e4094||Compteur de Fonte de l'armure
+2110992494|        |option_gm_ascost|Sprint/jump action cost modifier
+2110992495|        |option_gm_nonlinear_levelup_toggle|Use progressive level bonuses
+2110992496|        |option_gm_nonlinear_level_delta_slider|Level delta
+2110992497|        |option_gm_nonlinear_abs_delta_slider|Abilities per level delta
+2110992498|        |preset_value_gm_hardcore|Hardcore
+2110992499|eee40a34||Hitting enemies with Aard reduces their Stamina by $I$%, which also increases knockdown and heavy knockdown chances.
+2110992500|c5f2bcea||Increases the range of Whirl by $S$ yards and Rend by $S$ yards. Final damage dealt by these attacks is decreased by $S$%.
+2110992501|257f1e14||When you enter combat, you will automatically get a Quen shield without using any Stamina and with $I$% bonus to Sign Power.
+2110992502|c43de44b||After you cast a Sign, an Adrenaline Point is consumed and your next sword attack is charged with the power of that Sign. Aard: knockdown (chances depend on Attack Power). Igni: $S$% of your weapon damage is added as Fire damage (scales with Attack Power). Yrden: slowdown effect is applied for $S$ sec. Quen: heals Geralt for $S$% of damage dealt. Axii: confusion effect is applied for $S$ sec.
+2110992504|0083ce63||Restoration
+2110992505|0083ce62||Refreshment
+2110992506|8d17aa9c||Each potion dose imbibed restores $I$% of maximum Stamina.
+2110992507|f9241f8c||Excess Adrenaline generated slows down potion expiration timer by $S$% per 1% of excess Adrenaline (3 points = 100%). Max bonus cannot exceed $S$%. The bonus resets when you lose Adrenaline and at the end of the combat.
+2110992508|        |attribute_name_explosionFireDamage|Fire damage on explosion
+2110992510|cea74419||When casting a Sign, 3 Adrenaline Points (if available) will be consumed to upgrade the Sign to the highest level (unlocking all bonuses) and increase Sign intensity by $I$%. If Rage Management is active, Adrenaline Points are not consumed immediately, but sign casting cost is tripled instead.
+2110992511|c1e6ad8c||When casting a Sign, 3 Adrenaline Points (if available) will be consumed to upgrade the Sign to the highest level (unlocking all bonuses) and increase Sign intensity by $I$%. If Rage Management is active, Adrenaline Points are not consumed immediately, but sign casting cost is tripled instead.
+2110992512|c1e6ad8d||When casting a Sign, 3 Adrenaline Points (if available) will be consumed to upgrade the Sign to the highest level (unlocking all bonuses) and increase Sign intensity by $I$%. If Rage Management is active, Adrenaline Points are not consumed immediately, but sign casting cost is tripled instead.
+2110992513|e2e48f8a||Deflection
+2110992514|cea74410||Damage taken from partial parries and counters is reduced by additional $I$% (to $I$% total). Perfectly timed parries reflect arrows back at the attacker.
+2110992515|c1e68bc3||Damage taken from partial parries and counters is reduced by additional $I$% (to $I$% total). Perfectly timed parries reflect back arrows, damage on reflected arrows is increased by $I$%.
+2110992516|4e736cfc||Foes killed by Igni (burning or fire) explode dealing $I$ damage to other enemies within a $I$-yard radius and igniting them. Damage scales with Sign Intensity.
+2110992517|198d31bb||Each enemy controlled by Axii Puppet adds $I$% to your Attack Power and Sign Intensity (up to $I$%).
+2110992518|20609437||Each enemy affected by Axii Confusion adds $I$% to your critical hit chance and critical hit power (up to $I$%).
+2110992519|        |attribute_name_tox_overdose|Overdose threshold
+2110992520|b93269f0||Your opponents have limited Stamina. When their Stamina is exhausted, they won't be able to fight as effectively.
+2110992521|6d1ad3cb||Pay attention to the color of your enemies' level numbers. Green means they are close to your level. Red means they are a challenge, and a skull icon means they are deadly.
+2110992522|6d1ad3a6||Sharpening your blade on a grindstone will enhance its combat capabilities.
+2110992523|6d1ad427||Strike an opponent while riding towards him at high speed for an increased damage.
+2110992524|b93269e9||Striking from behind increases you critical hit chances.
+2110992525|6d1ad3e4||When throwing a bomb or shooting a bolt from your crossbow, you can either take advantage of auto-aiming for a quick attack, or aim manually for better damage.
+2110992526|6d1ad447||You can deflect incoming bolts and arrows with your sword.
+2110992527|363f99af||You can use Quen to protect from critical effects such as Burning, Bleeding, etc.
+2110992528|6d1ad3cc||Dodging is usually the best tactic when fighting huge monsters. When fighting humans and smaller monsters, try to parry and counter their attacks with your sword.
+2110992529|c3f5389e||Turns the blood of the witcher into a highly caustic acid. Toxicity Decay Rate is decreased by $S$%. Whenever you take melee damage, your blood causes the attacker to lose $S$ point(s) of their health for every 1 point in your Toxicity level per second (current value: $S$ pts; max value: $S$ pts). The effect lasts $S$ sec. Slows down the attacker's stamina regeneration by $S$%.
+2110992530|3a84c328||Increases poison resistance, neutralizes the effects of poisons already in bloodstream.
+2110992531|3a84c329||Increases poison resistance, neutralizes the effects of poisons already in bloodstream. Extended duration.
+2110992532|3a84c32a||Increases poison resistance, neutralizes the effects of poisons already in bloodstream. Extended duration. Grants temporary immunity to poison effects.
+2110992533|        |attribute_name_poison_immunity_duration|Poison immunity duration
+2110992534|437e276a||Accelerates Stamina regeneration.
+2110992535|437e276b||Accelerates Stamina regeneration.
+2110992536|437e276c||Accelerates Stamina regeneration. Never expires at night.
+2110992537|56747c55||Stops bleeding and increases bleeding resistance. Accelerates Vitality regeneration. Vitality regeneration pauses for 2 seconds upon receiving damage.
+2110992538|56747c56||Stops bleeding and increases bleeding resistance. Accelerates Vitality regeneration. Vitality regeneration pauses for 2 seconds upon receiving damage.
+2110992539|56747c57||Stops bleeding and increases bleeding resistance. Accelerates Vitality regeneration. Taking damage does not interrupt Vitality regeneration.
+2110992540|c3f5389f||When you are about to take damage your skin absorbs and redistributes that damage over time instead: $S$ sec per each Adrenaline Point you have (up to $S$ sec max, at least 1 point is required to trigger the mutation). During this period your Adrenaline is drained at a speed of 1 pt per $S$ sec. If your Adrenaline reaches zero before the effect ends, all the remaining damage will be dealt at once.
+2110992541|c3f538a2||Countering an enemy when their health is at $S$% or less kills them and triggers a finisher or dismemberment. Each Adrenaline Point increases the damage dealt when countering by $S$% (up to +$S$% max).
+2110992542|363f9a0c||Deadly Precision is activated only when performing a counterattack.
+2110992543|c3f5389d||Each fatal blow of your sword triggers a finisher or dismemberment. Upon entering combat you immediately get a bonus to your Attack Power for each skill equipped: +$S$% for a combat skill, +$S$% for any other skill. Getting hit decreases the bonus by $S$% per 1% of health lost. Killing an enemy fully restores the bonus and adds +$S$% more on top of it. Max bonus: $S$%. Resets at the end of the combat.
+2110992544|        |item_name_mutation_trigger|Mutation Catalyst
+2110992545|        |item_desc_mutation_trigger|This potion serves as a catalyst to activate Life Leech mutation.
+2110992546|bab1daf6||Requires Mutation Catalyst potion to activate. Drains the life out of up to three surrounding enemies healing the witcher in the process. Drain rate is a sum of your weapon damage, Attack Power and Sign Intensity multiplied by Adrenaline Points and divided by the number of enemies. The effect lasts for $S$ sec and can only be activated once per $S$ sec. Current max drain rate: $S$/sec.
+2110992547|b4ca2ff0||Life Leech
+2110992548|da7e5ba1||Crossbow bolts deal $F$ pts more base damage.
+2110992549|cea74415||Each bolt that hits its target now generates the same amount of Adrenaline Points as when using swords.
+2110992550|754d1898||Damage dealt by a bomb's explosion generates $F$ Adrenaline Points. This value is not affected by any Adrenaline gain bonuses.
+2110992551|c3f5389b||When drawn, magic, relic and witcher swords increase Sign base damage by $S$% of their own base damage.
+2110992552|bab1daf7||Allows to imbibe up to $S$ decoction(s) with no toxicity cost. Each free decoction imbibed increases your chances to apply critical effects with both swords and Signs by $S$% (effect chance increases by $S$ times max). Witcher Senses help you see better in dark places.
+2110992553|15dda918||Decreases decoction toxicity by $S$%.
